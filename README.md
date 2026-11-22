@@ -70,7 +70,7 @@ configurations in the same job on the same node, and the scripts are written tha
 |---|---|
 | Instruction counts and SASS (Section 3) | `slurm/nvbit.sbatch`, `bench/nvbit_summary.py`; `slurm/sass_dump.sbatch`, `bench/sass_count.py` |
 | Kernel speed (Section 6) | `slurm/final_table.sbatch`, `bench/final_table_recipe.py`, `bench/foscar_compare.py`, `bench/lmdeploy_step.py` |
-| Pure decode in vLLM (Table 5, Figure 2) | `bench/vllm_forward_matrix.py` |
+| Pure decode in vLLM (Table 6, Figure 3) | `bench/vllm_forward_matrix.py` |
 | End to end, throughput, 64 × 32K (Section 7) | `slurm/vllm_bench.sbatch`, `slurm/vllm_bench_paper.sbatch` |
 | Per-kernel profile (Section 7) | `bench/debug/vllm_decode_profile.py` |
 | Serving goodput (Section 7) | `slurm/vllm_serve.sbatch`, `bench/analyze_serve.py` |
@@ -78,7 +78,7 @@ configurations in the same job on the same node, and the scripts are written tha
 | FP8-tensor-core prototype (limitations) | `slurm/k8_proto.sbatch`, `bench/k8_proto.py`, `kv4/cuda/decode_fp4_k8.cu` |
 | Accuracy offline (Section 8) | `slurm/accuracy.sbatch`, `bench/accuracy_kl.py`, `bench/longbench.py`, `bench/ruler_lite.py`, `bench/reasoning_eval.py` |
 | Accuracy in vLLM (Section 8) | `bench/vllm_reasoning_check.py`, `bench/vllm_ruler.py`, `bench/vllm_prompt_ppl.py`, `bench/paired.py`, `bench/analyze_reasoning_runs.py` |
-| Findings reported to vLLM (Section 10) | `slurm/pr67789_check.sbatch`, `bench/debug/pr67789_check.py`, `bench/debug/uq_prefix_bug.py` |
+| Findings reported to vLLM (Appendix A) | `slurm/pr67789_check.sbatch`, `bench/debug/pr67789_check.py`, `bench/debug/uq_prefix_bug.py` |
 
 For every table and figure, `repro/README.md` lists the result files, the analysis script and the Slurm jobs
 behind its numbers, with each job's `sbatch` line as Slurm recorded it; `repro/reproduce.sh <label>` prints
