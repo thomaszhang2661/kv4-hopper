@@ -9,6 +9,7 @@ with one scale per tensor.
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import torch
@@ -26,12 +27,16 @@ def ext():
     if _EXT is None:
         from torch.utils.cpp_extension import load
         here = Path(__file__).parent
-        _EXT = load(name="kv4_decode_fp4_k8", sources=[str(here / "decode_fp4_k8.cu")],
+        # 11-22: KV4_K8V selects the kernel variant switch K8V of decode_fp4_k8.cu (default: the .cu's own default, 3);
+        # e.g. KV4_K8V=7 applies the G = 8 register fix to G = 4 too. Each variant gets its own extension name.
+        v = os.environ.get("KV4_K8V", "")
+        assert v == "" or v.isdigit(), f"KV4_K8V {v}"
+        _EXT = load(name="kv4_decode_fp4_k8" + (f"_v{v}" if v else ""), sources=[str(here / "decode_fp4_k8.cu")],
                     extra_include_paths=[str(here)], extra_cflags=["-O3", "-std=c++20"],
                     extra_cuda_cflags=["-O3", "-std=c++20", "-gencode=arch=compute_90a,code=sm_90a",
                                        "--use_fast_math", "-lineinfo",
                                        "-U__CUDA_NO_HALF_OPERATORS__", "-U__CUDA_NO_HALF_CONVERSIONS__",
-                                       "-U__CUDA_NO_HALF2_OPERATORS__"],
+                                       "-U__CUDA_NO_HALF2_OPERATORS__"] + ([f"-DK8V={v}"] if v else []),
                     verbose=True)
     return _EXT
 
@@ -98,3 +103,60 @@ def reference(q: torch.Tensor, kq: QTensor, vq: QTensor, sm: float, q_e4m3: bool
     k, v = dequantize(kq, rotate_back=False).float(), dequantize(vq, rotate_back=False).float()
     p = torch.softmax(torch.einsum("bhgd,bhsd->bhgs", qe, k) * sm, -1)
     return torch.einsum("bhgs,bhsd->bhgd", p, v)
+
+
+# ---- 11-21: paged K8 (C1 in the vLLM plugin) -------------------------------------------------------------------
+PAGE_BYTES = 9216  # K codes 4096 | K scales 512 (first 256 used) | V codes 4096 | V scales 512
+
+
+def pack_pages_k8(cache, lens, seed: int = 0, poison: bool = True, shuffle: bool = True):
+    """Dense K8 layouts (kp, ksc, vp, vsc) from args_for -> a pool of 64-token K8 pages as store_fp4.cu's K8 store
+    writes them: (pages (num_pages, HKV, 9216) uint8, block_table (B, max_pages) int32, seq_lens (B) int32), as
+    decode_fp4.pack_pages. With `poison`, code rows and scale bytes of tokens past each sequence's end are 0xFF
+    (E4M3 NaN scales), so a kernel that fails to mask them shows NaN; the unused K scale bytes 256..511 are 0xFF."""
+    kp, ksc, vp, vsc = cache
+    B, HKV, S, _ = kp.shape
+    assert ksc.shape[-1] == 4 and vsc.shape[-1] == 8
+    kperm, vperm = df._k_scale_perm_mx().to(kp.device), df._v_scale_perm().to(kp.device)
+    npg = [(int(l) + 63) // 64 for l in lens]
+    total = sum(npg)
+    g = torch.Generator().manual_seed(seed)
+    num_pages = total + 7
+    phys = (torch.randperm(num_pages, generator=g)[:total] if shuffle else torch.arange(total)).to(kp.device)
+    pages = torch.full((num_pages, HKV, PAGE_BYTES), 0xFF, dtype=torch.uint8, device=kp.device)
+    bt = torch.zeros(B, max(npg), dtype=torch.int32, device=kp.device)
+    k = 0
+    for b in range(B):
+        n, L = npg[b], int(lens[b])
+        kc = kp[b, :, : n * 64].contiguous().view(torch.uint8).reshape(HKV, n * 64, 64).clone()
+        ks = ksc[b, :, : n * 64].contiguous().reshape(HKV, -1).clone()
+        vc = vp[b, :, : n * 64].contiguous().view(torch.uint8).reshape(HKV, n, 4096)
+        vs = vsc[b, :, : n * 64].contiguous().reshape(HKV, -1).clone()
+        if poison and L < n * 64:
+            kc[:, L:] = 0xFF
+            pk = torch.arange(n * 256, device=kp.device)
+            ks[:, ((pk // 1024) * 256 + kperm[pk % 1024] // 4) >= L] = 0xFF
+            pv = torch.arange(n * 512, device=kp.device)
+            vs[:, ((pv // 2048) * 256 + vperm[pv % 2048] // 8) >= L] = 0xFF
+        pad = torch.full((HKV, n, 256), 0xFF, dtype=torch.uint8, device=kp.device)
+        ids = phys[k: k + n]
+        k += n
+        pages[ids] = torch.cat([kc.reshape(HKV, n, 4096), ks.reshape(HKV, n, 256), pad, vc, vs.reshape(HKV, n, 512)],
+                               -1).transpose(0, 1)
+        bt[b, :n] = ids.to(torch.int32)
+    return pages.contiguous(), bt.contiguous(), torch.tensor([int(x) for x in lens], dtype=torch.int32,
+                                                              device=kp.device)
+
+
+def decode_paged(pages, block_table, seq_lens, qh, score_mul, out_mul, splits, gqa):
+    """qh (B, HKV, 8, 128) fp16 (merge.prep_q_rot) -> (o, ml) of decode_k8_paged and qd, the dequantized E4M3 q the
+    kernel used (fp16, same shape as qh). score_mul without the q scale (StoreK8.decode_args)."""
+    q8, qs, qd = ext().prep_q8(qh)
+    o, ml = ext().decode_k8_paged(pages, block_table, seq_lens, q8, qs, score_mul, out_mul, splits, gqa)
+    return o, ml, qd
+
+
+def decode_paged_q8(pages, block_table, seq_lens, q8, qs, score_mul, out_mul, splits, gqa):
+    """11-21: as decode_paged with q already in E4M3: (q8, qs) from merge.prep_q_rot8 (rotation + E4M3 in one launch,
+    the plugin's KV4_K8 path). Returns (o, ml)."""
+    return ext().decode_k8_paged(pages, block_table, seq_lens, q8, qs, score_mul, out_mul, splits, gqa)

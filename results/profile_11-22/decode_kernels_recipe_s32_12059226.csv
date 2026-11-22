@@ -1,0 +1,137 @@
+config,shape,category,kernel,calls_per_step,mean_us,us_per_step,mean_gap_before_us
+recipe_s32,1x16384,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT,32.00,56.72,1815.1,0.45
+recipe_s32,1x16384,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT,32.00,30.01,960.3,0.47
+recipe_s32,1x16384,gemm,nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT,32.00,16.21,518.7,0.46
+recipe_s32,1x16384,kv4_decode,"void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*, unsigned char const*, unsigned char const*, unsigned char ...",31.00,13.75,426.3,0.47
+recipe_s32,1x16384,gemm,nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT,32.00,11.45,366.3,0.46
+recipe_s32,1x16384,kv4_merge_sink,"(anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, __half const*, int const*, int, int const*, int, int const*, ...",31.00,10.40,322.3,0.81
+recipe_s32,1x16384,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1.00,249.41,249.4,1.84
+recipe_s32,1x16384,kv4_store,"void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat16 const*, long const*, unsigned char*, int const*, unsigned...",31.00,5.03,156.0,0.43
+recipe_s32,1x16384,reduce,"void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false, f...",64.00,1.72,109.9,0.91
+recipe_s32,1x16384,inductor,triton_red_fused_fused_add_rms_norm_2,32.00,2.02,64.7,0.43
+recipe_s32,1x16384,inductor,triton_red_fused_fused_add_rms_norm_0,32.00,1.88,60.2,0.41
+recipe_s32,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31.00,1.59,49.1,0.47
+recipe_s32,1x16384,inductor,triton_poi_fused_mul_silu_slice_1,32.00,1.44,46.2,0.30
+recipe_s32,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31.00,1.28,39.7,0.30
+recipe_s32,1x16384,kv4_prep_q,"void (anonymous namespace)::prep_q_rot_kernel<__nv_bfloat16>(__nv_bfloat16 const*, __half*, int, bool)",31.00,1.09,33.7,0.45
+recipe_s32,1x16384,copy,memcpy32_post,32.00,1.05,33.7,0.45
+recipe_s32,1x16384,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",1.00,26.28,26.3,0.44
+recipe_s32,1x16384,other,_gumbel_sample_kernel,1.00,5.15,5.1,1.27
+recipe_s32,1x16384,other,_bias_kernel,1.00,5.05,5.0,1.24
+recipe_s32,1x16384,copy,Memcpy DtoH (Device -> Pinned),2.00,2.38,4.8,2.19
+recipe_s32,1x16384,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1.00,4.00,4.0,1.26
+recipe_s32,1x16384,prefill_attn,"void cutlass::device_kernel<flash::FlashAttnFwdCombine<cute::tuple<cute::C<8>, cute::C<128> >, 5, 256, 1, false, true, cutlass::bfloat16_t, float, cutlass::a...",1.00,3.80,3.8,0.02
+recipe_s32,1x16384,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,1.00,3.68,3.7,1.22
+recipe_s32,1x16384,other,_post_update_kernel,1.00,3.45,3.5,1.24
+recipe_s32,1x16384,other,_compute_slot_mappings_kernel,1.00,3.25,3.3,29.35
+recipe_s32,1x16384,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1.00,3.18,3.2,2.24
+recipe_s32,1x16384,other,_gather_block_tables_kernel,1.00,3.14,3.1,48.52
+recipe_s32,1x16384,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1.00,2.99,3.0,532.07
+recipe_s32,1x16384,other,_combine_sampled_and_draft_tokens_kernel,1.00,2.70,2.7,45.70
+recipe_s32,1x16384,other,_get_num_sampled_and_rejected_kernel,1.00,2.54,2.5,1.24
+recipe_s32,1x16384,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, __nv_bfloat16, (vllm::Fp8KVCacheDataType)0>(__nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat1...",1.00,2.26,2.3,0.40
+recipe_s32,1x16384,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1.00,1.90,1.9,1.68
+recipe_s32,1x16384,other,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",1.00,1.76,1.8,129.10
+recipe_s32,1x16384,copy,Memcpy HtoD (Pinned -> Device),2.00,0.87,1.7,60.76
+recipe_s32,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1.00,1.63,1.6,0.39
+recipe_s32,1x16384,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1.00,1.60,1.6,1.29
+recipe_s32,1x16384,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1.00,1.59,1.6,1.23
+recipe_s32,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1.00,1.50,1.5,0.25
+recipe_s32,1x16384,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2.00,0.74,1.5,9.46
+recipe_s32,1x16384,other,_prepare_pos_seq_lens_kernel,1.00,1.09,1.1,47.16
+recipe_s32,1x16384,fill,Memset (Device),1.00,0.88,0.9,1.44
+recipe_s32,1x16384,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1.00,0.82,0.8,0.00
+recipe_s32,1x16384,fill,"void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<int>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffset...",1.00,0.81,0.8,17.88
+recipe_s32,1x16384,copy,Memcpy DtoD (Device -> Device),1.00,0.79,0.8,21.86
+recipe_s32,1x16384,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1.00,0.69,0.7,33.80
+recipe_s32,1x65536,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT,32.00,56.65,1812.9,0.46
+recipe_s32,1x65536,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT,32.00,30.00,960.0,0.47
+recipe_s32,1x65536,kv4_decode,"void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*, unsigned char const*, unsigned char const*, unsigned char ...",31.00,30.36,941.0,0.45
+recipe_s32,1x65536,gemm,nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT,32.00,16.17,517.3,0.45
+recipe_s32,1x65536,kv4_merge_sink,"(anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, __half const*, int const*, int, int const*, int, int const*, ...",31.00,12.37,383.4,0.65
+recipe_s32,1x65536,gemm,nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT,32.00,10.98,351.4,0.46
+recipe_s32,1x65536,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1.00,248.67,248.7,1.85
+recipe_s32,1x65536,kv4_store,"void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat16 const*, long const*, unsigned char*, int const*, unsigned...",31.00,5.03,155.9,0.42
+recipe_s32,1x65536,reduce,"void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false, f...",64.00,1.72,109.8,0.90
+recipe_s32,1x65536,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",1.00,74.85,74.8,0.44
+recipe_s32,1x65536,inductor,triton_red_fused_fused_add_rms_norm_2,32.00,2.01,64.2,0.42
+recipe_s32,1x65536,inductor,triton_red_fused_fused_add_rms_norm_0,32.00,1.87,59.8,0.41
+recipe_s32,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31.00,1.57,48.6,0.44
+recipe_s32,1x65536,inductor,triton_poi_fused_mul_silu_slice_1,32.00,1.43,45.9,0.31
+recipe_s32,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31.00,1.41,43.6,0.30
+recipe_s32,1x65536,copy,memcpy32_post,32.00,1.05,33.7,0.46
+recipe_s32,1x65536,kv4_prep_q,"void (anonymous namespace)::prep_q_rot_kernel<__nv_bfloat16>(__nv_bfloat16 const*, __half*, int, bool)",31.00,1.09,33.7,0.45
+recipe_s32,1x65536,other,_gumbel_sample_kernel,1.00,5.15,5.1,1.29
+recipe_s32,1x65536,other,_bias_kernel,1.00,5.08,5.1,1.25
+recipe_s32,1x65536,copy,Memcpy DtoH (Device -> Pinned),2.00,2.35,4.7,1.76
+recipe_s32,1x65536,prefill_attn,"void cutlass::device_kernel<flash::FlashAttnFwdCombine<cute::tuple<cute::C<8>, cute::C<128> >, 5, 256, 1, false, true, cutlass::bfloat16_t, float, cutlass::a...",1.00,4.16,4.2,0.13
+recipe_s32,1x65536,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1.00,4.00,4.0,1.27
+recipe_s32,1x65536,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,1.00,3.68,3.7,1.24
+recipe_s32,1x65536,other,_gather_block_tables_kernel,1.00,3.68,3.7,48.76
+recipe_s32,1x65536,other,_post_update_kernel,1.00,3.34,3.3,1.27
+recipe_s32,1x65536,other,_compute_slot_mappings_kernel,1.00,3.25,3.2,29.36
+recipe_s32,1x65536,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1.00,3.20,3.2,2.24
+recipe_s32,1x65536,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1.00,3.08,3.1,479.70
+recipe_s32,1x65536,other,_combine_sampled_and_draft_tokens_kernel,1.00,2.56,2.6,44.20
+recipe_s32,1x65536,other,_get_num_sampled_and_rejected_kernel,1.00,2.39,2.4,1.24
+recipe_s32,1x65536,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, __nv_bfloat16, (vllm::Fp8KVCacheDataType)0>(__nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat1...",1.00,2.14,2.1,0.38
+recipe_s32,1x65536,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1.00,1.82,1.8,1.64
+recipe_s32,1x65536,copy,Memcpy HtoD (Pinned -> Device),2.00,0.87,1.7,58.65
+recipe_s32,1x65536,other,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",1.00,1.74,1.7,126.49
+recipe_s32,1x65536,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1.00,1.71,1.7,1.24
+recipe_s32,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1.00,1.63,1.6,0.26
+recipe_s32,1x65536,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1.00,1.60,1.6,1.29
+recipe_s32,1x65536,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2.00,0.74,1.5,9.41
+recipe_s32,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1.00,1.46,1.5,0.39
+recipe_s32,1x65536,other,_prepare_pos_seq_lens_kernel,1.00,1.08,1.1,46.49
+recipe_s32,1x65536,fill,Memset (Device),1.00,0.90,0.9,1.36
+recipe_s32,1x65536,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1.00,0.84,0.8,0.00
+recipe_s32,1x65536,fill,"void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<int>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffset...",1.00,0.82,0.8,17.12
+recipe_s32,1x65536,copy,Memcpy DtoD (Device -> Device),1.00,0.77,0.8,20.59
+recipe_s32,1x65536,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1.00,0.65,0.7,33.58
+recipe_s32,4x32768,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT,32.00,56.59,1810.8,0.46
+recipe_s32,4x32768,kv4_decode,"void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*, unsigned char const*, unsigned char const*, unsigned char ...",31.00,51.06,1582.8,0.45
+recipe_s32,4x32768,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT,32.00,30.30,969.5,0.48
+recipe_s32,4x32768,gemm,nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT,32.00,15.78,505.1,0.46
+recipe_s32,4x32768,gemm,nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT,32.00,10.93,349.9,0.46
+recipe_s32,4x32768,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1.00,249.58,249.6,1.88
+recipe_s32,4x32768,kv4_merge_sink,"(anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, __half const*, int const*, int, int const*, int, int const*, ...",31.00,6.43,199.5,0.64
+recipe_s32,4x32768,kv4_store,"void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat16 const*, long const*, unsigned char*, int const*, unsigned...",31.00,5.09,157.9,0.44
+recipe_s32,4x32768,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",1.00,135.58,135.6,0.44
+recipe_s32,4x32768,reduce,"void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false, f...",64.00,1.76,112.8,0.88
+recipe_s32,4x32768,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",31.00,2.27,70.5,0.43
+recipe_s32,4x32768,inductor,triton_red_fused_fused_add_rms_norm_2,32.00,2.00,64.1,0.43
+recipe_s32,4x32768,inductor,triton_red_fused_fused_add_rms_norm_0,32.00,1.88,60.2,0.43
+recipe_s32,4x32768,inductor,triton_poi_fused_mul_silu_slice_1,32.00,1.55,49.4,0.31
+recipe_s32,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31.00,1.55,48.1,0.29
+recipe_s32,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31.00,1.46,45.2,0.45
+recipe_s32,4x32768,kv4_prep_q,"void (anonymous namespace)::prep_q_rot_kernel<__nv_bfloat16>(__nv_bfloat16 const*, __half*, int, bool)",31.00,1.23,38.0,0.44
+recipe_s32,4x32768,copy,memcpy32_post,32.00,1.07,34.1,0.46
+recipe_s32,4x32768,other,_bias_kernel,1.00,5.32,5.3,1.32
+recipe_s32,4x32768,copy,Memcpy DtoH (Device -> Pinned),2.00,2.32,4.6,1.89
+recipe_s32,4x32768,other,_gumbel_sample_kernel,1.00,4.58,4.6,1.25
+recipe_s32,4x32768,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1.00,4.00,4.0,1.25
+recipe_s32,4x32768,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,1.00,3.89,3.9,1.22
+recipe_s32,4x32768,other,_post_update_kernel,1.00,3.66,3.7,1.25
+recipe_s32,4x32768,prefill_attn,"void cutlass::device_kernel<flash::FlashAttnFwdCombine<cute::tuple<cute::C<8>, cute::C<128> >, 5, 256, 1, false, true, cutlass::bfloat16_t, float, cutlass::a...",1.00,3.50,3.5,0.61
+recipe_s32,4x32768,other,_gather_block_tables_kernel,1.00,3.37,3.4,48.10
+recipe_s32,4x32768,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1.00,3.10,3.1,537.86
+recipe_s32,4x32768,other,_compute_slot_mappings_kernel,1.00,2.94,2.9,30.61
+recipe_s32,4x32768,other,_combine_sampled_and_draft_tokens_kernel,1.00,2.69,2.7,44.75
+recipe_s32,4x32768,other,_get_num_sampled_and_rejected_kernel,1.00,2.67,2.7,1.28
+recipe_s32,4x32768,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, __nv_bfloat16, (vllm::Fp8KVCacheDataType)0>(__nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat1...",1.00,2.26,2.3,0.42
+recipe_s32,4x32768,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1.00,1.94,1.9,1.73
+recipe_s32,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1.00,1.80,1.8,0.28
+recipe_s32,4x32768,other,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",1.00,1.78,1.8,127.97
+recipe_s32,4x32768,copy,Memcpy HtoD (Pinned -> Device),2.00,0.87,1.7,58.93
+recipe_s32,4x32768,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1.00,1.69,1.7,1.28
+recipe_s32,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1.00,1.56,1.6,0.44
+recipe_s32,4x32768,other,"void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",1.00,1.55,1.6,2.24
+recipe_s32,4x32768,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1.00,1.52,1.5,1.26
+recipe_s32,4x32768,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2.00,0.73,1.5,9.00
+recipe_s32,4x32768,other,_prepare_pos_seq_lens_kernel,1.00,1.35,1.3,48.82
+recipe_s32,4x32768,copy,Memcpy DtoD (Device -> Device),1.00,0.99,1.0,20.94
+recipe_s32,4x32768,fill,Memset (Device),1.00,0.89,0.9,1.48
+recipe_s32,4x32768,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1.00,0.84,0.8,0.00
+recipe_s32,4x32768,fill,"void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<int>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffset...",1.00,0.78,0.8,17.20
+recipe_s32,4x32768,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1.00,0.66,0.7,33.17

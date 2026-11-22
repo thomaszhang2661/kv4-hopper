@@ -57,6 +57,8 @@ for cfg in $CONFIGS; do
   case $cfg in
     recipe) envs="KV4_VLLM=1 KV4_CALIB=$CALIB KV4_FORMAT=nvfp4 KV4_KMEAN=1 KV4_SINKS=1 KV4_BOUNDARY=0"
             args="--kv-cache-dtype ultraquant_4bit --block-size 64" ;;
+    recipe_k8) envs="KV4_VLLM=1 KV4_CALIB=$CALIB KV4_FORMAT=nvfp4 KV4_KMEAN=1 KV4_SINKS=1 KV4_BOUNDARY=0 KV4_K8=1"  # 11-22: C1
+            args="--kv-cache-dtype ultraquant_4bit --block-size 64" ;;
     fp8_fi) envs="KV4_VLLM=0"; args="--kv-cache-dtype fp8 --attention-backend FLASHINFER" ;;
     fp8_xqa) envs="KV4_VLLM=0 VLLM_HAS_FLASHINFER_CUBIN=1"; args="--kv-cache-dtype fp8 --attention-backend FLASHINFER" ;;
     fp8)    envs="KV4_VLLM=0"; args="--kv-cache-dtype fp8" ;;

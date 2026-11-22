@@ -1,0 +1,373 @@
+host d4054 job 12059226
+NVIDIA H200, 570.86.15, 1980 MHz
+KV4_COMMIT=0db3a3d vllm 0.33.0 MODE=decode
+CFG recipe: cudagraph FULL_AND_PIECEWISE sizes [1, 2, 4, 8, 16, 24, 32, 40]
+TIME recipe 1x16384: step 6.222 ms (min 6.186), GPU span 6.562 busy 5.231 ms per step; prefill steps 2; splits seen B1:s16;B2:s16;B4:s8;B8:s4;B16:s2;B24:s1;B32:s1;B40:s1;B48:s1;B56:s1;B64:s1;B72:s1;B80:s1;B88:s1;B96:s1;B104:s1;B112:s1;B120:s1;B128:s1;B136:s1;B144:s1;B152:s1;B160:s1;B168:s1;B176:s1;B184:s1;B192:s1;B200:s1;B208:s1;B216:s1;B224:s1;B232:s1;B240:s1;B248:s1;B256:s1;B272:s1;B288:s1;B304:s1;B320:s1;B336:s1;B352:s1;B368:s1;B384:s1;B400:s1;B416:s1;B432:s1;B448:s1;B464:s1;B480:s1;B496:s1;B512:s1;B1024:s1
+CATEGORY recipe 1x16384:    3900.0 us/step  calls  129.0  idle-before    61.8 us  gemm
+CATEGORY recipe 1x16384:     420.4 us/step  calls   31.0  idle-before    15.4 us  kv4_decode
+CATEGORY recipe 1x16384:     227.8 us/step  calls   31.0  idle-before    24.7 us  kv4_merge_sink
+CATEGORY recipe 1x16384:     170.1 us/step  calls   96.0  idle-before    36.3 us  inductor
+CATEGORY recipe 1x16384:     155.9 us/step  calls   31.0  idle-before    13.7 us  kv4_store
+CATEGORY recipe 1x16384:     115.1 us/step  calls   65.0  idle-before    59.0 us  reduce
+CATEGORY recipe 1x16384:      91.7 us/step  calls   64.0  idle-before    24.7 us  index
+CATEGORY recipe 1x16384:      45.6 us/step  calls   39.0  idle-before   995.5 us  copy
+CATEGORY recipe 1x16384:      33.7 us/step  calls   31.0  idle-before    14.1 us  kv4_prep_q
+CATEGORY recipe 1x16384:      29.9 us/step  calls    2.0  idle-before     0.4 us  prefill_attn
+CATEGORY recipe 1x16384:      27.5 us/step  calls    9.0  idle-before   316.7 us  other
+CATEGORY recipe 1x16384:       9.0 us/step  calls    5.0  idle-before    40.5 us  elementwise
+CATEGORY recipe 1x16384:       4.0 us/step  calls    5.0  idle-before    38.1 us  fill
+CATEGORY recipe 1x16384:       2.2 us/step  calls    1.0  idle-before     0.4 us  cache_write
+KERNEL recipe 1x16384:    1811.2 us/step  n  32.0  mean   56.60 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL recipe 1x16384:     959.5 us/step  n  32.0  mean   29.98 us  gap-before   0.47 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL recipe 1x16384:     518.0 us/step  n  32.0  mean   16.19 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL recipe 1x16384:     420.4 us/step  n  31.0  mean   13.56 us  gap-before   0.50 us  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*...
+KERNEL recipe 1x16384:     362.0 us/step  n  32.0  mean   11.31 us  gap-before   0.49 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL recipe 1x16384:     249.3 us/step  n   1.0  mean  249.29 us  gap-before   1.84 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL recipe 1x16384:     227.8 us/step  n  31.0  mean    7.35 us  gap-before   0.80 us  (anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, _...
+KERNEL recipe 1x16384:     155.9 us/step  n  31.0  mean    5.03 us  gap-before   0.44 us  void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat...
+KERNEL recipe 1x16384:     111.1 us/step  n  64.0  mean    1.74 us  gap-before   0.90 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL recipe 1x16384:      64.2 us/step  n  32.0  mean    2.01 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL recipe 1x16384:      59.9 us/step  n  32.0  mean    1.87 us  gap-before   0.40 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL recipe 1x16384:      49.0 us/step  n  31.0  mean    1.58 us  gap-before   0.47 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL recipe 1x16384:      46.0 us/step  n  32.0  mean    1.44 us  gap-before   0.31 us  triton_poi_fused_mul_silu_slice_1
+KERNEL recipe 1x16384:      39.6 us/step  n  31.0  mean    1.28 us  gap-before   0.30 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL recipe 1x16384:      33.7 us/step  n  31.0  mean    1.09 us  gap-before   0.46 us  void (anonymous namespace)::prep_q_rot_kernel<__nv_bfloat16>(__nv_bfloat16 const*, __half*, int, ...
+KERNEL recipe 1x16384:      31.8 us/step  n  32.0  mean    0.99 us  gap-before   0.44 us  memcpy32_post
+TIME recipe 1x65536: step 7.197 ms (min 7.173), GPU span 7.162 busy 5.901 ms per step; prefill steps 5; splits seen B1:s16;B2:s16;B4:s8;B8:s4;B16:s2;B24:s1;B32:s1;B40:s1;B48:s1;B56:s1;B64:s1;B72:s1;B80:s1;B88:s1;B96:s1;B104:s1;B112:s1;B120:s1;B128:s1;B136:s1;B144:s1;B152:s1;B160:s1;B168:s1;B176:s1;B184:s1;B192:s1;B200:s1;B208:s1;B216:s1;B224:s1;B232:s1;B240:s1;B248:s1;B256:s1;B272:s1;B288:s1;B304:s1;B320:s1;B336:s1;B352:s1;B368:s1;B384:s1;B400:s1;B416:s1;B432:s1;B448:s1;B464:s1;B480:s1;B496:s1;B512:s1;B1024:s1
+CATEGORY recipe 1x65536:    3881.9 us/step  calls  129.0  idle-before    61.3 us  gemm
+CATEGORY recipe 1x65536:    1022.7 us/step  calls   31.0  idle-before    15.3 us  kv4_decode
+CATEGORY recipe 1x65536:     258.9 us/step  calls   31.0  idle-before    19.7 us  kv4_merge_sink
+CATEGORY recipe 1x65536:     170.6 us/step  calls   96.0  idle-before    37.0 us  inductor
+CATEGORY recipe 1x65536:     155.8 us/step  calls   31.0  idle-before    13.5 us  kv4_store
+CATEGORY recipe 1x65536:     115.2 us/step  calls   65.0  idle-before    59.1 us  reduce
+CATEGORY recipe 1x65536:      95.3 us/step  calls   64.0  idle-before    24.1 us  index
+CATEGORY recipe 1x65536:      78.4 us/step  calls    2.0  idle-before     0.6 us  prefill_attn
+CATEGORY recipe 1x65536:      45.6 us/step  calls   39.0  idle-before   633.3 us  copy
+CATEGORY recipe 1x65536:      33.7 us/step  calls   31.0  idle-before    13.6 us  kv4_prep_q
+CATEGORY recipe 1x65536:      27.8 us/step  calls    9.0  idle-before   304.3 us  other
+CATEGORY recipe 1x65536:       9.0 us/step  calls    5.0  idle-before    40.8 us  elementwise
+CATEGORY recipe 1x65536:       4.0 us/step  calls    5.0  idle-before    36.4 us  fill
+CATEGORY recipe 1x65536:       2.3 us/step  calls    1.0  idle-before     0.4 us  cache_write
+KERNEL recipe 1x65536:    1809.5 us/step  n  32.0  mean   56.55 us  gap-before   0.45 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL recipe 1x65536:    1022.7 us/step  n  31.0  mean   32.99 us  gap-before   0.49 us  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*...
+KERNEL recipe 1x65536:     959.1 us/step  n  32.0  mean   29.97 us  gap-before   0.47 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL recipe 1x65536:     517.2 us/step  n  32.0  mean   16.16 us  gap-before   0.45 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL recipe 1x65536:     346.8 us/step  n  32.0  mean   10.84 us  gap-before   0.48 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL recipe 1x65536:     258.9 us/step  n  31.0  mean    8.35 us  gap-before   0.64 us  (anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, _...
+KERNEL recipe 1x65536:     249.2 us/step  n   1.0  mean  249.23 us  gap-before   1.86 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL recipe 1x65536:     155.8 us/step  n  31.0  mean    5.02 us  gap-before   0.44 us  void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat...
+KERNEL recipe 1x65536:     111.2 us/step  n  64.0  mean    1.74 us  gap-before   0.90 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL recipe 1x65536:      74.4 us/step  n   1.0  mean   74.42 us  gap-before   0.46 us  void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::Collective...
+KERNEL recipe 1x65536:      64.6 us/step  n  32.0  mean    2.02 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL recipe 1x65536:      59.9 us/step  n  32.0  mean    1.87 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL recipe 1x65536:      48.6 us/step  n  31.0  mean    1.57 us  gap-before   0.44 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL recipe 1x65536:      46.1 us/step  n  32.0  mean    1.44 us  gap-before   0.30 us  triton_poi_fused_mul_silu_slice_1
+KERNEL recipe 1x65536:      43.6 us/step  n  31.0  mean    1.41 us  gap-before   0.31 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL recipe 1x65536:      33.7 us/step  n  31.0  mean    1.09 us  gap-before   0.44 us  void (anonymous namespace)::prep_q_rot_kernel<__nv_bfloat16>(__nv_bfloat16 const*, __half*, int, ...
+TIME recipe 4x32768: step 7.940 ms (min 7.903), GPU span 7.858 busy 6.543 ms per step; prefill steps 10; splits seen B1:s16;B2:s16;B3:s11;B4:s8;B8:s4;B16:s2;B24:s1;B32:s1;B40:s1;B48:s1;B56:s1;B64:s1;B72:s1;B80:s1;B88:s1;B96:s1;B104:s1;B112:s1;B120:s1;B128:s1;B136:s1;B144:s1;B152:s1;B160:s1;B168:s1;B176:s1;B184:s1;B192:s1;B200:s1;B208:s1;B216:s1;B224:s1;B232:s1;B240:s1;B248:s1;B256:s1;B272:s1;B288:s1;B304:s1;B320:s1;B336:s1;B352:s1;B368:s1;B384:s1;B400:s1;B416:s1;B432:s1;B448:s1;B464:s1;B480:s1;B496:s1;B512:s1;B1024:s1
+CATEGORY recipe 4x32768:    3888.6 us/step  calls  129.0  idle-before    62.6 us  gemm
+CATEGORY recipe 4x32768:    1570.1 us/step  calls   31.0  idle-before    14.0 us  kv4_decode
+CATEGORY recipe 4x32768:     199.7 us/step  calls   31.0  idle-before    20.3 us  kv4_merge_sink
+CATEGORY recipe 4x32768:     173.3 us/step  calls   96.0  idle-before    38.5 us  inductor
+CATEGORY recipe 4x32768:     157.7 us/step  calls   31.0  idle-before    14.0 us  kv4_store
+CATEGORY recipe 4x32768:     139.0 us/step  calls    2.0  idle-before     1.0 us  prefill_attn
+CATEGORY recipe 4x32768:     118.9 us/step  calls   65.0  idle-before    59.7 us  reduce
+CATEGORY recipe 4x32768:     118.7 us/step  calls   70.0  idle-before   700.7 us  copy
+CATEGORY recipe 4x32768:      96.4 us/step  calls   64.0  idle-before    23.8 us  index
+CATEGORY recipe 4x32768:      38.0 us/step  calls   31.0  idle-before    13.7 us  kv4_prep_q
+CATEGORY recipe 4x32768:      29.5 us/step  calls   10.0  idle-before   308.8 us  other
+CATEGORY recipe 4x32768:       5.6 us/step  calls    4.0  idle-before    37.6 us  elementwise
+CATEGORY recipe 4x32768:       4.0 us/step  calls    5.0  idle-before    37.2 us  fill
+CATEGORY recipe 4x32768:       2.2 us/step  calls    1.0  idle-before     0.4 us  cache_write
+KERNEL recipe 4x32768:    1812.1 us/step  n  32.0  mean   56.63 us  gap-before   0.47 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL recipe 4x32768:    1570.1 us/step  n  31.0  mean   50.65 us  gap-before   0.45 us  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*...
+KERNEL recipe 4x32768:     960.4 us/step  n  32.0  mean   30.01 us  gap-before   0.47 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL recipe 4x32768:     512.9 us/step  n  32.0  mean   16.03 us  gap-before   0.49 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL recipe 4x32768:     354.7 us/step  n  32.0  mean   11.08 us  gap-before   0.48 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL recipe 4x32768:     248.6 us/step  n   1.0  mean  248.59 us  gap-before   1.89 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL recipe 4x32768:     199.7 us/step  n  31.0  mean    6.44 us  gap-before   0.65 us  (anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, _...
+KERNEL recipe 4x32768:     157.7 us/step  n  31.0  mean    5.09 us  gap-before   0.45 us  void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat...
+KERNEL recipe 4x32768:     135.5 us/step  n   1.0  mean  135.49 us  gap-before   0.40 us  void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::Collective...
+KERNEL recipe 4x32768:     114.9 us/step  n  64.0  mean    1.79 us  gap-before   0.91 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL recipe 4x32768:      70.5 us/step  n  31.0  mean    2.27 us  gap-before   0.45 us  void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct...
+KERNEL recipe 4x32768:      64.1 us/step  n  32.0  mean    2.00 us  gap-before   0.46 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL recipe 4x32768:      60.3 us/step  n  32.0  mean    1.89 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL recipe 4x32768:      48.9 us/step  n  32.0  mean    1.53 us  gap-before   0.31 us  triton_poi_fused_mul_silu_slice_1
+KERNEL recipe 4x32768:      48.1 us/step  n  31.0  mean    1.55 us  gap-before   0.29 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL recipe 4x32768:      45.0 us/step  n  31.0  mean    1.45 us  gap-before   0.45 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+WROTE recipe
+LOG recipe (MainProcess pid=809639) WARNING 11-22 05:10:09 [rocm.py:53] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+LOG recipe (MainProcess pid=809639) WARNING 11-22 05:10:09 [rocm.py:58] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+LOG recipe (MainProcess pid=809639) WARNING 11-22 05:10:09 [rocm.py:69] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+CFG recipe_s32: cudagraph FULL_AND_PIECEWISE sizes [1, 2, 4, 8, 16, 24, 32, 40]
+TIME recipe_s32 1x16384: step 6.322 ms (min 6.299), GPU span 6.645 busy 5.344 ms per step; prefill steps 2; splits seen B1:s32;B2:s16;B4:s8;B8:s4;B16:s2;B24:s1;B32:s1;B40:s1;B48:s1;B56:s1;B64:s1;B72:s1;B80:s1;B88:s1;B96:s1;B104:s1;B112:s1;B120:s1;B128:s1;B136:s1;B144:s1;B152:s1;B160:s1;B168:s1;B176:s1;B184:s1;B192:s1;B200:s1;B208:s1;B216:s1;B224:s1;B232:s1;B240:s1;B248:s1;B256:s1;B272:s1;B288:s1;B304:s1;B320:s1;B336:s1;B352:s1;B368:s1;B384:s1;B400:s1;B416:s1;B432:s1;B448:s1;B464:s1;B480:s1;B496:s1;B512:s1;B1024:s1
+CATEGORY recipe_s32 1x16384:    3909.8 us/step  calls  129.0  idle-before    60.8 us  gemm
+CATEGORY recipe_s32 1x16384:     426.3 us/step  calls   31.0  idle-before    14.5 us  kv4_decode
+CATEGORY recipe_s32 1x16384:     322.3 us/step  calls   31.0  idle-before    25.0 us  kv4_merge_sink
+CATEGORY recipe_s32 1x16384:     171.1 us/step  calls   96.0  idle-before    36.2 us  inductor
+CATEGORY recipe_s32 1x16384:     156.0 us/step  calls   31.0  idle-before    13.2 us  kv4_store
+CATEGORY recipe_s32 1x16384:     113.9 us/step  calls   65.0  idle-before    59.3 us  reduce
+CATEGORY recipe_s32 1x16384:      91.9 us/step  calls   64.0  idle-before    24.3 us  index
+CATEGORY recipe_s32 1x16384:      47.7 us/step  calls   39.0  idle-before   695.5 us  copy
+CATEGORY recipe_s32 1x16384:      33.7 us/step  calls   31.0  idle-before    14.0 us  kv4_prep_q
+CATEGORY recipe_s32 1x16384:      30.1 us/step  calls    2.0  idle-before     0.5 us  prefill_attn
+CATEGORY recipe_s32 1x16384:      28.1 us/step  calls    9.0  idle-before   304.8 us  other
+CATEGORY recipe_s32 1x16384:       8.9 us/step  calls    5.0  idle-before    40.2 us  elementwise
+CATEGORY recipe_s32 1x16384:       4.0 us/step  calls    5.0  idle-before    38.2 us  fill
+CATEGORY recipe_s32 1x16384:       2.3 us/step  calls    1.0  idle-before     0.4 us  cache_write
+KERNEL recipe_s32 1x16384:    1815.1 us/step  n  32.0  mean   56.72 us  gap-before   0.45 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL recipe_s32 1x16384:     960.3 us/step  n  32.0  mean   30.01 us  gap-before   0.47 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL recipe_s32 1x16384:     518.7 us/step  n  32.0  mean   16.21 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL recipe_s32 1x16384:     426.3 us/step  n  31.0  mean   13.75 us  gap-before   0.47 us  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*...
+KERNEL recipe_s32 1x16384:     366.3 us/step  n  32.0  mean   11.45 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL recipe_s32 1x16384:     322.3 us/step  n  31.0  mean   10.40 us  gap-before   0.81 us  (anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, _...
+KERNEL recipe_s32 1x16384:     249.4 us/step  n   1.0  mean  249.41 us  gap-before   1.84 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL recipe_s32 1x16384:     156.0 us/step  n  31.0  mean    5.03 us  gap-before   0.43 us  void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat...
+KERNEL recipe_s32 1x16384:     109.9 us/step  n  64.0  mean    1.72 us  gap-before   0.91 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL recipe_s32 1x16384:      64.7 us/step  n  32.0  mean    2.02 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL recipe_s32 1x16384:      60.2 us/step  n  32.0  mean    1.88 us  gap-before   0.41 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL recipe_s32 1x16384:      49.1 us/step  n  31.0  mean    1.59 us  gap-before   0.47 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL recipe_s32 1x16384:      46.2 us/step  n  32.0  mean    1.44 us  gap-before   0.30 us  triton_poi_fused_mul_silu_slice_1
+KERNEL recipe_s32 1x16384:      39.7 us/step  n  31.0  mean    1.28 us  gap-before   0.30 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL recipe_s32 1x16384:      33.7 us/step  n  31.0  mean    1.09 us  gap-before   0.45 us  void (anonymous namespace)::prep_q_rot_kernel<__nv_bfloat16>(__nv_bfloat16 const*, __half*, int, ...
+KERNEL recipe_s32 1x16384:      33.7 us/step  n  32.0  mean    1.05 us  gap-before   0.45 us  memcpy32_post
+TIME recipe_s32 1x65536: step 7.231 ms (min 7.209), GPU span 7.216 busy 5.952 ms per step; prefill steps 5; splits seen B1:s32;B2:s16;B4:s8;B8:s4;B16:s2;B24:s1;B32:s1;B40:s1;B48:s1;B56:s1;B64:s1;B72:s1;B80:s1;B88:s1;B96:s1;B104:s1;B112:s1;B120:s1;B128:s1;B136:s1;B144:s1;B152:s1;B160:s1;B168:s1;B176:s1;B184:s1;B192:s1;B200:s1;B208:s1;B216:s1;B224:s1;B232:s1;B240:s1;B248:s1;B256:s1;B272:s1;B288:s1;B304:s1;B320:s1;B336:s1;B352:s1;B368:s1;B384:s1;B400:s1;B416:s1;B432:s1;B448:s1;B464:s1;B480:s1;B496:s1;B512:s1;B1024:s1
+CATEGORY recipe_s32 1x65536:    3890.4 us/step  calls  129.0  idle-before    60.7 us  gemm
+CATEGORY recipe_s32 1x65536:     941.0 us/step  calls   31.0  idle-before    14.1 us  kv4_decode
+CATEGORY recipe_s32 1x65536:     383.4 us/step  calls   31.0  idle-before    20.0 us  kv4_merge_sink
+CATEGORY recipe_s32 1x65536:     169.8 us/step  calls   96.0  idle-before    36.6 us  inductor
+CATEGORY recipe_s32 1x65536:     155.9 us/step  calls   31.0  idle-before    13.1 us  kv4_store
+CATEGORY recipe_s32 1x65536:     113.8 us/step  calls   65.0  idle-before    59.0 us  reduce
+CATEGORY recipe_s32 1x65536:      95.3 us/step  calls   64.0  idle-before    23.5 us  index
+CATEGORY recipe_s32 1x65536:      79.0 us/step  calls    2.0  idle-before     0.6 us  prefill_attn
+CATEGORY recipe_s32 1x65536:      47.7 us/step  calls   39.0  idle-before   636.9 us  copy
+CATEGORY recipe_s32 1x65536:      33.7 us/step  calls   31.0  idle-before    13.9 us  kv4_prep_q
+CATEGORY recipe_s32 1x65536:      28.3 us/step  calls    9.0  idle-before   300.4 us  other
+CATEGORY recipe_s32 1x65536:       9.0 us/step  calls    5.0  idle-before    40.0 us  elementwise
+CATEGORY recipe_s32 1x65536:       4.0 us/step  calls    5.0  idle-before    37.3 us  fill
+CATEGORY recipe_s32 1x65536:       2.1 us/step  calls    1.0  idle-before     0.4 us  cache_write
+KERNEL recipe_s32 1x65536:    1812.9 us/step  n  32.0  mean   56.65 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL recipe_s32 1x65536:     960.0 us/step  n  32.0  mean   30.00 us  gap-before   0.47 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL recipe_s32 1x65536:     941.0 us/step  n  31.0  mean   30.36 us  gap-before   0.45 us  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*...
+KERNEL recipe_s32 1x65536:     517.3 us/step  n  32.0  mean   16.17 us  gap-before   0.45 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL recipe_s32 1x65536:     383.4 us/step  n  31.0  mean   12.37 us  gap-before   0.65 us  (anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, _...
+KERNEL recipe_s32 1x65536:     351.4 us/step  n  32.0  mean   10.98 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL recipe_s32 1x65536:     248.7 us/step  n   1.0  mean  248.67 us  gap-before   1.85 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL recipe_s32 1x65536:     155.9 us/step  n  31.0  mean    5.03 us  gap-before   0.42 us  void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat...
+KERNEL recipe_s32 1x65536:     109.8 us/step  n  64.0  mean    1.72 us  gap-before   0.90 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL recipe_s32 1x65536:      74.8 us/step  n   1.0  mean   74.85 us  gap-before   0.44 us  void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::Collective...
+KERNEL recipe_s32 1x65536:      64.2 us/step  n  32.0  mean    2.01 us  gap-before   0.42 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL recipe_s32 1x65536:      59.8 us/step  n  32.0  mean    1.87 us  gap-before   0.41 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL recipe_s32 1x65536:      48.6 us/step  n  31.0  mean    1.57 us  gap-before   0.44 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL recipe_s32 1x65536:      45.9 us/step  n  32.0  mean    1.43 us  gap-before   0.31 us  triton_poi_fused_mul_silu_slice_1
+KERNEL recipe_s32 1x65536:      43.6 us/step  n  31.0  mean    1.41 us  gap-before   0.30 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL recipe_s32 1x65536:      33.7 us/step  n  32.0  mean    1.05 us  gap-before   0.46 us  memcpy32_post
+TIME recipe_s32 4x32768: step 7.943 ms (min 7.913), GPU span 7.872 busy 6.553 ms per step; prefill steps 10; splits seen B1:s32;B2:s16;B3:s11;B4:s8;B8:s4;B16:s2;B24:s1;B32:s1;B40:s1;B48:s1;B56:s1;B64:s1;B72:s1;B80:s1;B88:s1;B96:s1;B104:s1;B112:s1;B120:s1;B128:s1;B136:s1;B144:s1;B152:s1;B160:s1;B168:s1;B176:s1;B184:s1;B192:s1;B200:s1;B208:s1;B216:s1;B224:s1;B232:s1;B240:s1;B248:s1;B256:s1;B272:s1;B288:s1;B304:s1;B320:s1;B336:s1;B352:s1;B368:s1;B384:s1;B400:s1;B416:s1;B432:s1;B448:s1;B464:s1;B480:s1;B496:s1;B512:s1;B1024:s1
+CATEGORY recipe_s32 4x32768:    3884.9 us/step  calls  129.0  idle-before    61.4 us  gemm
+CATEGORY recipe_s32 4x32768:    1582.8 us/step  calls   31.0  idle-before    13.9 us  kv4_decode
+CATEGORY recipe_s32 4x32768:     199.5 us/step  calls   31.0  idle-before    19.8 us  kv4_merge_sink
+CATEGORY recipe_s32 4x32768:     173.8 us/step  calls   96.0  idle-before    37.2 us  inductor
+CATEGORY recipe_s32 4x32768:     157.9 us/step  calls   31.0  idle-before    13.7 us  kv4_store
+CATEGORY recipe_s32 4x32768:     139.1 us/step  calls    2.0  idle-before     1.1 us  prefill_attn
+CATEGORY recipe_s32 4x32768:     119.0 us/step  calls   70.0  idle-before   710.0 us  copy
+CATEGORY recipe_s32 4x32768:     116.8 us/step  calls   65.0  idle-before    57.6 us  reduce
+CATEGORY recipe_s32 4x32768:      96.6 us/step  calls   64.0  idle-before    23.6 us  index
+CATEGORY recipe_s32 4x32768:      38.0 us/step  calls   31.0  idle-before    13.7 us  kv4_prep_q
+CATEGORY recipe_s32 4x32768:      29.9 us/step  calls   10.0  idle-before   307.6 us  other
+CATEGORY recipe_s32 4x32768:       5.8 us/step  calls    4.0  idle-before    37.4 us  elementwise
+CATEGORY recipe_s32 4x32768:       4.0 us/step  calls    5.0  idle-before    36.7 us  fill
+CATEGORY recipe_s32 4x32768:       2.3 us/step  calls    1.0  idle-before     0.4 us  cache_write
+KERNEL recipe_s32 4x32768:    1810.8 us/step  n  32.0  mean   56.59 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL recipe_s32 4x32768:    1582.8 us/step  n  31.0  mean   51.06 us  gap-before   0.45 us  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*...
+KERNEL recipe_s32 4x32768:     969.5 us/step  n  32.0  mean   30.30 us  gap-before   0.48 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL recipe_s32 4x32768:     505.1 us/step  n  32.0  mean   15.78 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL recipe_s32 4x32768:     349.9 us/step  n  32.0  mean   10.93 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL recipe_s32 4x32768:     249.6 us/step  n   1.0  mean  249.58 us  gap-before   1.88 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL recipe_s32 4x32768:     199.5 us/step  n  31.0  mean    6.43 us  gap-before   0.64 us  (anonymous namespace)::merge_sink_pool_kernel(float const*, float const*, __nv_bfloat16 const*, _...
+KERNEL recipe_s32 4x32768:     157.9 us/step  n  31.0  mean    5.09 us  gap-before   0.44 us  void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat...
+KERNEL recipe_s32 4x32768:     135.6 us/step  n   1.0  mean  135.58 us  gap-before   0.44 us  void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::Collective...
+KERNEL recipe_s32 4x32768:     112.8 us/step  n  64.0  mean    1.76 us  gap-before   0.88 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL recipe_s32 4x32768:      70.5 us/step  n  31.0  mean    2.27 us  gap-before   0.43 us  void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct...
+KERNEL recipe_s32 4x32768:      64.1 us/step  n  32.0  mean    2.00 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL recipe_s32 4x32768:      60.2 us/step  n  32.0  mean    1.88 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL recipe_s32 4x32768:      49.4 us/step  n  32.0  mean    1.55 us  gap-before   0.31 us  triton_poi_fused_mul_silu_slice_1
+KERNEL recipe_s32 4x32768:      48.1 us/step  n  31.0  mean    1.55 us  gap-before   0.29 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL recipe_s32 4x32768:      45.2 us/step  n  31.0  mean    1.46 us  gap-before   0.45 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+WROTE recipe_s32
+LOG recipe_s32 (MainProcess pid=822893) WARNING 11-22 05:11:40 [rocm.py:53] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+LOG recipe_s32 (MainProcess pid=822893) WARNING 11-22 05:11:40 [rocm.py:58] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+LOG recipe_s32 (MainProcess pid=822893) WARNING 11-22 05:11:40 [rocm.py:69] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+CFG fp8_fi_xqa: cudagraph FULL_AND_PIECEWISE sizes [1, 2, 4, 8, 16, 24, 32, 40]
+TIME fp8_fi_xqa 1x16384: step 6.080 ms (min 6.061), GPU span 6.351 busy 5.160 ms per step; prefill steps 2; splits seen 
+CATEGORY fp8_fi_xqa 1x16384:    3902.6 us/step  calls  129.0  idle-before    60.9 us  gemm
+CATEGORY fp8_fi_xqa 1x16384:     694.9 us/step  calls   32.0  idle-before    31.8 us  decode_attn
+CATEGORY fp8_fi_xqa 1x16384:     169.8 us/step  calls   96.0  idle-before    35.9 us  inductor
+CATEGORY fp8_fi_xqa 1x16384:     128.8 us/step  calls   32.0  idle-before    13.3 us  cache_write
+CATEGORY fp8_fi_xqa 1x16384:     115.9 us/step  calls   65.0  idle-before    58.8 us  reduce
+CATEGORY fp8_fi_xqa 1x16384:      94.6 us/step  calls   64.0  idle-before    22.8 us  index
+CATEGORY fp8_fi_xqa 1x16384:      27.2 us/step  calls    8.1  idle-before   183.1 us  other
+CATEGORY fp8_fi_xqa 1x16384:      14.6 us/step  calls    7.1  idle-before   753.0 us  copy
+CATEGORY fp8_fi_xqa 1x16384:       9.0 us/step  calls    5.0  idle-before    40.6 us  elementwise
+CATEGORY fp8_fi_xqa 1x16384:       3.2 us/step  calls    4.0  idle-before    29.6 us  fill
+KERNEL fp8_fi_xqa 1x16384:    1829.1 us/step  n  32.0  mean   57.16 us  gap-before   0.45 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL fp8_fi_xqa 1x16384:     968.4 us/step  n  32.0  mean   30.26 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL fp8_fi_xqa 1x16384:     694.9 us/step  n  32.0  mean   21.72 us  gap-before   0.99 us  kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u>...
+KERNEL fp8_fi_xqa 1x16384:     502.4 us/step  n  32.0  mean   15.70 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL fp8_fi_xqa 1x16384:     354.3 us/step  n  32.0  mean   11.07 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL fp8_fi_xqa 1x16384:     248.4 us/step  n   1.0  mean  248.39 us  gap-before   2.29 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL fp8_fi_xqa 1x16384:     128.8 us/step  n  32.0  mean    4.03 us  gap-before   0.42 us  void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType...
+KERNEL fp8_fi_xqa 1x16384:     111.4 us/step  n  64.0  mean    1.74 us  gap-before   0.90 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL fp8_fi_xqa 1x16384:      64.7 us/step  n  32.0  mean    2.02 us  gap-before   0.42 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL fp8_fi_xqa 1x16384:      60.6 us/step  n  32.0  mean    1.89 us  gap-before   0.42 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL fp8_fi_xqa 1x16384:      48.7 us/step  n  31.0  mean    1.57 us  gap-before   0.43 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL fp8_fi_xqa 1x16384:      44.6 us/step  n  32.0  mean    1.39 us  gap-before   0.29 us  triton_poi_fused_mul_silu_slice_1
+KERNEL fp8_fi_xqa 1x16384:      42.3 us/step  n  31.0  mean    1.37 us  gap-before   0.28 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL fp8_fi_xqa 1x16384:       5.2 us/step  n   1.0  mean    5.20 us  gap-before   1.25 us  _gumbel_sample_kernel
+KERNEL fp8_fi_xqa 1x16384:       5.2 us/step  n   1.0  mean    5.19 us  gap-before   1.22 us  _bias_kernel
+KERNEL fp8_fi_xqa 1x16384:       4.8 us/step  n   2.0  mean    2.40 us  gap-before   2.38 us  Memcpy DtoH (Device -> Pinned)
+TIME fp8_fi_xqa 1x65536: step 7.696 ms (min 7.666), GPU span 7.643 busy 6.492 ms per step; prefill steps 5; splits seen 
+CATEGORY fp8_fi_xqa 1x65536:    3890.5 us/step  calls  129.0  idle-before    56.5 us  gemm
+CATEGORY fp8_fi_xqa 1x65536:    2041.7 us/step  calls   32.0  idle-before    32.1 us  decode_attn
+CATEGORY fp8_fi_xqa 1x65536:     169.6 us/step  calls   96.0  idle-before    35.4 us  inductor
+CATEGORY fp8_fi_xqa 1x65536:     129.0 us/step  calls   32.0  idle-before    13.4 us  cache_write
+CATEGORY fp8_fi_xqa 1x65536:     115.5 us/step  calls   65.0  idle-before    58.4 us  reduce
+CATEGORY fp8_fi_xqa 1x65536:      92.5 us/step  calls   64.0  idle-before    23.0 us  index
+CATEGORY fp8_fi_xqa 1x65536:      28.7 us/step  calls    8.1  idle-before   180.7 us  other
+CATEGORY fp8_fi_xqa 1x65536:      14.6 us/step  calls    7.1  idle-before   699.9 us  copy
+CATEGORY fp8_fi_xqa 1x65536:       8.9 us/step  calls    5.0  idle-before    40.0 us  elementwise
+CATEGORY fp8_fi_xqa 1x65536:       3.1 us/step  calls    4.0  idle-before    27.7 us  fill
+KERNEL fp8_fi_xqa 1x65536:    2041.7 us/step  n  32.0  mean   63.80 us  gap-before   1.00 us  kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u>...
+KERNEL fp8_fi_xqa 1x65536:    1821.7 us/step  n  32.0  mean   56.93 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL fp8_fi_xqa 1x65536:     976.5 us/step  n  32.0  mean   30.52 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL fp8_fi_xqa 1x65536:     495.2 us/step  n  32.0  mean   15.47 us  gap-before   0.46 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL fp8_fi_xqa 1x65536:     349.9 us/step  n  32.0  mean   10.93 us  gap-before   0.32 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL fp8_fi_xqa 1x65536:     247.3 us/step  n   1.0  mean  247.26 us  gap-before   2.17 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL fp8_fi_xqa 1x65536:     129.0 us/step  n  32.0  mean    4.03 us  gap-before   0.42 us  void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType...
+KERNEL fp8_fi_xqa 1x65536:     111.1 us/step  n  64.0  mean    1.74 us  gap-before   0.89 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL fp8_fi_xqa 1x65536:      64.2 us/step  n  32.0  mean    2.01 us  gap-before   0.41 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL fp8_fi_xqa 1x65536:      60.3 us/step  n  32.0  mean    1.89 us  gap-before   0.41 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL fp8_fi_xqa 1x65536:      45.6 us/step  n  31.0  mean    1.47 us  gap-before   0.43 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL fp8_fi_xqa 1x65536:      45.0 us/step  n  32.0  mean    1.41 us  gap-before   0.29 us  triton_poi_fused_mul_silu_slice_1
+KERNEL fp8_fi_xqa 1x65536:      43.5 us/step  n  31.0  mean    1.40 us  gap-before   0.28 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL fp8_fi_xqa 1x65536:       5.2 us/step  n   1.0  mean    5.24 us  gap-before   1.26 us  _bias_kernel
+KERNEL fp8_fi_xqa 1x65536:       5.2 us/step  n   1.0  mean    5.21 us  gap-before   1.25 us  _gumbel_sample_kernel
+KERNEL fp8_fi_xqa 1x65536:       5.1 us/step  n   1.0  mean    5.05 us  gap-before  48.55 us  _gather_block_tables_kernel
+TIME fp8_fi_xqa 4x32768: step 9.532 ms (min 9.510), GPU span 9.412 busy 8.242 ms per step; prefill steps 10; splits seen 
+CATEGORY fp8_fi_xqa 4x32768:    3910.1 us/step  calls  129.0  idle-before    56.1 us  gemm
+CATEGORY fp8_fi_xqa 4x32768:    3766.3 us/step  calls   32.0  idle-before    31.4 us  decode_attn
+CATEGORY fp8_fi_xqa 4x32768:     173.4 us/step  calls   96.0  idle-before    37.2 us  inductor
+CATEGORY fp8_fi_xqa 4x32768:     127.3 us/step  calls   32.0  idle-before    13.9 us  cache_write
+CATEGORY fp8_fi_xqa 4x32768:     117.9 us/step  calls   65.0  idle-before    59.2 us  reduce
+CATEGORY fp8_fi_xqa 4x32768:      93.8 us/step  calls   64.0  idle-before    23.4 us  index
+CATEGORY fp8_fi_xqa 4x32768:      29.2 us/step  calls    9.2  idle-before   195.2 us  other
+CATEGORY fp8_fi_xqa 4x32768:      14.9 us/step  calls    7.2  idle-before   715.4 us  copy
+CATEGORY fp8_fi_xqa 4x32768:       5.7 us/step  calls    4.0  idle-before    37.3 us  elementwise
+CATEGORY fp8_fi_xqa 4x32768:       3.2 us/step  calls    4.0  idle-before    37.6 us  fill
+KERNEL fp8_fi_xqa 4x32768:    3766.3 us/step  n  32.0  mean  117.70 us  gap-before   0.98 us  kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u>...
+KERNEL fp8_fi_xqa 4x32768:    1832.2 us/step  n  32.0  mean   57.25 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT
+KERNEL fp8_fi_xqa 4x32768:     977.6 us/step  n  32.0  mean   30.55 us  gap-before   0.46 us  nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT
+KERNEL fp8_fi_xqa 4x32768:     500.0 us/step  n  32.0  mean   15.63 us  gap-before   0.45 us  nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT
+KERNEL fp8_fi_xqa 4x32768:     349.7 us/step  n  32.0  mean   10.93 us  gap-before   0.32 us  nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT
+KERNEL fp8_fi_xqa 4x32768:     250.6 us/step  n   1.0  mean  250.59 us  gap-before   1.89 us  nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT
+KERNEL fp8_fi_xqa 4x32768:     127.3 us/step  n  32.0  mean    3.98 us  gap-before   0.43 us  void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType...
+KERNEL fp8_fi_xqa 4x32768:     113.3 us/step  n  64.0  mean    1.77 us  gap-before   0.90 us  void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false...
+KERNEL fp8_fi_xqa 4x32768:      65.0 us/step  n  32.0  mean    2.03 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_2
+KERNEL fp8_fi_xqa 4x32768:      59.9 us/step  n  32.0  mean    1.87 us  gap-before   0.43 us  triton_red_fused_fused_add_rms_norm_0
+KERNEL fp8_fi_xqa 4x32768:      48.5 us/step  n  32.0  mean    1.52 us  gap-before   0.30 us  triton_poi_fused_mul_silu_slice_1
+KERNEL fp8_fi_xqa 4x32768:      45.6 us/step  n  31.0  mean    1.47 us  gap-before   0.28 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3
+KERNEL fp8_fi_xqa 4x32768:      44.8 us/step  n  31.0  mean    1.44 us  gap-before   0.44 us  triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4
+KERNEL fp8_fi_xqa 4x32768:       5.3 us/step  n   1.0  mean    5.34 us  gap-before   1.27 us  _bias_kernel
+KERNEL fp8_fi_xqa 4x32768:       4.6 us/step  n   1.0  mean    4.62 us  gap-before   1.25 us  void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, ...
+KERNEL fp8_fi_xqa 4x32768:       4.6 us/step  n   2.0  mean    2.30 us  gap-before   1.85 us  Memcpy DtoH (Device -> Pinned)
+WROTE fp8_fi_xqa
+LOG fp8_fi_xqa (MainProcess pid=828296) INFO 11-22 05:13:09 [flashinfer.py:1106] FlashInfer resolved query dtypes: prefill=torch.float8_e4m3fn, decode=torch.bfloat16, decode_backend=xqa, kv_cache_dtype=torch.float8_e4m3fn, arch=sm90
+ninja: no work to do.
+ninja: no work to do.
+NVIDIA H200 commit 0db3a3d
+ninja: no work to do.
+SHAPE 1x16384: pages 18.9 MB per layer; plugin splits for KV4_MAX_SPLITS 8/16/32/64: [8, 16, 32, 33]
+REF 1x16384: read-only reduction over the same bytes 39.3 us (10% of peak)
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s=  4 CTAs   32: layer  35.50 us (prep  1.16 + dec  29.03 + merge  4.17 + gaps  1.14); decode-only graph  29.46 us (13% of peak; kernel 14%); isolated prep+dec+merge write-flush  42.59 read-flush  42.08, decode alone read  34.24
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s=  8 CTAs   64: layer  25.83 us (prep  1.17 + dec  16.93 + merge  5.20 + gaps  2.53); decode-only graph  17.86 us (22% of peak; kernel 23%); isolated prep+dec+merge write-flush  32.03 read-flush  31.20, decode alone read  22.18
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 16 CTAs  128: layer  22.95 us (prep  1.20 + dec  11.53 + merge  7.71 + gaps  2.50); decode-only graph  12.29 us (32% of peak; kernel 34%); isolated prep+dec+merge write-flush  29.09 read-flush  28.19, decode alone read  16.74
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 24 CTAs  192: layer  26.41 us (prep  1.19 + dec  13.49 + merge  9.30 + gaps  2.44); decode-only graph  14.24 us (28% of peak; kernel 29%); isolated prep+dec+merge write-flush  33.09 read-flush  31.87, decode alone read  18.50
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 32 CTAs  256: layer  27.58 us (prep  1.21 + dec  11.70 + merge 12.12 + gaps  2.55); decode-only graph  12.59 us (31% of peak; kernel 34%); isolated prep+dec+merge write-flush  34.37 read-flush  32.70, decode alone read  16.86
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 33 CTAs  264: layer  28.10 us (prep  1.20 + dec  11.97 + merge 12.49 + gaps  2.44); decode-only graph  13.05 us (30% of peak; kernel 33%); isolated prep+dec+merge write-flush  34.66 read-flush  33.15, decode alone read  16.96
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:42 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 48 CTAs  384: layer  28.90 us (prep  1.12 + dec  12.14 + merge 13.26 + gaps  2.38); decode-only graph  13.13 us (30% of peak; kernel 32%); isolated prep+dec+merge write-flush  35.84 read-flush  34.08, decode alone read  17.28
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 64 CTAs  512: layer  38.85 us (prep  1.12 + dec  14.33 + merge 20.84 + gaps  2.56); decode-only graph  14.94 us (26% of peak; kernel 27%); isolated prep+dec+merge write-flush  46.40 read-flush  44.77, decode alone read  20.03
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s=128 CTAs 1024: layer  44.73 us (prep  1.14 + dec  15.61 + merge 25.37 + gaps  2.61); decode-only graph  16.86 us (23% of peak; kernel 25%); isolated prep+dec+merge write-flush  51.78 read-flush  49.54, decode alone read  20.58
+SHAPE 1x65536: pages 75.5 MB per layer; plugin splits for KV4_MAX_SPLITS 8/16/32/64: [8, 16, 32, 33]
+REF 1x65536: read-only reduction over the same bytes 119.8 us (13% of peak)
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s=  4 CTAs   32: layer 113.33 us (prep  1.20 + dec 104.66 + merge  5.03 + gaps  2.44); decode-only graph 105.99 us (15% of peak; kernel 15%); isolated prep+dec+merge write-flush 118.78 read-flush 117.98, decode alone read 109.47
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:43 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s=  8 CTAs   64: layer  64.99 us (prep  1.19 + dec  55.24 + merge  6.05 + gaps  2.51); decode-only graph  56.56 us (28% of peak; kernel 28%); isolated prep+dec+merge write-flush  70.43 read-flush  69.47, decode alone read  59.94
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 16 CTAs  128: layer  43.16 us (prep  1.19 + dec  31.29 + merge  8.35 + gaps  2.33); decode-only graph  32.48 us (48% of peak; kernel 50%); isolated prep+dec+merge write-flush  50.98 read-flush  47.97, decode alone read  36.19
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 24 CTAs  192: layer  48.78 us (prep  1.20 + dec  34.51 + merge 10.64 + gaps  2.43); decode-only graph  35.67 us (44% of peak; kernel 46%); isolated prep+dec+merge write-flush  55.01 read-flush  53.70, decode alone read  39.33
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 32 CTAs  256: layer  44.01 us (prep  1.20 + dec  27.45 + merge 12.88 + gaps  2.48); decode-only graph  28.78 us (55% of peak; kernel 57%); isolated prep+dec+merge write-flush  51.74 read-flush  49.06, decode alone read  32.51
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 33 CTAs  264: layer  44.51 us (prep  1.20 + dec  27.89 + merge 13.27 + gaps  2.15); decode-only graph  29.05 us (54% of peak; kernel 56%); isolated prep+dec+merge write-flush  52.10 read-flush  49.44, decode alone read  32.64
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 48 CTAs  384: layer  56.04 us (prep  1.19 + dec  36.44 + merge 16.26 + gaps  2.15); decode-only graph  37.86 us (42% of peak; kernel 43%); isolated prep+dec+merge write-flush  64.51 read-flush  61.41, decode alone read  41.73
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:44 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 64 CTAs  512: layer  61.35 us (prep  1.18 + dec  32.09 + merge 25.80 + gaps  2.29); decode-only graph  33.19 us (47% of peak; kernel 49%); isolated prep+dec+merge write-flush  67.39 read-flush  64.70, decode alone read  36.45
+USDT:2026-11-22 05:13:45 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:45 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s=128 CTAs 1024: layer 103.96 us (prep  1.19 + dec  37.29 + merge 63.38 + gaps  2.10); decode-only graph  38.49 us (41% of peak; kernel 42%); isolated prep+dec+merge write-flush 109.98 read-flush 108.77, decode alone read  41.79
+SHAPE 4x32768: pages 151.0 MB per layer; plugin splits for KV4_MAX_SPLITS 8/16/32/64: [8, 8, 8, 8]
+REF 4x32768: read-only reduction over the same bytes 217.0 us (14% of peak)
+USDT:2026-11-22 05:13:45 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:45 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s=  2 CTAs   64: layer 113.88 us (prep  1.23 + dec 105.22 + merge  4.87 + gaps  2.56); decode-only graph 106.55 us (30% of peak; kernel 30%); isolated prep+dec+merge write-flush 119.65 read-flush 118.88, decode alone read 110.37
+USDT:2026-11-22 05:13:45 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:45 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s=  4 CTAs  128: layer  65.38 us (prep  1.23 + dec  56.38 + merge  5.12 + gaps  2.66); decode-only graph  57.74 us (54% of peak; kernel 56%); isolated prep+dec+merge write-flush  72.32 read-flush  69.89, decode alone read  61.15
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s=  8 CTAs  256: layer  57.68 us (prep  1.23 + dec  48.33 + merge  6.30 + gaps  1.82); decode-only graph  49.15 us (64% of peak; kernel 65%); isolated prep+dec+merge write-flush  66.82 read-flush  63.39, decode alone read  53.15
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 12 CTAs  384: layer  73.92 us (prep  1.24 + dec  60.59 + merge  9.63 + gaps  2.46); decode-only graph  61.92 us (51% of peak; kernel 52%); isolated prep+dec+merge write-flush  82.50 read-flush  79.33, decode alone read  65.57
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 16 CTAs  512: layer  67.14 us (prep  1.23 + dec  51.45 + merge 11.66 + gaps  2.81); decode-only graph  52.56 us (60% of peak; kernel 61%); isolated prep+dec+merge write-flush  75.52 read-flush  71.42, decode alone read  55.84
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 24 CTAs  768: layer  75.05 us (prep  1.24 + dec  57.18 + merge 14.78 + gaps  1.86); decode-only graph  58.02 us (54% of peak; kernel 55%); isolated prep+dec+merge write-flush  83.14 read-flush  80.19, decode alone read  61.50
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 32 CTAs 1024: layer  80.41 us (prep  1.22 + dec  57.52 + merge 19.47 + gaps  2.20); decode-only graph  58.55 us (54% of peak; kernel 55%); isolated prep+dec+merge write-flush  88.48 read-flush  85.15, decode alone read  61.86
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:13:46 833729:833729 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 64 CTAs 2048: layer 104.66 us (prep  1.23 + dec  66.59 + merge 35.01 + gaps  1.83); decode-only graph  67.09 us (47% of peak; kernel 47%); isolated prep+dec+merge write-flush 112.42 read-flush 109.28, decode alone read  70.21
+wrote results/profile_11-22/smallbatch_splits_12059226.csv
+done

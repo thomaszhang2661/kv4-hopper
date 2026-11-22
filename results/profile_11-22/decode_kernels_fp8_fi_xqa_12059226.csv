@@ -1,0 +1,115 @@
+config,shape,category,kernel,calls_per_step,mean_us,us_per_step,mean_gap_before_us
+fp8_fi_xqa,1x16384,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT,32.00,57.16,1829.1,0.45
+fp8_fi_xqa,1x16384,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT,32.00,30.26,968.4,0.46
+fp8_fi_xqa,1x16384,decode_attn,"kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, float const*, KVCacheList<true>, unsigned int, floa...",32.00,21.72,694.9,0.99
+fp8_fi_xqa,1x16384,gemm,nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT,32.00,15.70,502.4,0.46
+fp8_fi_xqa,1x16384,gemm,nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT,32.00,11.07,354.3,0.46
+fp8_fi_xqa,1x16384,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1.00,248.39,248.4,2.29
+fp8_fi_xqa,1x16384,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType)1>(__nv_bfloat16 const*, __nv_bfloat16 const*, unsigned cha...",32.00,4.03,128.8,0.42
+fp8_fi_xqa,1x16384,reduce,"void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false, f...",64.00,1.74,111.4,0.90
+fp8_fi_xqa,1x16384,inductor,triton_red_fused_fused_add_rms_norm_2,32.00,2.02,64.7,0.42
+fp8_fi_xqa,1x16384,inductor,triton_red_fused_fused_add_rms_norm_0,32.00,1.89,60.6,0.42
+fp8_fi_xqa,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31.00,1.57,48.7,0.43
+fp8_fi_xqa,1x16384,inductor,triton_poi_fused_mul_silu_slice_1,32.00,1.39,44.6,0.29
+fp8_fi_xqa,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31.00,1.37,42.3,0.28
+fp8_fi_xqa,1x16384,other,_gumbel_sample_kernel,1.00,5.20,5.2,1.25
+fp8_fi_xqa,1x16384,other,_bias_kernel,1.00,5.19,5.2,1.22
+fp8_fi_xqa,1x16384,copy,Memcpy DtoH (Device -> Pinned),2.00,2.40,4.8,2.38
+fp8_fi_xqa,1x16384,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1.00,4.54,4.5,1.24
+fp8_fi_xqa,1x16384,other,_gather_block_tables_kernel,1.00,3.73,3.7,48.88
+fp8_fi_xqa,1x16384,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,1.00,3.64,3.6,1.22
+fp8_fi_xqa,1x16384,other,_post_update_kernel,1.00,3.48,3.5,1.24
+fp8_fi_xqa,1x16384,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1.00,3.30,3.3,2.45
+fp8_fi_xqa,1x16384,other,_compute_slot_mappings_kernel,1.00,3.25,3.3,28.81
+fp8_fi_xqa,1x16384,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1.00,2.96,3.0,627.10
+fp8_fi_xqa,1x16384,other,_combine_sampled_and_draft_tokens_kernel,1.00,2.51,2.5,45.97
+fp8_fi_xqa,1x16384,other,_get_num_sampled_and_rejected_kernel,1.00,2.37,2.4,1.26
+fp8_fi_xqa,1x16384,copy,Memcpy HtoD (Pinned -> Device),2.12,0.91,1.9,56.25
+fp8_fi_xqa,1x16384,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1.00,1.84,1.8,1.57
+fp8_fi_xqa,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1.00,1.78,1.8,0.48
+fp8_fi_xqa,1x16384,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1.00,1.73,1.7,0.28
+fp8_fi_xqa,1x16384,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1.00,1.62,1.6,1.24
+fp8_fi_xqa,1x16384,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1.00,1.61,1.6,1.26
+fp8_fi_xqa,1x16384,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2.00,0.74,1.5,9.11
+fp8_fi_xqa,1x16384,copy,memcpy32_post,1.00,1.23,1.2,0.42
+fp8_fi_xqa,1x16384,other,_prepare_pos_seq_lens_kernel,1.00,1.16,1.2,47.21
+fp8_fi_xqa,1x16384,fill,Memset (Device),1.00,0.88,0.9,1.49
+fp8_fi_xqa,1x16384,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1.00,0.87,0.9,9.90
+fp8_fi_xqa,1x16384,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1.00,0.68,0.7,34.04
+fp8_fi_xqa,1x16384,other,_apply_write_kernel,0.12,2.14,0.3,58.11
+fp8_fi_xqa,1x65536,decode_attn,"kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, float const*, KVCacheList<true>, unsigned int, floa...",32.00,63.80,2041.7,1.00
+fp8_fi_xqa,1x65536,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT,32.00,56.93,1821.7,0.46
+fp8_fi_xqa,1x65536,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT,32.00,30.52,976.5,0.46
+fp8_fi_xqa,1x65536,gemm,nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT,32.00,15.47,495.2,0.46
+fp8_fi_xqa,1x65536,gemm,nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT,32.00,10.93,349.9,0.32
+fp8_fi_xqa,1x65536,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1.00,247.26,247.3,2.17
+fp8_fi_xqa,1x65536,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType)1>(__nv_bfloat16 const*, __nv_bfloat16 const*, unsigned cha...",32.00,4.03,129.0,0.42
+fp8_fi_xqa,1x65536,reduce,"void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false, f...",64.00,1.74,111.1,0.89
+fp8_fi_xqa,1x65536,inductor,triton_red_fused_fused_add_rms_norm_2,32.00,2.01,64.2,0.41
+fp8_fi_xqa,1x65536,inductor,triton_red_fused_fused_add_rms_norm_0,32.00,1.89,60.3,0.41
+fp8_fi_xqa,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31.00,1.47,45.6,0.43
+fp8_fi_xqa,1x65536,inductor,triton_poi_fused_mul_silu_slice_1,32.00,1.41,45.0,0.29
+fp8_fi_xqa,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31.00,1.40,43.5,0.28
+fp8_fi_xqa,1x65536,other,_bias_kernel,1.00,5.24,5.2,1.26
+fp8_fi_xqa,1x65536,other,_gumbel_sample_kernel,1.00,5.21,5.2,1.25
+fp8_fi_xqa,1x65536,other,_gather_block_tables_kernel,1.00,5.05,5.1,48.55
+fp8_fi_xqa,1x65536,copy,Memcpy DtoH (Device -> Pinned),2.00,2.34,4.7,1.76
+fp8_fi_xqa,1x65536,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1.00,4.41,4.4,1.29
+fp8_fi_xqa,1x65536,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,1.00,3.80,3.8,1.24
+fp8_fi_xqa,1x65536,other,_post_update_kernel,1.00,3.51,3.5,1.19
+fp8_fi_xqa,1x65536,other,_compute_slot_mappings_kernel,1.00,3.33,3.3,26.84
+fp8_fi_xqa,1x65536,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1.00,3.18,3.2,2.24
+fp8_fi_xqa,1x65536,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1.00,2.95,3.0,575.67
+fp8_fi_xqa,1x65536,other,_combine_sampled_and_draft_tokens_kernel,1.00,2.57,2.6,47.56
+fp8_fi_xqa,1x65536,other,_get_num_sampled_and_rejected_kernel,1.00,2.34,2.3,1.25
+fp8_fi_xqa,1x65536,copy,Memcpy HtoD (Pinned -> Device),2.12,0.91,1.9,56.03
+fp8_fi_xqa,1x65536,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1.00,1.87,1.9,1.69
+fp8_fi_xqa,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1.00,1.82,1.8,0.27
+fp8_fi_xqa,1x65536,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1.00,1.68,1.7,0.46
+fp8_fi_xqa,1x65536,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1.00,1.64,1.6,1.30
+fp8_fi_xqa,1x65536,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1.00,1.58,1.6,1.25
+fp8_fi_xqa,1x65536,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2.00,0.73,1.5,9.05
+fp8_fi_xqa,1x65536,copy,memcpy32_post,1.00,1.23,1.2,0.40
+fp8_fi_xqa,1x65536,other,_prepare_pos_seq_lens_kernel,1.00,1.14,1.1,46.64
+fp8_fi_xqa,1x65536,fill,Memset (Device),1.00,0.86,0.9,1.46
+fp8_fi_xqa,1x65536,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1.00,0.81,0.8,8.15
+fp8_fi_xqa,1x65536,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1.00,0.64,0.6,33.48
+fp8_fi_xqa,1x65536,other,_apply_write_kernel,0.12,2.14,0.3,49.60
+fp8_fi_xqa,4x32768,decode_attn,"kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, float const*, KVCacheList<true>, unsigned int, floa...",32.00,117.70,3766.3,0.98
+fp8_fi_xqa,4x32768,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT,32.00,57.25,1832.2,0.46
+fp8_fi_xqa,4x32768,gemm,nvjet_sm90_tst_128x8_64x12_2x1_v_bz_splitK_TNT,32.00,30.55,977.6,0.46
+fp8_fi_xqa,4x32768,gemm,nvjet_sm90_tst_64x8_64x16_4x1_v_bz_TNT,32.00,15.63,500.0,0.45
+fp8_fi_xqa,4x32768,gemm,nvjet_sm90_tst_64x8_64x16_2x1_v_bz_splitK_TNT,32.00,10.93,349.7,0.32
+fp8_fi_xqa,4x32768,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1.00,250.59,250.6,1.89
+fp8_fi_xqa,4x32768,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType)1>(__nv_bfloat16 const*, __nv_bfloat16 const*, unsigned cha...",32.00,3.98,127.3,0.43
+fp8_fi_xqa,4x32768,reduce,"void cublasLt::splitKreduce_kernel<32, 16, int, float, __nv_bfloat16, float, __nv_bfloat16, false, float, __nv_bfloat16, __nv_bfloat16, true, false, false, f...",64.00,1.77,113.3,0.90
+fp8_fi_xqa,4x32768,inductor,triton_red_fused_fused_add_rms_norm_2,32.00,2.03,65.0,0.43
+fp8_fi_xqa,4x32768,inductor,triton_red_fused_fused_add_rms_norm_0,32.00,1.87,59.9,0.43
+fp8_fi_xqa,4x32768,inductor,triton_poi_fused_mul_silu_slice_1,32.00,1.52,48.5,0.30
+fp8_fi_xqa,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31.00,1.47,45.6,0.28
+fp8_fi_xqa,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31.00,1.44,44.8,0.44
+fp8_fi_xqa,4x32768,other,_bias_kernel,1.00,5.34,5.3,1.27
+fp8_fi_xqa,4x32768,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1.00,4.62,4.6,1.25
+fp8_fi_xqa,4x32768,copy,Memcpy DtoH (Device -> Pinned),2.00,2.30,4.6,1.85
+fp8_fi_xqa,4x32768,other,_gumbel_sample_kernel,1.00,4.32,4.3,1.23
+fp8_fi_xqa,4x32768,other,_gather_block_tables_kernel,1.00,4.26,4.3,48.14
+fp8_fi_xqa,4x32768,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,1.00,3.88,3.9,1.22
+fp8_fi_xqa,4x32768,other,_post_update_kernel,1.00,3.76,3.8,1.25
+fp8_fi_xqa,4x32768,other,_compute_slot_mappings_kernel,1.00,2.99,3.0,30.32
+fp8_fi_xqa,4x32768,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1.00,2.98,3.0,593.79
+fp8_fi_xqa,4x32768,other,_combine_sampled_and_draft_tokens_kernel,1.00,2.70,2.7,47.32
+fp8_fi_xqa,4x32768,other,_get_num_sampled_and_rejected_kernel,1.00,2.58,2.6,1.25
+fp8_fi_xqa,4x32768,copy,Memcpy HtoD (Pinned -> Device),2.25,0.91,2.0,51.64
+fp8_fi_xqa,4x32768,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1.00,1.88,1.9,1.74
+fp8_fi_xqa,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1.00,1.85,1.8,0.53
+fp8_fi_xqa,4x32768,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1.00,1.66,1.7,1.33
+fp8_fi_xqa,4x32768,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1.00,1.60,1.6,0.48
+fp8_fi_xqa,4x32768,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2.00,0.74,1.5,9.17
+fp8_fi_xqa,4x32768,other,"void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",1.00,1.44,1.4,2.08
+fp8_fi_xqa,4x32768,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1.00,1.44,1.4,1.23
+fp8_fi_xqa,4x32768,copy,memcpy32_post,1.00,1.37,1.4,0.52
+fp8_fi_xqa,4x32768,other,_prepare_pos_seq_lens_kernel,1.00,1.30,1.3,47.84
+fp8_fi_xqa,4x32768,fill,Memset (Device),1.00,0.92,0.9,1.45
+fp8_fi_xqa,4x32768,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1.00,0.82,0.8,17.77
+fp8_fi_xqa,4x32768,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1.00,0.67,0.7,32.95
+fp8_fi_xqa,4x32768,other,_apply_write_kernel,0.25,2.18,0.5,57.98

@@ -1,0 +1,4 @@
+config,case,wall_ms_median,wall_ms_min,gpu_busy_ms,gpu_span_ms,cached_tokens_timed,cached_tokens_prof,n_kernels
+fp8_fi_xqa_rep,a,479.19,473.86,452.37,457.38,0,0,551
+fp8_fi_xqa_rep,b,814.93,812.34,785.51,791.01,0,0,551
+fp8_fi_xqa_rep,c,269.85,269.27,251.66,255.99,8192,8192,551

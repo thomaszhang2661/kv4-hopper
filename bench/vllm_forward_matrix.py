@@ -54,6 +54,14 @@ CONFIGS = {
     "plugin_recipe_s32": (["--kv-cache-dtype", "ultraquant_4bit", "--block-size", "64"],
                           {"KV4_VLLM": "1", "KV4_FORMAT": "nvfp4", "KV4_BOUNDARY": "0", "KV4_KMEAN": "1", "KV4_SINKS": "1",
                            "KV4_SINK_TIMING": "1", "KV4_MAX_SPLITS": "32"}),
+    # 11-21: C1, the recipe with K on FP8 tensor cores (KV4_K8, docs/c1_plugin_log.md)
+    "plugin_recipe_k8": (["--kv-cache-dtype", "ultraquant_4bit", "--block-size", "64"],
+                         {"KV4_VLLM": "1", "KV4_FORMAT": "nvfp4", "KV4_BOUNDARY": "0", "KV4_KMEAN": "1", "KV4_SINKS": "1",
+                          "KV4_SINK_TIMING": "1", "KV4_K8": "1"}),
+    # 11-22: C1 with the G = 8 register fix applied to G = 4 too (KV4_K8V=7)
+    "plugin_recipe_k8v7": (["--kv-cache-dtype", "ultraquant_4bit", "--block-size", "64"],
+                           {"KV4_VLLM": "1", "KV4_FORMAT": "nvfp4", "KV4_BOUNDARY": "0", "KV4_KMEAN": "1", "KV4_SINKS": "1",
+                            "KV4_SINK_TIMING": "1", "KV4_K8": "1", "KV4_K8V": "7"}),
 }
 
 

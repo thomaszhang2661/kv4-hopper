@@ -611,7 +611,10 @@ std::vector<torch::Tensor> decode_fp4_paged(torch::Tensor pages, torch::Tensor b
   TORCH_CHECK(block_table.is_contiguous() && block_table.scalar_type() == torch::kInt);
   TORCH_CHECK(seq_lens.is_contiguous() && seq_lens.scalar_type() == torch::kInt);
   TORCH_CHECK(qh.is_contiguous() && qh.scalar_type() == torch::kHalf && qh.size(2) == NPAD && qh.size(3) == D);
-  TORCH_CHECK(diag == 0 || diag == 3 || diag == 5, "paged diag must be 0, 3 or 5");
+  // 11-22: paged DIAG 1 / 2 (no reconstruction / no MMAs; NVFP4, G = 4; wrong outputs by design) for the
+  // shared-prefix diagnosis (docs/shared_prefix_log.md). The diag-0 instantiation is unchanged.
+  TORCH_CHECK(diag == 0 || diag == 1 || diag == 2 || diag == 3 || diag == 5, "paged diag must be 0, 1, 2, 3 or 5");
+  TORCH_CHECK((diag != 1 && diag != 2) || !mx, "paged diag 1 / 2 only for NVFP4");
   const int B = seq_lens.size(0), HKV = diag == 5 ? pages.size(0) : pages.size(1);
   TORCH_CHECK(gqa == 4 || (gqa == 8 && diag == 0), "gqa must be 4, or 8 (without diag)");
   auto out_o = torch::empty({B, HKV, splits, gqa, D}, qh.options().dtype(torch::kFloat));
@@ -622,7 +625,8 @@ std::vector<torch::Tensor> decode_fp4_paged(torch::Tensor pages, torch::Tensor b
   if (gqa == 8) { if (mx) launch_paged<true, 0, 8>(pages, block_table, seq_lens, qh, out_o, out_ml, splits, sm, om, bk, bv);
                   else launch_paged<false, 0, 8>(pages, block_table, seq_lens, qh, out_o, out_ml, splits, sm, om, bk, bv); }
   else if (mx) { if (diag == 3) KV4_PAGED(true, 3); else if (diag == 5) KV4_PAGED(true, 5); else KV4_PAGED(true, 0); }
-  else { if (diag == 3) KV4_PAGED(false, 3); else if (diag == 5) KV4_PAGED(false, 5); else KV4_PAGED(false, 0); }
+  else { if (diag == 3) KV4_PAGED(false, 3); else if (diag == 5) KV4_PAGED(false, 5);
+         else if (diag == 1) KV4_PAGED(false, 1); else if (diag == 2) KV4_PAGED(false, 2); else KV4_PAGED(false, 0); }
 #undef KV4_PAGED
   return {out_o, out_ml};
 }

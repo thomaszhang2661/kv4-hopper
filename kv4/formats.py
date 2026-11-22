@@ -24,7 +24,7 @@ from __future__ import annotations
 
 import functools
 import math
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 import torch
 
@@ -42,6 +42,9 @@ class KVFormat:
     scale: str = "none"  # "none", "tensor" (fp8), "fp16" (int4), "e4m3" (+ fp32 tensor scale), "e8m0"
     hadamard: int = 0  # block size of the Walsh-Hadamard rotation; 0 = none
     asym: bool = False  # int4 only: scale and zero point instead of a symmetric scale
+    # 11-21 (C2): > 0 = scales along the TOKEN axis instead of D: one scale per `tok_block` consecutive tokens of one
+    # channel (`block` unused); see _quantize_tok
+    tok_block: int = 0
 
     def bytes_per_row(self, d: int) -> float:
         """Bytes a kernel reads per token per head (scales included, tensor scales ignored)."""
@@ -51,6 +54,8 @@ class KVFormat:
             return d
         if self.scale == "tensor":  # 11-18: one scale per tensor, no per-row bytes
             return d / 2
+        if self.tok_block:  # 11-21 (C2): D scale bytes per tok_block tokens, amortized per token
+            return d / 2 + d / self.tok_block
         blocks = math.ceil(d / (self.block or d))
         return d / 2 + blocks * (2 if self.scale == "fp16" else 1) * (2 if self.asym else 1)
 
@@ -82,6 +87,14 @@ FORMATS = {f.name: f for f in [
     # scale per token and the scale can be applied after the MMA (offline accuracy only; no kernel reads it yet)
     KVFormat("nvfp4_g32", "e2m1", block=32, scale="e4m3"),
     KVFormat("nvfp4_g32_h", "e2m1", block=32, scale="e4m3", hadamard=128),
+    # 11-21 (C2): NVFP4 V with its E4M3 block scales along tokens (one per 16 / 32 consecutive tokens of one channel,
+    # times the FP32 tensor scale), so P V on FP8 wgmma (which reduces over tokens, k32) can apply the scale after the
+    # MMA, per output channel. A page holds 64 tokens, so 16- and 32-token blocks never span pages. Offline only.
+    KVFormat("nvfp4_t16", "e2m1", block=0, scale="e4m3", tok_block=16),
+    KVFormat("nvfp4_t32", "e2m1", block=0, scale="e4m3", tok_block=32),
+    # 11-21 (C2, coordinator): one E4M3 scale per token row (all D dims) times the FP32 tensor scale; the scale folds
+    # into P (P[t] * s_v[t]), so P V runs on FP8 with V token-major
+    KVFormat("nvfp4_row", "e2m1", block=0, scale="e4m3"),
 ]}
 # 11-11: the one-parameter family behind both rules, s = 2^round(log2(c amax)): UltraQuant is c = 0.156 and OCP's
 # 2^(floor(log2 amax) - 2) equals c = 1/(4 sqrt 2) = 0.177 (round(log2 amax - 2.5) = floor(log2 amax) - 2 except at
@@ -103,6 +116,7 @@ class QTensor:
     scales: torch.Tensor | None = None
     tensor_scale: float = 1.0
     zeros: torch.Tensor | None = None
+    length: int = 0  # 11-21 (C2): token-axis formats only, the number of real tokens (data is padded to the block)
 
 
 # --- rotation -----------------------------------------------------------------
@@ -178,6 +192,8 @@ def _blocks(x: torch.Tensor, block: int) -> torch.Tensor:
 def quantize(x: torch.Tensor, fmt: KVFormat | str) -> QTensor:
     """x (..., D) in any float dtype -> QTensor in `fmt`."""
     fmt = FORMATS[fmt] if isinstance(fmt, str) else fmt
+    if fmt.tok_block:
+        return _quantize_tok(x, fmt)
     x = rotate(x.float(), fmt.hadamard)
     if fmt.element == "bf16":
         return QTensor(fmt, x.to(torch.bfloat16))
@@ -235,6 +251,9 @@ def quantize(x: torch.Tensor, fmt: KVFormat | str) -> QTensor:
 def dequantize(t: QTensor, rotate_back: bool = True) -> torch.Tensor:
     """Float32 values; `rotate_back=False` keeps them in the rotated basis, as a kernel sees them."""
     fmt = t.fmt
+    if fmt.tok_block:  # 11-21 (C2)
+        x = dequantize(QTensor(_tok_inner(fmt), t.data, t.scales, t.tensor_scale), rotate_back=False)
+        return x[..., :t.length].transpose(-1, -2)
     if fmt.element in ("bf16", "fp8"):
         x = t.data.float() * t.tensor_scale
     else:
@@ -255,3 +274,23 @@ def dequantize(t: QTensor, rotate_back: bool = True) -> torch.Tensor:
                 scale = torch.exp2(t.scales.float() - 127)
         x = (_blocks(vals, fmt.block) * scale[..., None]).flatten(-2)
     return rotate(x, fmt.hadamard) if rotate_back else x
+
+
+# --- 11-21 (C2): scales along the token axis -------------------------------------
+
+def _tok_inner(fmt: KVFormat) -> KVFormat:
+    """The D-axis format that quantizes the transposed (..., D, S) tensor in blocks of tok_block."""
+    return replace(fmt, name=fmt.name + "_inner", block=fmt.tok_block, tok_block=0)
+
+
+def _quantize_tok(x: torch.Tensor, fmt: KVFormat) -> QTensor:
+    """x (..., S, D) -> one scale per tok_block consecutive tokens of each channel (tensor scale as in nvfp4: global
+    amax / (6 * 448), the same whatever the block axis). The token axis is moved last and zero-padded to a multiple of
+    tok_block; zeros do not change a block's amax, so a tail of r < tok_block tokens is a PARTIAL block whose scale
+    comes from its r real tokens only (like the last, partly filled block of a page if it were quantized as is).
+    Blocks start at the first token of x. data (..., D, S_pad / 2) uint8, scales (..., D, S_pad / tok_block)."""
+    assert not fmt.hadamard, "token-axis formats rotate nothing"
+    s = x.shape[-2]
+    xt = torch.nn.functional.pad(x.float().transpose(-1, -2), (0, -s % fmt.tok_block))
+    q = quantize(xt, _tok_inner(fmt))
+    return QTensor(fmt, q.data, q.scales, q.tensor_scale, length=s)

@@ -5,6 +5,7 @@
 #include <ATen/cuda/CUDAContext.h>
 #include <cuda_bf16.h>
 #include <cuda_fp16.h>
+#include <cuda_fp8.h>
 
 namespace {
 constexpr int D = 128;  // query heads per kv head (G) come from o.size(3): 4 or 8
@@ -188,6 +189,68 @@ __global__ void __launch_bounds__(256) prep_q_rot_kernel(const QT* __restrict__ 
   *reinterpret_cast<__half2*>(dst) = __floats2half2_rn(x[0], x[1]);
   *reinterpret_cast<__half2*>(dst + 2) = __floats2half2_rn(x[2], x[3]);
 }
+
+// 11-21 (C1, KV4_K8): prep_q_rot_kernel above followed by decode_fp4_k8.cu's prep_q8_kernel, in one launch (the
+// non-K8 path keeps prep_q_rot_kernel unchanged). Same block / thread mapping as both: block = (b, h), warp r = row r,
+// lane = dims 4*lane .. 4*lane+3 (prep_q8's threadIdx.x * 4). The rotated row is rounded to fp16 as prep_q_rot writes
+// it, then: qs = amax over the 8 rows / 448 (1 if all zero), q8 = E4M3(x / qs), qd = fp16(E4M3(q8) * qs), the q the
+// K8 kernel effectively uses (the sink merge needs exactly it). Bit-identical to the two launches by construction.
+__device__ __forceinline__ void hadamard128_lane(float x[4], int lane) {
+  float a = x[0], b = x[1], c = x[2], e = x[3];  // stride 1 then 2 (dims 4*lane + j)
+  x[0] = a + b; x[1] = a - b; x[2] = c + e; x[3] = c - e;
+  a = x[0]; b = x[1]; c = x[2]; e = x[3];
+  x[0] = a + c; x[1] = b + e; x[2] = a - c; x[3] = b - e;
+#pragma unroll
+  for (int s = 1; s < 32; s <<= 1) {  // dim stride 4 * s
+    const bool upper = lane & s;
+#pragma unroll
+    for (int j = 0; j < 4; ++j) {
+      const float p = __shfl_xor_sync(0xffffffffu, x[j], s);
+      x[j] = upper ? p - x[j] : x[j] + p;
+    }
+  }
+#pragma unroll
+  for (int j = 0; j < 4; ++j) x[j] *= 0.08838834764831845f;  // 1 / sqrt(128)
+}
+
+template <typename QT>
+__global__ void __launch_bounds__(256) prep_q_rot8_kernel(const QT* __restrict__ q, uint8_t* __restrict__ q8,
+                                                          float* __restrict__ qs, __half* __restrict__ qd, int G,
+                                                          bool rot) {
+  __shared__ float red[8];
+  const int bh = blockIdx.x, r = threadIdx.x / 32, lane = threadIdx.x % 32;
+  float x[4] = {0.f, 0.f, 0.f, 0.f};
+  if (r < G) {
+    const QT* src = q + ((size_t)bh * G + r) * D + lane * 4;
+#pragma unroll
+    for (int j = 0; j < 4; ++j) x[j] = load_f(src + j);
+    if (rot) hadamard128_lane(x, lane);
+  }
+  float m = 0.f;
+#pragma unroll
+  for (int j = 0; j < 4; ++j) x[j] = __half2float(__float2half_rn(x[j])), m = fmaxf(m, fabsf(x[j]));
+#pragma unroll
+  for (int off = 16; off > 0; off >>= 1) m = fmaxf(m, __shfl_xor_sync(0xffffffffu, m, off));
+  if (lane == 0) red[r] = m;
+  __syncthreads();
+  m = red[0];
+#pragma unroll
+  for (int w = 1; w < 8; ++w) m = fmaxf(m, red[w]);
+  const float sc = m > 0.f ? m / 448.f : 1.f;
+  const size_t base = ((size_t)bh * 8 + r) * D + lane * 4;
+  uint32_t packed = 0;
+  float y[4];
+#pragma unroll
+  for (int j = 0; j < 4; ++j) {
+    const __nv_fp8_e4m3 e(x[j] / sc);
+    packed |= (uint32_t)e.__x << (8 * j);
+    y[j] = (float)e * sc;
+  }
+  *reinterpret_cast<uint32_t*>(q8 + base) = packed;
+  *reinterpret_cast<__half2*>(qd + base) = __floats2half2_rn(y[0], y[1]);
+  *reinterpret_cast<__half2*>(qd + base + 2) = __floats2half2_rn(y[2], y[3]);
+  if (threadIdx.x == 0) qs[bh] = sc;
+}
 }  // namespace
 
 torch::Tensor prep_q_rot(torch::Tensor q, int64_t hkv, bool rot) {
@@ -207,6 +270,30 @@ torch::Tensor prep_q_rot(torch::Tensor q, int64_t hkv, bool rot) {
   }
   TORCH_CHECK(cudaGetLastError() == cudaSuccess, "prep_q_rot launch failed");
   return out;
+}
+
+// 11-21 (C1): q (B, HQ, 128) bf16 / fp32 -> {q8 (B, HKV, 8, 128) uint8 E4M3, qs (B * HKV) fp32, qd (B, HKV, 8, 128)
+// fp16}, == decode_fp4_k8 prep_q8(prep_q_rot(q, hkv, rot)) in one launch.
+std::vector<torch::Tensor> prep_q_rot8(torch::Tensor q, int64_t hkv, bool rot) {
+  TORCH_CHECK(q.is_cuda() && q.is_contiguous() && q.dim() == 3 && q.size(2) == D);
+  const int B = q.size(0), HQ = q.size(1), G = HQ / hkv;
+  TORCH_CHECK(HQ == G * hkv && G >= 1 && G <= 8, "1..8 query heads per kv head");
+  auto q8 = torch::empty({B, hkv, 8, D}, q.options().dtype(torch::kUInt8));
+  auto qs = torch::empty({(int64_t)B * hkv}, q.options().dtype(torch::kFloat));
+  auto qd = torch::empty({B, hkv, 8, D}, q.options().dtype(torch::kFloat16));
+  if (B == 0) return {q8, qs, qd};
+  auto st = at::cuda::getCurrentCUDAStream();
+  auto* q8p = q8.data_ptr<uint8_t>();
+  auto* qdp = reinterpret_cast<__half*>(qd.data_ptr());
+  if (q.scalar_type() == torch::kBFloat16)
+    prep_q_rot8_kernel<<<B * hkv, 256, 0, st>>>(reinterpret_cast<const __nv_bfloat16*>(q.data_ptr()), q8p,
+                                                qs.data_ptr<float>(), qdp, G, rot);
+  else {
+    TORCH_CHECK(q.scalar_type() == torch::kFloat32, "q must be bf16 or fp32");
+    prep_q_rot8_kernel<<<B * hkv, 256, 0, st>>>(q.data_ptr<float>(), q8p, qs.data_ptr<float>(), qdp, G, rot);
+  }
+  TORCH_CHECK(cudaGetLastError() == cudaSuccess, "prep_q_rot8 launch failed");
+  return {q8, qs, qd};
 }
 
 torch::Tensor merge_sink(torch::Tensor o, torch::Tensor ml, torch::Tensor q, torch::Tensor sk, torch::Tensor sv,
@@ -284,4 +371,5 @@ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
   m.def("merge_sink", &merge_sink, "split-KV merge plus BF16 sink tokens -> (B, HQ, 128) bf16");
   m.def("merge_sink_pool", &merge_sink_pool, "split-KV merge with per-sequence BF16 sinks from pools (vLLM plugin)");
   m.def("prep_q_rot", &prep_q_rot, "q (B, HQ, 128) bf16/fp32 -> (B, HKV, 8, 128) fp16, optionally Hadamard-rotated");
+  m.def("prep_q_rot8", &prep_q_rot8, "C1: prep_q_rot + decode_fp4_k8 prep_q8 in one launch -> q8, qs, qd");
 }

@@ -1,0 +1,4 @@
+config,case,wall_ms_median,wall_ms_min,gpu_busy_ms,gpu_span_ms,cached_tokens_timed,cached_tokens_prof,n_kernels
+recipe,a,496.11,493.07,470.37,474.79,0,0,1569
+recipe,b,828.99,826.26,806.57,811.39,0,0,1569
+recipe,c,282.00,278.97,270.58,274.53,8192,8192,1197

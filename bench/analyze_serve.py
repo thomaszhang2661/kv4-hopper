@@ -24,7 +24,7 @@ def boot_share(ok, draws, seed=1):
     return round(xs[int(0.025 * draws)], 4), round(xs[int(0.975 * draws) - 1], 4)
 
 # 11-18: _s<seed> repeats; 11-19: any RTAG (_diag rerun, _a4 = 4 API servers, _s1a4 = seed 1 with 4), kept in "tag"
-pat = re.compile(r"(?P<model>.+?)_(?P<cfg>recipe|fp8_fi|fp8_xqa)_(?P<w>[a-z]+)_i\d+_o\d+_x[\d.]+_r(?P<r>[\d.]+)(?P<tag>(?:_[a-z0-9]+)?)\.json$")
+pat = re.compile(r"(?P<model>.+?)_(?P<cfg>recipe_k8|recipe|fp8_fi|fp8_xqa)_(?P<w>[a-z]+)_i\d+_o\d+_x[\d.]+_r(?P<r>[\d.]+)(?P<tag>(?:_[a-z0-9]+)?)\.json$")
 
 
 def pct(xs, q):

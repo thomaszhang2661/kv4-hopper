@@ -1,0 +1,4 @@
+config,shape,step_ms_median,step_ms_min,gpu_span_ms,gpu_busy_ms,gpu_idle_ms,prefill_steps,splits_seen
+fp8_fi_xqa,1x16384,6.080,6.061,6.351,5.160,1.187,2,
+fp8_fi_xqa,1x65536,7.696,7.666,7.643,6.492,1.152,5,
+fp8_fi_xqa,4x32768,9.532,9.510,9.412,8.242,1.179,10,

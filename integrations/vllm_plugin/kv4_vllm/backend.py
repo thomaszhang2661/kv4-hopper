@@ -8,6 +8,9 @@ KV4_SINKS=1 (11-12 night): the first 4 tokens of each sequence also kept in BF16
 slots, found through the sequence's first block id) and swapped in for their 4-bit copies in the merge
 (merge.cu merge_sink_pool); a sequence whose slot was reused falls back to plain 4-bit. The recipe is
 KV4_CALIB=... KV4_KMEAN=1 KV4_SINKS=1 KV4_BOUNDARY=0.
+KV4_K8=1 (11-21, C1, default off; with KV4_FORMAT=nvfp4): K is stored with one E4M3 scale per 32 dims in the layout of
+kv4/cuda/decode_fp4_k8.cu and QK^T runs on FP8 tensor cores (q in E4M3 with one scale per sequence and kv head); V,
+the page size (9216) and everything else as the recipe. docs/c1_plugin_log.md.
 """
 import math
 import os
@@ -26,6 +29,8 @@ MAP_SIZE = 1 << 18  # block ids covered by the sink map (16.7M tokens at 64 per 
 
 
 _MAX_SPLITS = int(os.environ.get("KV4_MAX_SPLITS", "16"))
+# 11-21 (KV4_K8 only): KV4_K8_PREP=two keeps the old q prep in two launches (prep_q_rot + prep_q8); default one launch
+_K8_PREP_TWO = os.environ.get("KV4_K8_PREP", "one") == "two"
 
 
 def _rank_heads(mu, n_local):
@@ -96,7 +101,7 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
     def _kv4(self, device, layer=None):
         self._kv4_set_layer(layer)
         if self._kv4_store is None:
-            from kv4.cuda.store_fp4 import StoreMXFP4, StoreNVFP4
+            from kv4.cuda.store_fp4 import StoreK8, StoreMXFP4, StoreNVFP4
             assert self.head_size == 128 and self.num_heads % self.num_kv_heads == 0 and \
                 1 <= self.num_heads // self.num_kv_heads <= 8, "kv4 kernels: head_dim 128, 1..8 query heads per kv head"
             self._kv4_nv = _fmt() == "nvfp4"
@@ -111,10 +116,12 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
                 sfx = "_s" if os.environ.get("KV4_SINKS") == "1" and "ts_k_s" in cal and \
                     os.environ.get("KV4_SINK_SCALE", "1") == "1" else ""
                 ts_k = cal["ts_k" + sfx] if mean else cal["ts_k_nomean" + sfx]
-                self._kv4_store = StoreNVFP4(device, ts_k, cal["ts_v" + sfx], rot_k=True)
+                self._kv4_k8 = os.environ.get("KV4_K8") == "1"
+                store_cls = StoreK8 if self._kv4_k8 else StoreNVFP4
+                self._kv4_store = store_cls(device, ts_k, cal["ts_v" + sfx], rot_k=True)
                 self._kv4_args = self._kv4_store.decode_args(self.scale)
-                logger.info_once("kv4-hopper: ultraquant_4bit slots as NVFP4 + Hadamard K (recipe format), K mean %s",
-                                 mean)
+                logger.info_once("kv4-hopper: ultraquant_4bit slots as NVFP4 + Hadamard K (recipe format), K mean %s, "
+                                 "K8 (K on FP8 tensor cores) %s", mean, self._kv4_k8)
             else:
                 c = float(os.environ.get("KV4_SCALE_C", "0.156"))
                 self._kv4_store = StoreMXFP4(device, rot_k=True, c=c)
@@ -211,10 +218,21 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
         splits = max(1, min(_MAX_SPLITS, (2 * NUM_SMS) // max(1, b * self.num_kv_heads)))
         hk, g = self.num_kv_heads, self.num_heads // self.num_kv_heads
         gk = 4 if g <= 4 else 8  # 11-12: the kernel runs 4 or 8 heads per kv head; q is zero-padded to that
-        qh = mg.prep_q_rot(query, hk, True)
-        o, ml = df.ext().decode_fp4_paged(self._kv4_pages(kv_cache), attn_metadata.block_table,
-                                          attn_metadata.seq_lens, qh, *self._kv4_args, splits, not self._kv4_nv,
-                                          0, gk)
+        if getattr(self, "_kv4_k8", False):  # 11-21 C1: q in E4M3 per (sequence, kv head); the sink merge below must
+            from kv4.cuda import decode_fp4_k8 as k8  # use the q the kernel used (qd) so the 4-bit sink copies cancel
+            if _K8_PREP_TWO:  # the 11-21 two-launch prep (prep_q_rot, then prep_q8), kept for timing comparisons
+                qh = mg.prep_q_rot(query, hk, True)
+                o, ml, qh = k8.decode_paged(self._kv4_pages(kv_cache), attn_metadata.block_table,
+                                            attn_metadata.seq_lens, qh, *self._kv4_args, splits, gk)
+            else:  # 11-21: rotation + E4M3 q + its scale + qd in one launch (bit-identical to the two launches)
+                q8, qs, qh = mg.prep_q_rot8(query, hk, True)
+                o, ml = k8.decode_paged_q8(self._kv4_pages(kv_cache), attn_metadata.block_table,
+                                           attn_metadata.seq_lens, q8, qs, *self._kv4_args, splits, gk)
+        else:
+            qh = mg.prep_q_rot(query, hk, True)
+            o, ml = df.ext().decode_fp4_paged(self._kv4_pages(kv_cache), attn_metadata.block_table,
+                                              attn_metadata.seq_lens, qh, *self._kv4_args, splits, not self._kv4_nv,
+                                              0, gk)
         if self._kv4_sinks:  # swap the 4-bit copies of the first NSK tokens for the BF16 sinks (real heads only)
             st = self._kv4_store
             k4m, v4m = (st.ts_k, st.ts_v) if self._kv4_nv else (1.0, 1.0)
@@ -304,8 +322,12 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
                     # (the profile showed ~480 ms of cat / copies at B=8 x 32K before)
                     kf = torch.empty(sl, *k.shape[1:], device=dev, dtype=torch.bfloat16)
                     vf = torch.empty_like(kf)
-                    store_ext().dequant_fp4_into(pages, ids.int().contiguous(), cached, *st.tabs, True, nv, ts[0],
-                                                 ts[1], kf, vf)
+                    if getattr(self, "_kv4_k8", False):  # 11-21: K8 pages
+                        store_ext().dequant_fp4_k8_into(pages, ids.int().contiguous(), cached, *st.tabs, True, ts[0],
+                                                        ts[1], kf, vf)
+                    else:
+                        store_ext().dequant_fp4_into(pages, ids.int().contiguous(), cached, *st.tabs, True, nv, ts[0],
+                                                     ts[1], kf, vf)
                     if self._kv4_mu is not None:  # cached keys are k - mu: shift the fresh ones too (exact for softmax)
                         torch.sub(k, self._kv4_mu, out=kf[cached:])  # fp32 math, one bf16 rounding (as before)
                     else:

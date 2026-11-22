@@ -1,0 +1,105 @@
+config,case,region,category,kernel,count,total_us
+fp8_fi_xqa,a,-,gemm,nvjet_sm90_tst_192x192_64x4_2x1_v_bz_coopB_TNN,64,203281.4
+fp8_fi_xqa,a,-,gemm,nvjet_sm90_tst_320x128_64x3_1x2_h_bz_coopB_TNT,64,110059.8
+fp8_fi_xqa,a,P:FlashInferImpl.forward,prefill_attn,"void flashinfer::FP8PrefillWithKVCacheKernel<flashinfer::FP8SparseCollectiveMainloop<PagedParams::AdditionalParams, flashinfer::FP8AttentionKernelTraits<fals...",32,105121.6
+fp8_fi_xqa,a,-,inductor,triton_poi_fused_mul_silu_slice_1,32,10582.3
+fp8_fi_xqa,a,P:FlashInferImpl.do_kv_cache_update,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType)1>(__nv_bfloat16 const*, __nv_bfloat16 const*, unsigned cha...",32,6183.6
+fp8_fi_xqa,a,-,inductor,triton_red_fused_fused_add_rms_norm_2,32,5008.8
+fp8_fi_xqa,a,-,inductor,triton_red_fused_fused_add_rms_norm_0,32,3100.3
+fp8_fi_xqa,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31,2935.1
+fp8_fi_xqa,a,P:FlashInferImpl.forward,q_quant,"void vllm::scaled_fp8_quant_kernel_strided_group_shape<c10::BFloat16, c10::Float8_e4m3fn, true, true>(c10::Float8_e4m3fn*, c10::BFloat16 const*, float const*...",32,1575.8
+fp8_fi_xqa,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31,788.4
+fp8_fi_xqa,a,-,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1,250.3
+fp8_fi_xqa,a,-,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1,116.3
+fp8_fi_xqa,a,-,fill,Memset (Device),129,113.3
+fp8_fi_xqa,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1,83.7
+fp8_fi_xqa,a,-,other,_compute_slot_mappings_kernel,1,33.4
+fp8_fi_xqa,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1,23.5
+fp8_fi_xqa,a,-,fill,_prepare_prefill_inputs_kernel,1,22.9
+fp8_fi_xqa,a,-,copy,Memcpy HtoD (Pinned -> Device),12,16.6
+fp8_fi_xqa,a,-,other,_gumbel_sample_kernel,1,15.9
+fp8_fi_xqa,a,-,other,_apply_write_kernel,4,14.6
+fp8_fi_xqa,a,-,copy,Memcpy DtoH (Device -> Pinned),2,5.2
+fp8_fi_xqa,a,-,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1,4.7
+fp8_fi_xqa,a,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1,4.1
+fp8_fi_xqa,a,-,other,_post_update_kernel,1,3.6
+fp8_fi_xqa,a,-,other,_prepare_pos_seq_lens_kernel,1,3.3
+fp8_fi_xqa,a,-,other,_gather_block_tables_kernel,1,3.0
+fp8_fi_xqa,a,-,other,_get_num_sampled_and_rejected_kernel,1,2.7
+fp8_fi_xqa,a,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1,2.4
+fp8_fi_xqa,a,-,other,_combine_sampled_and_draft_tokens_kernel,1,2.3
+fp8_fi_xqa,a,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1,1.9
+fp8_fi_xqa,a,-,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1,1.8
+fp8_fi_xqa,a,-,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2,1.6
+fp8_fi_xqa,a,-,copy,_copy_page_indices_kernel,1,1.4
+fp8_fi_xqa,a,-,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1,0.8
+fp8_fi_xqa,a,-,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1,0.7
+fp8_fi_xqa,b,-,gemm,nvjet_sm90_tst_192x192_64x4_2x1_v_bz_coopB_TNN,128,656965.4
+fp8_fi_xqa,b,P:FlashInferImpl.forward,prefill_attn,"void flashinfer::FP8PrefillWithKVCacheKernel<flashinfer::FP8SparseCollectiveMainloop<PagedParams::AdditionalParams, flashinfer::FP8AttentionKernelTraits<fals...",32,63340.8
+fp8_fi_xqa,b,-,inductor,triton_poi_fused_mul_silu_slice_1,32,21676.1
+fp8_fi_xqa,b,P:FlashInferImpl.do_kv_cache_update,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType)1>(__nv_bfloat16 const*, __nv_bfloat16 const*, unsigned cha...",32,12795.6
+fp8_fi_xqa,b,-,inductor,triton_red_fused_fused_add_rms_norm_2,32,10116.6
+fp8_fi_xqa,b,-,inductor,triton_red_fused_fused_add_rms_norm_0,32,6336.9
+fp8_fi_xqa,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31,6137.0
+fp8_fi_xqa,b,P:FlashInferImpl.forward,q_quant,"void vllm::scaled_fp8_quant_kernel_strided_group_shape<c10::BFloat16, c10::Float8_e4m3fn, true, true>(c10::Float8_e4m3fn*, c10::BFloat16 const*, float const*...",32,3202.3
+fp8_fi_xqa,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31,1593.0
+fp8_fi_xqa,b,-,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1,254.4
+fp8_fi_xqa,b,-,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1,243.3
+fp8_fi_xqa,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1,195.4
+fp8_fi_xqa,b,-,fill,Memset (Device),129,117.0
+fp8_fi_xqa,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1,50.7
+fp8_fi_xqa,b,-,other,_gumbel_sample_kernel,1,25.0
+fp8_fi_xqa,b,-,copy,Memcpy HtoD (Pinned -> Device),12,20.7
+fp8_fi_xqa,b,-,other,_apply_write_kernel,4,18.1
+fp8_fi_xqa,b,-,other,_compute_slot_mappings_kernel,1,11.2
+fp8_fi_xqa,b,-,fill,_prepare_prefill_inputs_kernel,1,8.9
+fp8_fi_xqa,b,-,copy,Memcpy DtoH (Device -> Pinned),2,5.6
+fp8_fi_xqa,b,-,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1,5.2
+fp8_fi_xqa,b,-,other,_post_update_kernel,1,3.6
+fp8_fi_xqa,b,-,other,_gather_block_tables_kernel,1,3.1
+fp8_fi_xqa,b,-,other,_get_num_sampled_and_rejected_kernel,1,3.0
+fp8_fi_xqa,b,-,other,_combine_sampled_and_draft_tokens_kernel,1,2.9
+fp8_fi_xqa,b,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1,2.4
+fp8_fi_xqa,b,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1,2.2
+fp8_fi_xqa,b,-,other,"void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",1,2.0
+fp8_fi_xqa,b,-,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1,2.0
+fp8_fi_xqa,b,-,other,_prepare_pos_seq_lens_kernel,1,1.9
+fp8_fi_xqa,b,-,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2,1.8
+fp8_fi_xqa,b,-,copy,_copy_page_indices_kernel,1,1.5
+fp8_fi_xqa,b,-,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1,1.0
+fp8_fi_xqa,b,-,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1,0.8
+fp8_fi_xqa,c,-,gemm,nvjet_sm90_tst_192x192_64x4_2x1_v_bz_coopB_TNN,32,83257.6
+fp8_fi_xqa,c,P:FlashInferImpl.forward,prefill_attn,"void flashinfer::FP8PrefillWithKVCacheKernel<flashinfer::FP8SparseCollectiveMainloop<PagedParams::AdditionalParams, flashinfer::FP8AttentionKernelTraits<fals...",32,79379.3
+fp8_fi_xqa,c,-,gemm,nvjet_sm90_tst_256x128_64x4_1x2_h_bz_coopA_TNT,96,71885.8
+fp8_fi_xqa,c,-,inductor,triton_poi_fused_mul_silu_slice_1,32,5290.7
+fp8_fi_xqa,c,P:FlashInferImpl.do_kv_cache_update,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, unsigned char, (vllm::Fp8KVCacheDataType)1>(__nv_bfloat16 const*, __nv_bfloat16 const*, unsigned cha...",32,3158.4
+fp8_fi_xqa,c,-,inductor,triton_red_fused_fused_add_rms_norm_2,32,2567.8
+fp8_fi_xqa,c,-,inductor,triton_red_fused_fused_add_rms_norm_0,32,1585.2
+fp8_fi_xqa,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31,1479.4
+fp8_fi_xqa,c,P:FlashInferImpl.forward,q_quant,"void vllm::scaled_fp8_quant_kernel_strided_group_shape<c10::BFloat16, c10::Float8_e4m3fn, true, true>(c10::Float8_e4m3fn*, c10::BFloat16 const*, float const*...",32,830.5
+fp8_fi_xqa,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31,418.6
+fp8_fi_xqa,c,-,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1,248.9
+fp8_fi_xqa,c,-,fill,Memset (Device),129,115.5
+fp8_fi_xqa,c,-,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1,58.4
+fp8_fi_xqa,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1,44.3
+fp8_fi_xqa,c,-,other,_compute_slot_mappings_kernel,1,20.0
+fp8_fi_xqa,c,-,other,_gumbel_sample_kernel,1,15.6
+fp8_fi_xqa,c,-,other,_apply_write_kernel,4,15.1
+fp8_fi_xqa,c,-,copy,Memcpy HtoD (Pinned -> Device),12,13.9
+fp8_fi_xqa,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1,12.7
+fp8_fi_xqa,c,-,fill,_prepare_prefill_inputs_kernel,1,12.4
+fp8_fi_xqa,c,-,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1,4.9
+fp8_fi_xqa,c,-,copy,Memcpy DtoH (Device -> Pinned),2,4.8
+fp8_fi_xqa,c,-,other,_post_update_kernel,1,3.9
+fp8_fi_xqa,c,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1,3.8
+fp8_fi_xqa,c,-,other,_gather_block_tables_kernel,1,3.0
+fp8_fi_xqa,c,-,other,_get_num_sampled_and_rejected_kernel,1,2.8
+fp8_fi_xqa,c,-,other,_prepare_pos_seq_lens_kernel,1,2.5
+fp8_fi_xqa,c,-,other,_combine_sampled_and_draft_tokens_kernel,1,2.3
+fp8_fi_xqa,c,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1,2.2
+fp8_fi_xqa,c,-,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2,1.9
+fp8_fi_xqa,c,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1,1.9
+fp8_fi_xqa,c,-,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1,1.8
+fp8_fi_xqa,c,-,copy,_copy_page_indices_kernel,1,1.6
+fp8_fi_xqa,c,-,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1,0.9
+fp8_fi_xqa,c,-,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1,0.8

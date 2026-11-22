@@ -1,0 +1,177 @@
+config,case,region,category,kernel,count,total_us
+recipe,a,-,gemm,nvjet_sm90_tst_192x192_64x4_2x1_v_bz_coopB_TNN,64,208724.3
+recipe,a,-,gemm,nvjet_sm90_tst_320x128_64x3_1x2_h_bz_coopB_TNT,64,112886.0
+recipe,a,P:KV4UltraQuantImpl._flash_attn_varlen,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",31,109091.8
+recipe,a,-,inductor,triton_poi_fused_mul_silu_slice_1,32,10662.3
+recipe,a,P:KV4UltraQuantImpl._store_kv,kv4_store,"void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat16 const*, long const*, unsigned char*, int const*, unsigned...",31,6204.7
+recipe,a,-,inductor,triton_red_fused_fused_add_rms_norm_2,32,4817.3
+recipe,a,P:FlashAttentionImpl.forward,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",1,3427.0
+recipe,a,-,inductor,triton_red_fused_fused_add_rms_norm_0,32,3152.0
+recipe,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31,3016.2
+recipe,a,P:TurboQuantAttentionImpl.forward,copy,Memcpy DtoD (Device -> Device),31,1972.2
+recipe,a,P:KV4UltraQuantImpl._store_kv,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",31,1441.3
+recipe,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31,810.6
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,kv4_dequant,"void (anonymous namespace)::dequant_fp4_kernel<true, false>(unsigned char const*, int const*, int, int, int const*, unsigned int const*, int const*, unsigned...",31,621.4
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterat...",124,402.4
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",124,260.7
+recipe,a,-,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1,249.4
+recipe,a,-,fill,Memset (Device),129,130.4
+recipe,a,-,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1,117.1
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::op...,93,110.2
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,other,"void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",62,108.2
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterat...",62,107.6
+recipe,a,P:FlashAttentionImpl.do_kv_cache_update,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, __nv_bfloat16, (vllm::Fp8KVCacheDataType)0>(__nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat1...",1,92.3
+recipe,a,P:KV4UltraQuantImpl._flash_attn_varlen,gemm,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",31,89.2
+recipe,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1,87.4
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,31,85.0
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,other,"void at::native::_assert_async_cuda_kernel<bool>(bool const*, at::native::Msg)",31,78.2
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<long, at::native::func_wrapper_t<long, at::native::MaxNanFunctor<long> >, unsigned int, long, 4, ...",31,76.2
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,Memcpy HtoD (Pinned -> Device),62,72.7
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",31,68.8
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDA...",31,62.1
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::vectorized_elementwise_kernel<2, at::native::BUnaryFunctor<long, long, long, at::native::remainder_kernel_cuda(at::TensorIteratorBase&)::{la...",31,57.7
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::op...,31,52.0
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",62,51.5
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<long> >(at::TensorIteratorBase&, at::native::CUDAF...",31,41.9
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::vectorized_elementwise_kernel<8, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType,...",31,38.2
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::vectorized_elementwise_kernel<2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul>, false>(int, at::native::CUDAFunctorOnSelf_...",31,34.1
+recipe,a,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,"void at::native::vectorized_elementwise_kernel<8, at::native::bfloat16_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda(float)#1}, std::array<char*, 2ul>, ...",31,34.0
+recipe,a,-,other,_compute_slot_mappings_kernel,1,26.7
+recipe,a,-,fill,_prepare_prefill_inputs_kernel,1,24.2
+recipe,a,-,other,_gumbel_sample_kernel,1,23.8
+recipe,a,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1,23.4
+recipe,a,-,other,_apply_write_kernel,4,16.5
+recipe,a,-,copy,Memcpy DtoH (Device -> Pinned),2,5.3
+recipe,a,-,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1,4.6
+recipe,a,-,copy,Memcpy HtoD (Pinned -> Device),5,4.4
+recipe,a,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1,3.8
+recipe,a,-,other,_post_update_kernel,1,3.8
+recipe,a,-,other,_prepare_pos_seq_lens_kernel,1,3.4
+recipe,a,-,other,_gather_block_tables_kernel,1,2.9
+recipe,a,-,other,_get_num_sampled_and_rejected_kernel,1,2.8
+recipe,a,-,other,_combine_sampled_and_draft_tokens_kernel,1,2.4
+recipe,a,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1,2.2
+recipe,a,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1,2.2
+recipe,a,-,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1,2.0
+recipe,a,-,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2,1.7
+recipe,a,-,gemm,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",1,1.6
+recipe,a,-,copy,Memcpy DtoD (Device -> Device),1,1.2
+recipe,a,-,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1,0.8
+recipe,a,-,fill,"void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<int>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffset...",1,0.8
+recipe,a,P:FlashAttentionImpl.forward,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",1,0.8
+recipe,a,-,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1,0.7
+recipe,b,-,gemm,nvjet_sm90_tst_192x192_64x4_2x1_v_bz_coopB_TNN,128,672941.5
+recipe,b,P:KV4UltraQuantImpl._flash_attn_varlen,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",31,66459.3
+recipe,b,-,inductor,triton_poi_fused_mul_silu_slice_1,32,22019.0
+recipe,b,P:KV4UltraQuantImpl._store_kv,kv4_store,"void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat16 const*, long const*, unsigned char*, int const*, unsigned...",31,12794.3
+recipe,b,-,inductor,triton_red_fused_fused_add_rms_norm_2,32,9692.7
+recipe,b,-,inductor,triton_red_fused_fused_add_rms_norm_0,32,6394.1
+recipe,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31,6271.0
+recipe,b,P:TurboQuantAttentionImpl.forward,copy,Memcpy DtoD (Device -> Device),31,3995.6
+recipe,b,P:KV4UltraQuantImpl._store_kv,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",31,2855.9
+recipe,b,P:FlashAttentionImpl.forward,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",1,2060.8
+recipe,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31,1631.7
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,kv4_dequant,"void (anonymous namespace)::dequant_fp4_kernel<true, false>(unsigned char const*, int const*, int, int, int const*, unsigned int const*, int const*, unsigned...",31,587.0
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterat...",124,463.8
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",124,334.7
+recipe,b,-,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1,252.7
+recipe,b,-,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1,236.2
+recipe,b,P:FlashAttentionImpl.do_kv_cache_update,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, __nv_bfloat16, (vllm::Fp8KVCacheDataType)0>(__nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat1...",1,184.4
+recipe,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1,178.8
+recipe,b,-,fill,Memset (Device),129,133.5
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,other,"void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",62,126.9
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::op...,93,116.4
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterat...",62,113.5
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::op...,31,104.9
+recipe,b,P:KV4UltraQuantImpl._flash_attn_varlen,gemm,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",31,98.3
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,other,"void at::native::_assert_async_cuda_kernel<bool>(bool const*, at::native::Msg)",31,81.7
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<long, at::native::func_wrapper_t<long, at::native::MaxNanFunctor<long> >, unsigned int, long, 4, ...",31,80.4
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,Memcpy HtoD (Pinned -> Device),62,76.9
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",31,71.8
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDA...",31,68.6
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::vectorized_elementwise_kernel<2, at::native::BUnaryFunctor<long, long, long, at::native::remainder_kernel_cuda(at::TensorIteratorBase&)::{la...",31,54.2
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",62,53.9
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::op...,31,47.9
+recipe,b,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1,46.1
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<long> >(at::TensorIteratorBase&, at::native::CUDAF...",31,45.1
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,copy,"void at::native::vectorized_elementwise_kernel<8, at::native::bfloat16_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda(float)#1}, std::array<char*, 2ul>, ...",31,40.8
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::vectorized_elementwise_kernel<8, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType,...",31,40.5
+recipe,b,-,other,_gumbel_sample_kernel,1,36.5
+recipe,b,P:KV4UltraQuantImpl._kv4_capture_sinks,elementwise,"void at::native::vectorized_elementwise_kernel<2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul>, false>(int, at::native::CUDAFunctorOnSelf_...",31,35.8
+recipe,b,-,other,_apply_write_kernel,4,22.1
+recipe,b,-,fill,_prepare_prefill_inputs_kernel,1,9.4
+recipe,b,-,other,_compute_slot_mappings_kernel,1,8.3
+recipe,b,-,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1,5.4
+recipe,b,-,copy,Memcpy HtoD (Pinned -> Device),5,4.9
+recipe,b,-,copy,Memcpy DtoH (Device -> Pinned),2,4.9
+recipe,b,-,other,_post_update_kernel,1,4.1
+recipe,b,-,other,_get_num_sampled_and_rejected_kernel,1,3.6
+recipe,b,-,other,_gather_block_tables_kernel,1,3.3
+recipe,b,-,other,_combine_sampled_and_draft_tokens_kernel,1,3.1
+recipe,b,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1,2.5
+recipe,b,-,other,"void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",1,2.3
+recipe,b,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1,2.3
+recipe,b,-,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1,2.0
+recipe,b,-,other,_prepare_pos_seq_lens_kernel,1,1.8
+recipe,b,-,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2,1.7
+recipe,b,-,gemm,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",1,1.7
+recipe,b,-,copy,Memcpy DtoD (Device -> Device),1,1.1
+recipe,b,-,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1,0.9
+recipe,b,-,fill,"void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<int>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffset...",1,0.8
+recipe,b,P:FlashAttentionImpl.forward,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",1,0.8
+recipe,b,-,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1,0.8
+recipe,c,-,gemm,nvjet_sm90_tst_192x192_64x4_2x1_v_bz_coopB_TNN,32,89219.0
+recipe,c,P:KV4UltraQuantImpl._flash_attn_varlen,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",31,83932.4
+recipe,c,-,gemm,nvjet_sm90_tst_256x128_64x4_1x2_h_bz_coopA_TNT,96,76933.1
+recipe,c,-,inductor,triton_poi_fused_mul_silu_slice_1,32,5462.9
+recipe,c,P:KV4UltraQuantImpl._store_kv,kv4_store,"void (anonymous namespace)::store_fp4_kernel<true, true, false>(__nv_bfloat16 const*, __nv_bfloat16 const*, long const*, unsigned char*, int const*, unsigned...",31,3373.3
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,kv4_dequant,"void (anonymous namespace)::dequant_fp4_kernel<true, false>(unsigned char const*, int const*, int, int, int const*, unsigned int const*, int const*, unsigned...",31,3299.1
+recipe,c,P:FlashAttentionImpl.forward,prefill_attn,"void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute:...",1,3076.4
+recipe,c,-,inductor,triton_red_fused_fused_add_rms_norm_2,32,2411.1
+recipe,c,-,inductor,triton_red_fused_fused_add_rms_norm_0,32,1632.8
+recipe,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_4,31,1588.1
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor...",31,1379.8
+recipe,c,P:TurboQuantAttentionImpl.forward,copy,Memcpy DtoD (Device -> Device),31,995.3
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",93,911.8
+recipe,c,P:KV4UltraQuantImpl._store_kv,copy,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::op...",31,794.5
+recipe,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_3,31,446.3
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",62,288.7
+recipe,c,-,gemm,nvjet_sm90_tst_256x8_64x6_2x1_v_bz_TNT,1,254.0
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{la...",62,246.9
+recipe,c,-,fill,Memset (Device),129,148.1
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",62,136.4
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::op...,62,100.9
+recipe,c,P:KV4UltraQuantImpl._flash_attn_varlen,gemm,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",31,97.9
+recipe,c,-,copy,triton_red_fused__to_copy_embedding_rms_norm_0,1,60.5
+recipe,c,P:FlashAttentionImpl.do_kv_cache_update,cache_write,"void vllm::reshape_and_cache_flash_kernel<__nv_bfloat16, __nv_bfloat16, (vllm::Fp8KVCacheDataType)0>(__nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat1...",1,54.7
+recipe,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_2,1,51.8
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::vectorized_elementwise_kernel<8, at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> >, std::array<char*, 3ul>, ...",31,47.6
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::vectorized_elementwise_kernel<2, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, a...",31,45.1
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::vectorized_elementwise_kernel<8, at::native::BinaryFunctor<int, int, bool, at::native::(anonymous namespace)::CompareEqFunctor<int> >, std::...",31,44.5
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,copy,void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::op...,31,40.4
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,elementwise,"void at::native::vectorized_elementwise_kernel<8, at::native::compare_scalar_kernel<long>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType,...",31,37.6
+recipe,c,P:KV4UltraQuantImpl._prefill_attention,copy,Memcpy HtoD (Pinned -> Device),31,34.6
+recipe,c,-,other,_gumbel_sample_kernel,1,22.2
+recipe,c,-,other,_apply_write_kernel,4,17.0
+recipe,c,-,other,_compute_slot_mappings_kernel,1,16.4
+recipe,c,-,index,triton_poi_fused_add_cat_index_select_mul_split_split_with_sizes_sub_unsqueeze_view_1,1,14.5
+recipe,c,-,fill,_prepare_prefill_inputs_kernel,1,13.4
+recipe,c,-,reduce,"void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::...",1,4.9
+recipe,c,-,copy,Memcpy DtoH (Device -> Pinned),2,4.8
+recipe,c,-,copy,Memcpy HtoD (Pinned -> Device),5,4.5
+recipe,c,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBa...",1,4.3
+recipe,c,-,other,_post_update_kernel,1,3.5
+recipe,c,-,other,_gather_block_tables_kernel,1,3.3
+recipe,c,-,other,_get_num_sampled_and_rejected_kernel,1,2.7
+recipe,c,-,other,_prepare_pos_seq_lens_kernel,1,2.6
+recipe,c,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBa...",1,2.5
+recipe,c,-,other,_combine_sampled_and_draft_tokens_kernel,1,2.4
+recipe,c,-,elementwise,"void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBa...",1,2.2
+recipe,c,-,elementwise,"void at::native::_scatter_gather_elementwise_kernel<128, 8, at::native::_cuda_scatter_gather_internal_kernel<false, at::native::OpaqueType<8>, long>::operato...",1,2.1
+recipe,c,-,gemm,"void flash::prepare_varlen_num_blocks_kernel<1, false>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, ...",1,1.9
+recipe,c,-,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",2,1.8
+recipe,c,-,copy,Memcpy DtoD (Device -> Device),1,1.2
+recipe,c,-,fill,"void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<bool>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<bool>, std::arra...",1,1.0
+recipe,c,-,fill,"void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<int>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffset...",1,0.9
+recipe,c,P:FlashAttentionImpl.forward,fill,"void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul>, false>(int, at::native::FillFunctor<int>, std::array<...",1,0.9
+recipe,c,-,elementwise,"void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Te...",1,0.9

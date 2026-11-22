@@ -1,0 +1,260 @@
+host d4054 job 12060170
+NVIDIA H200, 570.86.15, 1980 MHz
+KV4_COMMIT=d9e7078 vllm 0.33.0 MODE=prefill
+CFG fp8_fi_xqa: max_num_batched_tokens 32768 chunked True async True cudagraph FULL_AND_PIECEWISE
+GPU fp8_fi_xqa a before: 1980 MHz, 3201 MHz, 37, 121.26 W, 0x0000000000000000
+GPU fp8_fi_xqa a after: 1875 MHz, 3201 MHz, 49, 641.77 W, 0x0000000000000004
+TIME fp8_fi_xqa a: wall median 478.13 ms (min 470.98, runs 471.8 478.1 479.4 471.0 481.8), profiled GPU busy 449.37 ms span 454.42 ms, cached tokens 0 / 0
+REGION fp8_fi_xqa a:   336.486 ms  -
+REGION fp8_fi_xqa a:   106.697 ms  P:FlashInferImpl.forward
+REGION fp8_fi_xqa a:     6.184 ms  P:FlashInferImpl.do_kv_cache_update
+CATEGORY fp8_fi_xqa a:   313.591 ms  gemm
+CATEGORY fp8_fi_xqa a:   105.122 ms  prefill_attn
+CATEGORY fp8_fi_xqa a:    18.691 ms  inductor
+CATEGORY fp8_fi_xqa a:     6.184 ms  cache_write
+CATEGORY fp8_fi_xqa a:     3.831 ms  index
+CATEGORY fp8_fi_xqa a:     1.576 ms  q_quant
+CATEGORY fp8_fi_xqa a:     0.140 ms  copy
+CATEGORY fp8_fi_xqa a:     0.139 ms  fill
+CATEGORY fp8_fi_xqa a:     0.079 ms  other
+CATEGORY fp8_fi_xqa a:     0.011 ms  elementwise
+CATEGORY fp8_fi_xqa a:     0.005 ms  reduce
+GPU fp8_fi_xqa b before: 1965 MHz, 3201 MHz, 45, 562.49 W, 0x0000000000000004
+GPU fp8_fi_xqa b after: 1860 MHz, 3201 MHz, 56, 644.97 W, 0x0000000000000004
+TIME fp8_fi_xqa b: wall median 815.21 ms (min 813.81, runs 818.7 815.2 821.1 814.0 813.8), profiled GPU busy 783.15 ms span 788.79 ms, cached tokens 0 / 0
+REGION fp8_fi_xqa b:   703.809 ms  -
+REGION fp8_fi_xqa b:    66.543 ms  P:FlashInferImpl.forward
+REGION fp8_fi_xqa b:    12.796 ms  P:FlashInferImpl.do_kv_cache_update
+CATEGORY fp8_fi_xqa b:   657.220 ms  gemm
+CATEGORY fp8_fi_xqa b:    63.341 ms  prefill_attn
+CATEGORY fp8_fi_xqa b:    38.130 ms  inductor
+CATEGORY fp8_fi_xqa b:    12.796 ms  cache_write
+CATEGORY fp8_fi_xqa b:     7.976 ms  index
+CATEGORY fp8_fi_xqa b:     3.202 ms  q_quant
+CATEGORY fp8_fi_xqa b:     0.271 ms  copy
+CATEGORY fp8_fi_xqa b:     0.129 ms  fill
+CATEGORY fp8_fi_xqa b:     0.071 ms  other
+CATEGORY fp8_fi_xqa b:     0.007 ms  elementwise
+CATEGORY fp8_fi_xqa b:     0.005 ms  reduce
+GPU fp8_fi_xqa c before: 1965 MHz, 3201 MHz, 49, 591.65 W, 0x0000000000000004
+GPU fp8_fi_xqa c after: 1815 MHz, 3201 MHz, 53, 664.77 W, 0x0000000000000004
+TIME fp8_fi_xqa c: wall median 269.71 ms (min 267.98, runs 268.0 270.2 269.7 271.7 268.8), profiled GPU busy 250.45 ms span 254.58 ms, cached tokens 8192 / 8192
+REGION fp8_fi_xqa c:   167.081 ms  -
+REGION fp8_fi_xqa c:    80.210 ms  P:FlashInferImpl.forward
+REGION fp8_fi_xqa c:     3.158 ms  P:FlashInferImpl.do_kv_cache_update
+CATEGORY fp8_fi_xqa c:   155.392 ms  gemm
+CATEGORY fp8_fi_xqa c:    79.379 ms  prefill_attn
+CATEGORY fp8_fi_xqa c:     9.444 ms  inductor
+CATEGORY fp8_fi_xqa c:     3.158 ms  cache_write
+CATEGORY fp8_fi_xqa c:     1.955 ms  index
+CATEGORY fp8_fi_xqa c:     0.831 ms  q_quant
+CATEGORY fp8_fi_xqa c:     0.131 ms  fill
+CATEGORY fp8_fi_xqa c:     0.079 ms  copy
+CATEGORY fp8_fi_xqa c:     0.065 ms  other
+CATEGORY fp8_fi_xqa c:     0.011 ms  elementwise
+CATEGORY fp8_fi_xqa c:     0.005 ms  reduce
+WROTE fp8_fi_xqa
+LOG fp8_fi_xqa (MainProcess pid=291069) INFO 11-22 04:19:37 [cuda.py:448] Using AttentionBackendEnum.FLASHINFER backend.
+LOG fp8_fi_xqa (MainProcess pid=291069) INFO 11-22 04:19:56 [flashinfer.py:1106] FlashInfer resolved query dtypes: prefill=torch.float8_e4m3fn, decode=torch.bfloat16, decode_backend=xqa, kv_cache_dtype=torch.float8_e4m3fn, arch=sm90
+CFG recipe: max_num_batched_tokens 32768 chunked True async True cudagraph FULL_AND_PIECEWISE
+GPU recipe a before: 1980 MHz, 3201 MHz, 37, 121.45 W, 0x0000000000000000
+GPU recipe a after: 1905 MHz, 3201 MHz, 50, 642.71 W, 0x0000000000000004
+TIME recipe a: wall median 496.11 ms (min 493.07, runs 493.1 495.6 496.2 496.1 496.9), profiled GPU busy 470.37 ms span 474.79 ms, cached tokens 0 / 0
+REGION recipe a:   345.705 ms  -
+REGION recipe a:   109.205 ms  P:KV4UltraQuantImpl._flash_attn_varlen
+REGION recipe a:     7.667 ms  P:KV4UltraQuantImpl._store_kv
+REGION recipe a:     3.334 ms  P:FlashAttentionImpl.forward
+REGION recipe a:     2.394 ms  P:KV4UltraQuantImpl._kv4_capture_sinks
+REGION recipe a:     1.973 ms  P:TurboQuantAttentionImpl.forward
+REGION recipe a:     0.090 ms  P:FlashAttentionImpl.do_kv_cache_update
+CATEGORY recipe a:   322.865 ms  gemm
+CATEGORY recipe a:   112.450 ms  prefill_attn
+CATEGORY recipe a:    18.636 ms  inductor
+CATEGORY recipe a:     6.224 ms  kv4_store
+CATEGORY recipe a:     4.168 ms  copy
+CATEGORY recipe a:     3.930 ms  index
+CATEGORY recipe a:     0.890 ms  elementwise
+CATEGORY recipe a:     0.627 ms  kv4_dequant
+CATEGORY recipe a:     0.261 ms  other
+CATEGORY recipe a:     0.149 ms  fill
+CATEGORY recipe a:     0.090 ms  cache_write
+CATEGORY recipe a:     0.079 ms  reduce
+GPU recipe b before: 1965 MHz, 3201 MHz, 43, 499.05 W, 0x0000000000000004
+GPU recipe b after: 1860 MHz, 3201 MHz, 50, 647.43 W, 0x0000000000000004
+TIME recipe b: wall median 828.99 ms (min 826.26, runs 831.0 826.7 829.0 829.6 826.3), profiled GPU busy 806.57 ms span 811.39 ms, cached tokens 0 / 0
+REGION recipe b:   715.533 ms  -
+REGION recipe b:    66.581 ms  P:KV4UltraQuantImpl._flash_attn_varlen
+REGION recipe b:    15.681 ms  P:KV4UltraQuantImpl._store_kv
+REGION recipe b:     3.998 ms  P:TurboQuantAttentionImpl.forward
+REGION recipe b:     2.546 ms  P:KV4UltraQuantImpl._kv4_capture_sinks
+REGION recipe b:     2.045 ms  P:FlashAttentionImpl.forward
+REGION recipe b:     0.185 ms  P:FlashAttentionImpl.do_kv_cache_update
+CATEGORY recipe b:   668.994 ms  gemm
+CATEGORY recipe b:    68.531 ms  prefill_attn
+CATEGORY recipe b:    38.019 ms  inductor
+CATEGORY recipe b:    12.824 ms  kv4_store
+CATEGORY recipe b:     8.138 ms  index
+CATEGORY recipe b:     7.823 ms  copy
+CATEGORY recipe b:     0.955 ms  elementwise
+CATEGORY recipe b:     0.589 ms  kv4_dequant
+CATEGORY recipe b:     0.289 ms  other
+CATEGORY recipe b:     0.185 ms  cache_write
+CATEGORY recipe b:     0.137 ms  fill
+CATEGORY recipe b:     0.086 ms  reduce
+GPU recipe c before: 1980 MHz, 3201 MHz, 45, 429.55 W, 0x0000000000000000
+GPU recipe c after: 1920 MHz, 3201 MHz, 53, 650.78 W, 0x0000000000000004
+TIME recipe c: wall median 282.00 ms (min 278.97, runs 282.0 287.3 279.0 285.5 281.5), profiled GPU busy 270.58 ms span 274.53 ms, cached tokens 8192 / 8192
+REGION recipe c:   174.038 ms  -
+REGION recipe c:    82.227 ms  P:KV4UltraQuantImpl._flash_attn_varlen
+REGION recipe c:     6.484 ms  P:KV4UltraQuantImpl._prefill_attention
+REGION recipe c:     4.081 ms  P:KV4UltraQuantImpl._store_kv
+REGION recipe c:     2.712 ms  P:FlashAttentionImpl.forward
+REGION recipe c:     0.992 ms  P:TurboQuantAttentionImpl.forward
+REGION recipe c:     0.049 ms  P:FlashAttentionImpl.do_kv_cache_update
+CATEGORY recipe c:   162.358 ms  gemm
+CATEGORY recipe c:    84.844 ms  prefill_attn
+CATEGORY recipe c:     9.429 ms  inductor
+CATEGORY recipe c:     3.297 ms  kv4_store
+CATEGORY recipe c:     3.224 ms  kv4_dequant
+CATEGORY recipe c:     2.919 ms  copy
+CATEGORY recipe c:     2.197 ms  elementwise
+CATEGORY recipe c:     2.049 ms  index
+CATEGORY recipe c:     0.151 ms  fill
+CATEGORY recipe c:     0.061 ms  other
+CATEGORY recipe c:     0.049 ms  cache_write
+CATEGORY recipe c:     0.005 ms  reduce
+WROTE recipe
+LOG recipe (MainProcess pid=300068) INFO 11-22 04:20:48 [cuda.py:508] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION'].
+LOG recipe (MainProcess pid=300068) INFO 11-22 04:20:48 [cuda.py:508] Using ULTRAQUANT attention backend out of potential backends: ['ULTRAQUANT'].
+LOG recipe (MainProcess pid=300068) WARNING 11-22 04:20:48 [rocm.py:53] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+LOG recipe (MainProcess pid=300068) WARNING 11-22 04:20:48 [rocm.py:58] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+LOG recipe (MainProcess pid=300068) WARNING 11-22 04:20:48 [rocm.py:69] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+CFG recipe_pfp8: max_num_batched_tokens 32768 chunked True async True cudagraph FULL_AND_PIECEWISE
+GPU recipe_pfp8 a before: 1980 MHz, 3201 MHz, 37, 121.58 W, 0x0000000000000000
+GPU recipe_pfp8 a after: 1950 MHz, 3201 MHz, 48, 634.69 W, 0x0000000000000004
+TIME recipe_pfp8 a: wall median 521.81 ms (min 516.28, runs 516.3 524.1 517.1 523.9 521.8), profiled GPU busy 494.36 ms span 500.26 ms, cached tokens 0 / 0
+REGION recipe_pfp8 a:   324.801 ms  -
+REGION recipe_pfp8 a:   154.613 ms  P:KV4UltraQuantImpl._flash_attn_varlen
+REGION recipe_pfp8 a:     7.176 ms  P:KV4UltraQuantImpl._store_kv
+REGION recipe_pfp8 a:     3.408 ms  P:FlashAttentionImpl.forward
+REGION recipe_pfp8 a:     2.270 ms  P:KV4UltraQuantImpl._kv4_capture_sinks
+REGION recipe_pfp8 a:     1.997 ms  P:TurboQuantAttentionImpl.forward
+REGION recipe_pfp8 a:     0.091 ms  P:FlashAttentionImpl.do_kv_cache_update
+CATEGORY recipe_pfp8 a:   302.506 ms  gemm
+CATEGORY recipe_pfp8 a:   120.458 ms  prefill_attn
+CATEGORY recipe_pfp8 a:    27.226 ms  elementwise
+CATEGORY recipe_pfp8 a:    18.297 ms  inductor
+CATEGORY recipe_pfp8 a:     9.187 ms  reduce
+CATEGORY recipe_pfp8 a:     5.959 ms  copy
+CATEGORY recipe_pfp8 a:     5.784 ms  kv4_store
+CATEGORY recipe_pfp8 a:     3.706 ms  index
+CATEGORY recipe_pfp8 a:     0.605 ms  kv4_dequant
+CATEGORY recipe_pfp8 a:     0.285 ms  fill
+CATEGORY recipe_pfp8 a:     0.251 ms  other
+CATEGORY recipe_pfp8 a:     0.091 ms  cache_write
+GPU recipe_pfp8 b before: 1980 MHz, 3201 MHz, 43, 452.07 W, 0x0000000000000000
+GPU recipe_pfp8 b after: 1905 MHz, 3201 MHz, 52, 627.09 W, 0x0000000000000004
+TIME recipe_pfp8 b: wall median 890.45 ms (min 888.15, runs 890.8 888.5 894.8 890.5 888.2), profiled GPU busy 864.80 ms span 871.79 ms, cached tokens 0 / 0
+REGION recipe_pfp8 b:   690.047 ms  -
+REGION recipe_pfp8 b:   151.105 ms  P:KV4UltraQuantImpl._flash_attn_varlen
+REGION recipe_pfp8 b:    14.970 ms  P:KV4UltraQuantImpl._store_kv
+REGION recipe_pfp8 b:     4.001 ms  P:TurboQuantAttentionImpl.forward
+REGION recipe_pfp8 b:     2.445 ms  P:KV4UltraQuantImpl._kv4_capture_sinks
+REGION recipe_pfp8 b:     2.045 ms  P:FlashAttentionImpl.forward
+REGION recipe_pfp8 b:     0.186 ms  P:FlashAttentionImpl.do_kv_cache_update
+CATEGORY recipe_pfp8 b:   644.500 ms  gemm
+CATEGORY recipe_pfp8 b:    76.757 ms  prefill_attn
+CATEGORY recipe_pfp8 b:    55.612 ms  elementwise
+CATEGORY recipe_pfp8 b:    37.393 ms  inductor
+CATEGORY recipe_pfp8 b:    17.816 ms  reduce
+CATEGORY recipe_pfp8 b:    12.197 ms  kv4_store
+CATEGORY recipe_pfp8 b:    11.456 ms  copy
+CATEGORY recipe_pfp8 b:     7.779 ms  index
+CATEGORY recipe_pfp8 b:     0.570 ms  kv4_dequant
+CATEGORY recipe_pfp8 b:     0.270 ms  other
+CATEGORY recipe_pfp8 b:     0.262 ms  fill
+CATEGORY recipe_pfp8 b:     0.186 ms  cache_write
+GPU recipe_pfp8 c before: 1980 MHz, 3201 MHz, 46, 431.54 W, 0x0000000000000000
+GPU recipe_pfp8 c after: 1905 MHz, 3201 MHz, 53, 630.56 W, 0x0000000000000004
+TIME recipe_pfp8 c: wall median 300.60 ms (min 298.12, runs 300.4 303.4 298.1 302.5 300.6), profiled GPU busy 285.44 ms span 290.81 ms, cached tokens 8192 / 8192
+REGION recipe_pfp8 c:   159.377 ms  -
+REGION recipe_pfp8 c:   112.374 ms  P:KV4UltraQuantImpl._flash_attn_varlen
+REGION recipe_pfp8 c:     5.973 ms  P:KV4UltraQuantImpl._prefill_attention
+REGION recipe_pfp8 c:     3.729 ms  P:KV4UltraQuantImpl._store_kv
+REGION recipe_pfp8 c:     2.913 ms  P:FlashAttentionImpl.forward
+REGION recipe_pfp8 c:     1.025 ms  P:TurboQuantAttentionImpl.forward
+REGION recipe_pfp8 c:     0.052 ms  P:FlashAttentionImpl.do_kv_cache_update
+CATEGORY recipe_pfp8 c:   148.157 ms  gemm
+CATEGORY recipe_pfp8 c:    87.558 ms  prefill_attn
+CATEGORY recipe_pfp8 c:    19.962 ms  elementwise
+CATEGORY recipe_pfp8 c:     9.122 ms  inductor
+CATEGORY recipe_pfp8 c:     6.746 ms  reduce
+CATEGORY recipe_pfp8 c:     5.705 ms  copy
+CATEGORY recipe_pfp8 c:     2.985 ms  kv4_store
+CATEGORY recipe_pfp8 c:     2.927 ms  kv4_dequant
+CATEGORY recipe_pfp8 c:     1.886 ms  index
+CATEGORY recipe_pfp8 c:     0.281 ms  fill
+CATEGORY recipe_pfp8 c:     0.061 ms  other
+CATEGORY recipe_pfp8 c:     0.052 ms  cache_write
+WROTE recipe_pfp8
+LOG recipe_pfp8 (MainProcess pid=304606) INFO 11-22 04:22:03 [cuda.py:508] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION'].
+LOG recipe_pfp8 (MainProcess pid=304606) INFO 11-22 04:22:03 [cuda.py:508] Using ULTRAQUANT attention backend out of potential backends: ['ULTRAQUANT'].
+LOG recipe_pfp8 (MainProcess pid=304606) WARNING 11-22 04:22:03 [rocm.py:53] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+LOG recipe_pfp8 (MainProcess pid=304606) WARNING 11-22 04:22:03 [rocm.py:58] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+LOG recipe_pfp8 (MainProcess pid=304606) WARNING 11-22 04:22:03 [rocm.py:69] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+CFG fp8_fi_xqa_rep: max_num_batched_tokens 32768 chunked True async True cudagraph FULL_AND_PIECEWISE
+GPU fp8_fi_xqa_rep a before: 1980 MHz, 3201 MHz, 38, 122.35 W, 0x0000000000000000
+GPU fp8_fi_xqa_rep a after: 1620 MHz, 3201 MHz, 54, 646.23 W, 0x0000000000000004
+TIME fp8_fi_xqa_rep a: wall median 479.19 ms (min 473.86, runs 479.3 473.9 479.5 474.0 479.2), profiled GPU busy 452.37 ms span 457.38 ms, cached tokens 0 / 0
+REGION fp8_fi_xqa_rep a:   338.315 ms  -
+REGION fp8_fi_xqa_rep a:   107.834 ms  P:FlashInferImpl.forward
+REGION fp8_fi_xqa_rep a:     6.226 ms  P:FlashInferImpl.do_kv_cache_update
+CATEGORY fp8_fi_xqa_rep a:   315.323 ms  gemm
+CATEGORY fp8_fi_xqa_rep a:   106.254 ms  prefill_attn
+CATEGORY fp8_fi_xqa_rep a:    18.756 ms  inductor
+CATEGORY fp8_fi_xqa_rep a:     6.226 ms  cache_write
+CATEGORY fp8_fi_xqa_rep a:     3.858 ms  index
+CATEGORY fp8_fi_xqa_rep a:     1.581 ms  q_quant
+CATEGORY fp8_fi_xqa_rep a:     0.140 ms  copy
+CATEGORY fp8_fi_xqa_rep a:     0.139 ms  fill
+CATEGORY fp8_fi_xqa_rep a:     0.081 ms  other
+CATEGORY fp8_fi_xqa_rep a:     0.012 ms  elementwise
+CATEGORY fp8_fi_xqa_rep a:     0.005 ms  reduce
+GPU fp8_fi_xqa_rep b before: 1965 MHz, 3201 MHz, 44, 574.71 W, 0x0000000000000004
+GPU fp8_fi_xqa_rep b after: 1740 MHz, 3201 MHz, 60, 647.98 W, 0x0000000000000004
+TIME fp8_fi_xqa_rep b: wall median 814.93 ms (min 812.34, runs 821.9 815.3 814.9 814.6 812.3), profiled GPU busy 785.51 ms span 791.01 ms, cached tokens 0 / 0
+REGION fp8_fi_xqa_rep b:   706.025 ms  -
+REGION fp8_fi_xqa_rep b:    66.696 ms  P:FlashInferImpl.forward
+REGION fp8_fi_xqa_rep b:    12.794 ms  P:FlashInferImpl.do_kv_cache_update
+CATEGORY fp8_fi_xqa_rep b:   659.400 ms  gemm
+CATEGORY fp8_fi_xqa_rep b:    63.500 ms  prefill_attn
+CATEGORY fp8_fi_xqa_rep b:    38.157 ms  inductor
+CATEGORY fp8_fi_xqa_rep b:    12.794 ms  cache_write
+CATEGORY fp8_fi_xqa_rep b:     7.974 ms  index
+CATEGORY fp8_fi_xqa_rep b:     3.196 ms  q_quant
+CATEGORY fp8_fi_xqa_rep b:     0.273 ms  copy
+CATEGORY fp8_fi_xqa_rep b:     0.129 ms  fill
+CATEGORY fp8_fi_xqa_rep b:     0.079 ms  other
+CATEGORY fp8_fi_xqa_rep b:     0.007 ms  elementwise
+CATEGORY fp8_fi_xqa_rep b:     0.005 ms  reduce
+GPU fp8_fi_xqa_rep c before: 1965 MHz, 3201 MHz, 50, 602.79 W, 0x0000000000000004
+GPU fp8_fi_xqa_rep c after: 1785 MHz, 3201 MHz, 53, 646.15 W, 0x0000000000000004
+TIME fp8_fi_xqa_rep c: wall median 269.85 ms (min 269.27, runs 269.7 269.3 269.9 270.6 270.1), profiled GPU busy 251.66 ms span 255.99 ms, cached tokens 8192 / 8192
+REGION fp8_fi_xqa_rep c:   167.906 ms  -
+REGION fp8_fi_xqa_rep c:    80.574 ms  P:FlashInferImpl.forward
+REGION fp8_fi_xqa_rep c:     3.176 ms  P:FlashInferImpl.do_kv_cache_update
+CATEGORY fp8_fi_xqa_rep c:   156.208 ms  gemm
+CATEGORY fp8_fi_xqa_rep c:    79.739 ms  prefill_attn
+CATEGORY fp8_fi_xqa_rep c:     9.433 ms  inductor
+CATEGORY fp8_fi_xqa_rep c:     3.176 ms  cache_write
+CATEGORY fp8_fi_xqa_rep c:     1.969 ms  index
+CATEGORY fp8_fi_xqa_rep c:     0.835 ms  q_quant
+CATEGORY fp8_fi_xqa_rep c:     0.132 ms  fill
+CATEGORY fp8_fi_xqa_rep c:     0.078 ms  copy
+CATEGORY fp8_fi_xqa_rep c:     0.071 ms  other
+CATEGORY fp8_fi_xqa_rep c:     0.011 ms  elementwise
+CATEGORY fp8_fi_xqa_rep c:     0.005 ms  reduce
+WROTE fp8_fi_xqa_rep
+LOG fp8_fi_xqa_rep (MainProcess pid=310849) INFO 11-22 04:23:15 [cuda.py:448] Using AttentionBackendEnum.FLASHINFER backend.
+LOG fp8_fi_xqa_rep (MainProcess pid=310849) INFO 11-22 04:23:25 [flashinfer.py:1106] FlashInfer resolved query dtypes: prefill=torch.float8_e4m3fn, decode=torch.bfloat16, decode_backend=xqa, kv_cache_dtype=torch.float8_e4m3fn, arch=sm90
+done

@@ -39,3 +39,12 @@ def prep_q_rot(q: torch.Tensor, hkv: int, rot: bool = True) -> torch.Tensor:
     if q.dtype not in (torch.bfloat16, torch.float32):
         q = q.float()
     return ext().prep_q_rot(q.contiguous(), hkv, rot)
+
+
+def prep_q_rot8(q: torch.Tensor, hkv: int, rot: bool = True):
+    """C1 (KV4_K8, 11-21): prep_q_rot and decode_fp4_k8's prep_q8 in one launch. (B, HQ, 128) bf16/fp32 ->
+    (q8 (B, HKV, 8, 128) uint8 E4M3, qs (B * HKV) fp32 scale per (sequence, kv head), qd (B, HKV, 8, 128) fp16 the
+    dequantized q), bit-identical to decode_fp4_k8.ext().prep_q8(prep_q_rot(q, hkv, rot))."""
+    if q.dtype not in (torch.bfloat16, torch.float32):
+        q = q.float()
+    return ext().prep_q_rot8(q.contiguous(), hkv, rot)

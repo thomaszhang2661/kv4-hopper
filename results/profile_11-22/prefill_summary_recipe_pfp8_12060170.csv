@@ -1,0 +1,4 @@
+config,case,wall_ms_median,wall_ms_min,gpu_busy_ms,gpu_span_ms,cached_tokens_timed,cached_tokens_prof,n_kernels
+recipe_pfp8,a,521.81,516.28,494.36,500.26,0,0,2468
+recipe_pfp8,b,890.45,888.15,864.80,871.79,0,0,2561
+recipe_pfp8,c,300.60,298.12,285.44,290.81,8192,8192,2127

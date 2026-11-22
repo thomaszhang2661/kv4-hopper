@@ -72,6 +72,12 @@ CONFIGS.update({
     "nvfp4_khb48": ("nvfp4_h~b", "nvfp4"), "nvfp4_khbr": ("nvfp4_h~B", "nvfp4"),
     # 11-21 (XQA borrow, C1): K with one scale per 32 dims (what an FP8 wgmma k-step needs), V unchanged (NVFP4 g16)
     "nvfp4g32K_khs": ("nvfp4_g32_h~s", "nvfp4"), "mxc0.200K_khs": ("mxfp4_c0.200_h~s", "nvfp4"),
+    # 11-21 (C2): V with its NVFP4 scales along tokens (one E4M3 scale per 16 / 32 tokens of one channel), what P V on
+    # FP8 wgmma needs (the MMA reduces over tokens); "nvfp4g32K_khs_vt32" = C1's K g32 too, i.e. K and V both on FP8
+    "nvfp4_khs_vt16": ("nvfp4_h~s", "nvfp4_t16"), "nvfp4_khs_vt32": ("nvfp4_h~s", "nvfp4_t32"),
+    "nvfp4g32K_khs_vt32": ("nvfp4_g32_h~s", "nvfp4_t32"),
+    # V with one E4M3 scale per token row (folds into P)
+    "nvfp4_khs_vrow": ("nvfp4_h~s", "nvfp4_row"), "nvfp4g32K_khs_vrow": ("nvfp4_g32_h~s", "nvfp4_row"),
 })
 
 for _c in MX_C_SWEEP:

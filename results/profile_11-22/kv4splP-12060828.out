@@ -1,0 +1,93 @@
+host d4055 job 12060828
+NVIDIA H200, 570.86.15, 1980 MHz
+KV4_COMMIT=203aeb5 vllm 0.33.0 MODE=splits
+ninja: no work to do.
+ninja: no work to do.
+NVIDIA H200 commit 203aeb5
+ninja: no work to do.
+SHAPE 1x16384: pages 18.9 MB per layer; plugin splits for KV4_MAX_SPLITS 8/16/32/64: [8, 16, 32, 33]
+REF 1x16384: read-only reduction over the same bytes 39.0 us (10% of peak)
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s=  4 CTAs   32: layer  35.34 us (prep  1.11 + dec  29.24 + merge  3.90 + gaps  1.08); decode-only graph  29.55 us (13% of peak; kernel 13%); isolated prep+dec+merge write-flush  42.91 read-flush  42.34, decode alone read  34.27
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s=  8 CTAs   64: layer  25.73 us (prep  1.10 + dec  17.05 + merge  5.14 + gaps  2.45); decode-only graph  17.92 us (22% of peak; kernel 23%); isolated prep+dec+merge write-flush  32.19 read-flush  31.23, decode alone read  22.14
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 16 CTAs  128: layer  22.75 us (prep  1.10 + dec  11.68 + merge  7.50 + gaps  2.47); decode-only graph  12.27 us (32% of peak; kernel 34%); isolated prep+dec+merge write-flush  28.96 read-flush  27.97, decode alone read  16.67
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 24 CTAs  192: layer  26.14 us (prep  1.11 + dec  13.31 + merge  9.25 + gaps  2.48); decode-only graph  14.10 us (28% of peak; kernel 30%); isolated prep+dec+merge write-flush  33.09 read-flush  31.84, decode alone read  18.34
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 32 CTAs  256: layer  27.50 us (prep  1.11 + dec  11.95 + merge 12.04 + gaps  2.40); decode-only graph  12.59 us (31% of peak; kernel 33%); isolated prep+dec+merge write-flush  34.72 read-flush  33.18, decode alone read  16.80
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 33 CTAs  264: layer  27.88 us (prep  1.11 + dec  11.95 + merge 12.31 + gaps  2.51); decode-only graph  12.86 us (31% of peak; kernel 33%); isolated prep+dec+merge write-flush  34.88 read-flush  33.31, decode alone read  16.90
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 48 CTAs  384: layer  28.84 us (prep  1.10 + dec  12.31 + merge 13.30 + gaps  2.13); decode-only graph  13.08 us (30% of peak; kernel 32%); isolated prep+dec+merge write-flush  36.00 read-flush  34.21, decode alone read  17.15
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:13 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s= 64 CTAs  512: layer  38.93 us (prep  1.13 + dec  14.39 + merge 20.96 + gaps  2.46); decode-only graph  14.94 us (26% of peak; kernel 27%); isolated prep+dec+merge write-flush  46.46 read-flush  44.70, decode alone read  19.81
+USDT:2026-11-22 05:05:14 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:14 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x16384 s=128 CTAs 1024: layer  44.59 us (prep  1.12 + dec  15.77 + merge 25.57 + gaps  2.13); decode-only graph  16.51 us (24% of peak; kernel 25%); isolated prep+dec+merge write-flush  51.97 read-flush  49.95, decode alone read  20.48
+SHAPE 1x65536: pages 75.5 MB per layer; plugin splits for KV4_MAX_SPLITS 8/16/32/64: [8, 16, 32, 33]
+REF 1x65536: read-only reduction over the same bytes 119.6 us (13% of peak)
+USDT:2026-11-22 05:05:14 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:14 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s=  4 CTAs   32: layer 114.48 us (prep  1.17 + dec 105.58 + merge  5.13 + gaps  2.60); decode-only graph 106.80 us (15% of peak; kernel 15%); isolated prep+dec+merge write-flush 119.62 read-flush 118.98, decode alone read 110.11
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s=  8 CTAs   64: layer  65.16 us (prep  1.19 + dec  55.46 + merge  6.20 + gaps  2.31); decode-only graph  56.78 us (28% of peak; kernel 28%); isolated prep+dec+merge write-flush  70.78 read-flush  69.98, decode alone read  60.13
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 16 CTAs  128: layer  43.18 us (prep  1.18 + dec  31.18 + merge  8.46 + gaps  2.36); decode-only graph  32.47 us (48% of peak; kernel 50%); isolated prep+dec+merge write-flush  51.04 read-flush  47.90, decode alone read  35.78
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 24 CTAs  192: layer  48.90 us (prep  1.18 + dec  34.55 + merge 10.93 + gaps  2.24); decode-only graph  35.59 us (44% of peak; kernel 46%); isolated prep+dec+merge write-flush  54.98 read-flush  53.70, decode alone read  39.14
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 32 CTAs  256: layer  43.75 us (prep  1.19 + dec  27.60 + merge 12.70 + gaps  2.27); decode-only graph  28.74 us (55% of peak; kernel 57%); isolated prep+dec+merge write-flush  52.29 read-flush  48.90, decode alone read  32.51
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 33 CTAs  264: layer  44.89 us (prep  1.17 + dec  27.73 + merge 13.54 + gaps  2.46); decode-only graph  29.11 us (54% of peak; kernel 57%); isolated prep+dec+merge write-flush  52.16 read-flush  49.41, decode alone read  32.45
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 48 CTAs  384: layer  56.39 us (prep  1.18 + dec  36.46 + merge 16.36 + gaps  2.39); decode-only graph  37.87 us (42% of peak; kernel 43%); isolated prep+dec+merge write-flush  65.18 read-flush  61.66, decode alone read  41.54
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:15 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s= 64 CTAs  512: layer  61.39 us (prep  1.16 + dec  32.36 + merge 25.84 + gaps  2.02); decode-only graph  33.18 us (47% of peak; kernel 49%); isolated prep+dec+merge write-flush  67.46 read-flush  64.70, decode alone read  36.32
+USDT:2026-11-22 05:05:16 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:16 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 1x65536 s=128 CTAs 1024: layer 104.23 us (prep  1.17 + dec  37.33 + merge 63.71 + gaps  2.02); decode-only graph  38.30 us (41% of peak; kernel 42%); isolated prep+dec+merge write-flush 109.98 read-flush 109.18, decode alone read  41.92
+SHAPE 4x32768: pages 151.0 MB per layer; plugin splits for KV4_MAX_SPLITS 8/16/32/64: [8, 8, 8, 8]
+REF 4x32768: read-only reduction over the same bytes 216.6 us (15% of peak)
+USDT:2026-11-22 05:05:16 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:16 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s=  2 CTAs   64: layer 114.26 us (prep  1.23 + dec 105.91 + merge  4.70 + gaps  2.42); decode-only graph 107.33 us (29% of peak; kernel 30%); isolated prep+dec+merge write-flush 120.10 read-flush 119.36, decode alone read 110.69
+USDT:2026-11-22 05:05:16 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:16 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s=  4 CTAs  128: layer  65.49 us (prep  1.24 + dec  56.82 + merge  5.20 + gaps  2.22); decode-only graph  57.94 us (54% of peak; kernel 55%); isolated prep+dec+merge write-flush  72.90 read-flush  70.59, decode alone read  61.54
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s=  8 CTAs  256: layer  58.35 us (prep  1.22 + dec  48.22 + merge  6.54 + gaps  2.37); decode-only graph  49.64 us (63% of peak; kernel 65%); isolated prep+dec+merge write-flush  66.85 read-flush  63.17, decode alone read  52.93
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 12 CTAs  384: layer  73.60 us (prep  1.24 + dec  60.55 + merge  9.63 + gaps  2.17); decode-only graph  61.77 us (51% of peak; kernel 52%); isolated prep+dec+merge write-flush  82.59 read-flush  78.91, decode alone read  65.28
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 16 CTAs  512: layer  66.86 us (prep  1.23 + dec  51.93 + merge 11.68 + gaps  2.02); decode-only graph  53.04 us (59% of peak; kernel 61%); isolated prep+dec+merge write-flush  75.94 read-flush  72.19, decode alone read  56.61
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 24 CTAs  768: layer  75.89 us (prep  1.24 + dec  57.73 + merge 14.81 + gaps  2.11); decode-only graph  58.71 us (54% of peak; kernel 54%); isolated prep+dec+merge write-flush  83.71 read-flush  80.93, decode alone read  61.95
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:17 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 32 CTAs 1024: layer  81.00 us (prep  1.23 + dec  58.31 + merge 19.52 + gaps  1.93); decode-only graph  59.21 us (53% of peak; kernel 54%); isolated prep+dec+merge write-flush  89.47 read-flush  85.95, decode alone read  62.50
+USDT:2026-11-22 05:05:18 2084932:2084932 SyncActivityProfilerHandler.cpp:39] profiler_start
+USDT:2026-11-22 05:05:18 2084932:2084932 SyncActivityProfilerHandler.cpp:46] profiler_stop
+SPLIT 4x32768 s= 64 CTAs 2048: layer 105.21 us (prep  1.24 + dec  67.19 + merge 34.98 + gaps  1.80); decode-only graph  67.76 us (46% of peak; kernel 47%); isolated prep+dec+merge write-flush 112.96 read-flush 109.66, decode alone read  71.01
+wrote results/profile_11-22/smallbatch_splits_12060828.csv
+done

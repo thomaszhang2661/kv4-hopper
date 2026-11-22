@@ -1,0 +1,7 @@
+RESULT auto [-, boundary vllm, mean 0, sinks 0]: ppl 5.4809 nll 1.701270 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT plugin_recipe [nvfp4, boundary 0, mean 1, sinks 1]: ppl 5.4841 nll 1.701859 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT plugin_recipe_k8 [nvfp4, boundary 0, mean 1, sinks 1]: ppl 5.4858 nll 1.702157 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT auto [-, boundary vllm, mean 0, sinks 0]: ppl 6.2692 nll 1.835655 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT fp8 [-, boundary vllm, mean 0, sinks 0]: ppl 230.7406 nll 5.441294 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT plugin_recipe [nvfp4, boundary 0, mean 1, sinks 1]: ppl 6.2722 nll 1.836127 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT plugin_recipe_k8 [nvfp4, boundary 0, mean 1, sinks 1]: ppl 6.2729 nll 1.836237 over 131056 tokens (16 x 8192, chunk 2048)

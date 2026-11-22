@@ -1,0 +1,212 @@
+[
+  {
+    "case": "b8_32k",
+    "requests": [
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      },
+      {
+        "query_len": 1,
+        "kv_len": 32768,
+        "num_draft_tokens": 0,
+        "chunked": false
+      }
+    ],
+    "median_us": 10349.16796875,
+    "sampling_params": {
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "top_k": 0,
+      "min_p": 0.0,
+      "repetition_penalty": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    },
+    "ranks": [
+      {
+        "num_tokens": 8,
+        "kv_blocks": 4097,
+        "routing": "real",
+        "num_local_tokens": 8,
+        "num_tokens_after_padding": 8,
+        "batch_order": [
+          "bench-0",
+          "bench-1",
+          "bench-2",
+          "bench-3",
+          "bench-4",
+          "bench-5",
+          "bench-6",
+          "bench-7"
+        ],
+        "timing_scope": "target_and_sampler",
+        "sampler": {
+          "valid_token_ids": true,
+          "graph_deterministic": true
+        },
+        "eager_repeat": {
+          "max_abs": 0.0,
+          "relative_rms": 0.0
+        },
+        "graph_vs_eager": {
+          "max_abs": 0.0,
+          "relative_rms": 0.0
+        },
+        "graph_deterministic": true,
+        "finite": true,
+        "state_reset_bytes": 100663296,
+        "latency_us": {
+          "timer": "graph_events",
+          "median": 10349.16796875,
+          "sample_spread_pct": 0.03138461709022522,
+          "mean": 10349.25390625,
+          "std": 7.156466484069824,
+          "min": 10331.263671875,
+          "p90": 10357.9521484375,
+          "count": 100,
+          "samples_us": [
+            10345.09,
+            10339.01,
+            10345.47,
+            10359.17,
+            10357.73,
+            10355.26,
+            10353.12,
+            10349.09,
+            10350.11,
+            10355.81,
+            10341.89,
+            10331.26,
+            10347.3,
+            10349.34,
+            10341.28,
+            10353.09,
+            10346.66,
+            10344.7,
+            10349.06,
+            10357.95,
+            10350.46,
+            10347.65,
+            10358.37,
+            10353.02,
+            10350.37,
+            10350.02,
+            10341.25,
+            10363.71,
+            10346.21,
+            10343.26,
+            10342.43,
+            10343.42,
+            10363.14,
+            10338.02,
+            10346.94,
+            10352.48,
+            10348.13,
+            10343.78,
+            10351.94,
+            10340.38,
+            10347.2,
+            10347.04,
+            10355.81,
+            10370.05,
+            10355.84,
+            10346.37,
+            10344.61,
+            10341.98,
+            10350.59,
+            10346.72,
+            10341.47,
+            10357.95,
+            10356.51,
+            10351.68,
+            10350.14,
+            10354.21,
+            10360.51,
+            10352.0,
+            10355.46,
+            10347.23,
+            10343.87,
+            10354.85,
+            10362.43,
+            10355.36,
+            10338.24,
+            10352.61,
+            10352.0,
+            10348.48,
+            10344.54,
+            10344.38,
+            10353.57,
+            10336.7,
+            10336.26,
+            10339.78,
+            10365.47,
+            10347.52,
+            10352.54,
+            10340.13,
+            10357.89,
+            10344.7,
+            10352.93,
+            10349.38,
+            10356.77,
+            10345.5,
+            10344.1,
+            10349.22,
+            10349.57,
+            10338.78,
+            10353.95,
+            10338.94,
+            10351.78,
+            10336.29,
+            10349.12,
+            10353.89,
+            10346.27,
+            10352.35,
+            10349.41,
+            10364.8,
+            10345.18,
+            10345.06
+          ]
+        }
+      }
+    ]
+  }
+]

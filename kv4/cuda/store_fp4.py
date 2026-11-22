@@ -37,11 +37,18 @@ def _pack_bits(b):
     return int(b[0]) | int(b[1]) << 5 | int(b[2]) << 10 | int(b[3]) << 15
 
 
-def tables(nv: bool = False):
+def tables(nv: bool = False, k8: bool = False):
     """Page-local positions from decode_fp4.py's layout functions; asserts that all 4 pages of a 256-token stage share
     one local layout. Returns int32 tensors (CPU): kword (128), kbits (128), vword (64*128), vbits (64*128),
-    kspos (64*ng), vspos (64*ng), ng = 4 scale groups per token (MXFP4) or 8 (NVFP4, 11-12 night)."""
-    idx, bits = df._k_layout()
+    kspos (64*ng), vspos (64*ng), ng = 4 scale groups per token (MXFP4) or 8 (NVFP4, 11-12 night).
+    11-21 k8 (with nv): K words from decode_fp4_k8.py's _k8_layout and K scales per 32 dims at the MXFP4 K scale
+    positions (kspos 64*4); V as NVFP4."""
+    assert nv or not k8
+    if k8:
+        from kv4.cuda import decode_fp4_k8 as k8m
+        idx, bits = k8m._k8_layout()
+    else:
+        idx, bits = df._k_layout()
     kword, kbits = [0] * D, [0] * D
     for w in range(16):
         for j in range(8):
@@ -61,7 +68,7 @@ def tables(nv: bool = False):
 
     ng = 8 if nv else 4
 
-    def scale_pos(perm):
+    def scale_pos(perm, ng=ng):
         inv = {}
         for pos, v in enumerate(perm.tolist()):
             tok, g = divmod(v, ng)
@@ -73,6 +80,8 @@ def tables(nv: bool = False):
 
     t = lambda v: torch.tensor(v, dtype=torch.int32)  # noqa: E731
     kp, vp = (df._k_scale_perm(), df._v_scale_perm()) if nv else (df._k_scale_perm_mx(), df._v_scale_perm_mx())
+    if k8:
+        return (t(kword), t(kbits), t(vword), t(vbits), t(scale_pos(df._k_scale_perm_mx(), 4)), t(scale_pos(vp)))
     return (t(kword), t(kbits), t(vword), t(vbits), t(scale_pos(kp)), t(scale_pos(vp)))
 
 
@@ -127,6 +136,33 @@ class StoreNVFP4:
         """K (rotated basis) and V as code x E4M3 scale, without the tensor scales: exact in bf16 (for the sink pools
         of the vLLM plugin, kv4/cuda/merge.cu merge_sink_pool)."""
         return ext().dequant_fp4(pages, block_ids.int().contiguous(), int(n_tokens), *self.tabs, False, True, 1.0, 1.0)
+
+
+class StoreK8(StoreNVFP4):
+    """11-21: C1 in the plugin. Pages of 9216 bytes like NVFP4 (vLLM's spec unchanged), but K in decode_fp4_k8's
+    layout with one E4M3 scale per 32 dims (bytes 0..255 of the 512-byte K scale region; 256..511 unused), so the
+    decode kernel runs QK^T on FP8 tensor cores. V is NVFP4 as in StoreNVFP4."""
+
+    def __init__(self, device, ts_k: float, ts_v: float, rot_k: bool = True):
+        self.tabs = [x.to(device) for x in tables(nv=True, k8=True)]
+        self.rot_k, self.ts_k, self.ts_v = rot_k, float(ts_k), float(ts_v)
+        self.empty = torch.empty(0, device=device, dtype=torch.float32)
+
+    def __call__(self, key, value, slots, pages, mu=None):
+        ext().store_fp4_k8(key.contiguous(), value.contiguous(), slots.contiguous(), pages, *self.tabs,
+                           self.empty if mu is None else mu.float().contiguous(), self.rot_k, self.ts_k, self.ts_v)
+
+    def decode_args(self, sm: float):
+        """(score_mul without the q scale, out_mul) for decode_fp4_k8.cu's paged entry: the K bytes are E4M3 values
+        x 2^-6 (decode_fp4_k8.args_for), V's FP16 placement x 2^-14 as in NVFP4."""
+        return sm * 1.4426950408889634 * self.ts_k * 64.0, self.ts_v * 16384.0
+
+    def dequant(self, pages, block_ids, n_tokens):
+        return ext().dequant_fp4_k8(pages, block_ids.int().contiguous(), int(n_tokens), *self.tabs, self.rot_k,
+                                    self.ts_k, self.ts_v)
+
+    def dequant_raw(self, pages, block_ids, n_tokens):
+        return ext().dequant_fp4_k8(pages, block_ids.int().contiguous(), int(n_tokens), *self.tabs, False, 1.0, 1.0)
 
 
 _GRID = (0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0)
