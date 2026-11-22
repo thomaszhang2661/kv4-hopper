@@ -1,0 +1,501 @@
+model,config,id,answer,pred,correct,gen_tokens,finished,head
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/807.json,"\left( 3, \frac{\pi}{2} \right)","(3, \frac{\pi}{2})",1,374,1,"We are given the point in **rectangular coordinates**:   $$ (0, 3) $$   We are to convert this to **polar coordinates**,"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1994.json,p - q,p - q,1,805,1,"We are given:  $$ p = \sum_{k=1}^\infty \frac{1}{k^2}, \quad q = \sum_{k=1}^\infty \frac{1}{k^3} $$  and we are asked to"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2584.json,\frac{14}{3},\frac{14}{3},1,361,1,We are given the function:  $$ f(x) = \frac{3x - 2}{x - 2} $$  We are asked to find:  $$ f(-2) + f(-1) + f(0) $$  ---  #
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/572.json,9,9,1,336,1,We are asked to find how many **positive whole-number divisors** the number **196** has.  ---  ### Step 1: Prime Factori
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1349.json,\text{Evelyn},\text{Evelyn},1,675,1,"To determine **which student has the greatest average speed**, we need to understand what **average speed** means:  $$ \"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1622.json,42,42,1,318,1,"We are given that a **regular hexagon** can be divided into **six equilateral triangles**, and the **perimeter of one of"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/515.json,27,27,1,416,1,We are asked to find the **smallest positive perfect cube** that can be written as the **sum of three consecutive intege
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/927.json,90^\circ,90^\circ,1,791,1,"We are given two sets of points in 3D space that define **lines**, and we are to find the **angle between these two line"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2036.json,3\sqrt{13},3\sqrt{13},1,342,1,"We are given two points:   $(2, -6)$ and $(-4, 3)$, and we are asked to find the **distance** between them.  ---  ### St"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1139.json,4,,0,2048,0,We are given the expression:  $$ 2 \cdot 3 \cdot 4 \cdot 5 + 1 $$  and we are told that **multiplication is carried out 
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1032.json,2220,2220,1,618,1,We are asked to find the **least positive integer multiple of 30** that can be written **only using the digits 0 and 2**
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1197.json,\frac{3}{56},\frac{1}{9},0,1360,1,"We are given that $ p(x) $ is a **polynomial of degree 5**, and that:  $$ p(n) = \frac{n}{n^2 - 1} \quad \text{for } n ="
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/737.json,284,284,1,787,1,We are given the following:  - A **proper divisor** of an integer $ N $ is a **positive divisor of $ N $** that is **les
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/248.json,5,5,1,251,1,"We are given the **volume of a cylinder** and the **radius**, and we are asked to find the **height**.  ---  ### Step 1:"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1303.json,\sqrt{51},10,0,232,1,"We are given a right triangle $ \triangle DEF $, with a right angle at $ E $, and the following information:  - $ \sin D"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/990.json,6 - 5i,6 - 5i,1,847,1,We are given:  - $ z = 2 + \sqrt{2} - (3 + 3\sqrt{2})i $ - $ c = 2 - 3i $ - $ w $ is the result of rotating $ z $ **arou
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/134.json,-50,-50,1,241,1,We are asked to compute the sum:  $$ 1 - 2 + 3 - 4 + 5 - \dots + 99 - 100 $$  This is an alternating sum of the first 10
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1199.json,\pi,\pi,1,1272,1,We are given the graph of the function:  $$ y = a \sin(bx + c) + d $$  and asked to find the **smallest possible value o
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/434.json,28,28,1,527,1,We are given a diagram with the following information:  - $\overline{BC}$ is **parallel** to a segment through point $A$
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1000.json,3,3,1,821,1,We are given the cubic polynomial:  $$ x^3 + ax^2 + ax + 1 = 0 $$  and told that **all the roots are real**. We are to f
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1098.json,6+9i,6 + 9i,1,164,1,We are asked to evaluate the expression:  $$ (1 + 2i)6 - 3i $$  ### Step 1: Multiply the complex number by 6 We first co
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/607.json,13535,13535,1,1401,1,"We are asked to find the **greatest integer less than** $(\sqrt{7} + \sqrt{5})^6$, without using a calculator.  ---  ###"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1837.json,5,5,1,725,1,We are given the following:  - Denali is responsible for **16 dogs**. - Nate is responsible for **12 dogs**. - They are 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2193.json,x=5,5,0,505,1,We are given the equation:  $$ x = \sqrt{11 - 2x} + 4 $$  ### Step 1: Isolate the square root Subtract 4 from both sides
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2427.json,10,10,1,701,1,"We are given:  - A worker deposits **$20,000** at the **end of each year**. - He wants to have **$66,200** in the accoun"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1388.json,"1,-2","-2, 1",0,1195,1,We are given a **functional equation**:  $$ f(x) + f(y) = f(x + y) - xy - 1 $$  and the **initial condition**:  $$ f(1) 
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/525.json,144,144,1,1846,1,"We are given a problem where **7 people** are to be seated **around a round table**, and **Pierre, Rosa, and Thomas** mu"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1840.json,78,78,1,423,1,We are given the following information:  - **Cookies**: 54 cookies sold at **3 for $1** - **Cupcakes**: 20 cupcakes sold
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/779.json,-2 + 7i,-2 + 7i,1,263,1,"We are given a complex number $ 7 + 2i $, and we are to apply a **90° counter-clockwise rotation around the origin**.  -"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/666.json,225,225,1,310,1,We are given:  - **5 upper class soldiers** - **10 lower class soldiers** - A **battle of Thermopylae** requires:   - **
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/864.json,52_8,52_8,1,243,1,We are asked to find the product of $ 6_8 \cdot 7_8 $ and express the result in **base 8**.  ---  ### **Step 1: Convert 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1302.json,11\sqrt2,11\sqrt{2},0,300,1,We are asked to simplify the expression:  $$ \sqrt{242} $$  ### Step 1: Factor 242 We want to factor 242 into its prime 
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/134.json,720,4320,0,381,1,"We are asked to find the number of **distinct seating arrangements** of **8 people around a round table**, with the cond"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1072.json,\frac{243}{625},\frac{243}{625},1,1041,1,"We are given a **geometric sequence**:  $$ \frac{125}{9}, \frac{25}{3}, 5, 3, \ldots $$  We are to find the **eighth ter"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/119.json,-125,-125,1,649,1,We are asked to find the **constant term** in the expansion of:  $$ \left(10x^3 - \frac{1}{2x^2}\right)^5 $$  ---  ### S
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/627.json,3,3,1,335,1,We are given that:  $$ n \equiv 2 \pmod{7} $$  We are asked to find the **remainder when**:  $$ (n + 2)(n + 4)(n + 6) $$
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/428.json,"3, 5, 7","x = 3,\ 5,\ 7",0,757,1,We are given the equation:  $$ (x - 3)^3 + (x - 7)^3 = (2x - 10)^3 $$  ---  ### Step 1: Let’s simplify the right-hand si
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/967.json,72,72,1,320,1,We are given a **regular pentagon** and asked to find the **minimum number of degrees** it must be rotated **countercloc
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/24.json,2000,2000,1,189,1,We are told that:  - A snack-size tin of peaches has **40 calories**. - This is **2%** of a person's **daily caloric req
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/45.json,23,143,0,218,1,We are asked to find the result when the **greatest common factor (GCF)** of **6432** and **132** is **increased by 11**
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/930.json,12,12,1,286,1,We are given:  - A **regular hexagon** with **side length 16 cm**. - A **regular octagon** with the **same perimeter** a
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/627.json,17,17,1,1050,1,"We are given the coordinates of three vertices of a **parallelogram**:  - $ A = (5, 3) $ - $ B = (6, 8) $ - $ C = (7, 4)"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2214.json,4,4,1,262,1,We are given the inequality:  $$ -4 < 2(x - 1) < 8 $$  Our goal is to solve for $ x $ and express the solution in the fo
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1454.json,70 \sqrt{2},,0,2048,0,We are given the expression:  $$ \sqrt{x^2 + 400} + \sqrt{y^2 + 900} + \sqrt{x^2 + y^2 - 80x - 100y + 4100} $$  with the
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1558.json,1.25,1.25,1,537,1,We are given that Bill walks:  - $\frac{1}{2}$ mile **south** - $\frac{3}{4}$ mile **east** - $\frac{1}{2}$ mile **south
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/178.json,2,2,1,162,1,"We are given a right triangle $ ABC $ with $ \angle B = 90^\circ $, and the equation:  $$ \sin A = 2\cos A $$  We are to"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/285.json,6,6,1,789,1,We are given the polynomial:  $$ z^4 + z^2 + 1 = 0 $$  We are to find the **smallest positive integer** $ n $ such that 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/305.json,5,5,1,394,1,We are given the function:  $$ f(x) = \frac{2x}{x^2 - 5x - 14} $$  We are to find the **vertical asymptotes** $ x = a $ 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1265.json,\frac{3}{2},\frac{3}{2},1,220,1,"We are asked to find what **power of 4** is equal to **8**, and to express the answer as a **common fraction**.  ---  ##"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1388.json,83,83,1,198,1,We are given the equation:  $$ \frac{1}{2}(3x - 9) = x + 37 $$  ### Step 1: Eliminate the fraction Multiply both sides o
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1055.json,203,203,1,1034,1,"We are given:  - You have **7 bags of gold coins**, each with the **same number of coins**. - You **find a bag of 53 coi"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1217.json,x^5 - x^4 + x^3 - x^2 + x - 1,x^5 - x^4 + x^3 - x^2 + x - 1,1,608,1,We are asked to find the **quotient** when the polynomial $ x^6 - 3 $ is divided by $ x + 1 $.  ---  ### Step 1: Use Pol
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/951.json,12,12,1,235,1,We are asked to simplify the expression:  $$ \frac{\sqrt{2.5^2 - 0.7^2}}{2.7 - 2.5} $$  ---  ### Step 1: Simplify the de
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1105.json,-\frac{\pi}{6},-\frac{\pi}{6},1,327,1,We are asked to compute:  $$ \arcsin\left(-\frac{1}{2}\right) $$  ### Step 1: Understand the definition of arcsin  The f
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/572.json,0.15,0.15,1,173,1,"To convert the fraction $\frac{3}{20}$ into a decimal, we can divide the numerator by the denominator:  $$ \frac{3}{20} "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/187.json,3,3,1,358,1,We are given the equation:  $$ (x - 1) \cdot f(x) = 3x^4 + x^3 - 25x^2 + 38x - 17 $$  We are to find the **degree of the
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/769.json,11,11,1,367,1,"We are given that the **sum of the first $ N $ positive odd numbers** is **121**, and we are to find the value of $ N $."
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1168.json,16,16,1,307,1,"We are asked to compute the absolute value of the complex number $(1 - i)^8$, that is:  $$ |(1 - i)^8| $$  ---  ### Step"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/722.json,9901,9901,1,218,1,We are asked to compute:  $$ 99^2 + 99 + 1 $$  ### Step 1: Compute $99^2$  We can use the identity:  $$ (a - b)^2 = a^2 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1247.json,5,5,1,357,1,We are given:  - Total number of students = 50   - Number of students in **MATHCOUNTS** = 28   - Number of students in *
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/956.json,"(6,31,-1)","(6, 31, -1)",1,1867,1,We are given that the polynomial:  $$ x^3 - 3x^2 + 4x - 1 $$  is a **factor** of the polynomial:  $$ x^9 + px^6 + qx^3 +
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1247.json,-256,-256,1,578,1,We are given the cubic equation:  $$ 8x^3 + 4ax^2 + 2bx + a = 0 $$  and told that it has **three distinct positive roots
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/675.json,4,4,1,879,1,We are given a $ 2 \times 2 $ matrix:  $$ A = \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} $$  and we are to find the *
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/279.json,10,10,1,1188,1,We are given the polynomial:  $$ x^8 + 3x^4 - 4 $$  and asked to factor it into **monic polynomials with integer coeffic
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1146.json,\frac{35}{64},-\frac{35}{64},0,454,1,We are given the identity:  $$ (\sin x)^7 = a \sin 7x + b \sin 5x + c \sin 3x + d \sin x $$  and we are to find the valu
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1747.json,1,1,1,223,1,We are asked to evaluate the expression:  $$ 1^{(2^{235423523})} $$  ### Step 1: Understand the base The base of the exp
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2046.json,x^3+3x-6,x^3 + 3x - 6,1,407,1,We are given the expression:  $$ x\left(x(1+x)+2x\right)-3(x^2-x+2) $$  ---  ### **Step 1: Simplify the inner expression
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1233.json,10,10\%,1,458,1,"We are given a **square**, and we are told that:  - The **lengths of two opposite sides** are **decreased by 40%**. - Th"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1313.json,46,46,1,1176,1,We are given the equation:  $$ \tan 53^\circ \tan 81^\circ \tan x^\circ = \tan 53^\circ + \tan 81^\circ + \tan x^\circ $
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/207.json,-1,-1,1,503,1,We are given that $ z $ is a **complex number** such that:  $$ z^5 = 1 \quad \text{and} \quad z \ne 1 $$  This means tha
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/46.json,40_9,40_9,1,314,1,We are given the subtraction problem:  $$ 58_9 - 18_9 $$  We need to compute this in **base 9** and express the result i
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/516.json,2516_8,2516_8,1,500,1,We are given the binary number:  $$ 10101001110_2 $$  We are asked to convert this binary number to **base eight (octal)
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/456.json,3,3,1,318,1,"We are given that the **volume** and **surface area** of a sphere are **numerically equal**, but they are measured in **"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2253.json,\frac{3\sqrt{3}}{4},\frac{3\sqrt{3}}{4},1,314,1,We are given a custom operation $\&$ defined for positive integers $a$ and $b$ as:  $$ a \& b = \frac{\sqrt{ab + a}}{\sq
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/24313.json,\cot x,\cot x,1,413,1,We are asked to simplify the expression:  $$ \frac{\sec x}{\sin x} - \frac{\sin x}{\cos x} $$  ---  ### Step 1: Recall t
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/1114.json,\frac{11}{36},\frac{11}{36},1,744,1,"We are given two fair, 6-sided dice, and we are to find the **probability that the product of the two numbers rolled is "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/623.json,0,0,1,364,1,"We are given the function:  $$ \log x^2 $$  and told that its **domain** is $ x < a $ or $ x > b $, for some constants $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1004.json,4,4,1,210,1,We are given the equation:  $$ 2^8 = 4^x $$  ### Step 1: Express both sides with the same base  We know that:  $$ 4 = 2^
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/47.json,"(-2,1)","(-2, 1)",1,930,1,We are given the function:  $$ f(x) = x^3 + 3x^2 + 1 $$  and told that there exist real numbers $ a \neq 0 $ and $ b $ s
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/192.json,2,2,1,197,1,We are given the equation:  $$ 2^3 \cdot 3^x = 72 $$  ### Step 1: Simplify the left-hand side We know that:  $$ 2^3 = 8 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1849.json,501,1,0,1274,1,We are given the equation:  $$ \log(kx) = 2\log(x+2) $$  and we are to find the number of **integer values of $ k $** in
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1035.json,3,3,1,413,1,"We are given the following relationships between the weights of **treeks**, **squigs**, and **goolees**:  1. **Ten treek"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2700.json,\frac{3}{2},\frac{3}{2},1,1259,1,"We are given two squares:  - **Square 1** has opposite corners at $(0,0)$ and $(2,2)$. So, it is a square with side leng"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/2046.json,2,2,1,515,1,We are given the equation:  $$ 3^{2x} + 19 = 10^x $$  ---  ### Step 1: Simplify the left-hand side  Note that:  $$ 3^{2x
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/893.json,-1,-1,1,946,1,We are given that the product of two quadratic polynomials:  $$ (3t^2 + 5t + a)(4t^2 + bt - 2) $$  is equal to:  $$ 12t^
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/353.json,\sqrt{5},\sqrt{5},1,399,1,We are given:  - The tank is a **right circular cylinder**. - Water is being added at a rate of **$ 20\pi $ cubic meters
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/307.json,240,240,1,257,1,We are given:  - **5 shirts** - **6 pairs of pants** - **8 hats**  We want to find how many **different outfits** can be
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/567.json,1,1,1,510,1,We are given the equation:  $$ |5x - 1| = x + 3 $$  We need to find the **largest value of $ x $** that satisfies this e
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/892.json,2,2,1,1500,1,"We are given a piecewise function:  $$ f(x) = \begin{cases} ax^2 & \text{if } x \geq a,\\ ax + 2a & \text{if } x < a, \e"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/357.json,21,21,1,693,1,"We are asked to find the **greatest common divisor (GCD)** of the three numbers:  $$ 3339,\quad 2961,\quad 1491 $$  --- "
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1761.json,\frac{3}{2},\frac{3}{2},1,234,1,"We are given that **Remmy wants to divide 10 by $\frac{2}{3}$**, and we are asked:  > **By what number should he multipl"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2023.json,1,1,1,432,1,We are given the function:  $$ f(x) = \frac{\sqrt{x - 1}}{x - 2} $$  We are asked to find the **smallest possible intege
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/377.json,\frac{448}{15625},0.0287,0,599,1,"We are given that a pirate is searching **7 islands**, and **each island has a 1/5 chance of having treasure**. We are t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/873.json,33,33,1,576,1,We are given the equation of a circle:  $$ x^2 - 10x + y^2 + 6y + c = 0 $$  We are to find the value of $ c $ such that 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1646.json,80,50^\circ,0,1101,1,"We are given a quadrilateral $ABCD$ with angles $\angle BAD$ and $\angle CDA$ being **trisected**, and we are to find th"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/34.json,-4,-4,1,631,1,We are given that the **projection** of the vector   $$ \mathbf{v} = \begin{pmatrix} 2 \\ y \\ -5 \end{pmatrix} $$   ont
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/662.json,1 \pm \sqrt{19},,0,2048,0,We are given the equation:  $$ \frac{(x+1)(x-3)}{5(x+2)(x-4)} + \frac{(x+3)(x-5)}{9(x+4)(x-6)} - \frac{2(x+5)(x-7)}{13(x
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/105.json,\text{east},\text{east},1,298,1,We are told that a figure skater is initially facing **north** and then spins **2250 degrees to her right**. We are to d
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1924.json,2k+2,2k + 2,1,127,1,We are given the expression:  $$ (-k + 4) + (-2 + 3k) $$  ### Step 1: Remove the parentheses Since both terms are being 
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1300.json,\begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix},\mathbf{v} = \begin{pmatrix} -\frac{1}{3} \\ \frac{2}{3} \\ \frac{5}{3} \end{pmatrix},0,864,1,We are given:  - $\mathbf{a} = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}$ - $\mathbf{a} \cdot \mathbf{v} = 2$ - $\mathbf
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/183.json,145^\circ,25^\circ,0,1559,1,"We are given a **hexagon inscribed in a circle**, and we are told the measures of some of the **central angles** corresp"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/582.json,850,,0,2048,0,"We are given the equation:  $$ x^{10} + (13x - 1)^{10} = 0 $$  We are told that this equation has 10 **complex** roots, "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/431.json,(a+5)(b+2),(a + 5)(b + 2),1,215,1,We are given the expression:  $$ ab + 5b + 2a + 10 $$  ### Step 1: Group terms Let's group the terms in a way that allow
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/558.json,"(3,4]",,0,2048,0,"We are given a function:  $$ f(x) = \lambda x(1 - x) $$  with $ \lambda \in [0, 4] $, and we are to find the values of $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/362.json,40,40,1,1920,1,We are given two equations:  1. $ x^2 + y^2 + 6x - 24y + 72 = 0 $ 2. $ x^2 - y^2 + 6x + 16y - 46 = 0 $  We are told that
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1804.json,29,29,1,367,1,We are given a table showing the number of students in **eight counties** for the year **2005**. Our goal is to find the
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/515.json,\frac43,\frac{4}{3},0,283,1,We are given the function:  $$ y = \frac{4x^3 + 2x - 4}{3x^3 - 2x^2 + 5x - 1} $$  We are asked to find the **value of $ 
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/914.json,9,9,1,592,1,We are asked to find the number of elements in the **intersection** of two sets:  1. The set of **all prime numbers less
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/894.json,2,,0,2048,0,"We are given the ellipse:  $$ kx^2 + y^2 = 1, \quad \text{with } k > 1 $$  We are to find the value of $ k $ such that: "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/44.json,120^\circ,60^\circ,0,1433,1,We are given the expression:  $$ \tan \theta = \frac{\cos 5^\circ \cos 20^\circ + \cos 35^\circ \cos 50^\circ - \sin 5^\
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/345.json,504,,0,2048,0,"We are given a strictly increasing sequence of **positive integers** $ a_1, a_2, a_3, \dots $, with the following proper"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/23957.json,210,210,1,363,1,We are given that Mr. Brennan has:  - **7 boys** - **4 girls**  He wants to **pick 3 boys and 2 girls** for a group pres
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2058.json,13,13,1,813,1,We are given the expression:  $$ \frac{1+\sqrt{2}}{2+\sqrt{3}} $$  We are to **simplify** this expression and express it
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2593.json,8000,8000,1,275,1,We are asked to evaluate the expression:  $$ (26^2 - 24^2 - 10)^2 - 10^2 $$  ---  ### Step 1: Simplify the inner express
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1898.json,-5,-5,1,720,1,We are given the equation:  $$ \frac{C}{x-3} + \frac{D}{x+8} = \frac{4x - 23}{x^2 + 5x - 24} $$  We are to find the prod
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/1060.json,1260,3360,0,400,1,We are asked to find the number of **distinct arrangements** (permutations) of the letters in the word **ELLIPSE**.  ---
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2157.json,2,2,1,206,1,We are given the equation:  $$ 2^{2x} = 256^{\frac{1}{2}} $$  ### Step 1: Simplify the right-hand side  We know that:  $
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2251.json,3,3,1,268,1,We are given the equation:  $$ \sqrt{3x - 5} = 2 $$  ### Step 1: Eliminate the square root To get rid of the square root
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/232.json,81,81,1,1032,1,"We are asked to find the number of **ordered pairs** $(a, b)$ of **integers** such that:  $$ |a + bi| \leq 5 $$  This is"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1733.json,-9,-9,1,1370,1,We are given the expression:  $$ 1 + 2 + 3 - 4 + 5 + 6 $$  and we are told that **we can only add parentheses** (not cha
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/128.json,\text{even},\text{even},1,800,1,We are given:  - $ f(x) $ is an **odd** function:     $$   f(-x) = -f(x)   $$  - $ g(x) $ is an **even** function:     $
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/505.json,6,6,1,269,1,We are given the equation:  $$ \frac{x}{2} + \frac{x}{3} = 5 $$  ### Step 1: Find a common denominator The denominators 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1332.json,9,9,1,324,1,We are told that the **popularity of a television** (measured in **number of sales**) is **inversely proportional** to i
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/283.json,8,8,1,834,1,"We are given a coordinate geometry problem involving a diagram with points $ A(0,6) $, $ B(0,0) $, $ C(8,0) $, and midpo"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/972.json,\frac{11}{2},\frac{11}{2},1,436,1,We are given the equation:  $$ |x + 5| - |3x - 6| = 0 $$  This simplifies to:  $$ |x + 5| = |3x - 6| $$  We want to **fi
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2232.json,-3,-3,1,273,1,We are asked to evaluate the expression:  $$ \lceil (3.6)^2 \rceil - ( \lceil 3.6 \rceil )^2 $$  ---  ### Step 1: Comput
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1063.json,1+274i,,0,2048,0,"We are given a function:  $$ F(z) = \frac{z + i}{z - i} $$  and a recurrence:  $$ z_n = F(z_{n-1}), \quad \text{for } n "
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/847.json,4210_{5},4210_5,0,664,1,We are given the number $ 555_{10} $ (in base 10) and are asked to convert it to **base 5**.  ---  ### Step 1: Understan
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/661.json,36,36,1,474,1,"We are told that **Suzanne walks 4 miles every third day**, and we are asked to find the **fewest number of miles she ca"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/1140.json,\frac{3840}{289},\frac{3840}{289},1,1511,1,We are given triangle $ ABC $ with side lengths:  - $ AB = 17 $ - $ AC = 8 $ - $ BC = 15 $  We are to find the **area of
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/753.json,13,13,1,590,1,We are given the congruence:  $$ n \equiv -11213141 \pmod{18} $$  and we are to find the integer $ n $ such that:  $$ 0 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/246.json,8,8,1,373,1,We are given the function:  $$ f(x) = ax^4 - bx^2 + x + 5 $$  and the value:  $$ f(-3) = 2 $$  We are asked to find the 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1686.json,4,4,1,392,1,We are given:  - **Rick** is thinking of a **positive factor of 14**. - **Steve** is thinking of a **positive factor of 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1807.json,120,120,1,352,1,We are given a **convex quadrilateral** with the following properties:  - The **largest angle** is **twice** the **small
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1126.json,16,16,1,925,1,"We are given two points:  - $ F_1 = (10, 2) $ - $ F_2 = (-16, 2) $  We are told that the set of points $ P = (x, y) $ su"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1297.json,9,9,1,430,1,We are asked to find how many **zeroes are at the end** of $ 42! $ (42 factorial).  ---  ### Step 1: Understanding Trail
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/2022.json,64,,0,2048,0,"We are given a sequence of **positive real numbers** $(a_1, a_2, \dots, a_n)$ such that:  $$ \sum_{i=1}^n a_i = 96, \qua"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1257.json,204_5,204_5,1,370,1,We are given the division problem:  $$ 413_5 \div 2_5 $$  We need to **express the quotient in base 5**.  ---  ### **Ste
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/430.json,\frac{1}{3},\frac{1}{6},0,717,1,"We are given that:  - Bob and Alice each have a bag with **one ball of each of the colors**: blue, green, orange, red, a"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1151.json,1,1,1,1650,1,"We are given the function:  $$ f(x, y) = x \sqrt{1 - y^2} + y \sqrt{1 - x^2} $$  with the domain:  $$ -1 \le x \le 1, \q"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/156.json,13,13,1,631,1,"We are given a positive integer $ n $, and we are to find the **greatest possible value** of:  $$ \gcd(n + 7, 2n + 1) $$"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/612.json,2,2,1,472,1,We are told that Zach has **three bags** and a **bunch of pencils**. He is told to:  - **Place the greatest number of pe
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/159.json,28800,28800,1,449,1,We are given a Senate committee with:  - 5 **Democrats**   - 5 **Republicans**   - 1 **Independent**  They are to sit **
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/477.json,3 \sqrt{5},3\sqrt{5},1,610,1,"We are given two vectors:  $$ \vec{OA} = \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}, \quad \vec{OB} = \begin{pmatrix} -3 "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/43.json,"(15,-29)","(15, -29)",1,231,1,"We are given a parametric curve:  $$ (x, y) = (t^3 + 7, -3t^2 - 6t - 5) $$  We are asked to find the **point the curve p"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1408.json,-2,-2,1,1634,1,We are given:  $$ z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2} $$  We are to find:  $$ z^{85} + \frac{1}{z^{85}} $$  ---  ##
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1519.json,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,230,1,We are asked to simplify the expression:  $$ \frac{3}{\sqrt{27}} $$  ### Step 1: Simplify the square root in the denomin
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/966.json,16,12\sqrt{2},0,933,1,"We are given that $ x, y, z $ are **positive real numbers** such that:  $$ xyz = 2 $$  We are to **minimize** the expres"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/988.json,11,11,1,186,1,We are given the equation:  $$ \frac{2}{3} = \frac{4}{x - 5} $$  ### Step 1: Cross-multiply to eliminate the fractions  
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/931.json,49,49,1,825,1,"We are given the following conditions about Rosa's age:  1. When Rosa's age is divided by **2, 3, 4, or 6**, the **remai"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/964.json,1,1,1,1910,1,"We are given a recursive function $ f(i, j) $ defined for non-negative integers $ i $ and $ j $, where $ 0 \le j \le 4 $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/986.json,144,144,1,722,1,We are given three equations involving squared distances between three points in the plane:  $$ \begin{align*} (x_1 - x_
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/172.json,8,8,1,1677,1,"We are given:  - Triangle $ ABC $ with area 144. - $ AD $, $ BE $, and $ CF $ are the medians, intersecting at the **cen"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/230.json,\frac{2}{21},\frac{2}{21},1,636,1,"We are given a 3×3 grid of points, and we are to find the **probability** that **three randomly chosen points** lie on t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/880.json,2\sqrt{113},2\sqrt{34},0,1366,1,We are given a **rectangular room** with dimensions:  - **Length** = 12 feet   - **Width** = 10 feet   - **Height** = 8 
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/803.json,\frac{1}{4},\frac{1}{4},1,617,1,"We are given a point $(x, y)$ that is randomly selected such that:  $$ 0 \le x \le 8 \quad \text{and} \quad 0 \le y \le "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/117.json,30^\circ,,0,2048,0,"We are given:  - Two runners, $ A $ and $ B $, start from point $ O $ on a **linear track**. - They run **in the same di"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1410.json,\frac65,\frac{6}{5},0,398,1,"We are given the equation:  $$ \frac{1}{x} + 5x^2 = 6x - 24 $$  and we are told that $ a, b, c $ are the **roots** of th"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2570.json,2107,2107,1,634,1,We are asked to find the **sum of all multiples of 7 between 100 and 200**.  ---  ### Step 1: Identify the first multipl
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/621.json,3.21,3.21,1,328,1,We are given the quadratic expression:  $$ x^2 + 2.6x + 3.6 $$  We are to rewrite it in the form:  $$ (x + b)^2 + c $$  
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/521.json,18,18,1,497,1,"We are given that the **product of two consecutive positive even integers is 288**, and we are to find the **greater** o"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1255.json,6,6,1,79,1,We are asked to evaluate:  $$ \log_2 64 $$  This means: **What power of 2 gives 64?**  We know that:  $$ 2^6 = 64 $$  So
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1655.json,\dfrac{17}{50},\frac{17}{50},1,605,1,"We are asked to find the probability that a randomly selected integer from the set   $$ \{1, 2, 3, \ldots, 100\} $$   is"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2517.json,-\frac{35}{9},-\frac{35}{9},1,1608,1,We are given the inequality constraints:  $$ -6 \leq a \leq -2 \quad \text{and} \quad 3 \leq b \leq 5 $$  We are asked t
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/697.json,-\sqrt{3},-\sqrt{3},1,1254,1,We are asked to simplify the expression:  $$ \tan 100^\circ + 4 \sin 100^\circ $$  ---  ### Step 1: Use angle identities
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1356.json,\frac{4}{9},\frac{4}{9},1,384,1,We are given:  - A bookcase has **3 shelves** with a **total of 24 books**. - **Top shelf**: 8 mystery books. - **Middle
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1003.json,\frac{270}7\text{ degrees},\frac{900}{7},0,1312,1,"We are given a square and a regular heptagon that share a common side $\overline{AD}$, and we are to find the degree mea"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/478.json,65,65,1,215,1,"We are given the formula for the volume of a cone:  $$ V = \frac{1}{3}Bh $$  Where: - $ B $ is the area of the base, - $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/181.json,19,,0,2048,0,"We are given a **rectangular grid of points** with **3 rows** and **$ n $** columns, and we are told that **there are 70"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/802.json,12,12,1,356,1,"We are given a triangle with side lengths of **5, 5, and 6 units**. Since two sides are equal (5 and 5), this is an **is"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/297.json,1736,,0,2048,0,We are given two equations:  1. $ y = x^2 - 8 $ 2. $ y^2 = -5x + 44 $  We are to find the **product of the $ y $-coordin
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1272.json,\frac{13}{15},\frac{13}{15},1,287,1,We are told that:  - **Louis eats** $\frac{1}{5}$ of the pie. - **Jack eats** $\frac{2}{3}$ of the pie.  To find **how m
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/841.json,350,350,1,416,1,"We are given that the **fourth term** of an arithmetic sequence is **200**, and the **eighth term** is **500**. We are t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/686.json,4,4,1,1090,1,We are given a **geometric series**:  $$ 4 + \frac{12}{a} + \frac{36}{a^2} + \cdots $$  We are told that the **sum of th
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/351.json,2,2,1,411,1,We are given the equation of a **parabola**:  $$ x = y^2 - 4y - 1 $$  We are asked: **How many $ y $-intercepts does thi
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/991.json,3,3,1,925,1,"We are given the equation:  $$ 3m + 4n = 100 $$  and we are to find the **smallest possible value of** $ |m - n| $, wher"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/598.json,.0000672,0.0000672,1,485,1,We are given the fraction:  $$ \frac{21}{2^2 \cdot 5^7} $$  Our goal is to convert this into a **terminating decimal**. 
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/65.json,30^\circ,30^\circ,1,1174,1,"We are given a triangle $ \triangle ABC $ with four circles of radius 1, centered at points $ P, Q, R, S $, all tangent "
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1113.json,60,60,1,173,1,We are asked to find the **positive square root** of the product:  $$ 10 \times 15 \times 24 $$  ---  ### Step 1: Multip
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/659.json,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,1,1144,1,"We are given three points that lie on a plane:  - $ A = (0, -1, -1) $ - $ B = (-4, 4, 4) $ - $ C = (4, 5, 1) $  We are t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1908.json,3,2,0,529,1,We are asked to find **how many positive two-digit integers** are **factors of both 100 and 150**.  ---  ### Step 1: Und
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1275.json,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,390,1,We are asked to simplify the expression:  $$ \sqrt{\sqrt[3]{\sqrt{\frac{1}{729}}}} $$  Let’s simplify step by step.  ---
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1922.json,1251,1251,1,208,1,"We are told that **two-thirds** of the students at Baker Middle School take music, and that **834 students** take music."
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1082.json,23,23,1,701,1,We are given the expression:  $$ \sqrt{2} + \frac{1}{\sqrt{2}} + \sqrt{3} + \frac{1}{\sqrt{3}} $$  We are to write this 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/183.json,"(2,\infty)",,0,2048,0,We are given the expression:  $$ \frac{c}{a} + \frac{a}{b + c} + \frac{b}{c} $$  and we are to **find the set of all pos
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1214.json,1,1,1,196,1,We are given the equation:  $$ (3^k)^6 = 3^6 $$  ### Step 1: Simplify the left-hand side  Use the **power of a power** r
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/978.json,7,7,1,508,1,"We are given that $ 2^{24} $ is a **perfect $ n^{\text{th}} $ power**, and we are to find **how many positive integers $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2199.json,7,7,1,360,1,"We are told that Hillary has **11 coins**, and they are **all dimes and nickels**. The total value of the coins is **75 "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/733.json,6,6,1,1272,1,We are given two functions:  $$ f(x) = e^{3x^2 - |\lfloor x \rfloor|!} + \binom{22 + 735235|\lfloor x \rfloor|}{2356} + 
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/702.json,160,,0,2048,0,"We are given a geometric setup involving a flat field with points $ A, B, C, D, O $, and a hot-air balloon at point $ H "
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/51.json,\frac{13}{18},\frac{13}{18},1,532,1,"We are given that **Paul and Jesse each choose a number at random from the first six primes**, and we are to find the **"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/109.json,0,0,1,166,1,"We are given that the point $(a, b)$ lies on the line with the equation:  $$ 3x + 2y = 12 $$  We are also told that $a ="
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/221.json,30,30,1,703,1,We are given triangle $ \triangle PQR $ with:  - $ PQ = 34 $ - $ QR = 34 $ - $ PR = 32 $  We are to find the **length of
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1422.json,4,4,1,503,1,We are given a polynomial with **integer coefficients**:  $$ 2x^4 + a_3 x^3 + a_2 x^2 + a_1 x + 1 = 0 $$  We are to find
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/2196.json,\frac{1}{4},\frac{1}{4},1,1728,1,We are asked to find the **maximum value** of the expression:  $$ \frac{x - y}{x^4 + y^4 + 6} $$  for all real numbers $
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/591.json,24,24,1,449,1,"We are given that $ p(x) $ is a **monic polynomial of degree 4**, and that **three of its roots are 1, 2, and 3**. We ar"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1937.json,1600,1600,1,205,1,We are given the expression:  $$ 441 + 2(21)(19) + 361 = x $$  Let's simplify step by step.  ---  ### Step 1: Evaluate t
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/838.json,6,6,1,945,1,"We are given that $ x^3 $ is a **positive factor** of $ 10! $, and we are to find how many **integer values of $ x $** s"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/508.json,"10,\!080",10080,1,336,1,"We are given 6 girls and 2 boys who want to sit in a row, **with the condition that the 2 boys must sit next to each oth"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1907.json,17,17,1,214,1,"We are given that the **arithmetic mean** of the numbers 7, 2, $ x $, and 10 is 9.  ### Step 1: Recall the formula for t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/2086.json,40,40,1,338,1,We are given the following conversions:  - 4 daps = 7 yaps   - 5 yaps = 3 baps    We are asked: **How many daps equal 42
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/149.json,66,66,1,465,1,"We are given that a group of $ N $ students, where $ N < 50 $, satisfies the following:  - When divided into groups of 8"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/291.json,\frac{2}{3},\frac{2}{3},1,660,1,"We are given a game between Alice and Bob, where they take turns flipping a coin:  - **Alice goes first.** - On **Alice'"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1555.json,12,12,1,562,1,We are asked to find the **remainder** when the expression  $$ (5x + 9)^{611} + (x + 5)^{11} + (x - 1)^{11} + 3x^2 + 1 $
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1510.json,0,,0,2048,0,"We are given that $ a, b, c, d $ are **distinct complex numbers** on the **unit circle**, i.e., $ |a| = |b| = |c| = |d| "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/263.json,\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},\begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix},1,1160,1,We are given that a matrix $\mathbf{A}$ satisfies:  $$ \mathbf{A} \begin{pmatrix} 3 \\ 1 \\ 0 \end{pmatrix} = \begin{pma
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/541.json,"\left( \frac{3}{2}, -13 \right)","\left( \frac{3}{2}, -13 \right)",1,356,1,We are given a **parametric equation** of a line:  $$ \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 8 \\ -1 \en
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/389.json,28,28,1,363,1,"We are given that Mikka wants to order a **pizza with two different toppings**, and he has **8 different toppings** to c"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1201.json,1,1,1,480,1,"We are asked to find **how many of the first 100 positive integers are divisible by 3, 4, and 5**.  ---  ### Step 1: Und"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/234.json,16,16,1,571,1,"We are given that a two-digit integer $ \text{AB} $, when cubed, equals $ 912,673 $. We are to find the sum $ A + B $, w"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/378.json,10,10,1,554,1,"We are given a diagram with a **rectangle** made up of **12 unit squares** (i.e., 1×1 squares), and we are to find the *"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1555.json,5,5,1,315,1,We are given the expression:  $$ 5^5 \div 5^4 - 5^3 + 5^2 \cdot 5^1 $$  We will simplify this step by step using the **l
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2102.json,56,56,1,398,1,We are given the following:  - The test has **100 questions**. - Each **correct** answer gives **+5** points. - Each **i
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/102.json,2,2,1,1439,1,"We are asked to compute the infinite sum:  $$ \sum_{n = 1}^\infty \frac{F_{n + 1}}{F_n F_{n + 2}}, $$  where $ F_n $ den"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/765.json,110,110,1,630,1,We are given the following information about students in a school:  - Total number of students: **360** - **15** take **
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/907.json,2,2,1,284,1,We are given the equation:  $$ x^2 - x - 1 = 0 $$  We are asked to find the value of:  $$ x^3 - 2x + 1 $$  ---  ### Step
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1436.json,6,6,1,322,1,We are given the following conversions:  - 1 Trinket = 4 Blinkets   - 3 Blinkets = 7 Drinkets    We are asked: **What is
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/417.json,"11,\! 111,\! 111,\! 100",11111111100,1,1677,1,We are asked to find the **smallest positive multiple of 450** whose **digits are all zeroes and ones**.  ---  ### Step 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/864.json,"(-1,6)","(-1, 6)",1,262,1,"To find the **midpoint** of a line segment between two points, we use the **midpoint formula**:  $$ \text{Midpoint} = \l"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/282.json,\frac{1}{2},\frac{1}{2},1,1616,1,We are given a **checkerboard** with **columns** and **rows** determined by the **remainders** of two numbers obtained b
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1961.json,\frac{16}{27},\frac{16}{27},1,425,1,"We are told that Sam is carrying a **2-gallon bucket of milk** from the **barn to his house**, which is **3 miles away**"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/89.json,900,900,1,567,1,"We are given that the product of two integers, $ 240 $ and $ k $, is a **perfect cube**. We are to find the **smallest p"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/547.json,54,2,0,1051,1,We are given:  - The area of triangle $ \triangle ABC $ is 6 square centimeters. - $ \overline{AB} \parallel \overline{D
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/183.json,14,20,0,475,1,We are given the fraction:  $$ \frac{4321}{5^7 \cdot 2^8} $$  Our goal is to find the **sum of the digits** in the **ter
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/190.json,\frac{9}{256},\frac{9}{256},1,875,1,We are asked to compute the product:  $$ \sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2159.json,11,11,1,334,1,We are given the expression:  $$ (3x - 2)(4x + 1) - (3x - 2)4x + 1 $$  and we are asked to evaluate it when $ x = 4 $.  
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/71.json,3,3,1,372,1,We are asked to find the number of ways to put **5 indistinguishable balls** into **2 indistinguishable boxes**.  ---  #
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/819.json,\text{(C)},\text{C},0,374,1,We are given the equation in **cylindrical coordinates**:  $$ z = c $$  where $ c $ is a **constant**.  ---  ### Step 1:
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1056.json,288 \pi,\text{A sphere of radius } 6 \text{ centered at the origin},0,1403,1,"We are given a point $ P = (x, y, z) $, and three planes:  1. $ x - z = 0 $ (i.e., $ x = z $) 2. $ x - 2y + z = 0 $ 3. $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/2057.json,90,90,1,299,1,We are given:  - There are **10 items** on the menu. - **Yann** and **Camille** each order **one dish**. - They **refuse
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/986.json,\frac{16}{5},\frac{16}{5},1,1192,1,"We are given the following system of equations:  $$ \begin{align*} a + b + c + d + e &= 8, \\ a^2 + b^2 + c^2 + d^2 + e^"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1578.json,10,10,1,827,1,"We are given the following information:  1. The **average** of Amy's, Ben's, and Chris's ages is **6**. 2. **Four years "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1354.json,\frac{1997}{2},998,0,807,1,We are given that:  $$ \omega^{1997} = 1 \quad \text{and} \quad \omega \ne 1 $$  This means that $\omega$ is a **primiti
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/441.json,30^\circ,30^\circ,1,534,1,We are given:  - $ \|\mathbf{a}\| = 2 $ - $ \|\mathbf{b}\| = 7 $ - $ \mathbf{a} \times \mathbf{b} = \begin{pmatrix} 3 \\
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1837.json,34,34,1,515,1,We are given the function:  $$ f(x) = x^3 - 49x^2 + 623x - 2015 $$  and the function:  $$ g(x) = f(x + 5) $$  We are ask
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/153.json,\frac 59,\frac{5}{9},0,545,1,We are asked to compute:  $$ 0.\overline{7} - 0.\overline{4} + 0.\overline{2} $$  and express the result as a **common f
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/989.json,12,12,1,1072,1,We are asked to compute:  $$ \frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ} $$  ---  
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/337.json,22,22,1,620,1,"We are given the following equations with positive numbers $ x $, $ y $, and $ z $:  $$ xy = 24 \quad \text{(1)} \\ xz ="
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/975.json,-4,-4,1,936,1,We are given the function:  $$ f(x) = \frac{1}{|x^2 + 3x - 4| + |x^2 + 9x + 20|} $$  We are asked to find the **real val
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/229.json,16,16,1,1658,1,We are given two parallelograms defined by lines:  ### First Parallelogram: - $ y = ax + c $ - $ y = ax + d $ - $ y = bx
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/874.json,116,\frac{52}{3},0,1609,1,We are given a diagram with the following information:  - $ PT \parallel QR $ - $ \angle PQR $ is the angle we are asked
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1143.json,17,17,1,942,1,We are given the function:  $$ y = \frac{1}{2}x^2 - 9 $$  We are to find the **smallest distance** from the **origin** $
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2626.json,"\$32,\!348","32,348",0,466,1,"We are given:  - **Initial investment (P)** = \$24,000   - **Interest rate** = 1% **bi-monthly** (i.e., every 2 months) "
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/254.json,3,3,1,308,1,"We are given a triangle with two sides measuring **1 unit** and **3 units**, and the **third side is an integer**. We ar"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1251.json,8,8,1,611,1,"We are given that the **sum of all but one of the interior angles** of a **convex polygon** is $ 1070^\circ $, and we ar"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1210.json,-13x+3,-13x + 3,1,1233,1,We are given a polynomial:  $$ f(x) = x^{10} + 5x^9 - 8x^8 + 7x^7 - x^6 - 12x^5 + 4x^4 - 8x^3 + 12x^2 - 5x - 5 $$  and w
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1787.json,8,8,1,353,1,We are told that:  - **12 friends** met for dinner. - Each ordered **one meal**. - The **total amount of food** was enou
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1123.json,\frac{10}{11},\frac{10}{11},1,640,1,"We are given that $ p(x) $ is a **quadratic polynomial with integer coefficients**, and that $ 4 - \sqrt{11} $ is a **ro"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/920.json,\begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix},,0,2048,0,We are given the matrix:  $$ \mathbf{A} = \begin{pmatrix} 3 & 7 \\ -1 & -2 \end{pmatrix} $$  We are to compute:  $$ \mat
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1065.json,17,17,1,1083,1,We are given the following:  - $ t $ is an **odd** integer. - $ 0 < t < 23 $. - $ t + 2 $ is the **inverse of $ t $ modu
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1934.json,13,13,1,369,1,We are given the equation of a line:  $$ \frac{x}{4} + \frac{y}{12} = 1 $$  This is in **intercept form** of a line:  $$
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/894.json,540,540,1,816,1,"We are given:  - **6 distinguishable cars**. - **3 lanes**: left-turn, straight, and right-turn. - The cars **pull up on"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2064.json,81,81,1,586,1,We are asked to find the **maximum value** of the expression:  $$ 4(x + 7)(2 - x) $$  ---  ### Step 1: Expand the expres
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1458.json,\frac{1}{8},\frac{1}{8},1,181,1,We are asked to find what **fraction of 2 feet is 3 inches**.  ---  ### Step 1: Convert units to be consistent  We need 
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/1009.json,28,28,1,456,1,We are asked to find how many **different assortments** of **six cookies** can be selected from a tray containing **choc
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/452.json,\text{(E)},\text{E},0,475,1,"We are given the polar equation:  $$ r^2 \cos 2\theta = 4 $$  We are to determine what kind of curve this represents, fr"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1995.json,\frac{8}{21},\frac{8}{21},1,374,1,We are asked to simplify the expression:  $$ \frac{1}{5} \cdot \frac{8}{7} \div \frac{12}{20} $$  ---  ### Step 1: Rewri
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/473.json,864 \mbox{ inches}^2,864,0,309,1,"We are given that a cube has a **volume of 1 cubic foot**, and we are asked to find the **total surface area** in **squa"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/694.json,16,16,1,424,1,We are given:  - The **initial ratio** of blue marbles to yellow marbles is **4:3**. - After **adding 5 blue marbles** a
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/149.json,22,22,1,274,1,We are asked to compute the product of the number $ 5 + \sqrt{3} $ and its **radical conjugate**.  ---  ### Step 1: Unde
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/580.json,120^\circ,120^\circ,1,603,1,"We are given three points in 3D space:  - $ A = (1, -11, 2) $ - $ B = (3, -4, 1) $ - $ C = (-2, 1, -1) $  We are asked t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/347.json,76^\circ,76,1,349,1,We are given:  - Triangle $ \triangle ABC $ is inscribed in a circle. - $ AB $ is a **diameter** of the circle. - $ \ang
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1317.json,4,4,1,236,1,We are given the equation:  $$ 10^x - 10 = 9990 $$  ### Step 1: Isolate $10^x$  Add 10 to both sides:  $$ 10^x = 9990 + 
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/483.json,15,15,1,440,1,"We are given that in a **regular polygon**, the **measure of an interior angle** is **6.5 times** the **measure of an ex"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/826.json,1\frac{4}{5},5,0,1768,1,We are given:  - Quadrilateral $ CDEG $ is a **square** with side length $ CD = 3 $. - Quadrilateral $ BEFH $ is a **rec
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/524.json,4005,4005,1,254,1,"We are given the sequence of **odd numbers**:  $$ 1, 3, 5, 7, 9, \dots $$  This is an **arithmetic sequence** where:  - "
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1742.json,\dfrac{33}{100},\frac{33}{100},1,357,1,"We are given a number is selected **at random** from the integers **1 through 100, inclusive**, and we are to find the *"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/226.json,180^\circ,180,1,550,1,"We are given a diagram involving circle $ J $, with two tangent lines $ HO $ and $ HN $, where $ O $ and $ N $ are point"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/466.json,1,1,1,235,1,We are asked to find the **remainder** when the sum   $$ 1 + 2 + 3 + \dots + 9 + 10 $$   is divided by **9**.  ---  ### 
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/913.json,6,6,1,402,1,"We are given:  - 2 **indistinguishable** IMO gold medals (let's call them ""I"") - 2 **indistinguishable** IPhO gold medal"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2551.json,10,10,1,317,1,We are given:  - **One ticket costs \$20** at full price. - **Susan** buys **4 tickets** with a **25% discount**. - **Pa
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/634.json,333,333,1,577,1,"We are asked to compute the **modular inverse** of $ 997 $ modulo $ 1000 $, that is:  $$ 997^{-1} \mod 1000 $$  This mea"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/533.json,1030,1030,1,738,1,We are given the repeating decimal:  $$ 0.\overline{1331} $$  This means the digits **1331** repeat indefinitely:   $$ 0
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/993.json,1250,1250,1,330,1,"We are given:  - In 1992, a scoop of gelato in **Italy** cost **1200 lire**. - The **same gelato** in the **U.S.** cost "
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/686.json,18+2\pi,18 + 2\pi,1,1068,1,"We are given a **regular nonagon** (9-sided polygon) with **side length 2 units**, and we are to find the **perimeter of"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/346.json,7,7,1,175,1,We are given two functions:  - $ f(x) = 2x - 3 $ - $ g(x) = x + 1 $  We are asked to find the value of:  $$ g(f(5) - 1) 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1282.json,11,21,0,675,1,We are given the expression:  $$ \sqrt{120 - \sqrt{x}} $$  and we are to find **how many real values of $ x $** make thi
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1834.json,\sqrt{53},\sqrt{53},1,425,1,"We are asked to find the **simplest radical form** of $\sqrt{53}$.  ---  ### Step 1: Understand what ""simplest radical f"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/691.json,255,255,1,327,1,We are asked to find the **largest eight-digit number in base 2 (binary)** and express it in **base 10 (decimal)**.  ---
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1512.json,7\pi,7\pi,1,449,1,We are given three **concentric circles** with radii:  - Innermost circle: radius = 4   - Middle circle: radius = 6   - 
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1287.json,8,8,1,481,1,"We are given that $ a $ and $ b $ are **different prime numbers greater than 2**, and we are asked to find the number of"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/260.json,36^\circ,36^\circ,1,487,1,"We are given a **regular pentagon** $ FGHIJ $, and we're told that **extending the sides** of the pentagon forms a **sta"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1184.json,129,129,1,639,1,"We are given a sequence:  $$ 0, 1, 1, 3, 6, 9, 27, \ldots $$  The **first term** is 0.  The **rule** is:  > Subsequent t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1787.json,1,1,1,332,1,We are asked to evaluate the expression:  $$ \left(4\dfrac{5}{8}\right)^{55} \cdot \left(\dfrac{8}{37}\right)^{55} $$  -
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/768.json,3 \pm 2 \sqrt{2},"3 + 2\sqrt{2},\ 3 - 2\sqrt{2}",0,1331,1,We are given the equation:  $$ \sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3} $$
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1411.json,440,,0,2048,0,"We are given a polynomial:  $$ P(x) = 2x^3 - 2a x^2 + (a^2 - 81)x - c $$  with **all roots being positive integers**, an"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/960.json,\frac{17}{21},,0,2048,0,"We are given a set $ T $ of all **triples** $ (a, b, c) $ of **positive integers** such that there exists a triangle wit"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/631.json,36,36,1,648,1,We are given:  - Gear A turns $ 33\frac{1}{3} $ times per minute. - Gear B turns 45 times per minute. - Both gears start
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1172.json,7,7,1,1393,1,We are given two lines in 3D space:  - **Line 1**:     $$   \vec{r}_1 = \begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1300.json,16,16,1,539,1,"We are given four **positive real numbers** $ a, b, c, d $, and we are to find the **minimum value** of the expression: "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/634.json,4,4,1,757,1,We are given the equation:  $$ \frac{6r^2 - 19r - 7}{2r - 7} = 4r - 3 $$  Our goal is to find the value of $ r $ that sa
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/25149.json,63,63,1,488,1,"We are given a **rectangular region** with the following **vertices**:  $$ (5,4),\ (-5,4),\ (-5,-4),\ (5,-4) $$  We are "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/90.json,898,898,1,1312,1,"We are given a recurrence relation:  $$ x_1 = 211,\quad x_2 = 375,\quad x_3 = 420,\quad x_4 = 523 $$ $$ x_n = x_{n-1} - "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2486.json,"\left(\frac{3}{5},\frac{8}{3}\right]","\left( \frac{3}{5}, \frac{8}{3} \right]",1,468,1,We are given two inequalities:  1. $ 0 \ge 54p - 144 $ 2. $ 0 > 12 - 20p $  We will solve each inequality separately and
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/488.json,58,58,1,855,1,We are given that:  - The **sum of three consecutive positive integers** is a **three-digit palindrome**. - The **sum is
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1201.json,11,11,1,1704,1,We are given the equation:  $$ z^4 + 4z^3i - 6z^2 - 4zi - i = 0 $$  and told that the **solutions** of this equation are
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/754.json,\text{(B)},\textbf{(B)}\ 3(1 + r/10)^x = 7,0,747,1,We are given five equations of the form:  $$ 3(1 + a)^x = 7 $$  where $ a $ is a different expression for each option. W
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1172.json,103,103,1,746,1,"We are given the following:  - A **leaf** is one piece of paper. - A **page** is one side of a leaf, so **each leaf has "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/881.json,\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},\begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix},1,1088,1,We are given the cross products of three vectors:  $$ \mathbf{a} \times \mathbf{b} = \begin{pmatrix} 6 \\ -7 \\ 3 \end{p
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/1097.json,63,63,1,455,1,"We are given a rectangle with vertices at:  - $(5, 4)$ - $(5, -4)$ - $(-5, 4)$ - $(-5, -4)$  We are to find how many **i"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/339.json,12,12,1,390,1,We are given **four distinct circles** and asked to find the **maximum number of points where at least two of the circle
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1044.json,5.4 \text{ cents},5.4,0,434,1,We are given a **bar graph** that shows the **number of stamps** from different **countries** in different **decades**. 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/465.json,5,5,1,1543,1,We are given the fraction:  $$ \frac{31}{11111} $$  We are to find **how many digits repeat** in its decimal expansion. 
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/965.json,28,21,0,1144,1,We are given a trapezoid $ABCD$ with the following properties:  - $AD \parallel BC$ - $\overline{AC} \perp \overline{CD}
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/446.json,9,9,1,803,1,We are asked to find the **minimum value** of the expression:  $$ \frac{(x + 5)(x + 2)}{x + 1} \quad \text{for } x > 0 $
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2257.json,\frac9{19},\frac{9}{19},0,487,1,We are given the equation:  $$ \frac{\sqrt{2x}}{\sqrt{3x - 1}} = \frac{3}{2} $$  ### Step 1: Eliminate the square roots 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1544.json,6,,0,2048,0,We are given a quadratic equation of the form:  $$ x^2 + ax + b = 0 $$  and the condition that **whenever $ c $ is a roo
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/695.json,"(-\infty, 0]","(-\infty, 0]",1,901,1,We are given the function:  $$ y = \log_2 (\sqrt{\sin x}) $$  and we are to find the **range** of this function for:  $$
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/711.json,1+2\sqrt{3},2\sqrt{3} + 1,0,1480,1,"We are given a **regular tetrahedron** $ABCD$ with **side length 2**, and a **plane** that is **parallel to edges $AB$ a"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/203.json,14,14,1,1382,1,"We are given that the **product of a set of distinct positive integers is 84**, and we are to find the **least possible "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1842.json,49,49,1,378,1,We are given a custom operation $@$ defined as:  $$ \frac{m}{n} @ \frac{p}{q} = (m)(p)\left(\frac{q}{n}\right) $$  We ar
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/911.json,3,3,1,734,1,We are given the sum:  $$ 1 + 12 + 123 + 1234 + 12345 + 123456 + 1234567 + 12345678 $$  and we are to find the value of 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1714.json,"(5,\infty)","(5, \infty)",1,285,1,We are given the inequality:  $$ \frac{1}{x - 5} > 0 $$  ### Step 1: Understand when a fraction is positive A fraction $
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1423.json,12\pi,12\pi,1,270,1,We are given:  - Radius of the unicycle wheel: $ r = 9 $ inches   - The wheel makes **2 revolutions every 3 seconds**  W
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/1108.json,"(2,4)","(2, 4)",1,338,1,"We are given a point $(0, 0)$, and we are to reflect it **first over the vertical line $x = 1$**, and then **reflect the"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/791.json,41,41,1,811,1,"We are given that positive integers $ a $, $ b $, and $ 2009 $ form a **geometric sequence** with an **integer ratio**, "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/276.json,12,12,1,571,1,We are given the quadratic expression:  $$ 10x^2 - x - 24 $$  and told it can be written in the form:  $$ (Ax - 8)(Bx + 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/2152.json,0,0,1,669,1,We are given the expression:  $$ p(x) = \frac{(x - b)(x - c)}{(a - b)(a - c)} + \frac{(x - a)(x - c)}{(b - a)(b - c)} + 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2735.json,\frac{11+9a}{20},\frac{11 + 9a}{20},1,405,1,We are given the expression:  $$ \frac{4 + 6a}{5} - \frac{1 + 3a}{4} $$  ### Step 1: Find a common denominator  The deno
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/425.json,-128,-128,1,226,1,We are given the equation:  $$ |x - 4| - 10 = 2 $$  ### Step 1: Isolate the absolute value Add 10 to both sides:  $$ |x 
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/947.json,-\frac{24}{25},-\frac{24}{25},1,1466,1,We are given:  - $\sin \angle RPQ = \frac{7}{25}$ - We are to find $\cos \angle RPS$  Let’s analyze the diagram and the 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/954.json,10,10,1,298,1,We are given:  - The robot moves at a **constant speed**. - It takes **2.5 hours** to travel **1 kilometer**. - It takes
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1936.json,-1,-1,1,196,1,We are given two functions:  - $ f(x) = x - 3 $ - $ q(x) = bx + 1 $  We are also told that:  $$ f(q(1)) = -3 $$  ### Ste
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/870.json,\frac{1}{3},\frac{1}{3},1,1155,1,"We are given four points $ A, B, C, D $ chosen **randomly and independently** on the **circumference of a circle**, and "
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/465.json,120,160,0,757,1,"We are given:  - Two circles with the **same center** $ D $, one with radius $ 1 $ (inner circle), and one with radius $"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/73.json,4,4,1,396,1,We are given:  - A **cylindrical beaker** with:   - Height = 8 cm   - Radius = 3 cm  - A **spherical tank** with:   - Ra
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/742.json,\frac{9}{100},0.09,0,638,1,We are asked to evaluate the expression:  $$ \sin (\arcsin 0.4 + \arcsin 0.5) \cdot \sin (\arcsin 0.5 - \arcsin 0.4) $$ 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/117.json,15,,0,2048,0,"We are given:  - $ P(x) $ is a **monic polynomial of degree 3**, so:   $$   P(x) = x^3 + ax^2 + bx + c   $$ - When $ P(x"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2176.json,3,3,1,1982,1,We are given the function:  $$ f(x) = \left\lfloor \left(-\frac{5}{8} \right)^x \right\rfloor $$  and we are to find how
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1973.json,4,4,1,230,1,"We are given that a bicycle is traveling at **20 feet per minute**, and we are asked to convert this speed to **inches p"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/216.json,1940,1940,1,541,1,We are given:  - A Senate committee with **8 Republicans** and **6 Democrats**. - We are to form a **subcommittee of 5 m
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/509.json,\frac{13}{6},\dfrac{13}{6},1,786,1,We are given the expression:  $$ \sqrt{\dfrac{\dfrac{5}{\sqrt{80}}+\dfrac{\sqrt{845}}{9}+\sqrt{45}}{\sqrt{5}}} $$  We wi
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/190.json,2,,0,2048,0,"We are given that $ x, y, z $ are **positive real numbers** such that:  $$ xyz(x + y + z) = 1 $$  We are to **minimize**"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/776.json,3,3,1,476,1,We are given the continued fraction representation:  $$ \sqrt[3]{2} = a + \cfrac{1}{b + \cfrac{1}{c + \cfrac{1}{d + \dot
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1457.json,-120,-120,1,494,1,We are given the following system of equations:  $$ \begin{align*} (1) &\quad a + b = 8 \\ (2) &\quad b + c = -3 \\ (3) 
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/483.json,3,3,1,938,1,"We are given the **Fibonacci sequence**:  $$ F_1 = 1, \quad F_2 = 1, \quad F_3 = 2, \quad F_4 = 3, \quad F_5 = 5, \quad "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2592.json,26000,26000,1,213,1,"We are asked to find the value of:  $$ 513^2 - 487^2 $$  This is a **difference of squares**, which follows the identity"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1730.json,6,6,1,552,1,We are given:  - The **product of three consecutive integers** is **120**. - That product **divided by the mean of the t
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/368.json,4343_6,4343_6,1,647,1,We are given the number $ 999_{10} $ (which is in base 10) and are asked to convert it to **base six**.  ---  ### Step 1
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1566.json,2k,2k,1,681,1,"We are given a parabola with equation:  $$ y = ax^2 + bx + c $$  and its **vertex** is at $(h, k)$. We are told that thi"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/801.json,55^\circ,67^\circ,0,550,1,We are given:  - The angle between vectors $\mathbf{a}$ and $\mathbf{b}$ is $29^\circ$. - The angle between vectors $\ma
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/858.json,-2,-2,1,302,1,We are asked to find the **smallest number** which is **one less than twice its reciprocal**.  Let the number be $ x $. 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1238.json,2,2,1,274,1,We are given the inequality:  $$ \frac{1}{4} < \frac{x}{7} < \frac{1}{3} $$  Our goal is to find the **integer** $ x $ t
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/737.json,"58,500","58,500",1,374,1,"We are asked to find how many **license plates** can be formed, where each license plate has:  - **2 different letters**"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1572.json,5,5,1,553,1,"We are given a piecewise function:  $$ f(n) = \begin{cases} 4n + 3 & \text{if } n < a, \\ 7n - 12 & \text{if } n \ge a. "
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1529.json,1,1,1,243,1,We are given the following functions:  - $ t(x) = 3 - g(x) $ - $ g(x) = \sqrt{x} $  We are asked to find:  $$ t(g(16)) $
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1338.json,66,66,1,499,1,We are given the equation:  $$ \sqrt[3]{x^2 - 4x + 4} = 16 $$  ### Step 1: Eliminate the cube root To get rid of the cub
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1547.json,6r^2-4r-24,6r^2 - 4r - 24,1,354,1,"We are given the expression:  $$ 4(3r^3 + 5r - 6) - 6(2r^3 - r^2 + 4r) $$  ### Step 1: Distribute the constants  First, "
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/116.json,4495,4495,1,388,1,We are asked to compute the binomial coefficient:  $$ \dbinom{31}{28} $$  ### Step 1: Use the symmetry property of binom
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/238.json,10080,10080,1,377,1,"We are asked to find the number of **distinct ways to seat 8 people around a square table with 2 people on each side**, "
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/686.json,4,4,1,470,1,We are asked to find the **units digit** of $ 18^6 $.  ---  ### Step 1: Understand what a units digit is The **units dig
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/826.json,\frac{1}{16},\frac{1}{16},1,818,1,We are asked to simplify the expression:  $$ \cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1281.json,11 \sqrt{5} + 11,,0,2048,0,"We are given:  - Triangle $ ABC $ is **isosceles** with $ AB = AC $. - $ AM $ is the **altitude** from $ A $ to $ BC $, "
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/1014.json,480,480,1,424,1,We are given:  - 6 **different** books. - 2 of them are **math books**. - We want to **stack** all 6 books on a shelf. -
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/529.json,81,81,1,544,1,"We are given that the **sum of 27 consecutive positive integers** is $ 3^7 $, and we are to find their **median**.  --- "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1166.json,100,120,0,1639,1,We are given the expression:  $$ \frac{(a + b + c)[(a + b)^2 + (a + b + 4c)^2]}{abc} $$  and we are to **find the minimu
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1078.json,"(-\sqrt{3}, \sqrt{3})","(-\sqrt{3}, \sqrt{3})",1,818,1,We are given the inequality:  $$ -4 < x^4 + 4x^2 < 21 $$  We are to find all **real values of $ x $** that satisfy this 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1353.json,4,4,1,632,1,"We are given:  - A **deck of 54 cards**. - The cards are **dealt to $ x $ players**, with **each player getting $ y $ ca"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/860.json,\text{ellipse},\text{ellipse},1,635,1,We are given the equation:  $$ \left(\frac{x}{2} - 3\right)^2 + y^2 = 10 $$  Let's analyze this step by step.  ---  ### 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1407.json,6,6,1,1121,1,"We are given the following system of equations:  $$ \begin{align*} (1) &\quad xyz = 4, \\ (2) &\quad x^3 + y^3 + z^3 = 4"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/96.json,\frac{7}{4},\frac{7}{4},1,485,1,We are given that a line is parameterized with a **direction vector** of the form:  $$ \begin{pmatrix} -7 \\ b \end{pmat
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1405.json,16 \sqrt{3},16\sqrt{3},1,1301,1,"We are given that an **equilateral triangle** is **inscribed in the parabola** $ x^2 = 8y $, and **one of its vertices**"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/14.json,\frac14,\frac{1}{4},0,290,1,We are given:  - There are **two candidates for president**: **Dan** and **Donald**. - There are **two candidates for vi
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/251.json,2,2,1,128,1,We are given the equation:  $$ 3 + \frac{1}{x} = \frac{7}{x} $$  ### Step 1: Subtract $\frac{1}{x}$ from both sides $$ 3
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/690.json,"(1,-16,-4,43)","(1, -16, -4, 43)",1,922,1,"We are given a circle:  $$ x^2 + y^2 = 25 $$  and told that **each point on the circle is reflected in the point** $(4,1"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/820.json,8,,0,2048,0,"We are given:  - $ \gcd(a, b) = 210 $ - $ \mathop{\text{lcm}}[a, b] = 210^3 $ - $ a, b $ are **positive integers** - $ a"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/109.json,4,4,1,621,1,We are asked to find the **modulo 7 remainder** of the sum:  $$ 1 + 3 + 5 + 7 + 9 + \dots + 195 + 197 + 199 $$  ---  ###
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1199.json,1,1,1,299,1,"We are given a function $ f $ and its inverse $ f^{-1} $, along with the following values:  - $ f(1) = 2 $ - $ f(2) = 6 "
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/106.json,31,31,1,535,1,"We are given that two sides of a triangle are each **8 units long**, and the **third side has a whole number length**. W"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1187.json,21,189,0,494,1,We are given a **trapezoid** with the following dimensions and labels:  - One of the **non-parallel sides** is labeled *
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1289.json,-41,-41,1,252,1,We are asked to find the **dot product** of the two vectors:  $$ \begin{pmatrix} -2 \\ 0 \\ 7 \end{pmatrix} \quad \text{
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/955.json,17,17,1,1116,1,"We are given that for all $ x \in [0,1] $, the inequality  $$ |ax^2 + bx + c| \le 1 $$  holds, and we are to **find the "
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/846.json,90^\circ,,0,2048,0,We are given:  - $ AD = BD = CD $ - $ \angle BCA = 40^\circ $ - We are to find $ \angle BAC $  ---  ### Step 1: Understa
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2264.json,1+2i,1 + 2i,1,895,1,We are given that William Sydney Porter **missed the minus sign** in the numerator of the complex fraction:  $$ \frac{-3
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1303.json,4,4,1,226,1,We are asked to find the **difference between the positive square root of 64 and the cube root of 64**.  ---  ### Step 1
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/427.json,25,25,1,556,1,"We are given that $ A $ is the **sum of the positive divisors** of $ 500 $, and we are to find the **sum of the distinct"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/538.json,"(8,-2)","(8, -2)",1,853,1,"We are given:  - A point $ P $ lies on the line $ y = -x + 6 $. - $ P $ is equidistant from the points $ A(10, -10) $ an"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1185.json,6,6,1,1143,1,We are given a definition of the **superfactorial** $ n\$$ as:  $$ n\$ = \underbrace{ n!^{{n!}^{{\cdot}^{{\cdot}^{{\cdot
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1743.json,3,3,1,677,1,We are asked: **For how many two-digit prime numbers is the sum of the digits equal to 8?**  ---  ### Step 1: Understand
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1865.json,12,12^{\text{th}} \text{ grade},0,1146,1,We are given a table showing the **percent of bus riders** among **males** and **females** in each grade. The total numb
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1992.json,"(0,9) \cup (9,36)","(0, 36)",0,724,1,We are given the inequality:  $$ \frac{|x^2 - 81|}{x^2 - 36x} < 0 $$  We need to find the values of $ x $ for which this
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/188.json,\frac{1}{2},\frac{4}{9},0,1998,1,"We are given that two numbers $ x $ and $ y $ are selected **at random** from the interval $ (0, 3) $, and we are to fin"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1111.json,\frac{20000}{\pi},\frac{20000}{\pi},1,855,1,"We are given a **rectangular field** enclosed in an **athletic track**, which consists of:  - Two **straight sides** (th"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/101.json,"x \in [-2,7]","[-2, 7]",0,566,1,We are given the inequality:  $$ x^2 - 5x - 4 \le 10 $$  ### Step 1: Move all terms to one side Subtract 10 from both si
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1298.json,15x - 80,15x - 80,1,155,1,We are given the expression:  $$ 19x + 1 - 4x - 81 $$  ### Step 1: Combine like terms  Group the terms with $ x $ and th
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/2066.json,22,22,1,390,1,We are given:  - Kathy has **$300 USD**. - She wants to **withdraw half in British pounds (GBP)** and **half in euros (E
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/170.json,11,11,1,339,1,We are given the inequality:  $$ |x - 2| \leq 5.6 $$  ### Step 1: Understand the absolute value inequality  The inequali
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/849.json,18,18,1,202,1,We are given the function:  $$ f(x) = 5x^2 + 3x + 4 $$  We are asked to find the value of $ f(-2) $.  ### Step 1: Substi
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1031.json,\frac{11}{2},\frac{11}{2},1,516,1,We are given the function:  $$ g(x) = \sqrt{(x-3)^2 - (x-8)^2} $$  We are asked to find the **smallest real number $ x $
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/795.json,\frac{\sqrt{21}}{5},\frac{\sqrt{21}}{5},1,713,1,"We are given a right triangle $ \triangle RST $, with a right angle at $ S $, and the following information:  - $ \sin R"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/853.json,12,12,1,975,1,We are given the function:  $$ y = \frac{1}{\sqrt{2}}(x^2 - 3) $$  We are to find the **smallest distance** from the **o
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2277.json,0,0,1,1391,1,"We are given a piecewise function:  $$ f(x) = \begin{cases} 3 - x & \text{if } x \leq 3, \\ -x^3 + 2x^2 + 3x & \text{if "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/902.json,\sqrt{66},6,0,2048,0,"We are given a **regular octahedron**, and a point $ P $ such that the **distances from $ P $ to five of the six vertice"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/518.json,\frac 34,\frac{3}{4},0,389,1,We are given the physics formula:  $$ \text{Force} = \text{Mass} \times \text{Acceleration} $$  Jen wants to throw a **s
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1791.json,-\frac{3}{8},-\frac{3}{8},1,1777,1,"We are given a function:  $$ z(x, y) = (2x - y)^2 - 2y^2 - 3y $$  Archimedes chooses $ x $ first, and then Brahmagupta c"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/114.json,4,4,1,303,1,We are given:  $$ a = 8 $$  and we are asked to find the value of:  $$ \left(16\sqrt[3]{a^2}\right)^{\frac{1}{3}} $$  --
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/631.json,2,2,1,527,1,"We are given a square $ABCD$ with area 16 square inches, and it is divided into pieces of a **Chinese tangram**, where: "
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/977.json,23,23,1,246,1,We are given the equation:  $$ 3x + 2(1 + x) = 17 $$  ### Step 1: Simplify the left-hand side  Distribute the 2 into the
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1991.json,\text{Navin},\text{Navin would earn the most after working an eight-hour day.},0,591,1,"We are given the hourly wages of three people in their local currencies, and we are also given the exchange rates to US "
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1784.json,326.5,326.5,1,212,1,Sure! Let's add the two numbers step by step:  We are adding:  $$ 313.9 + 12.6 $$  ### Step 1: Align the decimal points 
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/817.json,\frac{14}{3},14(\sqrt{2} - 1),0,2048,0,We are given:  - A circle with center $ Q $ and radius 14 inches. - Two radii $ AQ $ and $ BQ $ form a **right angle** (
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1806.json,\frac{13}{4},,0,2048,0,"We are given a complex number $ z $ such that $ |z| = 1 $, and we are to find the **maximum value** of the expression:  "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1291.json,1 - 12i,1 - 12i,1,412,1,"We are given a **90° clockwise rotation** around the complex number $ -4 - 5i $, and we are to apply this rotation to th"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/928.json,3,3,1,534,1,"We are given the number $ 629_{10} $ (in base 10), and we are to find **how many digits are the same** in its **base 7**"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/761.json,3,3,1,333,1,We are given the following information:  - Roslyn has **10 boxes** in total. - **5 boxes** contain **pencils**. - **4 bo
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1572.json,60,60,1,288,1,We are given:  - **3 people** - **5 different offices** - **No one shares an office** - **Each person gets exactly one o
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/132.json,0,0,1,147,1,We are asked to find the **remainder** when **2004** is divided by **12**.  ---  ### Step 1: Perform the division  We di
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1960.json,9,9,1,221,1,We are given the function:  $$ f(x) = \frac{2}{x+1} $$  We are asked to find:  $$ f^{-1}\left(\frac{1}{5}\right) $$  Thi
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/398.json,\begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix}, \begin{pmatrix} \frac{1}{5} \\ -\frac{18}{5} \end{pmatrix} ,0,1694,1,We are given that a **reflection** takes the vector   $$ \begin{pmatrix} 5 \\ 0 \end{pmatrix} $$ to   $$ \begin{pmatrix}
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1797.json,2 \sqrt{5},2\sqrt{5},1,1045,1,We are given the **asymptotes** of a hyperbola:  - $ y = 2x - 3 $ - $ y = 17 - 2x $  And the hyperbola **passes through 
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/65.json,6,6,1,526,1,We are given a number:   $$ 21420N $$   where $ N $ is the **units digit** of the number. We are to find the **nonzero v
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1227.json,60,60,1,302,1,We are told:  - There are **6 witches** and **10 sorcerers** at a mixer. - **Witches** shake hands with **each of the so
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/2146.json,406,,0,2048,0,"We are given that $ P(x) $ is a **quadratic polynomial** with real coefficients, and it satisfies the inequality:  $$ x^"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2680.json,5r^5,5r^5,1,226,1,"We are given the expression:  $$ \frac{(10r^3)(4r^6)}{8r^4} $$  ### Step 1: Multiply the numerators  First, multiply the"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2391.json,10,10,1,422,1,We are given the equation:  $$ (3)5^2 - 4(5 - a)^2 \div 3 = 63 $$  Let's simplify this step by step.  ---  ### Step 1: S
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/769.json,9,9,1,853,1,We are asked to find the **remainder when** $ 129^{34} + 96^{38} $ **is divided by 11**.  This is a **modular arithmetic
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/681.json,\frac{1}{8},\frac{1}{8},1,818,1,We are asked to compute:  $$ \sin^3 18^\circ + \sin^2 18^\circ $$  ---  ### Step 1: Let $ x = \sin 18^\circ $  We are to
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/776.json,-2,-2,1,256,1,We are given the polynomial:  $$ f(x) = 3x^4 + 5x^2 - 9x - 2 $$  We are told that:  $$ g(x) = f(x - 1) $$  We are asked 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1796.json,2\sqrt{5},2\sqrt{5},1,399,1,"We are asked to find the **shortest distance** from the point $(6, 0)$ to the line $y = 2x - 2$.  ---  ### Step 1: Use t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/145.json,\begin{pmatrix} -7 \\ 16 \\ 5 \end{pmatrix},\begin{pmatrix} -7 \\ 16 \\ 5 \end{pmatrix},1,1236,1,We are given the vector equation:  $$ \begin{pmatrix} 1 \\ 2 \\ -5 \end{pmatrix} \times \mathbf{v} = \begin{pmatrix} 90 
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/625.json,\begin{pmatrix} 16/49 \\ 48/49 \\ 24/49 \end{pmatrix}, \begin{pmatrix} \dfrac{16}{49} \\ \dfrac{48}{49} \\ \dfrac{24}{49} \end{pmatrix} ,0,441,1,We are given:  - A vector $\mathbf{b} = \begin{pmatrix} 2 \\ 6 \\ 3 \end{pmatrix}$ - The dot product $\mathbf{a} \cdot \
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1202.json,27,27,1,1269,1,We are given the equation:  $$ \arccos x + \arccos 2x + \arccos 3x = \pi $$  We are to find the **smallest possible valu
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/2015.json,"\{1\pm\sqrt{5},-2\}",,0,2048,0,"We are given that the complex numbers $\alpha_1, \alpha_2, \alpha_3, \alpha_4$ are the **four distinct roots** of the po"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1002.json,1440,1440,1,846,1,We are given the following system of **congruences**:  $$ \begin{cases} x \equiv 5 \pmod{7} \\ x \equiv 10 \pmod{11} \\ 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1339.json,600,600,1,365,1,We are told that the value of $ y $ **varies inversely** as $ \sqrt{x} $. This means:  $$ y = \frac{k}{\sqrt{x}} $$  for
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1133.json,3R^2,,0,2048,0,"We are given a triangle $ ABC $, with:  - $ G $: the **centroid** of triangle $ ABC $, - $ H $: the **orthocenter** of t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/843.json,6\sqrt{2},6\sqrt{2},1,485,1,We are given:  - A **square** and an **equilateral triangle** have **equal perimeters**. - The **area of the triangle** 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2743.json,29,29,1,346,1,We are given the following information:  - **Three pencils and one jumbo eraser cost \$1.24** - **Five pencils and one j
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/121.json,64,64,1,990,1,"We are given that $ a, b, c, d $ are **positive real numbers** such that:  $$ a + b + c + d = 1 $$  We are to **minimize"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1014.json,50,50,1,682,1,"We are given:  - $ ab^2 = 5 $ - $ a, b > 0 $ - We are to **minimize** $ a^4 + b^8 $  ---  ### Step 1: Use the constraint"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/2019.json,4.5,4.5,1,154,1,"To express the fraction $\frac{9}{2}$ as a decimal, we perform the division:  $$ \frac{9}{2} = 9 \div 2 $$  Now divide: "
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/499.json,"\left[ \frac{\pi^2}{8}, \frac{5 \pi^2}{4} \right]","\left[ \frac{\pi^2}{8}, \frac{5\pi^2}{4} \right]",1,1371,1,We are given the function:  $$ f(x) = (\arccos x)^2 + (\arcsin x)^2 $$  and we are to find its **range**.  ---  ### Step
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1462.json,331,,0,2048,0,"We are given a recurrence relation:  $$ f(n + 1) = (-1)^{n + 1} n - 2f(n), \quad \text{for } n \ge 1 $$ and the conditio"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/410.json,.35625,0.35625,1,243,1,We are given the fraction:  $$ \frac{57}{160} $$  We are asked to **convert it to a terminating decimal**.  ---  ### Ste
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1640.json,32,32,1,811,1,"We are given that in an **isosceles right triangle**, the **altitude to the hypotenuse** is $ 4\sqrt{2} $, and we are to"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2043.json,"(-\infty, 2) \cup (3, \infty)","(-\infty, 2) \cup (3, \infty)",1,643,1,We are given the function:  $$ f(x) = \frac{2x - 7}{\sqrt{x^2 - 5x + 6}} $$  We are to find the **domain** of this funct
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/10.json,4,4,1,1027,1,We are given that the probability that **exactly two** of $ n $ fair 6-sided dice show a number **other than 1** is:  $$
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1553.json,3,3,1,701,1,We are given three equations involving four different integers represented by the symbols:  - $\triangle$ - $\square$ - 
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/255.json,4,4,1,187,1,We are asked to find the **last nonzero digit to the right of the decimal point** in the decimal expansion of:  $$ \frac
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/199.json,x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1,x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1,1,629,1,We are asked to find the **quotient** when $ x^9 + 1 $ is divided by $ x - 1 $.  ---  ### Step 1: Use Polynomial Divisio
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2080.json,14,14,1,320,1,We are asked to simplify the expression:  $$ (u+4)(u-1) - (u-3)(u+6) $$  ---  ### Step 1: Expand each product  **First t
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/2037.json,550,550,1,346,1,"We are given:  - Karla drove **12,000 miles** last year. - She drove an **SUV** that averages **15 miles per gallon**. -"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1343.json,256,256,1,289,1,We are given the function:  $$ f(x) = 2^x $$  We are asked to find:  $$ \sqrt{f(f(f(f(1))))} $$  ---  ### Step 1: Comput
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/668.json,45,45,1,219,1,"We are given an **arithmetic sequence**:  $$ 3^2, \ x, \ 3^4 $$  ### Step 1: Simplify the known terms  $$ 3^2 = 9, \quad"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/731.json,\frac{1}{2},\frac{k}{(k + 1)^2},0,1288,1,"We are given a rectangle $ABCD$ with center $O$, and the ratio of the sides is $AB/AD = k$. A point is randomly chosen f"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1779.json,15,,0,2048,0,We are given:  - A **circle**: $ x^2 + y^2 = 2 $ - A **parabola**: $ y^2 = 8x $  We are to find the **area of the quadri
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2430.json,8,8,1,664,1,"We are given an **infinite geometric sequence**:  $$ \left\{\frac{1}{4}, \frac{1}{8}, \frac{1}{16}, \dots \right\} $$  a"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/996.json,9,9,1,371,1,We are given the following:  - There are **35 students** in total at the math club meeting. - The **number of girls** is
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1000.json,44,44,1,534,1,"We are asked to compute the **modular inverse** of $ 17 $ modulo $ 83 $, that is:  $$ 17^{-1} \pmod{83} $$  This means w"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2789.json,47,47,1,229,1,We are given a custom operation:  $$ a \star b = 9a + 2b - ab + 5 $$  We are asked to find the value of:  $$ 5 \star 1 $
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/13.json,64,64,1,1843,1,We are given the congruence:  $$ 14u \equiv 46 \pmod{100} $$  We are to find the **two smallest positive integer solutio
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/459.json,\frac{639}{40},\frac{639}{40},1,459,1,We are given that:  - **3 inches on the map = 10 miles in real life** - The **real life distance** between two buildings
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1814.json,143,143,1,511,1,We are given:  1. The **sum of the digits** of a two-digit number is **13**. 2. The **difference** between the number an
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2476.json,10,10,1,359,1,We are given:  - 7th grade enrollment: **520** - 8th grade enrollment: **650** - Total number of Student Council represe
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/323.json,y = 2x + 3,y = 2x + 3,1,1332,1,"We are given a **linear transformation** represented by a matrix $\mathbf{M}$, and we are told:  - $\mathbf{M} \begin{pm"
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/190.json,6,6,1,352,1,We are asked to find **how many ways 5 students can be selected from a group of 6 students**.  This is a **combinations*
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1102.json,"-2,1","1, -2",0,855,1,We are given the polynomial:  $$ x^4 + 5x^3 + 9x^2 - x - 14 = 0 $$  We are to **find all the integer roots** of this equ
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/342.json,0,0,1,113,1,"We are asked to find the **remainder when 54 is divided by 6**, which is written as:  $$ 54 \mod 6 $$  ### Step 1: Perfo"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/805.json,41,41,1,635,1,"We are told:  - Each week, **between 30 and 50 students** show up for the archery class. - **Usually**, the students can"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2780.json,\$18.90,\$18.90,1,738,1,We are told that:  - A **1-inch cube** costs **\$1.30** to make. - A **2-inch cube** costs **\$6.80** to make. - The **c
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/914.json,75^\circ,35^\circ,0,474,1,We are given:  - $ \overline{ST} \parallel \overline{QR} $ - $ \angle P = 40^\circ $ - $ \angle Q = 35^\circ $ - We are 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/824.json,12,12,1,563,1,"We are given a piecewise function:  $$ f(n) =  \begin{cases} \lfloor n \rfloor & \text{if } n \geq 4, \\ \lceil n \rceil"
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/679.json,59,59,1,566,1,"We are given the amounts of money each person earned in dollars, and we are asked to find **how much money, in cents, wa"
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/1425.json,2,2,1,305,1,We are given the expression:  $$ \frac{x - 5}{x^2 - 9} $$  We are asked: **For how many values of $ x $ is this expressi
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/834.json,9,9,1,770,1,We are given two equations:  1. $\log_6 (x - y) + \log_6 (x + y) = 2$ 2. $\log_y (5x) = 2$  We are to find the value of 
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/72.json,121,121,1,428,1,"We are asked to find the **fifth number** in the list of **positive integers with exactly three positive divisors**, lis"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/703.json,8 \pi,8\pi,1,1382,1,We are given a polynomial:  $$ z^8 - z^7 + z^6 - z^5 + z^4 - z^3 + z^2 - z + 1 = 0 $$  and told that $ re^{i\theta} $ is
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1114.json,15\mbox{ cm}^2,15,0,487,1,We are given a diagram with a **shaded triangle** and some labeled dimensions. Our goal is to find the **area of the sha
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/224.json,8,8,1,262,1,We are given the inequality:  $$ 2 < \sqrt{t} < 3.5 $$  Our goal is to find how many **integer values** of $ t $ satisfy
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/435.json,25,25,1,240,1,We are asked to evaluate:  $$ \lceil \sqrt{20} \rceil^2 $$  ---  ### Step 1: Evaluate $\sqrt{20}$  We know that:  $$ \sq
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/158.json,27648,27648,1,1222,1,"We are given that $ a, b, c, d $ are **positive real numbers** such that:  $$ a + b + c + d = 10 $$  We are to **maximiz"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/846.json,84,84,1,224,1,We are given the following data about the test scores of 30 students:  - 20 students scored **80** - 8 students scored *
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2470.json,137 \frac{1}{2},137\frac{1}{2},1,307,1,We are given:  - Speed = **50 miles per hour** - Time = **$2\frac{3}{4}$ hours**  We want to find the **distance** the c
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1930.json,7,,0,2048,0,"We are given a **4x4 magic square**, and we are to find the value of $ n $, given the values in some of the cells.  Let’"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/752.json,3,3,1,724,1,We are given the expression:  $$ \log_2{3} \cdot \log_3{4} \cdot \log_4{5} \cdot \log_5{6} \cdot \log_6{7} \cdot \log_7{
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/1003.json,29,29,1,1781,1,We are given a problem involving an **unfair six-sided die** with the following properties:  - The die has faces numbere
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1252.json,200,200,1,374,1,We are given:  - A **rectangular field** with:   - **Width** = 300 feet   - **Length** = 400 feet - **Jim** walks **diag
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/22.json,2,2,1,475,1,"We are given a two-digit number written as **""B6""**, where:  - **B** is the **tens digit** (so it's a single digit from "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1279.json,\frac{2}{1005},,0,2048,0,We are given the equation:  $$ \frac{1}{x^2 - 1} + \frac{2}{x^2 - 2} + \frac{3}{x^2 - 3} + \frac{4}{x^2 - 4} = 2010x - 4
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1128.json,2,2,1,460,1,We are given the congruence:  $$ 8x \equiv 1 \pmod{p} $$  We are to determine **for which primes $ p $** this congruence
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1252.json,1,1,1,968,1,"We are given that $\omega^3 = 1$, and we are to find all possible values of the expression:  $$ \frac{1}{1 + \omega} + \"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1467.json,8n^2 + 4n + 1,,0,2048,0,We are given the expression:  $$ \frac{(2^4 + \frac{1}{4})(4^4 + \frac{1}{4}) \dotsm [(2n)^4 + \frac{1}{4}]}{(1^4 + \fra
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/1090.json,202,202,1,814,1,We are given that $\frac{a}{b}$ is the probability that the **reciprocal of a randomly selected positive odd integer les
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/1082.json,\frac{8}{15},\frac{8}{15},1,1103,1,"We are given that the area of triangle $ ABC $ is:  $$ \text{Area} = a^2 - (b - c)^2 $$  We are to compute $ \tan A $, w"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/101.json,10,10,1,1011,1,We are given the equation:  $$ \sqrt{x + \sqrt{3x + 6}} + \sqrt{x - \sqrt{3x + 6}} = 6 $$  ---  ### Step 1: Let’s define
+Qwen/Qwen3-30B-A3B,fp8@0,test/counting_and_probability/199.json,13,13,1,1963,1,"We are given a diagram with four points: $ A, B, C, D $, and some distances between them. The goal is to find the **shor"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/477.json,216,216,1,340,1,We are given:  - A **steel sphere** with a **radius of 3 inches**. - The sphere is made by **removing metal from the cor
+Qwen/Qwen3-30B-A3B,fp8@0,test/number_theory/239.json,2,2,1,292,1,We are asked to find the **modulo 4 remainder** of the sum:  $$ 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 $$  ---
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1203.json,\$36,36,0,196,1,"We are told that the **sale price** of a shirt is **\$14.40**, and this is **60% off** the original price.  ### Step 1: "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1365.json,15,15,1,635,1,"We are given the function:  $$ f(x) = |x - p| + |x - 15| + |x - p - 15| $$  with the constraint $ 0 < p < 15 $, and we a"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1350.json,14,14,1,1999,1,"We are given a polynomial:  $$ f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0 $$  with **integer coefficients**, a"
+Qwen/Qwen3-30B-A3B,fp8@0,test/prealgebra/1128.json,64,64,1,536,1,"We are given a set of parts for a Mr. Potato Head, and we are to determine how many **different wacky personalities** To"
+Qwen/Qwen3-30B-A3B,fp8@0,test/precalculus/356.json,y = -2x,y = -2x,1,630,1,We are given that the **projection** of a vector $\mathbf{v}$ onto the vector $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$ is 
+Qwen/Qwen3-30B-A3B,fp8@0,test/algebra/2779.json,20,20,1,575,1,We are given the expression:  $$ (\sqrt{2} + \sqrt{3})^3 $$  We are told it can be written in the form:  $$ a\sqrt{2} + 
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1930.json,\frac{1}{4},,0,2048,0,"We are given a set $ S $ of points $ (a, b) $ with $ 0 \le a, b \le 1 $, such that the equation  $$ x^4 + ax^3 - bx^2 + "
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1981.json,"(2,12) \cup (12,102)","(2, 12) \cup (12, 102)",1,608,1,"We are given the function:  $$ f(x) = \frac{2 - x}{\log(2 - \log(x - 2))} $$  and we are to find its **domain**, i.e., t"
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1232.json,\frac{5}{13},\dfrac{5}{13},1,463,1,"We are given:  - $ z = 1 + i $ - $ w = \dfrac{3z + 1}{5z + 7} $  We are to find $ |w| $, the **modulus** of the complex "
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/561.json,\frac{7}{2},2 + \sqrt{2},0,719,1,We are given an **equiangular octagon** with **four sides of length 1** and **four sides of length $\frac{\sqrt{2}}{2}$*
+Qwen/Qwen3-30B-A3B,fp8@0,test/intermediate_algebra/1508.json,-1,1,0,1689,1,"We are given a recursive sequence:  $$ a_{i+1} = \frac{1}{1 - a_i}, \quad \text{for } i \ge 1 $$  and the condition:  $$"
+Qwen/Qwen3-30B-A3B,fp8@0,test/geometry/615.json,106^\circ,106^\circ,1,491,1,We are given a triangle $ \triangle ABC $ with:  - $ \angle BAC = 54^\circ $ - $ \angle ABC = 52^\circ $ - Altitudes $ \

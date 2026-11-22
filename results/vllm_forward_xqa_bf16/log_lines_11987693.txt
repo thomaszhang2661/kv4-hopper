@@ -1,0 +1,25 @@
+6:(MainProcess pid=3741071) INFO 11-19 13:15:25 [startup.py:96] non-default args: {'load_format': 'dummy', 'max_model_len': 66048, 'distributed_executor_backend': 'external_launcher', 'enable_prefix_caching': False, 'gpu_memory_utilization': 0.9, 'max_num_batc
+8:[forward] b1_16k: 1 reqs, 1 tokens, median 5083.3 us, sample spread 0.05%, graph vs eager rel rms 0.0e+00
+9:[forward] b1_32k: 1 reqs, 1 tokens, median 5758.1 us, sample spread 0.02%, graph vs eager rel rms 0.0e+00
+10:[forward] b8_16k: 8 reqs, 8 tokens, median 8676.4 us, sample spread 0.04%, graph vs eager rel rms 0.0e+00
+11:[forward] b8_32k: 8 reqs, 8 tokens, median 12559.8 us, sample spread 0.06%, graph vs eager rel rms 0.0e+00
+12:[forward] b32_16k: 32 reqs, 32 tokens, median 20189.2 us, sample spread 0.04%, graph vs eager rel rms 0.0e+00
+21:(MainProcess pid=3748568) INFO 11-19 13:16:48 [startup.py:96] non-default args: {'load_format': 'dummy', 'kv_cache_dtype': 'fp8', 'max_model_len': 66048, 'distributed_executor_backend': 'external_launcher', 'enable_prefix_caching': False, 'gpu_memory_utiliz
+23:[forward] b1_16k: 1 reqs, 1 tokens, median 4951.7 us, sample spread 0.03%, graph vs eager rel rms 0.0e+00
+24:[forward] b1_32k: 1 reqs, 1 tokens, median 5551.5 us, sample spread 0.02%, graph vs eager rel rms 0.0e+00
+25:[forward] b8_16k: 8 reqs, 8 tokens, median 7493.5 us, sample spread 0.04%, graph vs eager rel rms 0.0e+00
+26:[forward] b8_32k: 8 reqs, 8 tokens, median 10209.9 us, sample spread 0.03%, graph vs eager rel rms 0.0e+00
+27:[forward] b32_16k: 32 reqs, 32 tokens, median 12654.0 us, sample spread 0.01%, graph vs eager rel rms 0.0e+00
+28:[forward] b64_16k: 64 reqs, 64 tokens, median 24838.4 us, sample spread 0.07%, graph vs eager rel rms 0.0e+00
+29:[forward] b16_64k: 16 reqs, 16 tokens, median 26827.2 us, sample spread 0.02%, graph vs eager rel rms 0.0e+00
+30:[forward] b128_8k: 128 reqs, 128 tokens, median 21830.4 us, sample spread 0.04%, graph vs eager rel rms 0.0e+00
+32:BACKEND (MainProcess pid=3748568) INFO 11-19 13:17:03 [flashinfer.py:1106] FlashInfer resolved query dtypes: prefill=torch.float8_e4m3fn, decode=torch.bfloat16, decode_backend=xqa, kv_cache_dtype=torch.float8_e4m3fn, arch=sm90
+35:(MainProcess pid=3751395) INFO 11-19 13:18:30 [startup.py:96] non-default args: {'load_format': 'dummy', 'kv_cache_dtype': 'ultraquant_4bit', 'max_model_len': 66048, 'distributed_executor_backend': 'external_launcher', 'block_size': 64, 'enable_prefix_cachi
+37:[forward] b1_16k: 1 reqs, 1 tokens, median 4922.8 us, sample spread 0.06%, graph vs eager rel rms 0.0e+00
+38:[forward] b1_32k: 1 reqs, 1 tokens, median 5323.1 us, sample spread 0.07%, graph vs eager rel rms 0.0e+00
+39:[forward] b8_16k: 8 reqs, 8 tokens, median 6699.6 us, sample spread 0.06%, graph vs eager rel rms 0.0e+00
+40:[forward] b8_32k: 8 reqs, 8 tokens, median 8071.6 us, sample spread 0.06%, graph vs eager rel rms 0.0e+00
+41:[forward] b32_16k: 32 reqs, 32 tokens, median 10950.8 us, sample spread 0.07%, graph vs eager rel rms 0.0e+00
+42:[forward] b64_16k: 64 reqs, 64 tokens, median 16841.3 us, sample spread 0.03%, graph vs eager rel rms 0.0e+00
+43:[forward] b16_64k: 16 reqs, 16 tokens, median 16425.3 us, sample spread 0.44%, graph vs eager rel rms 0.0e+00
+44:[forward] b128_8k: 128 reqs, 128 tokens, median 17518.9 us, sample spread 0.03%, graph vs eager rel rms 0.0e+00

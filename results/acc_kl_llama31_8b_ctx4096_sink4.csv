@@ -1,0 +1,15 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,commit
+meta-llama/Llama-3.1-8B,4096,16,4,bf16,bf16,bf16,0.000e+00,0.000,6.0119,+0.0000,1.0000,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,fp8,fp8,fp8,3.989e-03,1.040,6.0266,+0.0146,0.9712,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,int4a,int4a_tok,int4a_tok,3.801e-02,5.300,6.2387,+0.2267,0.9139,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,int4a_kh,int4a_tok_h,int4a_tok,1.884e-02,5.669,6.1099,+0.0980,0.9391,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,nvfp4,nvfp4,nvfp4,2.575e-02,4.900,6.1524,+0.1405,0.9267,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,nvfp4_kh,nvfp4_h,nvfp4,1.653e-02,2.527,6.1093,+0.0973,0.9418,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,mxfp4,mxfp4,mxfp4,7.517e-02,9.680,6.4585,+0.4466,0.8777,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,mxfp4_kh,mxfp4_h,mxfp4,2.632e-02,5.647,6.1608,+0.1488,0.9285,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,mxfp4_uq,mxfp4_uq,mxfp4_uq,1.221e-01,10.247,6.8046,+0.7927,0.8487,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,3.565e-02,5.638,6.2207,+0.2088,0.9170,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,int4a_kvh,int4a_tok_h,int4a_tok_h,1.734e-02,3.611,6.0941,+0.0822,0.9425,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,nvfp4_kvh,nvfp4_h,nvfp4_h,1.633e-02,2.078,6.1050,+0.0931,0.9436,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,mxfp4_kvh,mxfp4_h,mxfp4_h,2.446e-02,6.990,6.1499,+0.1380,0.9309,08827d7
+meta-llama/Llama-3.1-8B,4096,16,4,mxfp4_uq_kvh,mxfp4_uq_h,mxfp4_uq_h,3.349e-02,8.195,6.2135,+0.2015,0.9199,08827d7

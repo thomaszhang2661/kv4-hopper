@@ -1,0 +1,5 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+Qwen/Qwen2.5-Math-7B,2048,8,4,nvfp4_kh#22,nvfp4_h,nvfp4,3.117e-04,0.041,10.3418,+nan,0.9921,fp32,9.1668e-03,8.9268e-03,a15bd6b
+Qwen/Qwen2.5-Math-7B,2048,8,4,nvfp4_khs#22,nvfp4_h~s,nvfp4,2.980e-04,0.276,10.3402,+nan,0.9927,fp32,5.9330e-03,8.9268e-03,a15bd6b
+Qwen/Qwen2.5-Math-7B,2048,8,4,nvfp4_kh#23,nvfp4_h,nvfp4,2.781e-04,0.206,10.3399,+nan,0.9936,fp32,9.1881e-03,8.9278e-03,a15bd6b
+Qwen/Qwen2.5-Math-7B,2048,8,4,nvfp4_khs#23,nvfp4_h~s,nvfp4,2.153e-04,0.054,10.3404,+nan,0.9948,fp32,5.6683e-03,8.9278e-03,a15bd6b

@@ -1,0 +1,217 @@
+model,config,id,answer,pred,correct,gen_tokens,finished,head
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/807.json,"\left( 3, \frac{\pi}{2} \right)",,0,4096,0,"To  user wen will  To  will will start will,  To wen begin  Towenwen  TowenTo,  To,  To  To  wen  To    wenwenwen  To  T"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1994.json,p - q,,0,4096,0,To orderj\  \}{\\}{\}$ tosum  \}{}in}{\in}{\1}{}{}{}{ininin}inin\sumsum\sumsum\sumsumsum\$\\sumsumsum\sumsum_{{{jsumsum\
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2584.json,\frac{14}{3},,0,4096,0,To      Step evaluating02      ToTo   To  Step Step  首先1textStep1StepStepStepSteptext{First let step{{)text{  text \)) S
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/572.json,9,,0,444,1,To réponseision To find To          To            To                     To To   To        final     To to Step   To toT
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1349.json,\text{Evelyn},,0,118,1,"To -- To Steplatex) \) FirstTo) ) ) ()) "") ) ) ) ) ) to find to) ""))--""""))"")"")"")"")"")"")"")) \boxed{"""" \textboxed{Debra)} \"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1622.json,42,,0,4096,0,To    To To    Step 1: To...Let  11  ToTo.1111111  To.To.111111111 To1 begin1111.1111111111111111111111  1  111111111111
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/515.json,27,,0,4096,0,To request question step breaking  To find the smallest    To find the smallest smallest              To      To write t
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/927.json,90^\circ,,0,4096,0,"To step answer, answer.    To final final answers   final final   your final final answers  To  :     final final final "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2036.json,3\sqrt{13},,0,4096,0,To the distance answer           To             To goal step your  \ToTo    To   \  To\begin{align*} \ answeralignalign*
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1139.json,4,,0,4096,0,To[ [ ]  begin \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/1032.json,2220,,0,4096,0,To      step               reason      reason     reason    reason reason reason reason reason reason reason reason reas
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1197.json,\frac{3}{56},,0,4096,0,To     To Let's'se  )degree To)  To To Let Let  To))  To)  To Let  )  )  To solve)  To)  To)  Let)  Let)  To)  )  )  )  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/737.json,284,,0,4096,0,"To  first 1 1 1 First,,,,,Let   Step  To solveFind solveTFindThethe  StepStep 1 1 Step 1 1 111 First  11 1 StepToTo find"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/248.json,5,,0,4096,0,To 0 ToTo the step the step 1 1  t ) First   1 )  )  )  )  1 the volume the given 1 the problem )\ The  1  \(\ \ \ \ \ \
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/1303.json,\sqrt{51},,0,4096,0,To Problem Analysis: :  Given  To userocument             1  ] To\[   ]\[  Given  1 Given\[  1 To Given Step Given that 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/990.json,6 - 5i,,0,4096,0,To To problem problem problem  To  To  To find   yourTo find   yourz   your1Let   your your1   your  1  1  1  To  To   y
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/134.json,-50,,0,4096,0,To        To                          reason              step  Let      To reason step          To  To  To  To  To  To 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/1199.json,\pi,,0,4096,0,"Toyy Step Stepmacros-11- To  to  - --    11 1  -   **tt""  00 EntityState0ormsg001  To We From to \ the given graphian\] "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/434.json,28,,0,4096,0,To(\overoverline{texttextover{BC{ \BC \ \ \{{ \overline{BClinelinelineoverover{overlinelineline{BC}} \ \ \ \ \ \ \ \ \ \
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1000.json,3,,0,4096,0,To ath  to..  Toboxed{\boxed{\  1To  To  ToToTo  To  ToToToToTo  To  ToTo 1  \  \  \[ \\\[ \[ \\text{\text\\\ \text\\\\t
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1098.json,6+9i,,0,4096,0,To answer within answer   answer  answer     user answeranswer        To           answer         LetStep111 answer \   
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/607.json,13535,,0,68,1,"To 跚�hipster ,'# ☆ourcemˊ   !*** To  To第一步第一步#aa}CLOCKS;};  Step expanding}}  To problemrushquinerush  Let toTo    ToTo "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1837.json,5,,0,4096,0,"To to the Let,    To begin by by by    To Let  To  ne  To       FirstLetLet  To      Letne \t    Let    Let  Let        "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2193.json,x=5,,0,4096,0,"To user    Step  Let To To    StepStep \\begin{align}{x}  /$ To1 $ ToStep\x\text{Stepalign x to solve${{ ,a{ { { { { { "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2427.json,10,,0,4096,0,"To the the we we we \   user   \boxed \ \,  To Step  Totext  \begin)  Step        Totext  To,text  t  1begin  1   \ \ \ "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1388.json,"1,-2",,0,4096,0,"To start \ tobegin  To user We ystem To \ Let  \(\boxed {  To  the \(f\,,, let's us's us us \f \ and \ \ \  's \ and \ \"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/525.json,144,,0,17,1,To userarilyMMdd usereroon7 lest̀usercontent $ Let
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1840.json,78,,0,919,1,To are steps steps steps step step step   step   Let  To are these    1 these  1 these these these these  1 these   1 th
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/779.json,-2 + 7i,,0,4096,0,To a $       to  \\\\\\      \\  To1 a    Toaround    To      To    around     To  To1  around  aroundaroundaround  # $ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/666.json,225,,0,4096,0,"To the problem,, the and and and and and and and and and and and and and and and and and and and and and and and and and"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/864.json,52_8,,0,15,1,"To  backpage problem, will step step umber\_ To  Mourinho"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1302.json,11\sqrt2,,0,4096,0,To user  Step step To  Step       Step                             To                 To    Step1\sqrt{222222$\sqrt2\sqr
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/134.json,720,,0,4096,0,"To   the we considering the problem, situation ath   To  To    1  1  To  1  1  1  1  if1ToTo  1  1  To   \textboxed   \b"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1072.json,\frac{243}{625},,0,4096,0,To sequence step sequence your   sequence  To your your your your your your your your your your your your your your your
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/119.json,-125,,0,4096,0,To user     2    To          To要 find to to to find term        To to find  1 find to find    To  To  To  To  **  **  **
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/627.json,3,,0,4096,0,Given Step   Given        Given that     1  We  Given  Given  We1  GivenGiven that1  Given  Given  Given  \  Given  \  \
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/428.json,"3, 5, 7",,0,4096,0,To     To  Let To ToLet To  To ^ - To  To expanding expanding  To - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/967.json,72,,0,4096,0,"To the rotation0 ( Sep50QRST printStats .AI,,, and your,, as \={}  the original as\0 as possible,, we by by as as follow"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/24.json,2000,,0,4096,0,To solve Toelyelyore begin the problem step    To1 ric  To are  1  1  To  1  ToToToTo  1  To  To  1  1  1  1  \  To solv
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/45.json,23,,0,4096,0,"To solve request request   step goal, first first step first final answer answer   final your answer        final final "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/930.json,12,,0,28,1,"To  the     Step  1  First  ### Step we are are ne \=,  \  *  To  "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/627.json,17,,0,4096,0,To:    To following To  To  To  To  To  To  To  ToToToToToToToToToToToTo\To  To  To  To solve  Let  Let's solve  Let  Le
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2214.json,4,,0,12,1,To      To  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1454.json,70 \sqrt{2},,0,4096,0,To . To To To find find find find minimizeToToToToToToToToToToToToToToTo2  ToToToToToToToToTo  ToToToToToToToToToToToToT
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1558.json,1.25,,0,4096,0,To solution problem solution solution$    $  $your  ###$\$\$your    $\$\$ to solve \ \ \boxed your$\$$$ your to yourboxe
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/178.json,2,,0,4096,0,To ark          Step           Given theangle    Given  Given  Given  Given  Given  Given  Given  \begin{{{  \arrayright
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/285.json,6,,0,4096,0,To         Step theStep} to solve    首先 StepStep    To Stepolution  1 solving  ToTo  To1   to1  1  1  To  To  1  1.. **S
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/305.json,5,,0,4096,0,To user answer  roma step step to solve       step to solve solve to find the to find to find to to to to to to to to to
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1265.json,\frac{3}{2},,0,15,1,To question     To solve the4^  question
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1388.json,83,,0,14,1,To find the value of of ofvalue of \( \( x
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/1055.json,203,,0,4096,0,"Let question problem involves involves involves    's step step, and step  by, your, Let$ step by by of more of  coins c"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1217.json,x^5 - x^4 + x^3 - x^2 + x - 1,,0,4096,0,To performing performing the       To  To                      To find find              To performing find we  To###Ste
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/951.json,12,,0,51,1,"To user  To wen 首先align ""user exnels         61  \[ \  Step Step  To  To  To1 To  To  To  To"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/1105.json,-\frac{\pi}{6},,0,4096,0,"To question request, to user    Step your your your  your  your    is problem            ToTo your your \ \ to1  \[ To T"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/572.json,0.15,,0,4096,0,To a math problem assistant                                        }`                        To the the fraction problem
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/187.json,3,,0,4096,0,To Stepuser wef is0001000legg005 \ is is0 is is00 is is is is is is00\\\\n==$( \*\ \ \ \ \ \ \*\ \ \= \ \ \ \ \ \ \ \ \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/769.json,11,,0,4096,0,"To,,,             value value    ,   value value     value value value     value value    To value value  To value value"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1168.json,16,,0,29,1,"To definition step step through through the problem of,, step step,thth about theproblemprobleminginging through the mod"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/722.json,9901,,0,15,1,To  To  Let breaking     
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1247.json,5,,0,4096,0,To       To  Let  To  To        To  To1         \  1  1   \ \   and   \   and   and   and  1  1   and   and   and       
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/956.json,"(6,31,-1)",,0,4096,0,To.    To considering    To  To  To  To  To  To  To  To1  Given  Given1 considering Let'sGiven  Given thatTo  Given  To 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1247.json,-256,,0,4096,0,"Given             To  To                Given  To  Given  To  To begin, step    Given  Given  Given  Given  Given  To  T"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/675.json,4,,0,4096,0,To thesolution} ToTostep[  \*align{align{aaaa{al{apa\\} f\\ {\\  \\   beginbegina{\\\\\\{\\({\\(\\\\begin}(\\\\\\\\begin
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/279.json,10,,0,4096,0,ToTo To solve the useruser wen Step 1: First1 11 begin_12    1) \(x(x(x) p_t_ We start(x2) p   p  p21) + p p1  ) + + + p
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/1146.json,\frac{35}{64},,0,4096,0,To goal goal       To your your your   your answer your      To         final your your your   your your your    final f
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1747.json,1,,0,4096,0,To expression answer answer is^{ expression expression \boxed{\boxedboxedboxedboxedboxedboxedboxed{{1\{\{\boxed1 answer\
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2046.json,x^3+3x-6,,0,4096,0,Let step                 Steprine       Let  To  Let            Let  Letet  Let                    iene  Let's start beg
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1233.json,10,,0,4096,0,"Let:    To To To  To Let  Let,Let's start  Let's start Let Let Let's Let LetLet 1 Let LetLet Let Let Let Let Let Let Let"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/1313.json,46,,0,316,1,To a To To  ToTo  ToTo ToToToTo  To   To  To solve  \Let  To  Let  ToTo  ToTo  To  ToToToLet  Put  Put  Put  To  To  To 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/207.json,-1,,0,4096,0,GivenTo    ToStep To  To  Step 1    1  Step  GivenStep  Let  Given  1  Step ^{  1...1.    11  11  111111 the properties 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/46.json,40_9,,0,4096,0,To step  MMdd To     Step Step Step       To   StepStep - Step Step Step  To   Step -Step    To - - - - - - - - - - - - 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/516.json,2516_8,,0,4096,0,To convert request request  step Step request request request request request to convert   To final answer is is     To 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/456.json,3,,0,4096,0,"To                                   To letting    To  ToTo    To   To1  ToTo  1  To  1  To we we    1  ,we    .,  1..11"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2253.json,\frac{3\sqrt{3}}{4},,0,4096,0,To To to solve-by by by  To   1 step to step Let's step To  To 1  To  To11 \a \ToTo11  1  To1{11  1's  To  To \1 \ \  \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/24313.json,\cot x,,0,4096,0,To\    \\\Let\\\{\\{\\textLet\\\{ {\\{\\\begin{align\\{\\{\\{\{\\begin\aligned To\{Let\Let{{ { {{{{ {{ {{ {{ {{ {{ {{ {{
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/1114.json,\frac{11}{36},,0,4096,0,"To the by,, let, and let and  ,,,, and  ToTo  ,,, to solve and neuron,,,,,,,,,,, To,,,,,,  ,,    To  ,,,,, To determine "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/623.json,0,,0,456,1,"To  To 首先    To开端 To  To analyzing the to analyze,,  ToTo  To  ToTo  ToToTo  To  To  ToToTo  ToToToTo  To  To  To determ"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1004.json,4,,0,4096,0,"To request involves solving the equation equation equation equation \(2  request step2=24^^8^^^8^8^^8^^^ step by, by by."
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/47.json,"(-2,1)",,0,4096,0,"To  ,         To  To  To  To          To  To  To  Let  To  Let  To  To  To  To  To  To  To  \Let  \  \ final  To  Let  \"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/192.json,2,"xboxed{
+1
+1
+\begin1{align*{align
+\1
+\}\\\}\1
+\end{end
+}
+\}
+
+\",0,4096,0,To solvinguseruserering Step  \\    \beginboxed    \ \ \begin   We \1  To Step.2  \beginboxed{} 1  \end{boxedboxed).  \]
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1849.json,501,,0,4096,0,"To solve request, user user , been, 2, solve the equation \(\   equation  the equation \(\, ( and so for the we values  "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1035.json,3,,0,4096,0,"Let      To begin       ,  Let    1 step step one, step,,,,,,t ,, \ 1  Let's denote by step and define,.  1 \(\text \ \ "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2700.json,\frac{3}{2},,0,4096,0,Toim1 To findid the greatest possible valuealue  A  value the greatest possible the or the greatest  or the greatest of 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/2046.json,2,,0,4096,0,To  the given equation the given given the given equation the given the equation equation the equation \( 3 \ 3       3 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/893.json,-1,,0,4096,0,To    To}{     To}{To  666 expanding the 1  To)$ expanding the given    product    To by  1.....1.111111111111 expanding
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/353.json,\sqrt{5},,0,4096,0,To ark Touser      Toetrizeusercontent  Step  To StepToTo 1 1  To 1  1  To 1  1..1  1  1.1111  1  1  1111  1  1  111111 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/307.json,240,,0,4096,0,To the step                         To andstand the problem toToTo              To  To  To  ToToToToTo    ToTo   and  To
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/567.json,1,,0,4096,0,"To    To  Step 1         , Step       |Step                  ToTo 1 11begin  1 To1To111|55 \1  11 \ \ \ \ \1  1 1    1 1"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/892.json,2,,0,4096,0,To alignalignedalignedsolution \ \text{aligned{aligned} \aligned \boxed{align{aligneditemaligned{aligned{at \ \ \ \ \ \{
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/357.json,21,,0,4096,0,To find the greatest divisor user  to find the greatest common divisor (G gcd) of of the numbers common div div of divis
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1761.json,\frac{3}{2},,0,4096,0,To   toStep to       ToTo Steptext1       To  11 To1 \ \frac \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \  \   \ \  \   \ \ \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2023.json,1,,0,4096,0,To  the function function function function  function}  To    To  To    To       To1  To11 \ \ \boxed  1 \ \ \ \ \ \ \ \
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/377.json,\frac{448}{15625},,0,4096,0,To   to to to to to to    to to solve this this problem the problem problem the problem step  To to find this the proble
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/873.json,33,,0,4096,0,To  3 user To6666    Tobegin{align}{  solutionequalign   texttext*align  1  To{{}equ  1  To  equ  begin  text  To  1  1.
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1646.json,80,,0,4096,0,Toetermine             D      D D D D       D D    D D D  D    D\begin     D D  D D D D D D D D D D D D D D D D D D D D 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/34.json,-4,,0,4096,0,Tobegin[ [ document ]   \texttext{align{aligned{alignedaligned*  To{Steptext{{{aligned{  1{{ \ \ \ \ \ \ \ \ \ \{{1 \ \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/662.json,1 \pm \sqrt{19},,0,4096,0,To   Step Step     Step        To  **  StepStep**  First **To \ \To \** \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/105.json,\text{east},,0,4096,0,To step     ateraterateraterater following  Toaterater  Toater  To to  To  ater  To  To  To  To  To \Let final  To  To  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1924.json,2k+2,,0,4096,0,"To request request, step simplifying expression step, we    Step,,              ,      Step              ToTo   \ \ \Let"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/1300.json,\begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix},,0,4096,0,To solution solution{    solutionalign}      }   }    **      }  }}}  }   ToStep  }}}  }}}}  }}  }  }}  }  }  }  }  }  T
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/183.json,145^\circ,,0,4096,0,To   To       To **    To    To To To    ```  \ To  \   \  =  \[ 1 To \  \  \= \CCCTo \  \$ \  \[  \  \  \p/ \  \  To  T
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/582.json,850,,0,4096,0,To solve the \ solve solve the givenGiven given given theThe problemToToTo  To beginToToToToToToToToToToToToToToToToToTo
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/431.json,(a+5)(b+2),,0,4096,0,To  若要 若要步骤 to factor the given expression \(ab ab ab ab ab ab ab + + + + + +   ab ab ab ab ab ab ab + +++52+1 \) to ste
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/558.json,"(3,4]",,0,4096,0,"To the given Alibababoxedwen_c,,lambda \lambda  To Step  1 final \ \ \ \    1 1 \ \ \ \ \ \ \[boxedboxed[ [ \ \ \ \ \ \ "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/362.json,40,,0,4096,0,ToStepStep3 To ^   To  to  Let \  To solve the \^  1..1.First111 ^ ^ ^  111 ^ ^ ^  1 ^  1.11111111  1  1  11111111111111
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1804.json,29,,0,4096,0,ToTo To To  To      \  ToTo\Step  \To\h    &\&\text{  \&&&&&&&&  &&ToTo&\\\\\&\&\\\&&\&&\\&\&\\\\\\&&\&&\&\\&\&&&\&&&\&\
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/515.json,\frac43,,0,4096,0,To  0 0 322 22  To2  To\[ \[\22  2222  22  22222        222222222222222222222222222  To  To  2222222222222    2222222222
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/914.json,9,,0,631,1,To let's         To                              1 following stepstep's  1        1 first  1  1 first identifying foremo
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/894.json,2,,0,4096,0,To user_ to start   1.1F_ to $F__1 to $$$ toFF$$$$$$$$$  1   1$$$F$$$F$$F$$$$$F$F$$$  F$  F$$$$$$$$F$$$$FF$$FFFF$F$FFF$ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/44.json,120^\circ,,0,4096,0,To thetheta \theta \ \theta\in\sin\theta\theta  To\\cos\\\\cos\sin\cos  To\\in\\\sin\coscosthetasin\cos\\\in\in\\\sin\co
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/345.json,504,,0,4096,0,"To  the, analyzing,1 2  Leta $  Let aa_1$  a$ $aa$$$$$ $$ $aa $ $ $$$ $ $ $$$ $ $$$ $ $a    Let$$a  To11   1..1  1  1  "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/23957.json,210,,0,4096,0,To the step using      To and by      To and by and by by and by  1 and by  To   and  1 and1   and  and and by    and  1
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2058.json,13,,0,4096,0,To to to      To            首先，详细boxed答案答案答案开始解析  要目标\第一步[ 1\要一1\\\\D  要\要\\\D  \\D\第一步  \\\\D  D  D  D\第一步  首先\D  D    
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2593.json,8000,,0,4096,0,To 第一步 Let   LetLet  To  Let  To ^   \[ To solve the thethe \((2 \ \ \  \[ [ [ \1^  1   \\1 \\\[ \  \[   \\ \ \ \  \  \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1898.json,-5,,0,4096,0,Toetermine:93D333D33To Let To solve Solve The All All All3D33D3DD33DD All All All3 All3333 All All AllD3 All333 All All 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/1060.json,1260,,0,4096,0,"To solve request, weetermineetermine to determine the the number number of of ways of ways ways of of ways ways ways way"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2157.json,2,,0,4096,0,To                                       To              Step  Step  To  To  To  To  To  To      To  To    To      To   
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2251.json,3,,0,4096,0,To goal problem the value of of variable variable \( $ $ $ the value the value the value your the your the find your the
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/232.json,81,,0,4096,0,To find  \boxed{} is   to find  to solve   To   to solve$ to solve  to$to to   ToTo   Step  To  To  To  To  ToTo   toToT
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1733.json,-9,,0,11,1,To   to step     
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/128.json,\text{even},,0,4096,0,"To definition analyzing step""To      "" text  usercontentuserbegin{align*} } &solution by analyzing  e by  }}}}align  c}}"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/505.json,6,,0,4096,0,To  To  To To To  To   To  **  To   **  To To To To  To       ToTo    To  **    **    **  To**  **  To**  **     To  To*
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1332.json,9,,0,399,1,To{    begin  document   outer 1         According 1{  1{t{ According 1111{{{{{{{{{Daniel{1{{{{{{{{{{{ \{{{1{{{{{Given {
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/283.json,8,,0,4096,0,"To of of""""  olving \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \D \ \ \ \ \ \ \ \ \ \"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/972.json,\frac{11}{2},,0,4096,0,"To of ,  To       value  value    value of     ToTo   value of value  To value  value  valueTo value of   value    To va"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2232.json,-3,,0,4096,0,"To solve    To                      To       ...  To*  1  1    1  1  1  1 step,1  11  1  1  1  \[ begin{align 1  1..2.  "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1063.json,1+274i,,0,4096,0,ToTo step. Let user systemTo begin1 To  Step 11111**  -****1-****-************- 1 ******-********--- -****-*************
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/847.json,4210_{5},,0,4096,0,To user To   Step                      To            ToTo  ToToTo   To Step To      ToToToToTo      ToTo  To    To  To  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/661.json,36,,0,4096,0,To   to calculate    to     to             To  reason     To   reason reason        1To    To  To1 To To  To To   reason
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/1140.json,\frac{3840}{289},,0,4096,0,"ToTo's,user ,art To StepD D $ is 1's begin by by by the solution reasoning analysis by reasoning step, $  $ $ AC D $ AC "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/753.json,13,,0,4096,0,"Toatically        To            To       Step ToStep荏Step 1ngle begin 先,,Tonngleople';""; WengleWe始建*)((semb Neue  To fin"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/246.json,8,,0,4096,0,To  step step   and    and   and that and and and and and and and and and and and and and and and and and and and and an
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1686.json,4,,0,4096,0,To        To    To  To    To    To   1  To  To  To  ToToTo  To  To  To  ToToTo solve  **  StepToToToStep  ToToToToToToTo
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1807.json,120,,0,6,1,Let the problem: 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1126.json,16,,0,4096,0,To Step definition \ \ by - - - - - - - \ - \   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1297.json,9,,0,4096,0,To   by step   step step step  ToTo step to  ToTostep    To.  To determine the number ofof ofzeroatToTo \\\  \  \  \  \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/2022.json,64,,0,4096,0,To ToTo \boxed \ \ \ = = = \) = = = \}  = \ = \ = \ = \ = = = \ = \ = \ = = \ = = = = = = \ = \ = = = = = = = \ = \ = = 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/1257.json,204_5,,0,4096,0,"To        To   To solve solve the quotient quotient problem \ problem problemquot \($  problem \div \3ide        "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/430.json,\frac{1}{3},,0,4096,0,"To course,, put step,""。   to is, s twothree of    To the and, and,LetToTo  one  two  To one, onone"" theone  three three "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1151.json,1,,0,4096,0,To To solve the the f  the problem   to find find  To the expression}{ the function   to maximize function  To the funct
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/156.json,13,,0,4096,0,To                                   To   ToTo   1 11      To  To1  1 \(\ \1 \1 \(\ \ \ \ \ \ \ \ \  \   \ \ \ \ \ \ \ \
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/612.json,2,,0,4096,0,To by    Toolveep at  To    t  To  To  To  To  To  To  To      1  To  1  To  To \ \  To  \ \ \ \  To  To  \ \   \  \  \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/159.json,28800,,0,15,1,To    To solve we0SCR to solve we 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/477.json,3 \sqrt{5},,0,4096,0,To \ \ \ stepoverrightarrow to represent \O \ \ \ \overrightarrow{{OA \1 \beginbegin \ \ \ \1 \ \ \ \ \ \ \ \ \ \ \ \ \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/43.json,"(15,-29)",,0,4096,0,To           To     To  To - - - - - -  ToTo - - - - - - - - -   -   - - - - - - - - - - - - - - - - - - - - - - - - - -
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1408.json,-2,,0,4096,0,"Given the equation \( goal, problem problem   equation your your is,}   equation your equation your} your   equation you"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1519.json,\frac{\sqrt{3}}{3},,0,4096,0,"To goal request simplifying the expression \    ,     1 \              \}  , we step by:  \       1  1    1,1,          "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/966.json,16,,0,13,1,To       To Step  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/988.json,11,,0,4096,0,To                                      ToToStep  To  ToTo      To  ToToTo  To  ToToToToTo  We  1  To  To  To  To solve 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/931.json,49,,0,4096,0,"To age is, problem problem problem Let  your your >  Let's denote Rosa's age your her her step your your your your her h"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/964.json,1,,0,4096,0,To \boxed{boxed{{fbeginboxedtexttext{align}{{{{casesaligned{aligned{array{alignedtexttexttext \{begintext{{{ \ \ \ \ \{{
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/986.json,144,"alignalign
+
+.) We2(\x1 \texttextend
+
+,
+
+",0,4096,0,"To To We1  Let To Let this \(\boxed  to \(\2 -BEGIN{alignalign  .) We2(\x1 \texttextend  ,  }} \ \ \    } \  \endboxed \"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/172.json,8,,0,4096,0,"To the area of of of of of of triangle $ $$ENGENGNG$N$at$,,, wewewe$,$we,$, we weG$at$\,G$,$,G$, and we$AG$isG$, andGG a"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/230.json,\frac{2}{21},,0,4096,0,To ToToToLet solve First ToTo To ToTo To To ToTo To } ToTo To ToToTo   To begin solve To  To To  the probability that To
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/880.json,2\sqrt{113},,0,4096,0,ToTo  text Totext isTo begin      To    To \   \    To it \[ begin{align}  \text{align}{} 1 \texttextalign} \text \text{
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/803.json,\frac{1}{4},,0,4096,0,To following. the steps steps steps step  1    To y  1   step y y  1  1 y y  1  1  ..  .1...1111111111111111 y y  1  1  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/117.json,30^\circ,,0,4096,0,"To1$$ Step  StepP  To Tobegin To  toStep P  BBBB  1  B  1  BPBPPP  P  ""  P  P  PPP P  ""  1 P  1  1  BBBBB  P PB  B      "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1410.json,\frac65,,0,4096,0,To userbegin{{   To solving         To  To   Step 1   1  1  1  1 solving11  1  1  1   1  1...11111111111111 \1  11111  1
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2570.json,2107,,0,620,1,To  of of                  To sum to find sum sum to find sum to find sum sum sum sum sum sum sum sum sum sum sum sum su
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/621.json,3.21,,0,220,1,"To user e user   Step Step 1 e completing the the the the square square  square  the quadratic $x$u $form, $\  \(({+( (,"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/521.json,18,,0,4096,0,"Let letting   Let    Let's                            To solve theolve the problem of,  1,,    1,  1  1 problem problem "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1255.json,6,,0,4096,0,"ToStep   log_ To2To evaluate**  **  ToStep Q Q _ ``` ##  ` `  Gründe  To userEvaluate \(\log2  \[ log_  )'], To\[  \ \[ "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1655.json,\dfrac{17}{50},,0,4096,0,To    2texttext{   texttexttexttexttexttext{Totexttexttexttexttext{Stepbegintexttexttexttext{}}alignedtexttext  {}{Step 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2517.json,-\frac{35}{9},,0,4096,0,To step Step by step to ton    **  **        }    }   To11begin{align} 1align}{{   1}{ 1  1}{}{   1}{  To  To}{}{  To}{ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/697.json,-\sqrt{3},,0,4096,0,To using .42ing     To     6   1 1   1 1 1 using the the identity1 of of11  111111 the identitytrtridentity \11 using th
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1356.json,\frac{4}{9},,0,4096,0,Let steps books       1  To  Let  1.  1  1  1  ToTo**  1  1  1  1  1  1  1  1  1  1  To  case  case  case  To  1  case  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1003.json,\frac{270}7\text{ degrees},,0,4096,0,"To answer answer theboxed toashed is, \boxed \ \boxedboxed answerboxeduser answer answer \boxed \boxedboxedboxedboxed \b"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/478.json,65,,0,4096,0,"To      begin%       To     ToTo the calculation, calculation,,    1          Step} to      To{To  Given  1  1  1  1  1 "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/181.json,19,,0,28,1,"To solutionuserirstSolution To To  Let To To-END  首先To  首先  首先  To "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/802.json,12,,0,4096,0,"To find the area of   of a triangle with sides sides 5  units 5 side 5 , 5 5,,,, we  ,we , we\, we\,,, \, \begin \text  "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/297.json,1736,,0,4096,0,To  to the answer   \  To of step  To   of  To of    To  To  To to          1  To  f  1  To\ \              \\boxed{end{
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1272.json,\frac{13}{15},,0,4096,0,To user     answer         To To step 1 step step    To  To by  1  . First \  1  1..111111111111111111 by1  11111  1  11
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/841.json,350,,0,4096,0,To solve this find the problem problem the problem term and eighth terms of terms the sixth sixth term the sixth term of
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/686.json,4,,0,4096,0,ToStepex To  to solve the step to solve the solve  to    Tostep  To  ToToToTo \  1  11  \  \  \  \    1    \  \\    $\  
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/351.json,2,,0,4096,0,To to find   to find     to solve    To to solve to      to analyzing the solving solving to find the $ y the $ $ to fin
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/991.json,3,,0,4096,0,To  the the the e   To     ToTo $m  To      To        ToToStep  1 1 1    1 1 1  1  1    1  1  step 1  1     1.step 1  st
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/598.json,.0000672,,0,4096,0,To following following Q                             ^       To    ^  ^  ^ To^^{^  ^  ^  To^^^^  ^  ^^^  To  To  To  To 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/65.json,30^\circ,,0,4096,0,"To.1.1.1.1\boxed1\1\1\boxed1 usern\\11\1\\111\1 To 1 1 111\1\\\1\1\1\11\1\1 11\11\11\1\11\\11 11 Sepfe1,0\111\111111111\"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1113.json,60,,0,4096,0,"To  ,   \n \n1\n  To**\n  ToTo\n\n  Step\nStep\n\n\n  Step1\nTo\n\n\n\n1\n\n1\n\n\n\n1\n1\n\n\n\n\n\n\nLet\n\n\n\n\n\n\n"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/precalculus/659.json,5x - 7y + 11z + 4 = 0,,0,4096,0,To goal  \boxed  user \ 1  1 answer\\  To1 To||  1  1   \(\  1  1  1   \D  1..  1    111  1111111111111111111111111  111
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1908.json,3,,0,4096,0,To request question question   question     your    To    To            To   your    To   your          To your.00To you
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1275.json,\frac{\sqrt{3}}{3},,0,4096,0,"To  Tobeginbegin problem answer,    within answer      your answer  answer,  \ your your your answer\ answer. yoursqrt a"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1922.json,1251,,0,4096,0,Let problem the information the information information the information the information the information the your we the 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1082.json,23,,0,4096,0,ToSteplatex StepStepboxedsqrt{text\ \begin beginalign{align!步骤}\\\\$  Step ToStep$\\\  \ begin\Step with the goalsqrt{al
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/183.json,"(2,\infty)",,0,4096,0,To considering analyzing \   }Let  }begin{align{alignsolution  c  text{Let{alignalign{{}a  }math{Let{eq{begin{{align{ali
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1214.json,1,,0,4096,0,"To goal request, step solving  step request, step, step your your your your your your your your your your your your your"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/978.json,7,,0,4096,0,To           imony   o                ToTo    To          To  th  ToTo  To  To  ToTo begin  To  To  \ To  To determine S
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/2199.json,7,,0,22,1,Let                                    
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/733.json,6,,0,4096,0,Toote Tooror Toornnn   To  nnn n\nnnnnnnnnnnn\nnnnn\nnnnnn n\nn\nnn\nn\nnnnnnn\nnn\nnn the\nn\nn\nnnnn\nnnnnnn\nnnnnnn\n
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/702.json,160,,0,4096,0,"To  Z,   Y Y Y Y Y Y Yetermine  Y Y Y Y YY$ Y Y pérdida pestic  YTo Y pérdida D \boxed  Y Y Y YDDD\boxed.  1 Y Y Y Yboxe"
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/51.json,\frac{13}{18},,0,4096,0,"To solve the problem, we\, step 1 analyze  the  , find,      ,,,  To,    To first,  1  1   at   at   at   at   at   at  "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/109.json,0,,0,679,1,To    To        To   To       To StepStep1 1  1 1  1  1  1  1  1  Given  1  1..  Sub1.2  1    1  111  11  1  1  1  1    
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/geometry/221.json,30,,0,4096,0,To of                   To \    To   To        To  To         To  1            1   to find   to  length   toToToTo find 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/1422.json,4,,0,4096,0,To find the the number the the number the number ofalignaligned the thepossible the number the number the number the num
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/2196.json,\frac{1}{4},,0,4096,0,To right To user   To  to find    To to solve the the  the maximum maximization of of  To \(\ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/intermediate_algebra/591.json,24,,0,4096,0,Given userStep 1 step stepStepStepStep 1  1)( step( Step 1  begin{alignalignsolutionalignsolution solutionsolutionalign{
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/algebra/1937.json,1600,,0,4096,0,To   to gostep   Gründe step  reason Let Step4  reason  $  1    Let's begin step    step step by by by1 by step..  0 for
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/number_theory/838.json,6,,0,4096,0,To solution reasoning      first      To  To    To  To  To  To To Step  answer  To First  1  1  1  1  1  To  To  To  To 
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/counting_and_probability/508.json,"10,\!080",,0,22,1,"To  user To      To  To    To solve      "
+Qwen/Qwen2.5-7B-Instruct,ultraquant_4bit,test/prealgebra/1907.json,17,,0,4096,0,"To of , To     To  To  To  To   To       To   ToToTo  To  To \To  To  To  To      To  To  ToToToToToTo  GivenTo  To  To "

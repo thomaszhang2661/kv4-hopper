@@ -1,0 +1,4 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+Qwen/Qwen3-8B-Base,2048,8,16,nvfp4_kh,nvfp4_h,nvfp4,2.559e-01,12.055,7.5698,+nan,0.8059,fp32,1.1071e-02,8.8700e-03,d31691c
+Qwen/Qwen3-8B-Base,2048,8,16,nvfp4_khs,nvfp4_h~s,nvfp4,1.199e-02,2.902,6.0340,+nan,0.9534,fp32,2.1144e-03,8.8356e-03,d31691c
+Qwen/Qwen3-8B-Base,2048,8,16,nvfp4_khs@0,nvfp4_h~s,nvfp4,9.639e-03,1.951,6.0389,+nan,0.9563,fp32,3.8329e-03,8.8354e-03,d31691c

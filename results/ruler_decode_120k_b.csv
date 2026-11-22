@@ -1,0 +1,181 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,0,0.00,122861,": 20c29014-5ab9-70d1-f393-a412ff9a7eea, 9d4d16bd-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,1,0.00,122864,": 5ef7f1ca-ae0e-6d93-81b1-7d0f2bce8f27,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,2,0.00,122856,": 45114dc5-1c02-8474-312a-6ee44f4fd56a, db4fe9a4",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,3,1.00,122846,": 8ee54e2a-7131-ec3d-5cb0-fad10081771a, 4d9dcf",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,4,0.00,122863,": 3b4c1918-6a28-f89d-ef93-eecb2b59bfa0, 386934d",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,5,1.00,122851,": 69dfac1f-d191-2c8a-a836-6dff328ef396, 2366a13c-4dd",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,6,1.00,122880,": 57d91d57-fbbe-0a10-0f8d-376e49920922, 2f41601c-b",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,7,0.00,122842,": 496c1531-5240-93f0-7d02-0501adb2ea1e, 8d950904-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,8,0.00,122875,: 3d0eab5b-3e3c-0b3f-0b1f-0b1f-0b,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,9,1.00,122863,: 209e9c62-2537-0684-10aa-044a81168673. What are all the special magic uuids for,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,10,1.00,122873,": 1d0e2d24-3140-9ac6-e717-514e5194dd38, 6b260d6",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,11,0.00,122829,: 8e0f6b2d-5b3a-8b2b-8b2b-8b2b-8,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,12,1.00,122877,": 2cb82451-e17b-a593-3856-0988d8d918e4, 8dcfccf4-aee",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,13,1.00,122849,": 7dd42424-855a-1fc1-8993-2aa416cb210d, 0b5b5a4",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,14,0.00,122841,": 9a19bb58-b96a-c0b1-2838-1acb50721c1c, 0d914d9",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,15,1.00,122880,": 96e47c15-69a9-8941-bf98-8660b105d63c, 756e0478-a",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,16,0.00,122830,": 0d2e4b52-8047-e040-41a8-f52803a1c132, 2f632021-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,17,0.00,122852,": 9a3f4eb6-2202-52eb-12d2-235eceb761c8, 2d90a",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,18,1.00,122851,": 310883d6-7c45-3263-de59-a9a4c1655a1d, 3c3ab416",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh,19,1.00,122860,": 63d0b607-9ad3-ba22-c81c-fa442cdb5787, 63d0b607-9",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,0,0.00,122861,: 96dd8e7a-45da-64a5-6b6d-9d9a0a0d3f3,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,1,0.00,122864,": 5e51568e-52cd-7f2e-c536-59c4750cf9db, 4f55b208",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,2,0.00,122856,": 5d6d6bd3-3f73-db73-7af6-7e16fb63b504, 2ec2",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,3,0.00,122846,: 8e54a9a2-0d1b-4e9a-5b5a-0b4a8f9,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,4,0.00,122863,: 3b4c811e-7a2a-4b5a-8b1a-0b9a1b1a,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,5,0.00,122851,": 2366a13c-4dd5-4935-7d5d-9d265122bb5c, 2e622",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,6,0.00,122880,": 57d91d57-fbbe-0a10-0f8d-376e499a8c4c, 0ce2",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,7,0.00,122842,": 496c1531-5240-93f0-7d02-0501adb2ea1e, 8d950904-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,8,0.00,122875,": 3c6d93ca-277b-ce4a-a652-c06591c146f6, 0c1a2e32",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,9,0.00,122863,": 208be643-4652-d821-f542-6480a1adfb00, 6f27c3d2-dc1",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,10,1.00,122873,": 1d0e2d24-3140-9ac6-e717-514e5194dd38, 7a8ad3",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,11,0.00,122829,": 0b0d0b47-62bb-1e6f-659e-3e482a712f17, 9f",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,12,0.00,122877,": 2cb4a95b-18bd-3c3f-026e-341579aae719, 2d90a5",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,13,0.00,122849,: 7d5f4e7a-6b8b-5b5b-8a0a-0b5b1a,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,14,1.00,122841,": 9864b63e-e9a8-9c2f-a627-d16a7f43ddab, 0d914d",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,15,1.00,122880,": 96e47c15-69a9-8941-bf98-8660b105d63c, 2b514891-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,16,0.00,122830,": 3c8b9fd6-7c4a-1f10-7dcb-af9ac3228aef,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,17,0.00,122852,: 9a5a7e2a-0a5c-4b6a-8b6a-0a5c7e,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,18,1.00,122851,": 310883d6-7c45-3263-de59-a9a4c1655a1d, 0c3629f",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_kh,19,0.00,122860,": 63d0b607-9ad3-ba22-c81c-fa442cdb1767, 15a0bc9c-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,0,0.00,122861,": 20c29014-5ab9-70d1-f393-a412ff9a7eea, 20c29014-5ab",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,1,0.00,122864,: 5e5f8b9b-1aeb-7c9a-4b6f-5d0b8a8,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,2,0.00,122856,": 45114dc5-1c02-8474-312a-6ee44f4fd56a, 45114dc5-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,3,0.00,122846,: 8e5a9c9d-6b2b-5f1a-5b1a-0b2a9b,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,4,0.00,122863,: 0b3a9e6e-6b2b-0b8b-5d7b-0a8a5a,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,5,0.00,122851,": 2366a13c-4dd5-4935-7d5d-9d265122bb5c, 13ecc773",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,6,0.00,122880,": 57d91d57-fbe4-0ad7-ddb3-29c34b8e4e79, 0a3",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,7,0.00,122842,": 496c1531-5240-93f0-7d02-0501adb2ea1e, 8d950904-",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,8,0.00,122875,": 3c6d93ca-277b-ce4a-a652-c06591f14763, 56eb83cd-605e-a",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,9,0.00,122863,": 6e000b0a-2984-6ee4-76d5-2ad34bef68ee, 0f51b",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,10,0.00,122873,": 1ddec752-c6a3-ff83-55e8-0a2677b26031, 2f475a42",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,11,0.00,122829,: 0a4c82d9-7c71-4a7b-8b4a-8d3a5e5f,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,12,0.00,122877,": 2cb4a95b-b9ae-6d38-4459-0e8f9a8e5b4f,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,13,0.00,122849,: 7d5f4a3e-3c9b-4b5b-8b1a-0a5b9b,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,14,1.00,122841,": 9864b63e-e9a8-9c2f-a627-d16a7f43ddab, 0d5c",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,15,1.00,122880,": 96e47c15-69a9-8941-bf98-8660b105d63c, 2b6e462",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,16,0.00,122830,: 3c8b3b9e-7b6a-1d5a-b1aa-4a72ce49b6b,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,17,0.00,122852,: 9a5a5b0f-0a5b-4b9a-8b3a-7b0f1a,d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,18,1.00,122851,": 310883d6-7c45-3263-de59-a9a4c1655a1d, 0c087ed5",d5159b7
+meta-llama/Llama-3.1-8B,decode,multikey,122880,mxfp4_uq_kh,19,0.00,122860,": 63d0b607-9ad3-1e2c-5ea4-fa442cdb78b7, 63d0",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,0,0.00,122880,": 300000, 3000000, 30000000, 300000000, 3000000000, 30000000000, 300000000000, 3",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,1,1.00,122880,": 1093497, 3250955, 3073308, 5917237, 3073308, 5917237, 5917237, 5917237",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,2,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,3,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,4,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,5,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,6,1.00,122880,": 4599013, 8325824, 7263094, 4683110, 8325824, 7263094, 4683110, 8325824",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,7,1.00,122880,": 8837967, 7369960, 8991354, 1942066, 7369960, 7369960, 7369960, 7369960",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,8,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,9,0.50,122880,": 6859943, 1049793, 1049793, 1049793, 1049793, 1049793, 1049793, 1049793",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,10,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,11,0.75,122880,": 2897980, 5613233, 2553606, 2553606, 2553606, 2553606, 2553606, 2553606",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,12,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,13,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,14,0.00,122880,: 1. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12.,d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,15,0.50,122880,": 4374780, 1593390, 1593390, 1593390, 1593390, 1593390, 1593390, 1593390",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,16,0.25,122880,": 2443112, 2443112, 2443112, 2443112, 2443112, 2443112, 2443112, 2443112",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,17,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,18,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,nvfp4_kh,19,0.25,122880,": 6795885, 6795886, 6795887, 6795888, 6795889, 6795890, 6795891, 6795892",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,0,1.00,122880,": 3007762, 2058172, 4325340, 2477613, 2058172, 2058172, 2058172, 2058172",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,1,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,2,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,3,0.00,122880,: 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.,d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,4,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,5,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,6,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,7,1.00,122880,": 8837967, 7369960, 1942066, 8991354, 8991354, 8991354, 8991354, 8991354",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,8,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,9,1.00,122880,": 1049793, 6859943, 9981129, 1049793, 4547482, 1049793, 6859943, 9981129",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,10,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,11,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,12,0.00,122880,: 1. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12.,d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,13,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,14,0.00,122880,": 1. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,15,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,16,0.75,122880,": 2443112, 5588074, 8464562, 2443112, 2443112, 2443112, 2443112, 2443112",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,17,0.75,122880,: 1. 8898776 2. 3117651 3. 3952460 4. 3117651 5. 3117651 6.,d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,18,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_kh,19,0.25,122880,": 6795885, 6795885, 6795885, 6795885, 6795885, 6795885, 6795885, 6795885",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,0,1.00,122880,": 3007762, 2058172, 4325340, 2477613, 4325340, 2058172, 3007762, 2058172",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,1,1.00,122880,": 1093497, 3250955, 5917237, 3073308, 0, 1, 2, 3, 4, 5,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,2,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,3,0.00,122880,: 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.,d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,4,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,5,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,6,1.00,122880,": 4599013, 8325824, 7263094, 4683110, 8325824, 8325824, 8325824, 8325824",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,7,1.00,122880,": 8837967, 7369960, 1942066, 8991354, 7369960, 7369960, 7369960, 7369960",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,8,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,9,1.00,122880,": 6859943, 1049793, 9981129, 4547482, 6859943, 1049793, 9981129, 4547482",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,10,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,11,0.75,122880,": 2553606, 2897980, 5613233, 2553606, 2897980, 5613233, 2553606, 289798,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,12,0.00,122880,: 1. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12.,d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,13,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,14,0.00,122880,": 1. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,15,0.75,122880,": 9701036, 9345544, 4374780, 4374780, 4374780, 4374780, 4374780, 4374780",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,16,0.75,122880,": 2443112, 5588074, 8464562, 2443112, 2443112, 2443112, 2443112, 2443112",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,17,0.25,122880,": 3117651, 3117652, 3117653, 3117654, 3117655, 3117656, 3117657, 3117658",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,18,0.00,122880,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",d5159b7
+meta-llama/Llama-3.1-8B,decode,multivalue,122880,mxfp4_uq_kh,19,1.00,122880,": 6795885, 7270408, 3483153, 5219025, 6795885, 7270408, 3483153, 5219025",d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,0,0.00,122880,45879. 45879. 45879. 45879. 45879. 45879.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,1,0.80,122880,16209 MGPSO YXOPU FQUCM OBGOC Question: Find all variables that are,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,2,0.00,122880,11037 11037 11037 11037 11037 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,3,1.00,122880,87069 CCLPI ZCCCW GJDNX YXSVM NUUMD ZHHTM Question,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,4,0.00,122880,13339. 13339. 13339. 13339. 13339. 13339.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,5,0.00,122880,14805. The sky is blue. The sun is yellow. Here we go. There and back again. The,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,6,0.00,122880,63312 63312 63312 63312 63312 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,7,0.00,122880,61740 61740 61740 61740 61740 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,8,0.00,122880,12233 12233 12233 12233 12233 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,9,0.00,122880,64657. 64657. 64657. 64657. 64657. 64657.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,10,0.00,122880,99722 99722 99722 99722 99722 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,11,0.00,122880,92965 92965 92965 92965 92965 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,12,0.00,122880,85776 85776 85776 85776 85776 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,13,0.00,122880,34788 34788 34788 34788 34788 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,14,0.00,122880,89895 89895 89895 89895 89895  Memorize and track the chain(s),d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,15,0.00,122880,79285. 79285. 79285. 79285. 79285. 79285.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,16,0.00,122880,98229. 98229. 98229. 98229. 98229. 98229.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,17,0.80,122880,58991 QWDLR GZKYJ DLEPW NXGYY Question: Find all variables that are,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,18,0.00,122880,68066 68066 68066 68066 68066 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,nvfp4_kh,19,0.00,122880,74086 74086 74086 74086 74086 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,0,0.00,122880,45879. 45879. 45879. 45879. 45879. 45879.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,1,0.00,122880,16209 16209 16209 16209 16209 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,2,0.00,122880,11037 11037 11037 11037 11037 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,3,0.00,122880,87069. 87069. 87069. 87069. 87069. 87069.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,4,0.00,122880,13339 13339 13339 13339 13339 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,5,0.00,122880,14805 14805 14805 14805 14805 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,6,0.00,122880,63312 63312 63312 63312 63312 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,7,0.00,122880,61740 61740 61740 61740 61740 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,8,0.00,122880,12233 12233 12233 12233 12233 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,9,0.00,122880,64657 64657 64657 64657 64657 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,10,0.00,122880,99722 99722 99722 99722 99722 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,11,0.00,122880,92965 92965 92965 92965 92965 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,12,0.00,122880,85776 85776 85776 85776 85776 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,13,0.00,122880,34788 34788 34788 34788 34788 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,14,0.00,122880,89895 89895 89895 89895 89895  Memorize and track the chain(s),d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,15,0.00,122880,79285 79285 79285 79285 79285 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,16,0.00,122880,98229. The grass is green. The sky is blue. The sun is yellow. Here we go. There,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,17,0.00,122880,58991 58991 58991 58991 58991 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,18,0.00,122880,68066 68066 68066 68066 68066 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_kh,19,0.00,122880,74086 74086 74086 74086 74086  Memorize and track the chain(s),d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,0,0.00,122880,45879. 45879. 45879. 45879. 45879. 45879.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,1,0.00,122880,16209 16209 16209 16209 16209 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,2,0.00,122880,11037 11037 11037 11037 11037 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,3,0.00,122880,87069. 87069. 87069. 87069. 87069. 87069.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,4,0.00,122880,13339. 13339. 13339. 13339. 13339. 13339.,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,5,0.00,122880,14805 14805 14805 14805 14805 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,6,0.00,122880,63312 63312 63312 63312 63312 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,7,0.00,122880,61740 61740 61740 61740 61740 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,8,0.00,122880,12233 12233 12233 12233 12233 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,9,0.00,122880,64657 64657 64657 64657 64657 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,10,0.00,122880,99722 99722 99722 99722 99722 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,11,0.00,122880,92965 92965 92965 92965 92965 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,12,0.00,122880,85776 85776 85776 85776 85776 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,13,0.00,122880,34788 34788 34788 34788 34788 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,14,0.00,122880,89895 89895 89895 89895 89895  Memorize and track the chain(s),d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,15,0.00,122880,79285 79285 79285 79285 79285 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,16,0.00,122880,98229 98229 98229 98229 98229  Memorize and track the chain(s),d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,17,0.00,122880,58991 58991 58991 58991 58991 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,18,0.00,122880,68066 68066 68066 68066 68066 Question: Find all variables that are assigned the,d5159b7
+meta-llama/Llama-3.1-8B,decode,vt,122880,mxfp4_uq_kh,19,0.00,122880,74086 74086 74086 74086 74086  Memorize and track the chain(s),d5159b7

@@ -1,0 +1,10 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,commit
+mistralai/Mistral-7B-v0.3,4096,16,4,bf16,bf16,bf16,0.000e+00,0.000,5.3635,+0.0000,1.0000,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,nvfp4_khs,nvfp4_h~s,nvfp4,6.002e-03,4.440,5.3887,+0.0252,0.9657,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,nvfp4_khp,nvfp4_h~p,nvfp4,6.625e-03,2.876,5.3940,+0.0305,0.9655,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,int4a_khs,int4a_tok_h~s,int4a_tok,6.000e-03,4.268,5.3956,+0.0322,0.9660,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,int4a_khp,int4a_tok_h~p,int4a_tok,6.266e-03,1.800,5.3939,+0.0304,0.9643,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,mxc0.156_khs,mxfp4_c0.156_h~s,mxfp4_c0.156,2.081e-02,5.674,5.4703,+0.1068,0.9397,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,mxc0.177_khs,mxfp4_c0.177_h~s,mxfp4_c0.177,1.254e-02,3.819,5.4268,+0.0633,0.9527,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,mxc0.200_khs,mxfp4_c0.200_h~s,mxfp4_c0.200,9.204e-03,6.834,5.4084,+0.0449,0.9576,f426d15
+mistralai/Mistral-7B-v0.3,4096,16,4,mxc0.200_khp,mxfp4_c0.200_h~p,mxfp4_c0.200,1.025e-02,5.006,5.4119,+0.0485,0.9562,f426d15

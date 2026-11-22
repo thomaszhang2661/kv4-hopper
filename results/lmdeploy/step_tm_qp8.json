@@ -1,0 +1,68 @@
+[
+ {
+  "B": 1,
+  "S": 16384,
+  "out": 512,
+  "step_ms": 5.784166761748711,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 1,
+  "backend": "turbomind",
+  "qp": 8
+ },
+ {
+  "B": 8,
+  "S": 16384,
+  "out": 512,
+  "step_ms": 8.45724998813386,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 8,
+  "backend": "turbomind",
+  "qp": 8
+ },
+ {
+  "B": 32,
+  "S": 16384,
+  "out": 512,
+  "step_ms": 15.244660086479763,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 32,
+  "backend": "turbomind",
+  "qp": 8
+ },
+ {
+  "B": 1,
+  "S": 32768,
+  "out": 512,
+  "step_ms": 6.106626548587459,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 1,
+  "backend": "turbomind",
+  "qp": 8
+ },
+ {
+  "B": 8,
+  "S": 32768,
+  "out": 512,
+  "step_ms": 10.589372104734577,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 8,
+  "backend": "turbomind",
+  "qp": 8
+ },
+ {
+  "B": 32,
+  "S": 32768,
+  "out": 512,
+  "step_ms": 25.849861845180587,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 32,
+  "backend": "turbomind",
+  "qp": 8
+ }
+]

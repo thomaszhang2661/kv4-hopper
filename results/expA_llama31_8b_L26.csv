@@ -1,0 +1,5 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+meta-llama/Llama-3.1-8B,2048,8,4,nvfp4_kh#26,nvfp4_h,nvfp4,1.948e-04,0.073,5.6612,+nan,0.9940,fp32,9.1245e-03,8.9249e-03,fe66e6f
+meta-llama/Llama-3.1-8B,2048,8,4,nvfp4_khs#26,nvfp4_h~s,nvfp4,1.420e-04,0.026,5.6601,+nan,0.9947,fp32,4.4275e-03,8.9249e-03,fe66e6f
+meta-llama/Llama-3.1-8B,2048,8,4,nvfp4_kh#27,nvfp4_h,nvfp4,1.950e-04,0.038,5.6617,+nan,0.9944,fp32,9.1314e-03,8.9562e-03,fe66e6f
+meta-llama/Llama-3.1-8B,2048,8,4,nvfp4_khs#27,nvfp4_h~s,nvfp4,1.457e-04,0.036,5.6616,+nan,0.9955,fp32,4.4737e-03,8.9562e-03,fe66e6f

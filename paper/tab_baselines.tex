@@ -1,0 +1,83 @@
+\providecommand{\pend}{\textcolor{gray}{pend.}}
+\begin{table}[tbp]
+\centering
+\caption{What each KV-cache option gives on H200 (Llama-3.1-8B for speed, perplexity and KL). Bytes per 128-value
+row of K or V, scales included. Speed: \texttt{vllm bench forward} decode step, all rows in one job, as a speed-up
+over vLLM's FlashInfer FP8 path (XQA decode; higher is faster). MATH-500 (Qwen2.5-7B-Instruct, R1-Distill-Llama-8B, Phi-4) inside vLLM, mean over runs; perplexity increase over BF16 inside vLLM
+(wikitext-2, $16\times8192$; Qwen2.5-7B-Instruct and Llama-3.1-8B); KL offline (FP32, $8\times2048$). One scale per tensor has no decode kernel in vLLM or
+FlashInfer, so it has only offline numbers. KL: no sinks except ours (four); ours with the window K mean. vLLM NVFP4 is \texttt{-{}-kv-cache-dtype nvfp4} with vLLM's defaults
+(every layer, global scale 1.0); $\times$246: perplexity 1542 against 6.27 (FP8: 231). MATH-500 of vLLM NVFP4: three runs each; FP8: one run each. $^*$BF16 at the three shapes whose cache fits (8$\times$16K, 8$\times$32K, 32$\times$16K tokens; at 64$\times$16K and above it does not), from a second job that reran FP8 and ours (ours there 1.12--1.63$\times$).}
+\label{tab:baselines}
+\small\setlength{\tabcolsep}{2.9pt}
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{Speed-up vs FP8} & \multicolumn{3}{c}{MATH-500 (\%)} & \multicolumn{2}{c}{$\Delta$ppl} & Llama \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-7}\cmidrule(lr){8-9}
+KV cache & Bytes & $B\geq8$ & $B=1$ & Qwen2.5 & R1-Llama & Phi-4 & Qwen2.5 & Llama & KL \\
+\midrule
+BF16                                & 256 & 0.63--0.86$^*$ & 0.96--0.97 & 71.2 & 67.7 & 75.3 & -- & -- & -- \\
+FP8 (FlashInfer XQA)                & 128 & 1.00  & 1.00  & 1.6 & 67.0 & 76.0 & $\times$36.8 & +0.94\% & 0.0037 \\
+4-bit, one scale/tensor & 64 & -- & -- & -- & -- & -- & -- & -- & 0.297 \\
+vLLM NVFP4                          & 72  & 0.43--0.72 & 0.87--0.90 & 0.0 & 68.4 & 74.9 & $\times$246 & +2.62\% & 0.0282 \\
+\quad layer 0 in BF16            & 72  & --    & --    & 65.9 & --    & --    & +78\% & +2.56\% & 0.0262 \\
+Ours (full recipe)                  & 72  & 1.12--1.64 & 1.01--1.05 & 72.0 & 67.7 & 74.1 & +0.05\% & +0.06\% & 0.0103 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[tbp]
+\centering
+\caption{Each step of the recipe, added one at a time: mean KL against BF16 (offline, FP32, wikitext-2,
+$8\times2048$ tokens, the K mean taken over each window; (a)--(c) without sinks, (d)--(f) and FP8 as noted in the text). None of the steps is ours; the table measures what each
+contributes on one setup.}
+\label{tab:ladder}
+\small
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+& Step & Llama-3.1-8B & Qwen2.5-7B-I & Qwen3-8B-Base \\
+\midrule
+(a) & 4-bit FP4, one scale per tensor           & 0.297  & 10.1  & 3.00 \\
+(b) & NVFP4: an E4M3 scale per 16 values        & 0.0269 & 5.90  & 0.0291 \\
+(c) & + Hadamard rotation of K~\cite{ashkboos2024quarot} & 0.0187 & 6.95 & 0.281 \\
+(d) & + 4 BF16 sink tokens~\cite{xiao2023streamingllm,liu2024intactkv} & 0.0168 & 7.05 & 0.249 \\
+(e) & + K mean removal~\cite{zhang2025sageattention,shao2026flagrot}  & 0.0111 & 0.0167 & 0.0125 \\
+(f) & + layer 0 in BF16                         & 0.0103 & 0.0147 & 0.0097 \\
+\midrule
+    & FP8, one scale per tensor (reference)     & 0.0037 & 3.86  & 0.0040 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{What each step fixes.}
+Steps (a)--(c) run without sinks, (d)--(f) with four; FP8 is as vLLM ships it (every layer, no sinks).
+\textbf{(a)$\to$(b) Block scales.} With one scale per tensor, the largest value in the layer sets the step size;
+E2M1's smallest non-zero value is $0.5$ of that scale, so where K has a channel or token tens of times larger than
+the typical value, most entries round to zero. A scale per 16 values confines an outlier to its own block: KL falls
+11$\times$ on Llama and 103$\times$ on Qwen3-8B-Base. (INT4 with one scale per tensor is worse still: 1.74 and 4.26.)
+Fixing NVFP4's global scale at 1.0, as vLLM stores it, changes the KL by at most 1.3\% on these two models.
+\textbf{(b)$\to$(c) Rotation.} Within a block an outlier channel still sets the scale for the other 15 values; a
+Hadamard rotation spreads each channel over all 128, and lowers Llama's KL by 30\%. On Qwen3-8B-Base it does the
+opposite (0.029 to 0.281): K there has a large per-channel mean, and the rotation spreads it into every block,
+where it takes over the scale (KV4-RL~\cite{park2026kv4rl}, Appendix D.4, also finds that K rotation raises NVFP4 KV mismatch on Qwen3 models without mean removal). Once the mean is removed (four sinks, layer 0 in BF16, one job per model), rotation
+still lowers the KL, but only by 12\% on Llama, 14\% on Qwen2.5-7B-Instruct and 8\% on Qwen3-8B-Base.
+\textbf{(c)$\to$(d) Sinks.} The first tokens receive a large share of the attention mass in most layers, so their
+error weighs more than other tokens'. Before the mean is removed, sinks help little (Llama $-10\%$). With the mean
+removed (recipe without the static mean, sink 0, 1, 2, 4, 8, 16), one sink already gives 98\% of the gain of four on
+Llama, 101\% on Qwen3-8B-Base and 80\% on Qwen2.5-7B-Instruct (two give 97\%), and 8 or 16 add nothing we can
+resolve: the gain is the first token, and four leave a margin.
+\textbf{(d)$\to$(e) Mean removal.} The per-channel K mean is shared by all tokens and cancels in the softmax
+($q\cdot\mu$ is the same for every key), so subtracting it before quantizing removes energy the scales would
+otherwise spend on it, at no read-time cost. It is the step that rescues the Qwen models: Qwen2.5-7B-Instruct
+goes from 7.05 (collapsed, as FP8 is at 3.86) to 0.0167, Qwen3-8B-Base from 0.249 to 0.0125, both close to Llama's
+0.0111. It needs the sinks: at sink 0 it makes Llama worse, not better (0.0233 against 0.0187).
+\textbf{(e)$\to$(f) Layer 0.} In Qwen2-family models the key-projection bias makes layer 0's K almost entirely its
+mean (98\% of the norm on R1-Distill-Qwen-7B); keeping that layer in BF16, at 1/28--1/32 of the cache, lowers the
+KL by a further 12\% on Qwen2.5-7B-Instruct, 22\% on Qwen3-8B-Base and 7\% on Llama (one job each).
+On its own it is not enough for 4-bit: on Qwen2.5-7B-Instruct, NVFP4 with four sinks and only layer 0 in BF16 has a
+KL of 0.250, 17$\times$ the recipe's 0.0146, while the same protection takes FP8 from 3.79 to 0.033.
+Inside vLLM the order is the same (Table~\ref{tab:baselines}): on Llama-3.1-8B, perplexity rises by 2.62\% with vLLM's NVFP4, 2.56\% with its layer 0 in BF16, 0.94\% with FP8 and 0.06\% with the recipe; on Qwen2.5-7B-Instruct, NVFP4 with only layer 0 in BF16 still raises perplexity by 78\% and scores 65.9\% on MATH-500 against BF16's 71.2\% ($-$5.3 points, 95\% CI [$-$8.4, $-$2.4], $p < 0.001$, three runs against five), while the recipe scores 72.0\%.
+\textbf{vLLM's NVFP4 as shipped} corresponds to (b) with the global scale fixed at 1.0 and no layer protection:
+offline it is (b) within 1.3\% on Llama and Qwen3 and collapsed on Qwen2.5-7B-Instruct (4.91).
+Inside vLLM it is accurate on the two models without a key bias, R1-Distill-Llama-8B ($+0.7$ points against BF16, 95\% CI [$-$2.4, +3.9], $p = 0.60$) and Phi-4 ($-$0.3, [$-$2.6, +1.9], $p = 0.80$; three runs each), and collapses on Qwen2.5-7B-Instruct (0.0\% on MATH-500 in all three runs, perplexity 1542 against 6.27), as FP8 does (1.6\%). Away from the Qwen2 family its cost is speed: it decodes 1.4--2.3$\times$ slower than FP8 at batch 8 and above (Table~\ref{tab:e2e}).
+\textbf{Context length.} On Llama with four sinks, the recipe's KL (window mean, layer 0 in BF16) moves from
+0.0093 at 2K tokens to 0.0113 at 16K, and its ratio to FP8 from 3.0 to 2.7 (32K tokens per point).

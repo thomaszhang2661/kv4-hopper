@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kv4-vllm"
+version = "0.0.1"
+description = "Out-of-tree vLLM plugin: Hopper decode kernel for the ultraquant_4bit KV cache (kv4-hopper)"
+requires-python = ">=3.10"
+
+[project.entry-points."vllm.general_plugins"]
+kv4_hopper = "kv4_vllm:register"
+
+[tool.setuptools]
+packages = ["kv4_vllm"]

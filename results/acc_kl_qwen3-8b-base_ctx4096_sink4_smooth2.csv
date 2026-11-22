@@ -1,0 +1,10 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,commit
+Qwen/Qwen3-8B-Base,4096,16,4,bf16,bf16,bf16,0.000e+00,0.000,6.6203,+0.0000,1.0000,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,nvfp4_khs,nvfp4_h~s,nvfp4,1.144e-02,6.639,6.6608,+0.0406,0.9508,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,nvfp4_khp,nvfp4_h~p,nvfp4,1.305e-02,4.137,6.6796,+0.0593,0.9467,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,int4a_khs,int4a_tok_h~s,int4a_tok,1.120e-02,0.991,6.6644,+0.0441,0.9495,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,int4a_khp,int4a_tok_h~p,int4a_tok,1.211e-02,2.914,6.6653,+0.0450,0.9491,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,mxc0.156_khs,mxfp4_c0.156_h~s,mxfp4_c0.156,3.116e-02,3.332,6.7823,+0.1620,0.9210,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,mxc0.177_khs,mxfp4_c0.177_h~s,mxfp4_c0.177,1.984e-02,1.975,6.7067,+0.0864,0.9346,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,mxc0.200_khs,mxfp4_c0.200_h~s,mxfp4_c0.200,1.560e-02,2.669,6.6746,+0.0544,0.9428,f426d15
+Qwen/Qwen3-8B-Base,4096,16,4,mxc0.200_khp,mxfp4_c0.200_h~p,mxfp4_c0.200,1.766e-02,3.099,6.6915,+0.0712,0.9387,f426d15

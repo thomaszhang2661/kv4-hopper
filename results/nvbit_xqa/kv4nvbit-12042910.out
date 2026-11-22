@@ -1,0 +1,79 @@
+NVIDIA H200, 570.86.15
+KV4_COMMIT=018e322
+tool /scratch/$USER/src/nvbit_release_x86_64/tools/opcode_hist/build/opcode_hist.so
+== xqa_p16 10:18:40
+rc=0 12 kernels logged
+==KV4 BEGIN impl=xqa_p16 B=32 S=16384 HKV=8 D=128 bytes=1073741824
+kernel 11 - kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, float const*, KVCacheList<true>, unsigned int, float, float const*, CUtensorMap_st, CUtensorMap_st, unsigned int*, void*) - #thread-blocks 256,  kernel instructions 131413434, total instructions 3220165577
+  ACQBULK = 1024
+  ATOMS.MAX.S32 = 524288
+== xqa_p64 10:19:07
+rc=0 12 kernels logged
+==KV4 BEGIN impl=xqa_p64 B=32 S=16384 HKV=8 D=128 bytes=1073741824
+kernel 11 - kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, float const*, KVCacheList<true>, unsigned int, float, float const*, CUtensorMap_st, CUtensorMap_st, unsigned int*, void*) - #thread-blocks 256,  kernel instructions 132386212, total instructions 3223902348
+  ACQBULK = 1024
+  ATOMS.MAX.S32 = 524288
+== cuda_nvfp4 10:19:20
+rc=0 3408 kernels logged
+==KV4 BEGIN impl=cuda_nvfp4 B=32 S=16384 HKV=8 D=128 bytes=603979776
+kernel 3407 - void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, false, 4>(unsigned char const*, unsigned char const*, unsigned char const*, unsigned char const*, __half const*, float*, float*, int, int, float, float, unsigned int, unsigned int, unsigned char const*, int const*, int const*, int) - #thread-blocks 256,  kernel instructions 121011559, total instructions 77086654067
+  BAR.SYNC.DEFER_BLOCKING = 270592
+  BRA = 4076287
+== cuda_mxfp4 10:21:23
+rc=0 3412 kernels logged
+==KV4 BEGIN impl=cuda_mxfp4 B=32 S=16384 HKV=8 D=128 bytes=570425344
+kernel 3411 - void (anonymous namespace)::decode_nvfp4_kernel<2, true, false, 0, false, 4>(unsigned char const*, unsigned char const*, unsigned char const*, unsigned char const*, __half const*, float*, float*, int, int, float, float, unsigned int, unsigned int, unsigned char const*, int const*, int const*, int) - #thread-blocks 256,  kernel instructions 122722731, total instructions 77108424802
+  BAR.SYNC.DEFER_BLOCKING = 270592
+  BRA = 4151478
+impl            kernels inst/value  inst/B static budget    BW issue util issue cap  top opcodes per value
+bd_int4               2       5.74   10.80    nan   155%   25%        39%       65%  SYNCS 1.09, BRA 0.56, HFMA2 0.56, NANOSLEEP 0.54, LOP3 0.42, FMUL 0.27, FMNMX 0.27, MUFU 0.26, FFMA 0.26, FADD 0.25
+                   10.78 inst/B     512 blocks  void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm
+                    0.02 inst/B     128 blocks  void cutlass::device_kernel<flash::FlashAttnFwdCombine<cute::tuple<cute::C<8>, cute::C<128> >, 5, 256, 1, fals
+cuda_int4a            1       2.63    4.94    nan    71%   75%        53%      100%  LOP3 0.55, HADD2 0.28, IMAD 0.26, R2UR 0.15, SHF 0.14, FADD 0.14, HGMMA 0.12, SYNCS 0.10, BRA 0.09, NANOSLEEP 0.08
+                    4.94 inst/B     256 blocks  void (anonymous namespace)::decode_int4_kernel<2, true>(unsigned char const*, __half2 const*, unsigned char co
+cuda_mxfp4            1       3.66    6.88    nan    99%   62%        61%      100%  LOP3 0.77, IMAD 0.74, HMUL2 0.50, PRMT 0.17, LEA 0.16, R2UR 0.13, SYNCS 0.13, BRA 0.13, HGMMA 0.12, NANOSLEEP 0.11
+                    6.88 inst/B     256 blocks  void (anonymous namespace)::decode_nvfp4_kernel<2, true, false, 0, false, 4>(unsigned char const*, unsigned ch
+cuda_nvfp4            1       3.61    6.41    nan    92%   66%        61%      100%  LOP3 0.77, IMAD 0.73, HMUL2 0.50, F2FP 0.20, SHF 0.15, R2UR 0.13, SYNCS 0.13, HGMMA 0.12, BRA 0.12, NANOSLEEP 0.11
+                    6.41 inst/B     256 blocks  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, false, 4>(unsigned char const*, unsigned c
+fi_bf16               1       2.64    1.32    nan    19%   90%        17%      100%  IMAD 0.42, FMUL 0.27, HMMA 0.26, IADD3 0.23, LOP3 0.16, LDC 0.16, LDSM 0.16, SHF 0.15, LDGSTS 0.13, ISETP 0.12
+                    1.32 inst/B     256 blocks  void flashinfer::BatchPrefillWithPagedKVCacheKernel<true, flashinfer::KernelTraits<(flashinfer::MaskMode)0, 16
+fi_fp8                2       5.79    5.79    nan    83%   56%        46%      100%  LOP3 1.07, IMAD 0.99, PRMT 0.88, SHFL 0.63, HMUL2 0.50, LEA 0.26, HMMA 0.26, FMUL 0.14, ISETP 0.13, LDC 0.13
+                    5.79 inst/B     256 blocks  void flashinfer::BatchPrefillWithPagedKVCacheKernel<true, flashinfer::KernelTraits<(flashinfer::MaskMode)0, 16
+                    0.00 inst/B     128 blocks  void at::native::vectorized_elementwise_kernel<8, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10:
+fi_nvfp4              2       8.29   14.74    nan   211%   19%        40%       47%  PRMT 1.63, IMAD 1.30, LOP3 0.73, F2FP 0.66, SHFL 0.51, HMUL2 0.50, LDS 0.39, HADD2 0.38, SHF 0.36, HMMA 0.26
+                   14.73 inst/B     256 blocks  void flashinfer::BatchPrefillWithPagedKVCacheKernel<true, flashinfer::KernelTraits<(flashinfer::MaskMode)0, 16
+                    0.00 inst/B     128 blocks  void at::native::vectorized_elementwise_kernel<8, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10:
+kside_v1              1       3.01    5.84    nan    84%   60%        51%      100%  LOP3 1.02, FADD 0.19, IMAD 0.19, SHF 0.15, BRA 0.14, HGMMA 0.12, ULOP3 0.12, MUFU 0.10, FMUL 0.10, UMOV 0.09
+                    5.84 inst/B    1024 blocks  void (anonymous namespace)::kside_kernel<3, 0>(unsigned char const*, __half const*, __half const*, float const
+kside_v2              1       2.99    5.80    nan    83%   42%        35%      100%  LOP3 1.02, FADD 0.19, IMAD 0.19, SHF 0.15, BRA 0.13, HGMMA 0.12, ULOP3 0.12, UMOV 0.10, MUFU 0.10, FMUL 0.10
+                    5.80 inst/B    1024 blocks  void (anonymous namespace)::kside_kernel<3, 1>(unsigned char const*, __half const*, __half const*, float const
+kside_v4              1       1.95    3.78    nan    54%   69%        37%      100%  LOP3 0.52, IMAD 0.15, SHF 0.15, HGMMA 0.12, FADD 0.10, BRA 0.10, UIADD3 0.07, SYNCS 0.06, MUFU 0.06, ISETP 0.06
+                    3.78 inst/B    1024 blocks  void (anonymous namespace)::kside_kernel<3, 2>(unsigned char const*, __half const*, __half const*, float const
+ours_bf16             3       1.96    0.98   0.95    14%   90%        13%      100%  FMUL 0.34, HMMA 0.25, LDSM 0.19, IMAD 0.17, FADD 0.16, LDGSTS 0.13, FMNMX 0.09, FSETP 0.07, MUFU 0.07, VIADDMNMX 0.07
+                    0.00 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                    0.97 inst/B     768 blocks  _partial_full
+                    0.01 inst/B    1024 blocks  _combine
+ours_fp8              3       6.29    6.29   6.23    90%   48%        43%      100%  FMUL 1.34, F2FP 1.03, HADD2 1.00, MOV 0.75, IMAD 0.42, LDS 0.33, HMMA 0.25, FADD 0.16, IADD3 0.14, STS 0.13
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                    6.26 inst/B     768 blocks  _partial_full
+                    0.02 inst/B    1024 blocks  _combine
+ours_int4a_tok        3       7.03   13.23  13.10   190%   24%        45%       53%  I2F 1.00, IMAD 0.87, PRMT 0.75, HADD2 0.62, LOP3 0.51, SHF 0.50, FMUL 0.50, LDS 0.43, SGXT 0.25, HMMA 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   13.18 inst/B     768 blocks  _partial_int4_fold
+                    0.03 inst/B    1024 blocks  _combine
+ours_int4_tok         3       6.93   13.45  13.30   193%   25%        48%       52%  I2F 1.00, VIADD 0.79, IMAD 0.76, PRMT 0.75, LOP3 0.51, FMUL 0.43, LDS 0.42, LEA 0.30, SHF 0.25, SGXT 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   13.40 inst/B     768 blocks  _partial_int4_fold
+                    0.03 inst/B    1024 blocks  _combine
+ours_mxfp4            3      11.41   21.48  21.40   308%   17%        53%       32%  IMAD 2.77, LOP3 2.01, FMUL 1.34, PRMT 1.03, HADD2 1.00, F2FP 0.50, SHF 0.44, LDS 0.32, MOV 0.27, HMMA 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   21.44 inst/B     768 blocks  _partial_4bit
+                    0.03 inst/B    1024 blocks  _combine
+ours_nvfp4            3      11.65   20.72  20.60   297%   17%        52%       34%  IMAD 2.64, LOP3 2.03, FMUL 1.46, HADD2 1.12, PRMT 1.03, F2FP 0.56, SHF 0.53, MOV 0.33, LDS 0.30, HMMA 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   20.68 inst/B     768 blocks  _partial_4bit
+                    0.03 inst/B    1024 blocks  _combine
+xqa_p16               1       3.92    3.92    nan    56%  nan%       nan%      100%  SYNCS 0.56, IMAD 0.46, BRA 0.41, NANOSLEEP 0.20, LOP3 0.14, PRMT 0.13, ULOP3 0.13, ISETP 0.11, UIADD3 0.10, UMOV 0.10
+                    3.92 inst/B     256 blocks  kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, floa
+xqa_p64               1       3.95    3.95    nan    57%  nan%       nan%      100%  SYNCS 0.68, BRA 0.47, IMAD 0.41, NANOSLEEP 0.26, LOP3 0.14, PRMT 0.13, ULOP3 0.13, ISETP 0.10, SHFL 0.09, UIADD3 0.09
+                    3.95 inst/B     256 blocks  kernel_mha(unsigned int, float, float const*, Vec<__nv_bfloat16, 128u>*, Vec<__nv_bfloat16, 128u> const*, floa

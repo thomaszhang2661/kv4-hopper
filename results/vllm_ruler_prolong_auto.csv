@@ -1,0 +1,451 @@
+model,task,ctx,config,trial,score,prompt_tokens,output
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,0,1.00,32737,: dd32e9f2-dd7c-0afc-ea71-7a8f03d1aff7.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,1,1.00,32757,: e0b1935c-2cd5-5102-20cc-06d0c434ee6d.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,2,1.00,32736,: 31709d73-af79-6193-ff15-574bbe841f99 5b322dc6-e06e-023c
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,3,1.00,32723,: - f4d2992e-f5d9-883b-d996-498a82827323  What are all the special magic uuids
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,4,1.00,32732,: 2a8c8c89-3f1f-1c6c-9eff-83823acf5f55.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,5,1.00,32764,: 709652bb-bea2-395a-8782-2bf5d583e656.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,6,1.00,32756,: ae68dd5e-6ef8-0cb6-7aa0-44889379ba34.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,7,1.00,32755,: - e80e6e6c-6894-8f40-4533-6ce56434f0a1  What are all
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,8,1.00,32716,: - 6a55b05b-baf2-762c-0be5-6dcf4c2a0c7e
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,9,1.00,32753,: 9e1d0674-414c-cb5e-2405-6d7854c41e17. What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,10,1.00,32734,: - 230856a7-4e16-d8c4-417f-394c2b0af54d What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,11,1.00,32754,: - 08c84367-e506-a9ed-605d-51e467624099  What are all the special magic uuids f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,12,1.00,32741,: 96a4d5ae-c1ee-6445-a246-59ca6383bf59.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,13,1.00,32755,: - 3b132e28-e632-b5cc-de94-890331bb0391.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,14,1.00,32730,: 0266480a-c419-5d1c-8a8a-decf83b5abd4.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,15,1.00,32753,: 1. 1c8cd2e0-6104-e065-8a25-75f1fc3dc9b2 2
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,16,1.00,32750,: - 9fdd6da7-de50-ebf7-0c07-d216eafa5ea6.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,17,1.00,32713,: - 094f1528-2487-7263-cf32-a0c89b49cf8f  What are all the special magic
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,18,1.00,32748,: - f72fdba2-1f67-8771-5be3-b59315dddd7e  What are all the special magic uuid
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,19,1.00,32725,: - 5ff4c97b-8a4f-a4cf-6dde-0ca037126ac8  What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,20,1.00,32721,: - 33ea80bd-1c7c-b6ae-ea5e-19ffa6018993.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,21,1.00,32716,: bc4faacf-ce4d-6524-48dc-2c5f230d4bdc.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,22,1.00,32723,: - 4aee4175-719f-c1d3-242a-ee773875f6a5 - bfe30bd
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,23,1.00,32750,: a28ead76-89c9-ef51-cde3-fc3a67960e89.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,24,1.00,32752,: dd2f131e-5097-63f6-4688-7ff2429afa1e.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,25,1.00,32721,: a088dc31-d973-15de-a966-200664116935.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,26,1.00,32767,: caefb77c-ee5e-927d-757a-4036d7900faa.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,27,1.00,32730,: - 0b56cd97-98f2-a04b-1c6a-80083d1362f4 - c461
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,28,1.00,32765,: - 3863b0ad-9035-0e94-a09d-b17b7c19c84a - d2c
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,29,1.00,32766,: db00cde7-433f-2832-fd44-6747e93bfdb5.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,30,1.00,32722,: - 02f8486d-c009-0b15-cf07-fa623d6d3b11.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,31,1.00,32732,: bb5e1763-e815-7167-0a75-c8688318fe22.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,32,1.00,32724,: adfd6558-16e3-5813-117d-348de2155343.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,33,1.00,32721,: a5892c5d-556f-64ad-ff2b-5da298dc4186.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,34,1.00,32731,: 9c6c4884-2bfc-7fbf-bc2e-06f55f776615.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,35,1.00,32726,: 77635e6a-c575-8648-ec47-b3e4a33aa79d.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,36,1.00,32730,: 0907df67-1a47-bf00-6a73-18c12b120584.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,37,1.00,32765,: - 2c5e8abf-fed0-f8db-8030-93ad7e3955c4  What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,38,1.00,32741,: - ebc10fd3-f9d7-5d60-1aab-797973d9f821  What are all the special magic
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,39,1.00,32719,: - fcea28a6-981c-38f4-6363-a2a2ba97c2dc What are all the special
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,40,1.00,32750,: - 4ef28261-452e-7691-c8e9-882eee479369.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,41,0.00,32733,: - 43d04acc-1b9f-5d1d-98ed-50dfe99146df  What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,42,1.00,32714,: - 9a4729e6-100d-5545-e94a-e94848f8ae8f - f831f590
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,43,1.00,32727,: - 5bac52f3-df33-1907-be69-8cb8557d2a12  What are all the special magic
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,44,1.00,32727,: 4e32428b-3f09-847e-c916-e3e2613a43db.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,45,1.00,32720,: 43ecebe6-e3a6-46de-d741-902e6869c448 8b972d0c-eae4-c
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,46,1.00,32730,: - d1e061e6-ac35-9387-96b4-e577a40fce16 - 7c272f81-
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,47,1.00,32736,: - ca2f735b-17bf-95b3-e060-73fc86ddbb2a - 80b30969-b
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,48,1.00,32750,: - fa0c9f9d-5ad2-5eb3-7442-5081cbc822e6  What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,32768,auto,49,1.00,32733,: - cd3464b4-6435-9456-9738-fa16059876fa - 60e85d36-ce2
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,0,1.00,65513,: - 0fc6be3e-9bc6-f4af-c630-3c67b7ad875c.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,1,1.00,65500,: 600b16e6-34ab-1375-e808-e2b2f62ace4a.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,2,1.00,65513,: fdde62f1-b1da-2530-3f72-3c8fe67b1399 and 858ecfc3-
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,3,0.00,65519,: - 4cca0f18-2a03-eca1-aeec-5dddfd29bbb3 - f0215f9
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,4,1.00,65488,: - 1ab70b25-9397-5894-8090-59913b1390ae.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,5,0.00,65505,: - 6920d8e8-138c-aa1b-dbde-fc791480c742 - e96aa621-547
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,6,0.00,65498,: ef5544ae-f9c2-f320-cc97-9a09c0e06adc.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,7,1.00,65516,: 755ebf40-4318-43dc-9e1f-46e3324ce1e0.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,8,1.00,65525,: e4d85740-2e43-e593-12a4-904da1aeeb6f.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,9,1.00,65533,: - c2f7cd71-44e6-7feb-166f-fb8c3b4b4e28.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,10,1.00,65498,: - 53ce2286-1a2b-4cac-830a-226d7bf283c6.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,11,1.00,65490,: 98b75b59-2984-6cdc-0ab7-e624d42dc5b4 and e7843e28-
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,12,0.00,65506,: - c4b2578-ed31-f74a-f0fc-6a588ed5801a - 06699334-23f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,13,0.00,65537,: - 749f56f2-b9f1-6c5b-495c-a75aaf6f4f1a -
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,14,1.00,65479,: - d33fcfb3-174a-5611-925c-6171e6796222.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,15,1.00,65500,: 8d7d9513-0cf1-0e33-ab4f-ba42dc4931a0.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,16,1.00,65505,: - e0f84aa6-e5d5-ed2b-cb38-f66f60d32d5f What are all the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,17,1.00,65511,: - e410d10c-0970-74d4-5ea1-d0c2caef7eab - 9967
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,18,0.00,65493,": c16af679-88e7-912a-353e-185017d5e10d, caa5a707-bd0"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,19,1.00,65527,: e4a7aafe-5885-8620-a338-842024e5516a.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,20,1.00,65529,: - a012bf41-e8ab-e7ee-cea4-0907b25298ee - 3862ba44-9b
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,21,1.00,65488,: - a8f6fac0-953a-7844-c691-a02a3513c634 - c730b0e4-
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,22,1.00,65537,: - 2d5f9402-c9f9-7948-edfe-2beaf6087025 - 30815887-c
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,23,1.00,65533,: - 03642713-b8c6-df34-c4cc-5e5bf89ae20f.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,24,1.00,65537,: - 11db17eb-20ab-d650-7520-47afce732874.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,25,1.00,65536,: da459db3-b1de-b8a4-79da-29078500027c.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,26,1.00,65488,: - 89d16d91-8c93-ef3a-ed00-8cef55a2d611.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,27,1.00,65534,: - 7e87cef4-758e-a94f-a5ab-d5916d87c785.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,28,0.00,65525,: - d4af396c-ed13-5a2a-1b5e-1f5c5f5f5f5c
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,29,1.00,65511,: - efa113f3-c29c-1141-47ca-36b5e777b686 - 89430379-2
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,30,1.00,65507,: - 718a74d9-52d6-3788-08e3-680e9fac7f98.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,31,1.00,65475,: - 26f590b4-99b5-41d1-ecb4-62d69be8fbd0.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,32,1.00,65483,: bd576fc6-f777-62de-2dbb-e6ab41d7ecd1.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,33,1.00,65536,: - 1f8591df-544d-314b-b4dd-bf17e18aec0c.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,34,0.00,65531,: 217076c0-3f76-e588-df9c-358bc38a703f c6d7375a-bc64
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,35,1.00,65498,: a6fd9c27-37f3-334f-063c-5f3cb48a91dd.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,36,0.00,65491,: - c1d08864-6274-efd8-bb48-8670e7e41249 - 68ee168f-
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,37,1.00,65506,: - 7a757cc4-48c8-672b-f621-3247bb4b7aa7.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,38,1.00,65499,: 8036a3ca-50fe-cf46-ce8b-a9b4acf673ee.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,39,1.00,65537,: 02081599-69ce-c152-3355-1f3a4ef5fec5.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,40,1.00,65500,: - faeab750-0acb-6fdc-5150-ac498c7a239a.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,41,1.00,65524,: 8f4b59e3-4abf-dc5c-beb1-03884956dc63.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,42,1.00,65526,: a422ea5f-92b7-ced2-63a6-31d832493c28.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,43,1.00,65479,: - fc767c38-594d-8007-a59f-b97ffdde62d1.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,44,1.00,65509,: - b26540cb-2f31-eab4-9746-c2846850345a - 299b1bc0-a544
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,45,1.00,65529,: 4b32fefb-2daa-94de-2925-be88cf1392ab.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,46,1.00,65501,: - cf996dcf-df55-ac5d-674a-c464a02fcdfa  What are all the special magic uuids f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,47,1.00,65521,: b197225f-6628-0332-58af-f623ad0d0dc2.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,48,1.00,65487,: - f10d78e5-af60-7548-1715-5cda3f1539f4.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,65536,auto,49,1.00,65492,: - df21ac3e-decf-e0e4-1ff2-a2ac48a2e824 - 70237d70
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,0,0.00,122861,: - 11b895dd-3d22-d431-e8c4-590109b326a2 - 208b9af2
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,1,1.00,122864,: - e43b75ba-e138-ba48-f404-804683743f2e.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,2,1.00,122856,: - db4fe9a4-2f41-d12b-0419-9e85fde2a81c.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,3,1.00,122846,: - 8ee54e2a-7131-ec3d-5cb0-fad10081771a.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,4,1.00,122863,: 3bb97003-83fe-6891-5d81-123a59466242.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,5,1.00,122851,: - 69dfac1f-d191-2c8a-a836-6dff328ef396.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,6,1.00,122880,: - 57d91d57-fbbe-0a10-0f8d-376e49920922 - 48f5d
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,7,1.00,122842,: - 46fbf992-8938-454b-9c19-53eb9440ff49.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,8,0.00,122875,: - 1f0adb3c-ca28-9a3e-8294-fb892d76b02f - c6ef
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,9,0.00,122863,: - b3672ac9-773c-51ba-f0b1-e7d4043624f7 - de285af5-
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,10,1.00,122873,: 1. 1d0e2d24-3140-9ac6-e717-514e5194dd38 2. 5
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,11,1.00,122829,: - 03fd68dc-baaa-ac44-b609-f4aa4511e631 - f1447a36-b486-f717-f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,12,1.00,122877,: - 2cb82451-e17b-a593-3856-0988d8d918e4 - 8ed63a8
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,13,1.00,122849,: - 7dd42424-855a-1fc1-8993-2aa416cb210d - d98f7c4
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,14,1.00,122841,: - 9864b63e-e9a8-9c2f-a627-d16a7f43ddab - 0d
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,15,1.00,122880,: 96e47c15-69a9-8941-bf98-8660b105d63c.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,16,1.00,122830,: - c4b47617-35c2-16c1-b1d3-69d13ff93571.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,17,1.00,122852,: 6486f7b6-a45e-eeb9-960a-cb9bb11d6588.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,18,1.00,122851,: - 310883d6-7c45-3263-de59-a9a4c1655a1d - c0f545
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,19,1.00,122860,: 63d0b607-9ad3-ba22-c81c-fa442cdb5787.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,20,1.00,122841,: 22432929-4428-f701-f01d-079e02e810fd.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,21,1.00,122834,: - 4833c196-0408-bbd8-0615-e1c2f4df7aab - 7a67f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,22,0.00,122838,: - 269590d8-5aef-7c61-17d4-fc60433cb3a9 - 9e
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,23,1.00,122846,: 141ff1b2-a7a6-5dff-cb91-a69d55f0e7a3.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,24,1.00,122871,: f542cb51-3d0b-7354-a92c-a4c836bc49ab.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,25,1.00,122844,: - 9f879eda-5bff-0882-2d5e-2ddb1212f72d - f771b6
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,26,1.00,122871,: - 1d9ee9c8-25a8-f412-0778-7f096a49046f - 0f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,27,1.00,122858,: - 04f0d312-4902-aa57-ef83-42708f922fcb.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,28,1.00,122878,: - 48328dda-f43e-5f60-0c9c-16b9b70b3774
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,29,1.00,122849,: 5fc940a4-8290-fcf9-4e5a-fe49e991d875.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,30,0.00,122850,: - 0ad57d6f-ac90-9cbb-39dc-84fd69bd2f35 - 6b016
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,31,1.00,122863,: - 8a1015e7-fcdd-9757-3d3c-2d7a6959d523  What are
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,32,1.00,122866,: 0156fb2f-d36d-1904-67bb-fd7d36382cb7.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,33,1.00,122819,: - 5108b9b1-2132-01ed-6f68-84dd4727ad05.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,34,1.00,122846,: 09ecfbff-fa6b-bb66-e392-772f34d6a816.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,35,1.00,122854,: - ab00d875-7a70-4de1-8bd6-eb8c42fbe1a5 - 419ac
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,36,1.00,122867,: - 7408df72-f451-1e17-73b1-7d77695d307a - e2792070-a
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,37,0.00,122846,: - d073575f-8b45-b0df-425f-77b92da4a7c8 - 969526c
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,38,1.00,122856,: - 7b20b1f8-1cfe-d0ca-3bbd-a6039195f7ae - ae4
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,39,1.00,122879,: - 5eb45c8a-4a52-e3ad-a262-83834e268288 - 226a3fb4
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,40,1.00,122822,: - bfaae582-76fb-aad6-8156-18645ffab4bd - e854e5c1-2
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,41,1.00,122879,: 1. 1c079148-5bfe-a9c7-44a4-81150434ece0 2. 7f
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,42,1.00,122863,: - c9cce111-2526-4d91-40d8-b8528f3e910a - 8bbabce
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,43,1.00,122862,: 1. 1a157072-a8d9-8936-14e7-19eae6b5b2df 2.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,44,1.00,122831,: - 00fb471f-d14a-60bb-0177-67055461bf0a - 748cf676-5648
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,45,1.00,122851,: - 890a3aa1-6670-e05e-59a3-ac99e95404b0 - 2e7d
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,46,1.00,122828,: - dc88d6fa-54f1-be17-76ce-424d56b8f11b - 4c3e
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,47,0.00,122852,: c744513f-5198-738a-99fc-8bf1831c95d4.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,48,0.00,122872,: 25e6910e-d778-5d35-ec46-ee829d247799.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multikey,122880,auto,49,1.00,122822,: - f3da0c5c-681c-c75f-7301-e220708ff047.
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,0,0.75,32768,": 2171804, 7634147, 2929291."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,1,0.75,32768,": 4364749, 9747398, 8429742."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,2,1.00,32768,": 2103453, 1405872, 9590813, and 7492013."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,3,1.00,32768,": 5577116, 3815759, 4525269, and 8292784."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,4,1.00,32768,": 3730697, 4954339, 9628455, and 2122683."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,5,0.00,32768,": 18, 9, 8, 2006, 2007, 2008, 18, 2009, 2010, 2011, 2012"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,6,1.00,32768,": 6852988, 2452715, 4628106, and 4887042. of Mortier 's orders , Dupont had rece"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,7,0.75,32768,": 2631512, 1395352, 4718396, 82, 3, 6, 11, 24, 40, 45, 135,"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,8,1.00,32768,": 7781536, 6557727, 7948015, 4586770."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,9,0.50,32768,": 3475392, 6283131."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,10,1.00,32768,": 3979030, 5089869, 5320332, and 2675744. World War and the Holocaust , and the "
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,11,0.75,32768,": 1188395, 4151092, and 1292679."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,12,0.75,32768,": 2590417, 5406409, and 3064172."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,13,1.00,32768,": 3512738, 7396104, 3118731, and 8251323."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,14,0.75,32768,": 7665053, 7451165, 3426983."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,15,0.75,32768,": 4778452, 8854444, and 9102266."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,16,1.00,32768,": 7603205, 7690512, 6698564, and 2328805."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,17,1.00,32768,": 8801459, 6722539, 6044668, and 8185651. three @-@ game format . The championsh"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,18,0.00,32768,": 60, 55, 25, 19, 15, 12, 11, 9, 8, 7, 6, 5, 4,"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,19,1.00,32768,": 5808688, 1527595, 6845512, and 9455610."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,20,0.75,32768,": 3607786, 8762542, and 9072882."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,21,1.00,32768,": 6382279, 1524744, 1357124, and 5215758."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,22,0.75,32768,": 7191425, 1023956.00, and 8956462."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,23,0.75,32768,": 1945117, 7599827, 1654492."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,24,0.75,32768,": 6716262, 8837361, and 5182864.   What is the Dvorak technique? The Dvorak tech"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,25,1.00,32768,": 1766292, 6878914, 5186150, and 5715899."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,26,1.00,32768,": 9586310, 7827381, 2532409, and 8645933."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,27,0.75,32768,": 3697097, 4483377, and 1119756."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,28,0.75,32768,": 8664928, 5719335, and 2779238."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,29,1.00,32768,": 9416565, 5108174, 1673501, and 4316998."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,30,0.75,32768,": 7570601, 3769273, and 9647228."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,31,1.00,32768,": 4865783, 7476695, 4973472, and 9256741."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,32,1.00,32768,": 5557237, 8118281, 8544196, and 1463325."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,33,1.00,32768,": 7863846, 6388673, 6700539, 3262995."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,34,0.00,32768,": 12, 11, 2, 5, 6, 3, 1, 7, 8, 9, 10, 4, 226283"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,35,1.00,32768,": 6370098, 5112127, 7664541, and 7277780."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,36,1.00,32768,": 6290324, 5474310, 5285708, and 3785124."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,37,1.00,32768,": 7407073, 7414547, 9609172, 1942924."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,38,0.75,32768,": 5029753, 3801367, 9062443.6."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,39,1.00,32768,": 5886610, 2831337.2000, 1637121, 8522308."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,40,0.75,32768,": 2061389, 5980880, 3222592."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,41,1.00,32768,": 2434454, 4585221, 5847820, and 9751774."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,42,0.75,32768,": 9693838, 7578566, 6563911."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,43,1.00,32768,": 4314081, 5720926, 3486157, 4111798. Kutuzov and Hohenlohe decided to use Gazan"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,44,1.00,32768,": 5407473.5, 1971745, 3678318, 9212019."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,45,1.00,32768,": 6426766, 3681507, 8071309, 4076371."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,46,0.75,32768,": 6156565, 5221514, 3732417."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,47,0.75,32768,": 1788994, 5815039, 4089428."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,48,1.00,32768,": 58, 6798706, 2494781, 5223871, 3649745."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,32768,auto,49,1.00,32768,": 9138800, 2763669, 1478919, and 4953528. he was living in New York City and saw"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,0,1.00,65536,": 1241454, 6953998, 5642437, 6102119."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,1,0.75,65536,": 8232176, 2091817, 3075487."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,2,1.00,65536,": 8656605, 9291858, 1026706, 3622311."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,3,1.00,65536,": 3697596, 8724109, 7809535, 4850003."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,4,0.75,65536,": 4293290, 8561212, 7524332."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,5,1.00,65536,": 2666390, 7714153, 2145756, 4213751."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,6,1.00,65536,": 1188699, 7261008, 2577728, and 5832570."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,7,1.00,65536,": 1950664, 1735995, 5559831, 3391798."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,8,1.00,65536,": 1971348, 8037654, 2768154, 6636958."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,9,1.00,65536,": 6448547, 5822139, 1602908, 6939859."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,10,0.75,65536,": 4133656, 2322200, 3764867."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,11,1.00,65536,": 1021635, 6876700, 7494218, and 1107120."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,12,1.00,65536,": 2272, 8432088, 9680420, 4136708, 4100126, and 9680420. laboratory . Simeon is "
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,13,1.00,65536,:  - 8829023 - 6009847 - 9032037 - 4986967
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,14,1.00,65536,": 8944355, 7454709, 2160954, 7364783."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,15,1.00,65536,": 8768906, 3626443, 5240510, and 4845061."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,16,1.00,65536,": 4223466, 1713688, 3818646, 5882100."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,17,1.00,65536,": 1561616, 5188867, 9298727, 5385397."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,18,0.75,65536,": 5132732, 4391797, and 3777862."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,19,1.00,65536,": 6873866, 7784866, 5587589, 5998983."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,20,1.00,65536,": 3722605, 2897680, 4619738, and 8281341."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,21,1.00,65536,": 4332989, 7248881, 3188551, and 2324288."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,22,1.00,65536,": - 6963384 - 9375369 - 6134439 - 8124663  What is the meaning of the term ""spec"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,23,0.75,65536,": 2838395, 1415185, 3442258."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,24,1.00,65536,": 5038536.17, 7161770, 8626551, 8628604."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,25,1.00,65536,": 7204671, 4446259, 1754856, 5970490."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,26,1.00,65536,": 8675990, 1580308, 5780140, 8058258."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,27,1.00,65536,": 2871865, 4856180, 5976247, 8252555."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,28,0.00,65536,": 29 ft 4 in, 36 @,@ 500 long tons, 37 @,@ 100 t, 650 long tons, 660 t, 1 @,@ 36"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,29,0.75,65536,": 4382664, 2930232, 6872659."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,30,0.75,65536,": 5019196, 1344474.1980, 6394331."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,31,0.00,65536,": 1830s, 1842, 1862, 1866, 1870, 1875, 1876, 1877, 1882, 188"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,32,1.00,65536,": 3022261, 4156825, 9063678, 3648371.69 – 79."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,33,1.00,65536,": 7471743, 7169921, 5968695, 8919495.   maintain the illusion that he was gettin"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,34,1.00,65536,": 4970375, 2058748, 1645477, and 9907899."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,35,1.00,65536,": 4419711, 6933338, 1978826, 5214415."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,36,0.75,65536,": 3085985, 4529590, and 5285058."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,37,1.00,65536,": 1466964, 6761531, 4415924, 3985064. as "" insane "" and "" meticulous "" . He is k"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,38,1.00,65536,": 7710332, 8902867, 2968467, 6836340."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,39,1.00,65536,": 1712165, 1530490, 4412689, 8101655."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,40,1.00,65536,": 4006793, 8841342, 8418713, and 5920034. against any attack by the RUC or loyal"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,41,1.00,65536,": 5615234, 3147311, 1222242, 8667104. 2. What is the significance of the special"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,42,1.00,65536,": 1856643, 6258396, 5103042, 4657962."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,43,0.75,65536,": 4918056, 9200011, 2770491.11."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,44,1.00,65536,": 3018844, 1004816, 3464658, and 7776350."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,45,1.00,65536,": 9731544, 2403341, 1979686, 9906108."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,46,1.00,65536,": 1896656, 9785555, 2702863, 8039620."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,47,1.00,65536,": 2392789, 6576593, 8831420, 3074875.18."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,48,1.00,65536,": 2328246, 5233840, 6407820.9, 4889544."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,65536,auto,49,1.00,65536,": 8977297, 9563828, 1131142, 2818430."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,0,1.00,122880,": 3007762, 2058172, 4325340, 2477613."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,1,0.75,122880,": 1093497, 3250955, 3073308."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,2,0.75,122880,": 4669472, 6017156, 8076641."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,3,1.00,122880,": 4750024, 5759606, 5329741, 3945983."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,4,1.00,122880,": 3149049, 4966039, 4716976, and 3429627."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,5,0.50,122880,": 7661586, 6040957, 3, 2, 1, 4, 5, 6, 7, 8, 9, 10"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,6,1.00,122880,": 7263094.4, 4683110, 4599013, and 8325824."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,7,1.00,122880,": 8837967, 7369960, 8991354, 1942066."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,8,1.00,122880,": 9840067, 8454172, 9474867, 1228996, and 1234567."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,9,1.00,122880,": 6859943, 1049793, 9981129, and 4547482. the Office of the Vice President , the"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,10,1.00,122880,": 7014033, 2816988, 2948194, 6148000."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,11,1.00,122880,":  6923488, 2553606, 2897980, 5613233."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,12,1.00,122880,": 5956537, 1447013, 7067322, 2256980."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,13,1.00,122880,": 6517973, 7205266, 2353540, 1127297."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,14,1.00,122880,": 1718336, 2758445, 7009277, 5632279, 1718336, 2758445, 7009277, 5632279"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,15,1.00,122880,": 9701036, 9345544, 4374780, 1593390."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,16,0.50,122880,": 42, 675, 1,376, 846,4562, 2443112, 5588074."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,17,0.00,122880,": 31h, 2nd, 42, 2,600, 2,400, 21:00, 23:00, 3rd Battalion, 38th"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,18,1.00,122880,": 6504157, 7677808, 7926382, 4086451, 7677808, 7677808, 7677808, 7677808"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,19,1.00,122880,": 6795885, 7270408, 3483153, 5219025."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,20,1.00,122880,": 2670671, 9420709, 8978621, 2919327.4."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,21,1.00,122880,": 9973942, 1239493, 5795737, and 9343767."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,22,1.00,122880,": 8327715, 8468539, 4121003, 6708429. populated district , covering the areas of"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,23,1.00,122880,": 4888948, 3989782, 1079337, 6994951.  The special magic numbers for icdgbymd me"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,24,1.00,122880,": 5678032, 3413175, 2959777, 9234042, and 9234042."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,25,1.00,122880,": 8962713, 6013644, 8738552, 1594610, 1234567, 9876543, 1111111, 2222222"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,26,1.00,122880,":   7963502, 3151178, 7946572, 3546016."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,27,1.00,122880,": 6569354, 2244848, 4716460, and 2870050."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,28,0.00,122880,": 9, 7, 27, 5, 8, 0, 0, 0, 0, 0, 0, 0, 0,"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,29,1.00,122880,": 9337435, 1202099, 3889784, 7951187."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,30,1.00,122880,": 8837992.56, 7995636, 7878208, 1994269."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,31,0.75,122880,": 2217305, 3452159, 9343551."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,32,1.00,122880,": 9246414, 1123645, 8954209, 9709821."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,33,1.00,122880,": 7756341, 3400531, 6374615, 5850231."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,34,1.00,122880,": 9783386, 8298589, 1674119, and 2392355."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,35,1.00,122880,": 4162917, 6154224, 8276546, 1705051."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,36,0.00,122880,": 536 mi, 536 mi, 536 mi, 536 mi, 536 mi, 536 mi, 536 mi, 536 mi, 536 mi, 536 mi"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,37,1.00,122880,": 2928068, 8873079, 2261841, 2161714."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,38,1.00,122880,": 1975665, 7504198, 3320825, 6762668."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,39,1.00,122880,": 5955896, 4324871, 1359367, 8907898."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,40,0.75,122880,": 3554020, 1664252, 9358483."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,41,0.75,122880,": 1941326, 4302945, and 1984933."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,42,1.00,122880,": 3336809, 6136496, 9157877, 3839671."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,43,0.00,122880,": 1933 Treasure Coast hurricane (1933), Second Battle of Naktong Bulge (1950), H"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,44,1.00,122880,": 7537257.6, 8142463, 1499092, 1330056."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,45,1.00,122880,": 4850011, 1252039, 1231273, 5454456."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,46,1.00,122880,": 3615388, 4473523, 5179239, 3525982."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,47,0.75,122880,": 4477365, 4496428, 9707358."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,48,1.00,122880,": 9287513, 7721417, 2018876, 8839644."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,multivalue,122880,auto,49,1.00,122880,": 1089033, 1302743, 6227188, 8368939."
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,0,1.00,32768,ZUAOR RDQQG IBPOY SIGQV MWYDI  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,1,1.00,32768,KJTCX SUPGP MQFSA WKATR HLVDG
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,2,1.00,32768,KFAWJ MWCNE MDWLM ESTWN NMKZD  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,3,1.00,32768,URVVJ VEUGM NHYXL VKQYK EQMRR  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,4,1.00,32768,ZFNWR CAHZE HOUTL IIPMY RJMTH  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,5,1.00,32768,JRTTP MFLDL SDPHY ZDWEP SWTZN
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,6,1.00,32768,ZKREG MXALQ FWGFG EPTNH FTRBC  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,7,1.00,32768,NPYFY RRKRY VSEPA EYRKX AKNPX  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,8,1.00,32768,DYMHO GYJWU WSNUK AGJHK XMFEA  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,9,1.00,32768,BYDUB VMKZT DKWZT OQYXI YWIWH
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,10,1.00,32768,TUMQE AOFLM DJVUW UIJUQ CNNZY  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,11,1.00,32768,AEOAN WGNPK TOKTZ LZNAF VGDIO  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,12,1.00,32768,DCDZP DKKPB GNXIE BTURS FBTYO  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,13,1.00,32768,LDVAE ONSER PRAGC MVNBM CPZUK  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,14,0.80,32768,EVMIO DYMRN EGMPY IWGQZ AIWKX  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,15,1.00,32768,SYINB KRESC HFJVK JWOPP CSDPE  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,16,1.00,32768,HPIXM JBVVT MXLOV UVDKT BWLUM  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,17,1.00,32768,JDFSV BSHQJ RCGDG HICDV BHCLS  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,18,1.00,32768,STDKQ XHPFV GWHGG MFRHF MSYRV  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,19,1.00,32768,OHIYJ XHULW ROEBC JHLSN UYINI  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,20,1.00,32768,YGQGP KOPVD UBKBP FYGZP ESAYD
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,21,1.00,32768,BXNNU SYGIU OTNIE XPLTO CMZLS  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,22,1.00,32768,FUTHA WUVLL XRSUW VMKPA IBZQL
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,23,1.00,32768,FYKEE WSCPW QECKB RRIDD ZSYHD  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,24,1.00,32768,EOFVF LTYJF AIMIX VIVSY BUYAR  Memorize and track the chain(s) of
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,25,1.00,32768,OCOLB SENNO DHKEE DARDR GNGSS  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,26,1.00,32768,NMTNA PAKIM VIYDU IMSHC MWNIA  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,27,1.00,32768,XJSYF XQSMO TLXKC MKZXJ DETHK  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,28,1.00,32768,STIQZ CZXMQ EYOYS PWNAC LMWZV
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,29,1.00,32768,THFDW FSZOR MHBMA MWUKB OKEUV  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,30,1.00,32768,YWRBH GKQJD FKPFC BPMQI YDBXW
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,31,1.00,32768,BVYEI YXEVC PVZLN LRFAS CXZIY  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,32,1.00,32768,NVERF ZOUIR KXTAM SJEPF OFXHF  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,33,1.00,32768,NAKAS XNOGH WCIYW VAMMW RDCOA  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,34,1.00,32768,VZKJW UNVZD LYIQI BIXIV FXVRS  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,35,1.00,32768,GSTFB KFJCC YZPFP PKTLA IORNS
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,36,1.00,32768,RWYDC BPYSX ESXNB YVUAX RRDZL  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,37,1.00,32768,FPYZN BRIUG SJHOJ CSVEM OBIOL  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,38,1.00,32768,DIPPY INPYK EAHNV TFGGG BAHQU  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,39,1.00,32768,LDSLY ALKXM PRSMI IIPIZ OHRJA  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,40,1.00,32768,HEIXP GTHHJ UZHJU IKQYN OPGJE  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,41,1.00,32768,UXBXM VVKWN JQGZZ QVPEL VFXGW  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,42,1.00,32768,MXDTU OAYFU IGSTR VVYSD GEOWV  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,43,1.00,32768,SKCHY IYENH VGIJG JICFH QNUZK  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,44,1.00,32768,ITOJO AMCQA NFLSS CHIWP KKYOZ  Memorize and track the chain(s) of
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,45,1.00,32768,QVMMZ KWVAB RFEXZ XLNWG IHIPE  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,46,1.00,32768,DXWTT KKTDX UWCWU QDQQI JYNDY  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,47,1.00,32768,FWKQL KVFXH QUCPK BXPPR YRRUW  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,48,1.00,32768,EQAZA VYJGF PIUQC NHXSN CXAOW  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,32768,auto,49,1.00,32768,HHLWR SOACG XYAMY AAXPT JSZNN  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,0,1.00,65536,GVCAE XGWJG PATKT FAJLI YYNOW  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,1,1.00,65536,YJSYQ LCITJ XWYAT ZEBSB TQZDM  Memorize and
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,2,1.00,65536,TLNCI UDGHT WVSMN PJTSP NJKIA  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,3,1.00,65536,OFIJX OUWYL JEKGH SRSKN XDJOV  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,4,1.00,65536,YTMWV ONJLI GEUYC USLTC ELUOE  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,5,1.00,65536,OKSQE FLYSK XUTRD ZISFQ IUJFP  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,6,1.00,65536,XHXSC BXDMH AEOCN RIQWW YRBNQ  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,7,0.80,65536,1. XKMMX 2. QZWOL 3. HQMJD 4. ZWTVW
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,8,1.00,65536,HURPB VXZVB QYHQH XDSRQ VGPYH  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,9,1.00,65536,APLXY WTQJP RMLVJ VYGCS YWPPU  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,10,1.00,65536,XUTYX OAFSX RHYSR HXPJS MKBOH  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,11,1.00,65536,YVCSQ XUASQ AZAFA EICYG IGFUZ  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,12,1.00,65536,GDGEC XRWSP VKUXH HBUNP WTQUF  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,13,1.00,65536,RWOEH DGGJD HLYJX CUFSC YXRCW  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,14,1.00,65536,PWLVW VIFRT UXWNA GFYYW YTPAE  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,15,1.00,65536,XJIBB ZGQNR CQHIM NQQGV MAIOS  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,16,1.00,65536,OVFES ARGAG TEMGY WJCMJ BMGVU  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,17,1.00,65536,CLREA OMBBZ CVRLJ OVWNH RNBNV  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,18,1.00,65536,SRFFL OBBKY NQWQO PQEQN WVQAF  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,19,0.80,65536,NZSWN IFATV LFQPF YAUMP  Memorize and track the chain(s) of variable assignment
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,20,1.00,65536,MWMSE FAJIJ XHZGK WIGGZ VTRQA  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,21,1.00,65536,NYDHX ZGSVS IRREG LUEDW LIYVO  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,22,0.80,65536,SWVVP FMCOE HVVWK LBKGX  Memorize and track the chain(s) of variable
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,23,0.80,65536,UPTPL GZVUO FEUGG NYFVW  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,24,1.00,65536,CTWOM SHBYJ DSOIV IFXHJ PZDBU  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,25,1.00,65536,DJFIY KVUJO LIDDU DIHQF YFBME  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,26,1.00,65536,TNFPL YJEKJ XFZKN VSBQD WOQBO  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,27,1.00,65536,WVHGH TXQKG JSXQE MLJSS PFKYP  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,28,1.00,65536,EULNK TMWAX IRWLX GCNDX FFSBR  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,29,0.80,65536,GOIYC IUMYN SBVNI SLTED  Memorize and track the chain(s) of variable assignment
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,30,1.00,65536,TVCNH QPOBQ YIXQH WKXWC QFASD
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,31,1.00,65536,HCLEV ZEMWJ VAZVA ZWJOR IMVCP  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,32,1.00,65536,PBGED DEPDM DKZGK PRPZV KUPNP  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,33,1.00,65536,JUBGP TDEVB TRIJN FPXGX FDKAR  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,34,1.00,65536,BZZBZ PXSVC SFZYP AJVPY XXQRE  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,35,0.80,65536,JCXFE ENHLG REUEH VVAXE  Memorize and track the chain(s) of
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,36,1.00,65536,QQKXD JMPJB COPWM ATJZQ CCLEA  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,37,1.00,65536,TRMHZ PPCRX NQDVZ JBWIE ZXAHU  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,38,1.00,65536,IHPSM JHEAW UGWUX REVJI PZSNV  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,39,1.00,65536,ZIRSA SEVHZ NKHRG FVBPR OECHF  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,40,1.00,65536,VCIVS OHOTW YGPLC EGSKS HLHRJ  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,41,1.00,65536,KEFAT PKUYD UTJTH TNJZD CXDAS  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,42,1.00,65536,ZAHVG OIDBE QWYKW PISBG WCBUT  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,43,1.00,65536,IUKKB QHOKK WMFQJ YGWDN PGOFK  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,44,1.00,65536,MKHZG EPOEI OBTUE NQWFK ETPGM  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,45,0.80,65536,KLSBN XJLLT PRNNF NZMNT  Memorize and track the chain(s) of
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,46,1.00,65536,WTWCO SGVQK LWBYI YPGCX SEIGC  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,47,1.00,65536,UAQXJ AXEIL BBABB XMMAG SEUQQ  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,48,1.00,65536,BCLYP XFPGB UFFRL MIXOM XCMTE  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,65536,auto,49,0.80,65536,LSEMN QHMQH XQKFD ORZPN YPQZB  Memorize and
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,0,1.00,122880,"ASEQK, JBWTM, MGXLJ, YXSBS, PSGKF  Memorize and track"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,1,1.00,122880,MGPSO YXOPU HFTLL FQUCM OBGOC  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,2,1.00,122880,XNLLV QFUPX SQTOI RLEBO RYWWL  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,3,1.00,122880,ZCCCW GJDNX YXSVM NUUMD ZHHTM  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,4,0.80,122880,WKXQP RGKWC HHVXJ MUOWZ UXTYI  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,5,1.00,122880,LYXIR CUMBW ZAJPP DXCVD YKJWV  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,6,1.00,122880,YDSBP IZKLX XKTMI UNAND JHVEJ  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,7,1.00,122880,YDKKN XOZXR JIPSH UWCFD BBDLC  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,8,1.00,122880,MSHSV FXRAS DETHY JRPPV WRFQF  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,9,1.00,122880,PXQXV DHYVR JLWVG MJCSW KIRJL  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,10,1.00,122880,DEBLU DDWQA WFXFR IQLCW MZAKG  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,11,1.00,122880,ETUZD ZKIFW EGPGP GRUMO ODUWA  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,12,1.00,122880,PCNEP OZPVL UJCMU VCACC LFPBM  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,13,1.00,122880,KZZHN ZTKFL ISVJR NGJOA KWUBT  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,14,1.00,122880,LMRPU WLMIE KXQKF KONTU OMVVY  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,15,1.00,122880,BSJGS JPXKN WVUIO NDYLU CKAUE  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,16,1.00,122880,YYCSB QABIF NQMIU PUVIP VDPKK  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,17,1.00,122880,QWDLR GZKYJ NAJGF NXGYY DLEPW  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,18,1.00,122880,UHZTB ZGNAY ETORH KZXYA GUKIB  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,19,1.00,122880,NTCNX YCUSF DFWTF AXWTJ SCOJO  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,20,1.00,122880,BSUIP YEHML LHGWE RWMSZ PXIUQ  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,21,1.00,122880,DSRVW NZCYC OHORS YYZOO AUZAK  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,22,1.00,122880,IUUJL VCVTG QWAZF JYRMN FSJKE  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,23,1.00,122880,FPILI VNAEO SOVTF QCZGS NXYQF  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,24,1.00,122880,PYOFY HCMCO ZHZZF MZJUY FFTZL  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,25,1.00,122880,YYJXS UWHWT EOTXS PRDUK MIIIU  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,26,1.00,122880,NQMHZ SWFQA FLVGY LQAJW RQRNT  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,27,0.80,122880,XQRGM SOUDW GWSKG NAVCC  Memorize and track the chain(s) of variable assignment
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,28,1.00,122880,MULLG ODPWL YSKLY GPMII MVJRJ  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,29,1.00,122880,PHGGG VHGHI QCEPN XPIZH ZITJA  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,30,1.00,122880,AKFZV KPLLE FSEPR KBXOZ SECFU  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,31,0.80,122880,YKRXP HMLRS FKCOO KANKO WZMXK  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,32,1.00,122880,MRAEX HSAQM PNYKY VWWJP CIFXG  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,33,1.00,122880,JYSLM VPOMF TILBP DYNRU HGHGP  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,34,1.00,122880,PRCTI QWZRD NGGSB KCZUZ EVZDR  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,35,1.00,122880,QPOOK NCVLD EICUL RFONM WIINK  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,36,1.00,122880,NSGQR WCIPP CEXOS KEUWJ ZKVDL  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,37,1.00,122880,ALQDV GNVTQ GFFSG XTFWE UHWSU  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,38,1.00,122880,ZQNEB CEFTH UGGWN SBZTQ KQBPX  Memorize and track
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,39,1.00,122880,AJCHX MZAHD HXSZN PWBBQ QCCID  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,40,0.80,122880,"KKTRO, HYWFJ, CZTER, IYZXH, OERCI  Memorize and track"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,41,1.00,122880,JIYAP YSQUM VWSJT OPFKG WUURY  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,42,1.00,122880,ASCCN XFTVK LBMVR QQLSN IRUAV  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,43,1.00,122880,MHNSY SHODQ XBAWE DWFBF ZTCKK  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,44,1.00,122880,FJMXP GAXZE LBEPX ACMUD TWJVL  Memorize and track the chain(s)
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,45,1.00,122880,RXYOQ WVCUO IMRGY YFUFV HUJAJ  Memorize and
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,46,1.00,122880,HNRVA AJRWZ WLZQY UXMLA RHFCC  Memorize and track the chain
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,47,1.00,122880,OJWVX SGUPI AUOTT WUGUP IGXDC  Memorize and track the chain(s
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,48,0.80,122880,GZUXV FDKRD GYMYA SKTND YDPBH  Memorize and track the
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,vt,122880,auto,49,1.00,122880,FNQOU LHACS LJKAN GQELT QTHZU  Memorize and track the chain

@@ -1,0 +1,201 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,0,0.75,65535,:  1. 1241454 2. 6953998 3. 5642437 4. 610,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,1,0.75,65535,:  1. 8232176 2. 2091817 3. 3075487 4. 659,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,2,0.75,65535,:  1. 8656605 2. 9291858 3. 1026706 4. 362,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,3,0.75,65535,:  1. 3697596 2. 8724109 3. 7809535 4. 485,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,4,0.75,65535,:  1. 4293290 2. 8561212.933 3. 7524332 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,5,0.75,65535,:  1. 2666390 2. 7714153 3. 2145756 4. 421,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,6,0.75,65535,:  1. 1188699 2. 7261008 3. 5832570 4. 257,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,7,1.00,65535,": 1950664, 1735995, 5559831, and 3391798. The special",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,8,0.75,65535,": 1971348, 8037654, and 2768154. Okay, let me try to figure out the special magi",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,9,0.75,65535,:  1. 1602908 2. 6448547 3. 6939859 4. 582,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,10,0.75,65535,:  1. 4133656 2. 2322200 3. 3764867 4. 297,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,11,0.75,65535,:  1. 1021635 2. 6876700 3. 1107120  These numbers are highlighted in the,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,12,0.75,65535,": 8432088, 9680420, and 4136708. The other numbers mentioned in the text are not",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,13,0.75,65535,:  1. 8829023 2. 6009847 3. 9032037  These numbers are highlighted in the,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,14,0.75,65535,:  1. 8944355 2. 7454709 3. 7364783 4. 216,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,15,0.75,65535,:  1. 8768906 2. 3626443 3. 5240510 4. 484,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,16,0.75,65535,:  1. 4223466 2. 1713688 3. 3818646 4. 588,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,17,0.75,65535,:  1. 1561616.11 2. 5188867 3. 9298727 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,18,0.75,65535,:  1. 5132732 2. 4391797 3. 3049531 4. 377,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,19,0.75,65535,:  1. 6873866 2. 7784866 3. 5998983 4. 558,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,20,0.75,65535,:  1. 3722605 2. 2897680 3. 4619738 4. 828,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,21,0.75,65535,:  1. 4332989.1805 2. 7248881 3. 3188551 4,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,22,0.75,65535,:  1. 6963384 2. 9375369 3. 6134439 4. 812,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,23,0.75,65535,:  1. 2838395 2. 1415185 3. 3442258 4. 233,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,24,0.75,65535,:  1. 5038536 2. 7161770 3. 8626551 4. 862,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,25,0.75,65535,:  1. 7204671 2. 4446259 3. 1754856 4. 597,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,26,0.75,65535,:  1. 8675990 2. 1580308 3. 5780140 4. 805,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,27,0.75,65535,:  1. 2871865 2. 4856180 3. 5976247 4. 825,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,28,0.75,65535,:  1. 6159310 2. 6721929 3. 1350322 4. 881,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,29,0.75,65535,:  1. 4382664 2. 2930232.8 3. 6872659 4. 6,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,30,0.00,65535,:  1. 54 billion 2. 46% 3. 12 4. 896 5. 100 6. 1st District,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,31,0.75,65535,:  1. 3685696 2. 6500917 3. 8967924 4. 508,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,32,0.75,65535,": 3022261, 4156825, and 3648371. The special magic numbers for vwmacnqu mentione",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,33,0.75,65535,:  1. 7471743 2. 7169921 3. 5968695 4. 891,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,34,0.75,65535,:  1. 4970375 2. 2058748 3. 1645477 4. 990,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,35,0.75,65535,:  1. 1978826 2. 4419711 3. 6933338 4. 521,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,36,0.75,65535,:  1. 3085985 2. 4529590 3. 5285058 4. 263,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,37,0.75,65535,:  1. 1466964 2. 6761531 3. 4415924 4. 398,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,38,0.75,65535,:  1. 7710332.16 2. 8902867 3. 2968467 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,39,0.75,65535,:  1. 1712165 2. 1530490 3. 4412689 4. 810,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,40,0.75,65535,:  1. 4006793 2. 8841342 3. 8418713 4. 592,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,41,0.75,65535,": 5615234, 3147311, and 8667104. Okay, let me try to figure out the special magi",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,42,0.75,65535,:  1. 1856643 2. 6258396 3. 5103042 4. 465,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,43,0.75,65535,:  1. 4918056 2. 9200011 3. 1028844 4. 277,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,44,0.75,65535,:  1. 3018844 2. 1004816 3. 3464658 4. 777,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,45,0.75,65535,:  1. 1979686 2. 9731544 3. 2403341  These numbers are highlighted in the,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,46,0.75,65535,": 1896656, 9785555, and 2702863. The numbers are highlighted in the text with th",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,47,0.75,65535,:  1. 2392789 2. 6576593 3. 8831420 4. 307,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,48,0.75,65535,:  1. 2328246 2. 5233840 3. 6407820 4. 488,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,65536,nvfp4_khs:4,49,0.75,65535,:  1. 8977297.2 2. 9563828 3. 1131142 4. 2,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,0,0.75,122879,": 3007762, 2058172, and 2477613. The special magic numbers for jlrttxac mentione",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,1,0.75,122879,:  1. 1093497.box 2. 3250955.ist 3. 5917237. 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,2,0.75,122879,:  1. 4669472 2. 6017156 3. 8076641 4. 479,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,3,0.75,122879,:  1. 4750024 2. 5759606 3. 5329741 4. 394,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,4,0.75,122879,:  1. 3149049 2. 4966039 3. 3429627 4. 471,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,5,0.75,122879,:  1. 7661586 2. 2656400 3. 4719345 4. 604,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,6,0.75,122879,:  1. 7263094.0 2. 4683110.0 3. 4599013.0,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,7,0.75,122879,:  1. 8837967.50 2. 7369960 3. 8991354 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,8,0.50,122879,:  1. 9840067.8 2. 8454172 3. 9840067.8 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,9,0.75,122879,:  1. 6859943 2. 1049793 3. 9981129 4. 454,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,10,0.75,122879,:  1. 7014033 2. 2816988 3. 2948194 4. 614,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,11,0.75,122879,:  1. 6923488 2. 2553606 3. 5613233 4. 289,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,12,0.75,122879,:  1. 5956537 2. 1447013 3. 7067322 4. 225,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,13,0.75,122879,:  1. 6517973. nar 2. 7205266. nar 3. 2353540. nar,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,14,0.75,122879,:  1. 1718336 2. 7009277 3. 2758445 4. 563,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,15,0.75,122879,:  1. 9701036.1 2. 9345544.1 3. 4374780.1,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,16,0.75,122879,:  1. 8464562 2. 2443112 3. 5588074 4. 416,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,17,0.75,122879,:  1. 8898776 2. 9208103 3. 3117651 4. 395,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,18,1.00,122879,": 6504157, 7677808, 4086451, and 7926382. The special",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,19,0.75,122879,:  1. 6795885 2. 7270408 3. 3483153 4. 521,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,20,0.75,122879,:  1. 2670671 2. 9420709 3. 8978621 4. 291,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,21,0.75,122879,:  1. 9973942 2. 1239493 3. 9343767 4. 579,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,22,0.75,122879,:  1. 8327715 2. 8468539 3. 4121003 4. 670,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,23,0.75,122879,:  1. 4888948 2. 3989782 3. 1079337 4. 699,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,24,0.00,122879,":  1. 59 meters ( 522 ft ) 2. 762 meters ( 2 @,@ 500 ft ) 3. 56780",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,25,0.75,122879,:  1. 8962713 2. 6013644 3. 8738552 4. 159,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,26,0.75,122879,:  1. 7963502 2. 3151178 3. 7946572 4. 354,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,27,0.50,122879,:  1. 6569354 2. 2244848 3. 2244848 4. 471,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,28,0.75,122879,:  1. 1732197 2. 6186713 3. 9185140 4. 600,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,29,0.75,122879,:  1. 9337435 2. 3889784 3. 1202099 4. 795,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,30,0.75,122879,:  1. 8837992 2. 7995636 3. 1994269 4. 787,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,31,0.75,122879,:  1. 2217305 2. 3452159 3. 6774517 4. 934,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,32,0.75,122879,:  1. 9246414.6 2. 1123645.  3. 8954209. 4.,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,33,0.75,122879,:  1. 7756341 2. 3400531 3. 6374615 4. 585,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,34,0.75,122879,:  1. 9783386 2. 2392355.5 3. 8298589 4. 1,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,35,0.75,122879,:  1. 4162917 2. 6154224 3. 8276546 4. 170,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,36,0.75,122879,:  1. 9716832 2. 8120102 3. 3823867 4. 536,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,37,0.75,122879,:  1. 2928068 2. 8873079 3. 2261841 4. 216,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,38,0.75,122879,:  1. 1975665 2. 7504198 3. 3320825 4. 676,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,39,0.75,122879,:  1. 5955896 2. 4324871 3. 1359367 4. 890,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,40,0.75,122879,:  1. 3554020 2. 1664252 3. 9358483 4. 402,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,41,1.00,122879,:  1941326 4302945 1984933 2919218 One of the special magic numbers for,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,42,0.75,122879,:  1. 3336809 2. 6136496 3. 9157877 4. 383,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,43,0.75,122879,:  1. 8664005 2. 2986978 3. 6842002 4. 872,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,44,0.75,122879,:  1. 7537257 2. 8142463 3. 1499092.1 4. 1,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,45,0.75,122879,:  1. 4850011 2. 1252039 3. 1231273 4. 545,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,46,0.75,122879,:  1. 3615388 2. 4473523 3. 5179239 4. 352,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,47,1.00,122879,": 4477365, 4496428, 4773116, and 9707358. The special",387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,48,0.75,122879,:  1. 9287513 2. 7721417 3. 2018876 4. 883,387bf5c
+Qwen/Qwen3-8B,decode,multivalue,122880,nvfp4_khs:4,49,0.75,122879,:  1. 1089033.0 2. 1302743.3 3. 6227188.0,387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,0,1.00,65535,"GVCAE FAJLI XGWJG PATKT YYNOW Okay, let's tackle this problem. So",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,1,0.80,65535,"YJSYQ XWYAT ZEBSB TQZDM and one more variable. Wait, the",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,2,1.00,65535,"52935 TLNCI UDGHT WVSMN PJTSP NJKIA Okay, let",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,3,0.80,65535,OFIJX JEKGH SRSKN XDJOV VAR OFIJX = 16411.,387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,4,1.00,65535,"YTMWV ONJLI GEUYC USLTC ELUOE Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,5,1.00,65535,"34359 OKSQE FLYSK XUTRD ZISFQ IUJFP  Okay,",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,6,0.20,65535,"XHXSC YUTUM PSXOP KBAKQ LTULT  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,7,0.80,65535,"80663, XKMMX, QZWOL, HQMJD, ZWTVW, DM",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,8,1.00,65535,"HURPB QYHQH VXZVB XDSRQ VGPYH Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,9,1.00,65535,"APLXY WTQJP RMLVJ VYGCS YWPPU  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,10,1.00,65535,"XUTYX OAFSX RHYSR MKBOH HXPJS  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,11,1.00,65535,"YVCSQ XUASQ AZAFA EICYG IGFUZ Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,12,0.00,65535,"WBCAH XTYOO SMZYT CAYKK YABNQ  Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,13,1.00,65535,"RWOEH DGGJD CUFSC HLYJX YXRCW  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,14,1.00,65535,"21314 PWLVW VIFRT UXWNA GFYYW YTPAE  Okay, let",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,15,1.00,65535,"XJIBB CQHIM NQQGV MAIOS VAR ZGQNR Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,16,1.00,65535,"70286 OVFES ARGAG TEMGY WJCMJ BMGVU  Okay, let's",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,17,1.00,65535,"CLREA, OMBBZ, CVRLJ, OVWNH, RNBNV  Okay, let's",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,18,1.00,65535,"SRFFL OBBKY NQWQO PQEQN WVQAF Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,19,0.80,65535,1. NZSWN 2. IFATV 3. LFQPF 4. OLMDC,387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,20,1.00,65535,"MWMSE FAJIJ XHZGK WIGGZ VTRQA  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,21,0.60,65535,"NYDHX IRREG LIYVO LIYVO LIYVO  Okay, let's try to figure out which",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,22,0.80,65535,"67296 SWVVP FMCOE JAYPP LBKGX  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,23,1.00,65535,"UPTPL ZIABX FEUGG GZVUO NYFVW Okay, let's",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,24,1.00,65535,"CTWOM SHBYJ PZDBU IFXHJ DSOIV  Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,25,1.00,65535,"DJFIY KVUJO LIDDU DIHQF YFBME  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,26,1.00,65535,27294 TNFPL YJEKJ XFZKN VSBQD WOQBO,387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,27,0.80,65535,"12209 WVHGH MLJSS JSXQE PFKYP  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,28,1.00,65535,"EULNK IRWLX GCNDX FFSBR TMWAX Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,29,1.00,65535,"GOIYC AOIGE IUMYN SLTED SBVNI  Okay, let's try to figure out which",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,30,1.00,65535,85751 QPOBQ TVCNH YIXQH WKXWC QFASD,387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,31,1.00,65535,"HCLEV ZEMWJ VAZVA ZWJOR IMVCP  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,32,0.80,65535,"PBGED DKZGK PRPZV KUPNP and one more variable. Wait, I need to check",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,33,1.00,65535,"JUBGP TRIJN FDKAR FPXGX TDEVB  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,34,1.00,65535,"BZZBZ PXSVC SFZYP AJVPY XXQRE Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,35,1.00,65535,"JCXFE REUEH XEWPK VVAXE ENHLG  Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,36,0.80,65535,"33777 QQKXD COPWM ATJZQ CCLEA Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,37,0.80,65535,"TRMHZ NQDVZ JBWIE ZXAHU  Okay, let's tackle this problem. So,",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,38,1.00,65535,"IHPSM JHEAW UGWUX REVJI PZSNV  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,39,1.00,65535,"ZIRSA FVBPR SEVHZ NKHRG OECHF Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,40,1.00,65535,"VCIVS OHOTW YGPLC EGSKS HLHRJ  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,41,1.00,65535,"KEFAT PKUYD UTJTH TNJZD CXDAS Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,42,1.00,65535,"ZAHVG QWYKW OIDBE WCBUT PISBG  Okay, let's try to figure out",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,43,1.00,65535,"IUKKB QHOKK WMFQJ YGWDN PGOFK  Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,44,1.00,65535,"MKHZG EPOEI OBTUE ETPGM NQWFK Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,45,1.00,65535,"KLSBN XJLLT PRNNF QPQFV NZMNT  Okay, let's try",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,46,1.00,65535,"WTWCO SGVQK LWBYI YPGCX SEIGC Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,47,1.00,65535,"UAQXJ AXEIL BBABB XMMAG SEUQQ Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,48,1.00,65535,"BCLYP XFPGB UFFRL MIXOM XCMTE  Okay, let's tackle this problem. So",387bf5c
+Qwen/Qwen3-8B,decode,vt,65536,nvfp4_khs:4,49,1.00,65535,"LSEMN NYPKT QHMQH XQKFD ORZPN Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,0,1.00,122879,"ASEQK JBWTM MGXLJ YXSBS PSGKF  Okay, let's tackle this problem. So",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,1,1.00,122879,"MGPSO YXOPU HFTLL FQUCM OBGOC  Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,2,1.00,122879,"XNLLV QFUPX SQTOI RLEBO RYWWL  Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,3,1.00,122879,"ZCCCW YXSVM NUUMD ZHHTM GJDNX  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,4,1.00,122879,13339 WKXQP RGKWC VCHVY HHVXJ MUOWZ  Okay,387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,5,1.00,122879,"LYXIR CUMBW ZAJPP DXCVD YKJWV  Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,6,1.00,122879,"YDSBP IZKLX XKTMI UNAND JHVEJ  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,7,1.00,122879,"YDKKN XOZXR JIPSH UWCFD BBDLC  Okay, let's try to figure out",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,8,1.00,122879,"MSHSV FXRAS JRPPV DETHY WRFQF  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,9,1.00,122879,"PXQXV DHYVR JLWVG MJCSW KIRJL  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,10,1.00,122879,"DEBLU DDWQA WFXFR IQLCW MZAKG  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,11,0.60,122879,"ETUZD GRUMO ODUWA AYNUP QJYZD  Wait, the answer is not",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,12,0.80,122879,"PCNEP UJCMU VCACC LFPBM  Okay, let's tackle this problem. So, the",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,13,1.00,122879,"KZZHN ZTKFL ISVJR NGJOA KWUBT  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,14,1.00,122879,"LMRPU WLMIE KXQKF KONTU OMVVY  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,15,0.00,122879,"AHCGQ WVWKR GSOKA AUNXQ YVBMY  Wait, no. Let me re",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,16,1.00,122879,"YYCSB QABIF NQMIU PUVIP VDPKK  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,17,1.00,122879,"QWDLR GZKYJ NAJGF DLEPW NXGYY  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,18,1.00,122879,"UHZTB GUKIB KZXYA ETORH ZGNAY  Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,19,1.00,122879,"NTCNX  YCUSF  DFWTF  AXWTJ  SCOJO  Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,20,1.00,122879,"BSUIP YEHML LHGWE RWMSZ PXIUQ  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,21,1.00,122879,"DSRVW NZCYC OHORS YYZOO AUZAK  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,22,1.00,122879,"IUUJL QWAZF JYRMN FSJKE VCVTG  Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,23,1.00,122879,"FPILI VNAEO SOVTF QCZGS NXYQF  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,24,1.00,122879,"PYOFY HCMCO ZHZZF MZJUY FFTZL  Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,25,0.00,122879,"VJIPX JWBEQ EXGOE TJVGS WTTTJ  Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,26,1.00,122879,"NQMHZ FLVGY LQAJW RQRNT SWFQA  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,27,1.00,122879,"XQRGM SOUDW DFTNW GWSKG NAVCC  Okay, let's tackle this problem. So",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,28,1.00,122879,"MULLG ODPWL YSKLY GPMII MVJRJ  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,29,1.00,122879,"PHGGG VHGHI QCEPN XPIZH ZITJA  Okay, let's tackle this problem step",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,30,1.00,122879,"AKFZV KPLLE FSEPR KBXOZ SECFU  Okay, let's tackle this",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,31,1.00,122879,"YKRXP HMLRS VQGDA FKCOO KANKO  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,32,1.00,122879,MRAEX PNYKY CIFXG VWWJP VAR PNYKY = VAR HSAQM.   Wait,387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,33,1.00,122879,"JYSLM DYNRU HGHGP VPOMF TILBP  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,34,1.00,122879,"PRCTI QWZRD NGGSB KCZUZ EVZDR  Okay, let's try to",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,35,1.00,122879,"QPOOK NCVLD EICUL RFONM WIINK  Okay, let's tackle this problem. So",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,36,1.00,122879,"NSGQR  WCIPP  CEXOS  KEUWJ  ZKVDL  Okay, let",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,37,1.00,122879,"ALQDV GNVTQ GFFSG XTFWE UHWSU  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,38,1.00,122879,"ZQNEB SBZTQ CEFTH UGGWN KQBPX  Okay, let's try",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,39,0.20,122879,"AJCHX VJLME AUELP XPIWF ZSMDL QOPBB  Wait, the",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,40,0.00,122879,"KEJJT OLJYI QXPZJ DXRQV ALMRB  Okay, let's try",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,41,1.00,122879,"JIYAP WUURY OPFKG VWSJT YSQUM  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,42,1.00,122879,"ASCCN LBMVR XFTVK QQLSN IRUAV  Okay, let's tackle this problem. So",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,43,1.00,122879,"MHNSY SHODQ ZTCKK XBAWE DWFBF  Okay, let's tackle this problem",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,44,0.80,122879,"FJMXP LBEPX ACMUD TWJVL  Okay, let's tackle this problem. So, the task",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,45,0.00,122879,"ODHNW WRKRS SCVEE UNKUI EKUPY  Wait, no. Let me check",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,46,1.00,122879,"HNRVA AJRWZ WLZQY UXMLA RHFCC  Okay, let's try to figure",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,47,1.00,122879,"OJWVX SGUPI AUOTT WUGUP IGXDC  Okay, let's tackle this problem.",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,48,1.00,122879,"GZUXV FDKRD GYMYA SKTND FNLXH  Okay, let's tackle",387bf5c
+Qwen/Qwen3-8B,decode,vt,122880,nvfp4_khs:4,49,1.00,122879,"FNQOU LJKAN GQELT QTHZU LHACS  Okay, let's tackle this problem",387bf5c

@@ -1,0 +1,241 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,20,1.00,32721,: 33ea80bd-1c7c-b6ae-ea5e-19ffa6018993. What are all the special magic uuid,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,21,0.00,32716,": 9ab88fde-808a-e610-56ef-90c62ecad5bf, 9ab88fde-808",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,22,1.00,32723,": 4aee4175-719f-c1d3-242a-ee773875f6a5, 1e3ed8",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,23,0.00,32750,": 1f4802ee-34e4-5dc8-63b4-46823f7801fa, 0cc35b",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,24,0.00,32752,": 32d0e19a-9064-a765-2b0f-8acb9b1937eb, 2e74b",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,25,0.00,32721,": 0b4fd61a-4cf7-b845-c564-59d41da14fcb, 0ba1b5a",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,26,0.00,32767,": 0d7dd05d-ed8a-e73b-0444-d2d35b9bbc79, 0f8751ab",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,27,1.00,32730,": 0b56cd97-98f2-a04b-1c6a-80083d1362f4, 83de20",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,28,1.00,32765,": 3863b0ad-9035-0e94-a09d-b17b7c19c84a, d2c61308",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,29,0.00,32766,": 0dcd244a-108f-338c-8617-57f050f05e20, 0ffcc67b-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,30,1.00,32722,: 02f8486d-c009-0b15-cf07-fa623d6d3b11. <|end_of_text|><|begin_of_text|>.See the,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,31,0.00,32732,": 0a120ae7-228a-7ce2-9c15-bcf4e9375566, 0b03dd25",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,32,0.00,32724,": 0a2274d0-4d5c-c93e-2527-583666e2cea1, 0eba4bc",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,33,0.00,32721,": 1adce43f-7655-fc18-c75f-be4d509509d6, 1bb2066f-328",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,34,1.00,32731,: 9c6c4884-2bfc-7fbf-bc2e-06f55f776615. What are all the,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,35,0.00,32726,": 6c1fdd48-494f-180b-627d-78821a38ab12, 732e7ad5-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,36,1.00,32730,": 0907df67-1a47-bf00-6a73-18c12b120584, d9f2b415-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,37,1.00,32765,": 2c5e8abf-fed0-f8db-8030-93ad7e3955c4, 2221f70",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,38,0.00,32741,": 8e5a7e22-711d-1bad-711f-3b578dca0932, 8e2ff",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,39,0.00,32719,": 244f0b83-a8fc-e2d7-71d6-44122cf66179, 244f0b83-a",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,40,1.00,32750,": 4ef28261-452e-7691-c8e9-882eee479369, 16db119a-69b6-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,41,1.00,32733,": 498fc255-2d86-475e-b979-04485eb93647, 1cf54b40-c812-1605",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,42,1.00,32714,: 9a4729e6-100d-5545-e94a-e94848f8ae8f. <|end_of_text|><|begin_of_text|>.See the,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,43,1.00,32727,": 5bac52f3-df33-1907-be69-8cb8557d2a12, 60130c27-8",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,44,1.00,32727,": 4e32428b-3f09-847e-c916-e3e2613a43db, 0a3ce032-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,45,1.00,32720,": 43ecebe6-e3a6-46de-d741-902e6869c448, 7d7b3ca5-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,46,0.00,32730,": 415101e1-22cd-37d7-8ea6-481d64d39418, d1e061e6-ac",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,47,0.00,32736,": 0a3b2cb6-75c7-6448-2021-2803e4e57e3e, 0",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,48,0.00,32750,": 1ba742e1-84ec-7f28-d07d-bb15b576a03a, 0b729f42",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,49,0.00,32733,": 0e2b95a1-a54d-b0d7-bcc3-92bed8e920c2, 0ebb795",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,50,1.00,32728,": 5fa13200-5f27-0831-0d41-3b7b710cba64, 3a238ba0",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,51,0.00,32726,: 0a0d4a0a-0a0d-0a0d-0a0d-0a0d0a,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,52,1.00,32734,": 64c3497b-36c0-b477-c41f-8393d957e281, 0e6aa46a-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,53,1.00,32717,": 7f13c2ab-a829-7339-4114-04bab476d6c7, 64f64b07-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,54,0.00,32748,": 81b1c4df-40af-9669-5976-68e747e74a2c, c774bbab-c",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,55,0.00,32717,": 0f6f8aad-7d74-ad00-bfe4-d067809a5e5d, 2df737c3",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,56,1.00,32724,: 6cdf6a0e-18cd-9316-d00f-81c91d9cd67c. What are all the special,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,57,0.00,32721,": 0dfbe69b-6bf4-e3d3-ba26-a4c9046ce74f, 51818d45",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,58,0.00,32763,": 454931d5-423a-5ca5-24f1-34c4645d54c9, 6ac5faf",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,59,0.00,32766,": 0a4cb945-e2d1-3b72-0023-7b627299b9f0, 0a1",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,60,1.00,32733,: 5c1f52f4-5598-5dc1-f520-41acbdc204f4. What are all the special magic,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,61,0.00,32746,": 5ba7506d-3f38-1fb0-ace5-2e84cf50958b, 651e2d",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,62,1.00,32750,": 2310c8a1-fa6d-fded-b6b8-4f489dbeb7ab, 8be203f",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,63,1.00,32749,: 4f79323a-477b-6992-d506-3c9cec27b21e. <|end_of_text|><|begin_of_text|>.See the,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,64,1.00,32764,: 3a555ff7-0fa9-f9ba-0115-8abf9ce4f54d. What are all the,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,65,0.00,32720,": 0c259248-de61-0883-9c35-c4c6cdd7e44c, 8da101f8",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,66,0.00,32759,": 0a6b9e2e-03ca-b389-1cb5-565c0d103f9f, 0a",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,67,1.00,32725,: 15bf1d6a-e748-901d-23a5-97f6667ac793. What are all the special magic uuid,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,68,1.00,32716,: 310dd4d7-25a2-7649-4b0a-9a4062cba527. What are all the special,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,69,1.00,32764,": 8f01a380-0390-1d65-ec66-c595a597bf96, 25a3196d-d724",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,70,1.00,32731,: 43e66f29-e7b2-8f60-7c16-c10f3b085cd3. <|end_of_text|><|begin_of_text|>.See,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,71,1.00,32753,": 87d9b372-7655-3f50-6df9-9c5bcd50bd4f, 63250490",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,72,1.00,32716,: 9f32e75d-fc2e-2da7-64e1-3d2a37bea398. What are,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,73,0.00,32731,": 0de5f189-7830-5422-f7cc-e40e90da821a, 1d1a46bd-a",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,74,0.00,32748,": 9582130f-853f-3845-4794-4a5bcb9b33ea, 9582130f-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,75,0.00,32723,": 0c9bd988-6b84-e0cd-9cd7-03341b2b7e5b, 0db",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,76,0.00,32717,": 9a7edc57-1ead-ac77-3ae8-0cfe73920096, 0f19a825-d",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,77,1.00,32741,": 50768bef-53de-be4c-2d78-0390bc6e8f02, 50768bef-53de",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,78,1.00,32751,": 53113c45-c3b8-bb40-17ad-4886e2eb655d, 0bb32bd9-e",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,79,1.00,32757,": 83351242-929a-89a7-cc25-f21fa53239a9, 79df3d6b-fdd",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,80,1.00,32724,: 2691296b-601a-d0ba-0ecf-cc88a62da6f8. What are all the special magic,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,81,0.00,32747,: 7816d4a2-0c2a-5b0b-0b0a-0a0a0a0a,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,82,0.00,32734,": 92a11fbf-a4a4-0ba4-44c7-1e0ec84b6610, 7b",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,83,0.00,32755,": 29a5d43c-217c-3dfb-4ca6-2aeeaad65651, 1ee4ed",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,84,1.00,32717,: 38c64ddd-6dc4-6682-0b7b-babf35b65150. What are all the special magic,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,85,1.00,32739,": 9f1fe4b0-93aa-a5f6-28da-23d863c9e1a8, 2",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,86,0.00,32749,": 6f2b32de-d876-ee44-f13f-1a916aedbbfb, 70f62dca-4",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,87,0.00,32744,": 2de45a0e-f704-9d62-462d-f147e4db8515, 2de45a0e",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,88,1.00,32737,": 9a961614-e19a-a900-5edb-77c791098bf1, 76511370-a027-6eff-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,89,1.00,32713,: 30ed8630-c2b8-351e-7747-64a53bc3f2fa. What are all the special magic,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,90,0.00,32731,: 829e60f7-96d4-c5ac-1b5f-8180355463c3. <|end_of_text|><|begin_of_text|>.See the,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,91,1.00,32741,": 5f78dadf-4bf4-6783-b35a-b87bf338dc77, 6cef5d2f-f",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,92,1.00,32768,": 8d63384d-19b7-22ac-a964-7351e9621ded, 6aaf2065-231",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,93,1.00,32743,: 112fbe90-08ca-cfba-370a-9765da7a0c29. What are all the special magic uuids,336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,94,1.00,32758,": 2f950127-084b-7919-15b6-d00db4a98052, 896944f6-af62",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,95,1.00,32761,": 99f84a24-5e69-1362-e12d-e9c82892b7bc, 0bbde882-",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,96,0.00,32727,": 4a69a63c-84e2-48dd-cbf1-d69141a3d065, caff8802-69",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,97,1.00,32759,": 7aef19bb-a4a3-c30d-66e0-633715fd4b6a, 0f30a",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,98,1.00,32737,": 9b007fb1-ceac-5ea1-a616-49c1372c8525, 7d13a1c6",336a98f
+meta-llama/Llama-3.1-8B,decode,multikey,32768,fp8,99,1.00,32762,": 3df9eeb7-7a79-bf3b-204f-a4a4c8a7de7e,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,20,1.00,32768,": 3607786, 9072882, 7254562, 8762542, 9072882, 3607786, 7254562, 8762542",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,21,1.00,32768,": 6382279, 1524744, 1357124, 5215758, 5215758, 5215758, 5215758, 5215758",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,22,1.00,32768,": 7191425, 1023956, 8956462, 6893987, 6893987, 6893987, 6893987, 6893987",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,23,1.00,32768,": 1945117, 7599827, 1654492, 8999121, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,24,1.00,32768,": 6716262, 8837361, 5182864, 7639920, 7639920, 7639920, 7639920, 7639920",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,25,1.00,32768,": 1766292, 6878914, 5715899, 5186150, 6878914, 6878914, 6878914, 6878914",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,26,1.00,32768,": 9586310, 7827381, 8645933, 2532409, 2532409, 2532409, 2532409, 2532409",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,27,1.00,32768,": 3697097, 4483377, 1119756, 2177239, 3697097, 4483377, 1119756, 2177239",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,28,1.00,32768,": 8664928, 5719335, 9075277, 2779238, 2779238, 2779238, 2779238, 2779238",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,29,1.00,32768,": 9416565, 5108174, 1673501, 4316998, 5108174, 5108174, 5108174, 5108174",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,30,1.00,32768,": 7570601, 3769273, 9647228, 4197409, 6.4, 6.3, 6.3, 6.3",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,31,0.00,32768,": 46, 12, 10, 8, 6, 4, 2, 1, 0, 9, 7, 5, 3,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,32,1.00,32768,": 5557237, 8118281, 8544196, 1463325, 1463325, 1463325, 1463325, 1463325",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,33,1.00,32768,": 7863846, 6388673, 6700539, 3262995, 6700539, 6700539, 6700539, 6700539",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,34,1.00,32768,": 2262830.1, 8443958, 6813256, 3239466, 6813256, 3239466, 6813256, 323",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,35,1.00,32768,": 6370098, 7664541, 7277780, 5112127, 7664541, 5112127, 7664541, 5112127",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,36,1.00,32768,": 6290324, 5474310, 5285708, 3785124, 3785124, 3785124, 3785124, 3785124",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,37,1.00,32768,": 7407073, 7414547, 1942924, 9609172, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,38,1.00,32768,": 5029753, 3801367, 9062443, 8004891, 9062443, 9062443, 9062443, 9062443",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,39,1.00,32768,": 5886610, 2831337, 1637121, 8522308, 5886610, 5886610, 5886610, 5886610",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,40,1.00,32768,": 2061389, 5980880, 3222592, 7539756. to the west , and Cameroon and the Central",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,41,1.00,32768,": 2434454, 4585221, 5847820, 9751774, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,42,1.00,32768,": 9693838, 7578566, 6563911, 8141770, 6563911, 9693838, 9693838, 9693838",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,43,1.00,32768,": 4314081, 5720926, 3486157, 4111798, 5720926, 5720926, 5720926, 5720926",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,44,1.00,32768,": 5407473, 1971745, 3678318, 9212019, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,45,1.00,32768,": 6426766.0500, 3681507, 8071309, 4076371. off between the various navies .     ",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,46,1.00,32768,": 6156565, 5221514.68, 3732417, 6234117. at the 2012 WWE Hall of Fame ceremony ,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,47,1.00,32768,": 0, 1788994, 5815039, 4089428, 6502584, 1, 2, 3, 4, 5,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,48,1.00,32768,": 6798706, 2494781, 5223871, 3649745, 3649745, 3649745, 3649745, 3649745",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,49,1.00,32768,": 9138800.5, 2763669, 1478919, 4953528, 9138800.5, 2763669, 1478919,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,50,1.00,32768,": 7031800, 4022341, 2973426, 9282141. .     The episode was watched by 8.4 milli",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,51,1.00,32768,": 5859599, 8479116, 3701610, 4754543, 5859599, 8479116, 3701610, 4754543",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,52,1.00,32768,": 7183667, 3516483, 2968902, 8299406, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,53,0.75,32768,": 1818531, 1496068, 4642657, 1818531, 1496068, 4642657, 1818531, 1496068",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,54,1.00,32768,": 5900037, 5591316, 4465949, 7657382, 4465949, 4465949, 4465949, 4465949",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,55,1.00,32768,": 6043812, 7440379, 8137786, 4600262, 8137786, 8137786, 8137786, 8137786",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,56,1.00,32768,": 6211076, 1954546, 2390482, 7483532.<|end_of_text|><|begin_of_text|>://www.ajbc",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,57,1.00,32768,": 5408808, 9315903, 3985968, 3877805, 3877805, 9315903, 9315903, 9315903",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,58,1.00,32768,": 8307319, 5804664, 5490691, 9744580, 9744580, 9744580, 9744580, 9744580",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,59,1.00,32768,": 3466949, 9431705, 8777926, 2682669, 2682669, 2682669, 2682669, 2682669",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,60,1.00,32768,": 7544719, 6255147, 1375351, 4397624, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,61,1.00,32768,": 7370723, 5216446, 4628243, 2016694, 2016694, 4628243, 4628243, 4628243",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,62,1.00,32768,": 5754852, 3542655, 9823993, 8686344, 8686344, 8686344, 8686344, 8686344",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,63,1.00,32768,": 9411421, 9764765, 4278842, 2165369, 2165369, 2165369, 2165369, 2165369",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,64,0.75,32768,": 4808001, 4024096, 6170608, 6170608, 6170608, 6170608, 6170608, 6170608",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,65,1.00,32768,": 9472023, 7650321, 8081787, 8934187, 8081787, 8081787, 8081787, 8081787",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,66,1.00,32768,": 5443995, 2475444, 9185588, 8617815, 8617815, 8617815, 8617815, 8617815",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,67,1.00,32768,": 2316352, 2631813, 8684814, 3415256, 8684814, 3415256, 8684814, 3415256",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,68,1.00,32768,": 8961908, 5273592, 9143930, 4672001, 1, 12, 13, 15, 16, 17,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,69,1.00,32768,": 8176294, 9130024, 4486885, 2611640, 2611640, 2611640, 2611640, 2611640",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,70,1.00,32768,": 1276245, 9924516, 3380932, 5100524, 3380932, 3380932, 3380932, 3380932",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,71,1.00,32768,": 7623952.9, 9857908, 3287823, 1955348, 3287823, 3287823, 3287823, 328",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,72,1.00,32768,": 6636464, 4021897, 8203944, 8363503, 8363503, 8363503, 8363503, 8363503",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,73,1.00,32768,": 5495601, 9032902, 5827704, 6467195, 9032902, 5827704, 6467195, 9032902",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,74,1.00,32768,": 4079981, 8084968, 8150519, 5936252, 8160000, 8160001, 8160002, 8160003",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,75,1.00,32768,": 8269218, 3992973, 9054367, 3322930, 3322930, 9054367, 3992973, 8269218",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,76,1.00,32768,": 4867159, 2155094, 1426014, 9938194, 9938194, 9938194, 9938194, 9938194",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,77,0.25,32768,": 4954766, 4954766, 4954766, 4954766, 4954766, 4954766, 4954766, 4954766",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,78,1.00,32768,": 6263882, 3271700, 9098047, 5814719.<|end_of_text|><|begin_of_text|>_REF_1_0_0_",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,79,1.00,32768,": 6083654, 5943475, 7433612, 4418569, 6083654, 5943475, 7433612, 4418569",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,80,0.00,32768,": 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,81,1.00,32768,": 3687383, 8563207, 7016628, 3004358, 3004358, 3687383, 8563207, 7016628",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,82,1.00,32768,": 4935603, 4606049, 7586667, 1633921, 4606049, 1633921, 4606049, 1633921",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,83,1.00,32768,": 1621745, 5897265, 4357372, 6785103, 1000000, 10000000, 100000000, 100000000",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,84,1.00,32768,": 9186582, 1041600, 7254754, 4686402, 4686402, 1041600, 7254754, 1041600",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,85,1.00,32768,": 3241780, 8786406, 9291885, 2390640, 8786406, 8786406, 8786406, 8786406",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,86,1.00,32768,": 7446394, 6470203, 1516099, 7361412, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,87,1.00,32768,": 9537652.1990, 6933429, 6801123, 6851688, 6851688, 6851688, 6851688,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,88,1.00,32768,": 5353462, 8609031, 9297746, 9388862, 9409032, 9419032, 9429032, 9439032",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,89,0.00,32768,": 42, 131, 24, 63, 211, 44, 28, 47, 136, 6, 19, 8, 26,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,90,1.00,32768,": 5979973, 1486218, 2401179, 2031536, 1, 2, 3, 4, 5, 6,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,91,1.00,32768,": 8907026, 4827885, 1176960, 4476820, 4476820, 4476820, 4476820, 4476820",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,92,1.00,32768,": 1083232, 3563733, 4002450, 3095200, 3563733, 3563733, 3563733, 3563733",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,93,1.00,32768,": 5712421, 9012692, 7659362, 9328992, 9328992, 9328992, 9328992, 9328992",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,94,1.00,32768,": 7367037, 9464046, 8031939, 7151881, 7367037, 9464046, 8031939, 7151881",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,95,1.00,32768,": 8115313, 6262924, 3591564, 4353081.<|end_of_text|><|begin_of_text|>://www.<|en",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,96,1.00,32768,": 3410818, 9656171, 2412985, 7485028, 8, 12, 13, 15, 16, 17,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,97,1.00,32768,": 295, 245, 3988902, 2440774, 4925008, 9418683, 1, 2, 3, 4,",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,98,1.00,32768,": 8951463, 7570335, 6632077, 5184612, 6632077, 6632077, 6632077, 6632077",336a98f
+meta-llama/Llama-3.1-8B,decode,multivalue,32768,fp8,99,1.00,32768,": 8418669, 7734517, 8463863, 7691146, 8418669, 8418669, 8418669, 8418669",336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,20,1.00,32768,YGQGP KOPVD UBKBP FYGZP ESAYD  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,21,1.00,32768,BXNNU SYGIU OTNIE XPLTO CMZLS  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,22,1.00,32768,FUTHA WUVLL XRSUW VMKPA IBZQL  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,23,0.80,32768,98748 FYKEE QECKB RRIDD ZSYHD  Memorize and track the chain(s) of,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,24,1.00,32768,84422 EOFVF LTYJF AIMIX VIVSY BUYAR  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,25,1.00,32768,OCOLB SENNO DHKEE DARDR GNGSS  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,26,1.00,32768,74263 NMTNA PAKIM VIYDU IMSHC MWNIA  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,27,1.00,32768,XJSYF XQSMO TLXKC MKZXJ DETHK  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,28,1.00,32768,STIQZ CZXMQ EYOYS PWNAC LMWZV  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,29,1.00,32768,THFDW FSZOR MHBMA MWUKB OKEUV  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,30,1.00,32768,YWRBH GKQJD FKPFC BPMQI YDBXW  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,31,1.00,32768,BVYEI YXEVC PVZLN LRFAS CXZIY  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,32,1.00,32768,70024 NVERF ZOUIR KXTAM SJEPF OFXHF  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,33,0.80,32768,35101 NAKAS XNOGH WCIYW VAMMW  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,34,1.00,32768,VZKJW UNVZD LYIQI BIXIV FXVRS  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,35,1.00,32768,GSTFB KFJCC YZPFP PKTLA IORNS  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,36,0.80,32768,RWYDC ESXNB YVUAX RRDZL YVUAX  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,37,1.00,32768,FPYZN BRIUG SJHOJ CSVEM OBIOL  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,38,1.00,32768,DIPPY INPYK EAHNV TFGGG BAHQU  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,39,1.00,32768,LDSLY ALKXM PRSMI IIPIZ OHRJA  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,40,1.00,32768,HEIXP GTHHJ UZHJU IKQYN OPGJE  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,41,1.00,32768,UXBXM VVKWN JQGZZ QVPEL VFXGW  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,42,1.00,32768,58584 MXDTU OAYFU IGSTR GEOWV VVYSD  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,43,1.00,32768,SKCHY IYENH VGIJG JICFH QNUZK  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,44,1.00,32768,ITOJO AMCQA NFLSS CHIWP KKYOZ  Memorize and track the chain(s) of,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,45,1.00,32768,QVMMZ KWVAB RFEXZ XLNWG IHIPE  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,46,0.80,32768,93043 DXWTT KKTDX UWCWU QDQQI  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,47,1.00,32768,FWKQL KVFXH QUCPK BXPPR YRRUW  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,48,1.00,32768,EQAZA VYJGF PIUQC NHXSN CXAOW  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,49,1.00,32768,HHLWR SOACG XYAMY AAXPT JSZNN  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,50,1.00,32768,MESGR KKCAY CRAHZ ZOSSS ANCDL  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,51,1.00,32768,MIOAL TORVU CMELY CPCCY TCDWU  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,52,1.00,32768,XDBAF AHWAB ZEITJ QGHWE RRMYI  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,53,1.00,32768,DQAIE NSYLZ KSTWN MCIKL GYNQV  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,54,1.00,32768,YWBFD IVXZZ XHKDZ JKHPJ AULKF  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,55,0.80,32768,47135 SYNMZ IHDNZ WCWYJ VMLFF  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,56,1.00,32768,44986 YOGGO YEQGL KSDHY FVKBL UZCDK  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,57,1.00,32768,ZRYKD VPYJB ZXPHN TKRSU CMSZY  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,58,1.00,32768,QPAHA GRILU IIDAV CNGAB ECVRM  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,59,1.00,32768,KOBGW RZFMD SVRQJ ZYMWN BXWSJ  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,60,1.00,32768,EOIDW ADVUI WORAA KXUCE ACDCR  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,61,1.00,32768,71286 HDCZU ZHRYC AAVOM CHMRI NAREN  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,62,0.80,32768,21402 ZXCED VBAVV LDCHL QRDQZ  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,63,1.00,32768,VVGFH SREND UNPIO HAEOW QNDUB  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,64,1.00,32768,MIAGS FIITE WHMWN GMXQV XHEEO  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,65,1.00,32768,ZPTKZ GOUBI FUJKR EQHGM RJYZL  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,66,1.00,32768,IXVVJ DOMOM YWFGS UHKUZ WFFGH  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,67,1.00,32768,17455 FYPLL GZKVL XNYDD AASEM VMVXC  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,68,1.00,32768,SZFWW JAADU WENZJ LGGHJ ZODTW  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,69,0.80,32768,88667 SPSCV BMYIO LYBZU QNPNH  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,70,1.00,32768,RRDHQ KYHQY KKXED PTWJW GCPIF  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,71,1.00,32768,XZZBN KATTC EDLPM CAOGZ HINSR  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,72,0.80,32768,94489 ZTBOR XVVYD UZZKC ZALGH  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,73,1.00,32768,QHWRG ATHVM BZTFW ULYRB ZJMOW  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,74,1.00,32768,83881 AAABF ZAOXV EUGGH OKAZD UVBLW  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,75,1.00,32768,82278 TBACF ESNGJ XZZDG VBMMF SDATM  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,76,1.00,32768,LBBDW BQSNE GUPTG IDIVB EYMSH  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,77,1.00,32768,OIAZV URZSK PASIE DRTUY DYOSY  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,78,1.00,32768,XZSCX IFYHO DTIHY AGFYE KZSGY  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,79,0.00,32768,69182 55237 69182 55237 69182 55237 69182 55237,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,80,1.00,32768,57966 SMPEE MLZGX QGXDZ CGUZS FVFYA  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,81,1.00,32768,BVGCT GQTXR EMYRM CUSGZ HBFFK  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,82,1.00,32768,HUHWI CJPCQ TKSLT VONHI NKOKB  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,83,1.00,32768,EKMFE SHLLD FXIFL GVDAI MXEXF  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,84,1.00,32768,TGRUX QTSHZ JPDGA LBRQK IOHKJ  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,85,1.00,32768,GDJEH FNFQK PLYQK OQQRI IXGQK  Memorize and track,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,86,1.00,32768,AJROQ XGFSS NJXYR TVDVV XHRPJ  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,87,1.00,32768,XCYQZ ZPSUK MDDEY NJHGK IPWME  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,88,1.00,32768,ZMMRF PXAMQ KXRGF PARKX VFZVR  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,89,1.00,32768,AEJDU GDGZZ TDEEU XYRET JHNXR  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,90,1.00,32768,CLSOJ JVVSR MVXDX IEKTR XJASR  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,91,1.00,32768,WXJLL IHDYS QRIJG YUGCL GSDPB  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,92,1.00,32768,SOOPK GCXNF PHGOR CRDFX IUVSV  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,93,1.00,32768,YYIZU SMICN UTLMN ZHEHV JAOTR  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,94,1.00,32768,FICVC AIMED ZIHZT RIPOM WVKOX  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,95,1.00,32768,TRSFM CSLII QFEZF QSAWM XIRWC  Memorize and track the chain(s),336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,96,1.00,32768,RSPSR MHYHK PVWXZ NRDCX YRYAV  Memorize and track the chain(s,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,97,1.00,32768,VJKIN IBYQC EQJFQ PFGWR OKMNZ  Memorize and track the chain,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,98,0.80,32768,RGURF WEGAW HIWVH JDOAK IVVQK  Memorize and track the,336a98f
+meta-llama/Llama-3.1-8B,decode,vt,32768,fp8,99,1.00,32768,YGGXO ECLXM WFJUC KEBKO UOPAL  Memorize and track the chain,336a98f

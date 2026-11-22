@@ -1,0 +1,16 @@
+gpu,commit,impl,format,splits,batch,ctx,ms,gbs,peak_frac
+NVIDIA H200,94edfd9,bitdecoding,int4a_tok,auto,32,4096,0.1344,1061,0.221
+NVIDIA H200,94edfd9,bitdecoding_best,int4a_tok,2,32,4096,0.1344,1061,0.221
+NVIDIA H200,94edfd9,ours_triton,bf16,-,32,4096,0.1484,3619,0.754
+NVIDIA H200,94edfd9,ours_triton,int4_tok,-,32,4096,0.1347,1028,0.214
+NVIDIA H200,94edfd9,ours_triton,int4a_tok,-,32,4096,0.1427,999,0.208
+NVIDIA H200,94edfd9,bitdecoding,int4a_tok,auto,32,16384,0.4683,1218,0.254
+NVIDIA H200,94edfd9,bitdecoding_best,int4a_tok,2,32,16384,0.4683,1218,0.254
+NVIDIA H200,94edfd9,ours_triton,bf16,-,32,16384,0.499,4304,0.897
+NVIDIA H200,94edfd9,ours_triton,int4_tok,-,32,16384,0.4674,1184,0.247
+NVIDIA H200,94edfd9,ours_triton,int4a_tok,-,32,16384,0.499,1143,0.238
+NVIDIA H200,94edfd9,bitdecoding,int4a_tok,auto,32,65536,1.821,1253,0.261
+NVIDIA H200,94edfd9,bitdecoding_best,int4a_tok,2,32,65536,1.8044,1265,0.263
+NVIDIA H200,94edfd9,ours_triton,bf16,-,32,65536,1.9029,4514,0.94
+NVIDIA H200,94edfd9,ours_triton,int4_tok,-,32,65536,1.7853,1240,0.258
+NVIDIA H200,94edfd9,ours_triton,int4a_tok,-,32,65536,1.9084,1196,0.249

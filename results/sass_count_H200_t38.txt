@@ -1,0 +1,26 @@
+NVIDIA H200, 570.86.15, 143771 MiB
+NVIDIA H200 triton 3.8.0 budget 6.97 inst/B
+
+bf16           warps=4 regs=96 loop=487 SASS/iter (kernel 912) -> 0.95 inst/B (14% of budget at peak BW); measured BW 90% -> implied issue utilization 12%
+   FMUL 86, HMMA 64, LDSM 48, IMAD 40, FADD 40, LDGSTS 32, FMNMX 24, FSETP 18, MUFU 18, FSEL 16, SHFL 16, VIADDMNMX 16, ISETP 10, SHF 10
+
+fp8            warps=4 regs=128 loop=1595 SASS/iter (kernel 1984) -> 6.23 inst/B (89% of budget at peak BW); measured BW 48% -> implied issue utilization 43%
+   FMUL 342, F2FP 264, HADD2 256, MOV 191, IMAD 105, LDS 85, HMMA 64, FADD 40, STS 34, IADD3 33, FMNMX 24, FSETP 18, MUFU 18, FSEL 16
+
+int4_tok       warps=4 regs=168 loop=1756 SASS/iter (kernel 2336) -> 13.30 inst/B (191% of budget at peak BW); measured BW 25% -> implied issue utilization 47%
+   I2F 256, VIADD 202, PRMT 192, IMAD 191, LOP3 128, FMUL 110, LDS 108, LEA 76, HMMA 64, SHF 64, SGXT 64, FADD 54, FFMA 28, FMNMX 24
+
+int4a_tok      warps=4 regs=168 loop=1780 SASS/iter (kernel 2360) -> 13.09 inst/B (188% of budget at peak BW); measured BW 24% -> implied issue utilization 45%
+   I2F 256, IMAD 221, PRMT 192, HADD2 160, LOP3 128, SHF 128, FMUL 126, LDS 110, HMMA 64, SGXT 64, FADD 54, FFMA 44, FMNMX 24, SHFL 24
+
+int4_g32       warps=4 regs=192 loop=2368 SASS/iter (kernel 2832) -> 16.44 inst/B (236% of budget at peak BW); measured BW 20% -> implied issue utilization 46%
+   IMAD 369, FMUL 342, VIADD 266, I2FP 256, PRMT 136, SHF 132, LOP3 128, F2FP 128, SGXT 128, LDS 81, HMMA 64, FADD 40, STS 34, IADD3 32
+
+nvfp4          warps=4 regs=187 loop=2969 SASS/iter (kernel 3360) -> 20.62 inst/B (296% of budget at peak BW); measured BW 17% -> implied issue utilization 51%
+   IMAD 673, LOP3 518, FMUL 374, HADD2 288, PRMT 264, F2FP 144, SHF 136, MOV 84, LDS 77, HMMA 64, IADD3 53, FADD 40, STS 34, FMNMX 24
+
+mxfp4          warps=4 regs=190 loop=2906 SASS/iter (kernel 3352) -> 21.37 inst/B (307% of budget at peak BW); measured BW 17% -> implied issue utilization 52%
+   IMAD 707, LOP3 513, FMUL 342, PRMT 264, HADD2 256, F2FP 128, SHF 111, LDS 81, MOV 70, HMMA 64, FADD 48, IADD3 35, STS 34, MUFU 26
+
+int4_tok+swap  warps=4 regs=247 loop=1938 SASS/iter (kernel 2808) -> 14.68 inst/B (211% of budget at peak BW); measured BW nan% -> implied issue utilization nan%
+   PRMT 429, I2F 256, VIADD 198, LOP3 195, FMUL 116, LEA 76, FADD 76, SHF 64, SGXT 64, SHFL 60, LDS 45, IMAD 38, FMNMX 36, HGMMA 32

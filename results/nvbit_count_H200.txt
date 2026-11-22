@@ -1,0 +1,346 @@
+# NVBit 1.8.1 opcode_hist, H200 (d4053 ours / ext job), commit bf04088, B=32 S=16384 HKV=8 D=128; warp instructions x32 / bytes
+impl            kernels inst/value  inst/B static budget    BW issue util issue cap  top opcodes per value
+bd_int4               2       5.74   10.80    nan   155%   25%        39%       65%  SYNCS 1.09, BRA 0.56, HFMA2 0.56, NANOSLEEP 0.54, LOP3 0.42, FMUL 0.27, FMNMX 0.27, MUFU 0.26, FFMA 0.26, FADD 0.25
+                   10.78 inst/B     512 blocks  void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm
+                    0.02 inst/B     128 blocks  void cutlass::device_kernel<flash::FlashAttnFwdCombine<cute::tuple<cute::C<8>, cute::C<128> >, 5, 256, 1, fals
+fi_bf16               1       2.64    1.32    nan    19%   90%        17%      100%  IMAD 0.42, FMUL 0.27, HMMA 0.26, IADD3 0.23, LOP3 0.16, LDC 0.16, LDSM 0.16, SHF 0.15, LDGSTS 0.13, ISETP 0.12
+                    1.32 inst/B     256 blocks  void flashinfer::BatchPrefillWithPagedKVCacheKernel<true, flashinfer::KernelTraits<(flashinfer::MaskMode)0, 16
+fi_fp8                2       5.79    5.79    nan    83%   56%        46%      100%  LOP3 1.07, IMAD 0.99, PRMT 0.88, SHFL 0.63, HMUL2 0.50, LEA 0.26, HMMA 0.26, FMUL 0.14, ISETP 0.13, LDC 0.13
+                    5.79 inst/B     256 blocks  void flashinfer::BatchPrefillWithPagedKVCacheKernel<true, flashinfer::KernelTraits<(flashinfer::MaskMode)0, 16
+                    0.00 inst/B     128 blocks  void at::native::vectorized_elementwise_kernel<8, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10:
+fi_nvfp4              2       8.29   14.74    nan   211%   19%        40%       47%  PRMT 1.63, IMAD 1.30, LOP3 0.73, F2FP 0.66, SHFL 0.51, HMUL2 0.50, LDS 0.39, HADD2 0.38, SHF 0.36, HMMA 0.26
+                   14.73 inst/B     256 blocks  void flashinfer::BatchPrefillWithPagedKVCacheKernel<true, flashinfer::KernelTraits<(flashinfer::MaskMode)0, 16
+                    0.00 inst/B     128 blocks  void at::native::vectorized_elementwise_kernel<8, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10:
+ours_bf16             3       1.96    0.98   0.95    14%   90%        13%      100%  FMUL 0.34, HMMA 0.25, LDSM 0.19, IMAD 0.17, FADD 0.16, LDGSTS 0.13, FMNMX 0.09, FSETP 0.07, MUFU 0.07, VIADDMNMX 0.07
+                    0.00 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                    0.97 inst/B     768 blocks  _partial_full
+                    0.01 inst/B    1024 blocks  _combine
+ours_fp8              3       6.29    6.29   6.23    90%   48%        43%      100%  FMUL 1.34, F2FP 1.03, HADD2 1.00, MOV 0.75, IMAD 0.42, LDS 0.33, HMMA 0.25, FADD 0.16, IADD3 0.14, STS 0.13
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                    6.26 inst/B     768 blocks  _partial_full
+                    0.02 inst/B    1024 blocks  _combine
+ours_int4a_tok        3       7.03   13.23  13.10   190%   24%        45%       53%  I2F 1.00, IMAD 0.87, PRMT 0.75, HADD2 0.62, LOP3 0.51, SHF 0.50, FMUL 0.50, LDS 0.43, SGXT 0.25, HMMA 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   13.18 inst/B     768 blocks  _partial_int4_fold
+                    0.03 inst/B    1024 blocks  _combine
+ours_int4_tok         3       6.93   13.45  13.30   193%   25%        48%       52%  I2F 1.00, VIADD 0.79, IMAD 0.76, PRMT 0.75, LOP3 0.51, FMUL 0.43, LDS 0.42, LEA 0.30, SHF 0.25, SGXT 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   13.40 inst/B     768 blocks  _partial_int4_fold
+                    0.03 inst/B    1024 blocks  _combine
+ours_mxfp4            3      11.41   21.48  21.40   308%   17%        53%       32%  IMAD 2.77, LOP3 2.01, FMUL 1.34, PRMT 1.03, HADD2 1.00, F2FP 0.50, SHF 0.44, LDS 0.32, MOV 0.27, HMMA 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   21.44 inst/B     768 blocks  _partial_4bit
+                    0.03 inst/B    1024 blocks  _combine
+ours_nvfp4            3      11.65   20.72  20.60   297%   17%        52%       34%  IMAD 2.64, LOP3 2.03, FMUL 1.46, HADD2 1.12, PRMT 1.03, F2FP 0.56, SHF 0.53, MOV 0.33, LDS 0.30, HMMA 0.25
+                    0.01 inst/B     256 blocks  void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{la
+                   20.68 inst/B     768 blocks  _partial_4bit
+                    0.03 inst/B    1024 blocks  _combine
+
+## bd_int4: full opcode histogram of the main kernel (warp instructions)
+  HFMA2 = 18874368
+  BRA = 18854761
+  SYNCS.PHASECHK.TRANS64.TRYWAIT = 18307433
+  NANOSLEEP.SYNCS = 17972585
+  SYNCS.PHASECHK.TRANS64 = 17972073
+  LOP3.LUT = 13997568
+  FMUL.FTZ = 8916992
+  FMNMX.FTZ = 8908800
+  FFMA.FTZ = 8650752
+  MUFU.EX2 = 8646656
+  FADD.FTZ = 8392704
+  HADD2 = 6291456
+  LDS = 5505024
+  F2FP.F16.F32.PACK_AB = 4718592
+  SHF.R.S32.HI = 3205120
+  STSM.16.MT88.4 = 2097152
+  STSM.16.M88.4 = 2097152
+  HGMMA.64x128x16.F32 = 2097152
+  CS2R = 1902592
+  IMAD.MOV.U32 = 1248868
+  UMOV = 1144832
+  LDSM.16.MT88.2 = 1048576
+  HADD2.F32 = 1048576
+  IADD3 = 896000
+  R2UR = 709120
+  VIADD = 671232
+  IMAD.X = 629760
+  MOV = 615424
+  SHF.R.U64 = 606208
+  SHFL.BFLY = 532480
+  LDSM.16.M88.2 = 524288
+  IMAD.U32 = 468999
+  ISETP.GT.AND = 327680
+  BAR.ARV = 266240
+  SYNCS.ARRIVE.TRANS64.RED.A1T0 = 264192
+  WARPGROUP.DEPBAR.LE = 262144
+  WARPGROUP.ARRIVE = 262144
+  PRMT = 262144
+  LDGSTS.E.LTC128B = 262144
+  LDGDEPBAR = 262144
+  IADD3.X = 260096
+  PLOP3.LUT = 207872
+  ISETP.NE.AND = 139264
+  IMAD.WIDE = 139264
+  FSEL = 135168
+  IMAD = 102400
+  BSYNC = 98816
+  BSSY = 95232
+  ELECT = 72704
+  UTMALDG.4D = 65536
+  SYNCS.ARRIVE.TRANS64 = 65536
+  SHFL.IDX = 65536
+  BRA.U.ANY = 65024
+  IMAD.IADD = 55296
+  UIADD3 = 54784
+  ULDC.64 = 45568
+  UIADD3.64 = 43008
+  LEA.HI = 42496
+  LEA = 41984
+  UIMAD = 36864
+  NOP = 36352
+  ISETP.GE.AND = 34816
+  IMAD.SHL.U32 = 30720
+  IMAD.WIDE.U32 = 28672
+  S2UR = 27136
+  LDC = 26624
+  S2R = 23552
+  ULDC = 23040
+  IMAD.MOV = 20480
+  UIMAD.WIDE.U32 = 18432
+  LEA.HI.X = 18432
+  LDC.64 = 18432
+  SHF.R.U32.HI = 16384
+  LDGSTS.E.BYPASS.LTC128B.128 = 16384
+  USHF.L.U32 = 14336
+  IMAD.HI.U32 = 14336
+  SYNCS.EXCH.64 = 13312
+  ULEA = 12800
+  VOTEU.ANY = 12288
+  USHF.R.S32.HI = 12288
+  ULOP3.LUT = 12288
+  USHF.R.U32.HI = 10240
+  ST.E.64 = 8192
+  MUFU.RCP = 8192
+  IABS = 8192
+  BAR.SYNC.DEFER_BLOCKING = 8192
+  UIADD3.X = 7168
+  FENCE.VIEW.ASYNC.S = 6656
+  VIADDMNMX = 6144
+  WARPSYNC.ALL = 4608
+  UISETP.NE.AND = 4096
+  ST.E = 4096
+  MUFU.LG2 = 4096
+  LDG.E = 4096
+  ISETP.GT.U32.AND = 4096
+  ISETP.GE.U32.AND = 4096
+  ISETP.GE.OR = 4096
+  ISETP.EQ.AND = 4096
+  I2F.RP = 4096
+  FSETP.NEU.FTZ.AND = 4096
+  FSETP.NE.FTZ.AND = 4096
+  F2I.FTZ.U32.TRUNC.NTZ = 4096
+  EXIT = 4096
+  ISETP.EQ.OR = 2560
+  VIMNMX = 2048
+  USETMAXREG.TRY_ALLOC.CTAPOOL = 2048
+  USETMAXREG.DEALLOC.CTAPOOL = 2048
+  UPRMT = 2048
+  UISETP.NE.U32.AND = 2048
+  UISETP.NE.AND.EX = 2048
+  UIMAD.WIDE = 2048
+  SYNCS.ARRIVE.TRANS64.RED.A0T1 = 2048
+  SYNCS.ARRIVE.TRANS64.A1T0 = 2048
+  P2R = 2048
+  LEA.HI.X.SX32 = 2048
+  ISETP.NE.U32.AND = 2048
+  ISETP.NE.AND.EX = 2048
+  ISETP.LT.AND = 2048
+  ISETP.LE.AND = 2048
+  ARRIVES.LDGSTSBAR.64.TRANSCNT = 2048
+  UTMACCTL.PF = 1024
+
+## fi_nvfp4: full opcode histogram of the main kernel (warp instructions)
+  PRMT = 54525952
+  LOP3.LUT = 24350976
+  SHFL.IDX = 16777216
+  HMUL2.BF16_V2 = 16777216
+  IMAD.U32 = 15204352
+  LDS.U8 = 12582912
+  HADD2.F32 = 12582912
+  F2FP.F16.E4M3.UNPACK_B = 12582912
+  SHF.R.U32.HI = 10589952
+  HMMA.16816.F32.BF16 = 8650752
+  F2FP.BF16.F32.PACK_AB.RZ = 8388608
+  IMAD.MOV.U32 = 6181888
+  IMAD = 5124352
+  IMAD.SHL.U32 = 5071616
+  FMUL.FTZ = 4530176
+  IMAD.IADD = 4331008
+  LEA.HI = 4259840
+  VIADD = 3934208
+  IMAD.WIDE.U32 = 3220480
+  IADD3 = 3205376
+  LDC = 3201024
+  IADD3.X = 2930944
+  ISETP.GE.U32.AND = 2879488
+  LDC.64 = 2669568
+  FMNMX.FTZ = 2521088
+  FFMA.FTZ = 2498560
+  MUFU.EX2 = 2250752
+  LDGSTS.E.64 = 2129920
+  SEL = 1671424
+  ISETP.NE.AND = 1611776
+  IMAD.HI.U32 = 1604608
+  IMAD.MOV = 1601536
+  SHF.R.S32.HI = 1597440
+  LDSM.16.M88.4 = 1572864
+  STL = 1267712
+  LDL.LU = 1186304
+  LDG.E.CONSTANT = 1064960
+  ISETP.GE.AND = 1064960
+  IMAD.WIDE = 1064960
+  F2FP.BF16.F32.PACK_AB = 1056768
+  LDSM.16.MT88.4 = 1048576
+  S2R = 988416
+  LDL = 787712
+  CS2R = 642048
+  LDG.E = 544768
+  LDGSTS.E = 532480
+  LDS = 397056
+  LEA = 340736
+  ISETP.LT.U32.AND = 331776
+  IMAD.X = 270592
+  BAR.SYNC.DEFER_BLOCKING = 265216
+  SHFL.BFLY = 262144
+  BRA = 137216
+  UMOV = 134400
+  LDGDEPBAR = 134144
+  ISETP.GT.U32.OR = 133120
+  ISETP.GT.U32.AND = 133120
+  ISETP.GE.U32.OR = 133120
+  NOP = 132352
+  DEPBAR.LE = 132096
+  LDS.128 = 67584
+  MUFU.RCP = 66560
+  FSEL = 34816
+  FADD.FTZ = 22528
+  ULDC.64 = 16896
+  ULDC = 16384
+  STS.128 = 16384
+  LDS.64 = 8192
+  VIADDMNMX.U32 = 4096
+  LEA.HI.X = 4096
+  FSETP.NEU.FTZ.AND = 4096
+  UIMAD = 3584
+  S2UR = 2304
+  VIMNMX.U32 = 2048
+  STSM.16.M88.4 = 2048
+  STS.64 = 2048
+  STG.E.128 = 2048
+  LDGSTS.E.BYPASS.LTC128B.128 = 2048
+  ISETP.NE.U32.AND = 2048
+  WARPSYNC.ALL = 1280
+  ULEA = 1280
+  ULDC.U8 = 1024
+  STL.64 = 1024
+  PREEXIT = 1024
+  ISETP.NE.AND.EX = 1024
+  ISETP.GT.AND = 1024
+  ISETP.EQ.U32.AND = 1024
+  ISETP.EQ.OR.EX = 1024
+  I2F.U32.RP = 1024
+  FMUL = 1024
+  F2I.FTZ.U32.TRUNC.NTZ = 1024
+  F2F.F32.F64 = 1024
+  EXIT = 1024
+  DSETP.GEU.AND = 1024
+  DMUL = 1024
+  BSYNC = 1024
+  BSSY = 1024
+  ACQBULK = 1024
+
+## fi_fp8: full opcode histogram of the main kernel (warp instructions)
+  LOP3.LUT = 35864832
+  PRMT = 29360128
+  SHFL.BFLY = 21233664
+  IMAD.SHL.U32 = 17127168
+  HMUL2.BF16_V2 = 16777216
+  HMMA.16816.F32.BF16 = 8650752
+  LEA.HI = 8388608
+  IMAD.MOV.U32 = 5057536
+  FMUL.FTZ = 4530176
+  IMAD.IADD = 3335680
+  VIADD = 2549760
+  FMNMX.FTZ = 2521088
+  FFMA.FTZ = 2498560
+  IMAD = 2476288
+  MUFU.EX2 = 2250752
+  IMAD.WIDE.U32 = 2155520
+  LDC = 2143232
+  LDC.64 = 2137088
+  IADD3 = 2136320
+  IADD3.X = 2132224
+  LDGSTS.E.BYPASS.LTC128B.128 = 2131968
+  ISETP.GE.U32.AND = 1684480
+  LDSM.16.M88.4 = 1572864
+  ISETP.NE.AND = 1541120
+  SEL = 1401088
+  SHF.R.U32.HI = 1271552
+  IMAD.HI.U32 = 1072128
+  IMAD.MOV = 1069056
+  SHF.R.S32.HI = 1064960
+  LDG.E.CONSTANT = 1064960
+  ISETP.GE.AND = 1064960
+  IMAD.WIDE = 1064960
+  F2FP.BF16.F32.PACK_AB = 1056768
+  LDSM.16.MT88.4 = 1048576
+  CS2R = 706560
+  LDS = 397056
+  P2R = 396288
+  LEA = 275200
+  BAR.SYNC.DEFER_BLOCKING = 265216
+  BRA = 136192
+  LDGDEPBAR = 134144
+  DEPBAR.LE = 132096
+  LDS.128 = 67584
+  ISETP.NE.U32.AND = 67584
+  NOP = 66816
+  MUFU.RCP = 66560
+  ISETP.LT.U32.AND = 65536
+  FSEL = 34816
+  FADD.FTZ = 22528
+  STS.128 = 16384
+  LDG.E = 12288
+  ULDC.64 = 9728
+  ULDC = 8192
+  LDS.64 = 8192
+  VIADDMNMX.U32 = 4096
+  LEA.HI.X = 4096
+  FSETP.NEU.FTZ.AND = 4096
+  UMOV = 3328
+  S2R = 3328
+  S2UR = 2304
+  VIMNMX.U32 = 2048
+  STSM.16.M88.4 = 2048
+  STS.64 = 2048
+  STG.E.128 = 2048
+  UIMAD = 1536
+  WARPSYNC.ALL = 1280
+  ULEA = 1280
+  ULDC.U8 = 1024
+  PREEXIT = 1024
+  ISETP.NE.AND.EX = 1024
+  ISETP.GT.AND = 1024
+  ISETP.EQ.U32.AND = 1024
+  ISETP.EQ.OR.EX = 1024
+  I2F.U32.RP = 1024
+  FMUL = 1024
+  F2I.FTZ.U32.TRUNC.NTZ = 1024
+  F2F.F32.F64 = 1024
+  EXIT = 1024
+  DSETP.GEU.AND = 1024
+  DMUL = 1024
+  BSYNC = 1024
+  BSSY = 1024
+  ACQBULK = 1024
+  IMAD.X = 256

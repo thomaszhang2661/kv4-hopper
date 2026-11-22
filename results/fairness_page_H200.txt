@@ -1,0 +1,34 @@
+NVIDIA H200, 570.86.15
+KV4_COMMIT=8b9504e
+NVIDIA H200
+ninja: no work to do.
+B= 32 S= 16384 flashinfer_bf16 p16                0.4963 ms   90% of peak   0.80x vs FlashInfer FP8 p16
+B= 32 S= 16384 flashinfer_fp8 p16                 0.3986 ms   56% of peak   1.00x vs FlashInfer FP8 p16
+B= 32 S= 16384 flashinfer_nvfp4 p16               0.6649 ms   19% of peak   0.60x vs FlashInfer FP8 p16
+B= 32 S= 16384 flashinfer_bf16 p64                0.4952 ms   90% of peak   0.80x vs FlashInfer FP8 p16
+B= 32 S= 16384 flashinfer_fp8 p64                 0.3933 ms   57% of peak   1.01x vs FlashInfer FP8 p16
+B= 32 S= 16384 flashinfer_nvfp4 p64               0.6799 ms   19% of peak   0.59x vs FlashInfer FP8 p16
+B= 32 S= 16384 ours_nvfp4 dense                   0.1841 ms   68% of peak   2.16x vs FlashInfer FP8 p16
+B= 32 S= 16384 ours_nvfp4 paged p64 shuffled      0.1835 ms   69% of peak   2.17x vs FlashInfer FP8 p16
+B= 32 S= 16384 ours_mxfp4 dense                   0.1845 ms   64% of peak   2.16x vs FlashInfer FP8 p16
+B= 32 S= 16384 ours_mxfp4 paged p64 shuffled      0.1847 ms   64% of peak   2.16x vs FlashInfer FP8 p16
+B=128 S= 16384 flashinfer_bf16 p16                1.9129 ms   94% of peak   0.80x vs FlashInfer FP8 p16
+B=128 S= 16384 flashinfer_fp8 p16                 1.5313 ms   58% of peak   1.00x vs FlashInfer FP8 p16
+B=128 S= 16384 flashinfer_nvfp4 p16               2.5647 ms   20% of peak   0.60x vs FlashInfer FP8 p16
+B=128 S= 16384 flashinfer_bf16 p64                1.9114 ms   94% of peak   0.80x vs FlashInfer FP8 p16
+B=128 S= 16384 flashinfer_fp8 p64                 1.4789 ms   61% of peak   1.04x vs FlashInfer FP8 p16
+B=128 S= 16384 flashinfer_nvfp4 p64               2.5972 ms   19% of peak   0.59x vs FlashInfer FP8 p16
+B=128 S= 16384 ours_nvfp4 dense                   0.6665 ms   76% of peak   2.30x vs FlashInfer FP8 p16
+B=128 S= 16384 ours_nvfp4 paged p64 shuffled      0.6710 ms   75% of peak   2.28x vs FlashInfer FP8 p16
+B=128 S= 16384 ours_mxfp4 dense                   0.6703 ms   71% of peak   2.28x vs FlashInfer FP8 p16
+B=128 S= 16384 ours_mxfp4 paged p64 shuffled      0.6781 ms   70% of peak   2.26x vs FlashInfer FP8 p16
+B=  8 S= 65536 flashinfer_bf16 p16                0.5359 ms   83% of peak   0.75x vs FlashInfer FP8 p16
+B=  8 S= 65536 flashinfer_fp8 p16                 0.4038 ms   55% of peak   1.00x vs FlashInfer FP8 p16
+B=  8 S= 65536 flashinfer_nvfp4 p16               0.6837 ms   18% of peak   0.59x vs FlashInfer FP8 p16
+B=  8 S= 65536 flashinfer_bf16 p64                0.5354 ms   84% of peak   0.75x vs FlashInfer FP8 p16
+B=  8 S= 65536 flashinfer_fp8 p64                 0.3965 ms   56% of peak   1.02x vs FlashInfer FP8 p16
+B=  8 S= 65536 flashinfer_nvfp4 p64               0.6842 ms   18% of peak   0.59x vs FlashInfer FP8 p16
+B=  8 S= 65536 ours_nvfp4 dense                   0.4023 ms   31% of peak   1.00x vs FlashInfer FP8 p16
+B=  8 S= 65536 ours_nvfp4 paged p64 shuffled      0.4096 ms   31% of peak   0.99x vs FlashInfer FP8 p16
+B=  8 S= 65536 ours_mxfp4 dense                   0.4063 ms   29% of peak   0.99x vs FlashInfer FP8 p16
+B=  8 S= 65536 ours_mxfp4 paged p64 shuffled      0.4155 ms   29% of peak   0.97x vs FlashInfer FP8 p16

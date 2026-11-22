@@ -1,0 +1,1081 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,0,0.00,4054,: 317f8945-638b-8bcf-c00e-3dd553b60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,1,0.00,4091,: 80b63078-b72b-5bb1-f449-74c3ea5469,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,2,0.00,4064,: 52ff88ee-e146-045c-7ba3-43b92e882b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,3,0.00,4093,: e5bd7e4f-af57-40af-104f-3fe36178929,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,4,1.00,4093,: e5ee21ae-be66-4f8e-8954-af5342868b00,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,5,1.00,4031,: f4bacbb4-fc4b-2b8f-d428-6b18d2b626a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,6,0.00,4043,: 5845f34d-b359-f608-9fd4-2cfa27623a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,7,1.00,4078,: 9bd97c26-df3c-db31-b42c-e7c77ad07feb.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,8,0.00,4081,: 5f373a17-3a3f-3943-055a-f82f4ffdb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,9,0.00,4020,: 60b1f5fd-d15a-2b96-e687-14ad6e5921,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,10,0.00,4058,: 26e3abe2-0f37-d45e-e4a7-25ee1a8d9c2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,11,1.00,4047,: 4ed60328-d069-c640-b746-91d1fdd2aeb7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,12,1.00,4056,: 4574caab-2b19-50cf-c82a-ae051fdc723a.,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,13,1.00,4089,: 8a32c9dc-a251-ff93-c44b-c7233bf9ddef.<|endoftext|>,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,14,1.00,4040,: 4e79aa8b-42dc-811e-282f-73c5debcffef,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,15,0.00,4058,: f22ba823-53e1-38c9-62d9-c1337ad8a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,16,1.00,4026,: 8ace85eb-c012-beec-9da5-4d29baa7191c.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,17,0.00,4042,: 0e990215-0721-3cfa-649a-7730304,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,18,0.00,4035,: 6e06a7bb-40b0-a558-535a-9c245638,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,bf16,19,0.00,4077,: 30596249-5c6c-029a-128f-38b707,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,0,0.00,4054,: 317f8945-638b-8bcf-c00e-3dd553b60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,1,0.00,4091,: 80b63078-b72b-5bb1-f449-74c3ea5469,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,2,0.00,4064,: 52ff88ee-e146-045c-7ba3-43b92e882b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,3,0.00,4093,: e5bd7e4f-af57-40af-104f-3fe36178929,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,4,1.00,4093,: e5ee21ae-be66-4f8e-8954-af5342868b00,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,5,1.00,4031,: f4bacbb4-fc4b-2b8f-d428-6b18d2b626a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,6,0.00,4043,: 5845f34d-b359-f608-9fd4-2cfa27623a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,7,1.00,4078,: 9bd97c26-df3c-db31-b42c-e7c77ad07feb.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,8,0.00,4081,: 5f373a17-3a3f-3943-055a-f82f4ffdb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,9,0.00,4020,: 60b1f5fd-d15a-2b96-e687-14ad6e5921,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,10,0.00,4058,: 26e3abe2-0f37-d45e-e4a7-25ee1a8d9c2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,11,1.00,4047,: 4ed60328-d069-c640-b746-91d1fdd2aeb7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,12,1.00,4056,: 4574caab-2b19-50cf-c82a-ae051fdc723a.,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,13,1.00,4089,: 8a32c9dc-a251-ff93-c44b-c7233bf9ddef.<|endoftext|>,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,14,1.00,4040,: 4e79aa8b-42dc-811e-282f-73c5debcffef,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,15,0.00,4058,: f22ba823-53e1-38c9-62d9-c1337ad8a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,16,1.00,4026,: 8ace85eb-c012-beec-9da5-4d29baa7191c.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,17,0.00,4042,: 0e990215-0721-3cfa-649a-7730304,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,18,0.00,4035,: 6e06a7bb-40b0-a558-535a-9c245638,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,fp8,19,0.00,4077,: 30596249-5c6c-029a-128f-38b707,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,0,0.00,4054,: 317f8945-638b-8bcf-c00e-3dd553b60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,1,0.00,4091,: 80b63078-b72b-5bb1-f449-74c3ea5469,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,2,0.00,4064,: 52ff88ee-e146-045c-7ba3-43b92e882b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,3,0.00,4093,: e5bd7e4f-af57-40af-104f-3fe36178929,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,4,1.00,4093,: e5ee21ae-be66-4f8e-8954-af5342868b00,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,5,1.00,4031,: f4bacbb4-fc4b-2b8f-d428-6b18d2b626a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,6,0.00,4043,: 5845f34d-b359-f608-9fd4-2cfa27623a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,7,1.00,4078,: 9bd97c26-df3c-db31-b42c-e7c77ad07feb.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,8,0.00,4081,: 5f373a17-3a3f-3943-055a-f82f4ffdb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,9,0.00,4020,: 60b1f5fd-d15a-2b96-e687-14ad6e5921,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,10,0.00,4058,: 26e3abe2-0f37-d45e-e4a7-25ee1a8d9c2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,11,1.00,4047,: 4ed60328-d069-c640-b746-91d1fdd2aeb7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,12,1.00,4056,: 4574caab-2b19-50cf-c82a-ae051fdc723a.,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,13,1.00,4089,: 8a32c9dc-a251-ff93-c44b-c7233bf9ddef.<|endoftext|>,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,14,1.00,4040,: 4e79aa8b-42dc-811e-282f-73c5debcffef,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,15,0.00,4058,: f22ba823-53e1-38c9-62d9-c1337ad8a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,16,1.00,4026,: 8ace85eb-c012-beec-9da5-4d29baa7191c.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,17,0.00,4042,: 0e990215-0721-3cfa-649a-7730304,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,18,0.00,4035,: 6e06a7bb-40b0-a558-535a-9c245638,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,int4a_kh,19,0.00,4077,: 30596249-5c6c-029a-128f-38b707,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,0,0.00,4054,: 317f8945-638b-8bcf-c00e-3dd553b60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,1,0.00,4091,: 80b63078-b72b-5bb1-f449-74c3ea5469,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,2,0.00,4064,: 52ff88ee-e146-045c-7ba3-43b92e882b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,3,0.00,4093,: e5bd7e4f-af57-40af-104f-3fe36178929,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,4,1.00,4093,: e5ee21ae-be66-4f8e-8954-af5342868b00,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,5,1.00,4031,: f4bacbb4-fc4b-2b8f-d428-6b18d2b626a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,6,0.00,4043,: 5845f34d-b359-f608-9fd4-2cfa27623a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,7,1.00,4078,: 9bd97c26-df3c-db31-b42c-e7c77ad07feb.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,8,0.00,4081,: 5f373a17-3a3f-3943-055a-f82f4ffdb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,9,0.00,4020,: 60b1f5fd-d15a-2b96-e687-14ad6e5921,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,10,0.00,4058,: 26e3abe2-0f37-d45e-e4a7-25ee1a8d9c2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,11,1.00,4047,: 4ed60328-d069-c640-b746-91d1fdd2aeb7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,12,1.00,4056,: 4574caab-2b19-50cf-c82a-ae051fdc723a.,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,13,1.00,4089,: 8a32c9dc-a251-ff93-c44b-c7233bf9ddef.<|endoftext|>,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,14,1.00,4040,: 4e79aa8b-42dc-811e-282f-73c5debcffef,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,15,0.00,4058,: f22ba823-53e1-38c9-62d9-c1337ad8a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,16,1.00,4026,: 8ace85eb-c012-beec-9da5-4d29baa7191c.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,17,0.00,4042,: 0e990215-0721-3cfa-649a-7730304,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,18,0.00,4035,: 6e06a7bb-40b0-a558-535a-9c245638,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,nvfp4_kh,19,0.00,4077,: 30596249-5c6c-029a-128f-38b707,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,0,0.00,4054,: 317f8945-638b-8bcf-c00e-3dd553b60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,1,0.00,4091,: 80b63078-b72b-5bb1-f449-74c3ea5469,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,2,0.00,4064,: 52ff88ee-e146-045c-7ba3-43b92e882b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,3,0.00,4093,: e5bd7e4f-af57-40af-104f-3fe36178929,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,4,1.00,4093,: e5ee21ae-be66-4f8e-8954-af5342868b00,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,5,1.00,4031,: f4bacbb4-fc4b-2b8f-d428-6b18d2b626a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,6,0.00,4043,: 5845f34d-b359-f608-9fd4-2cfa27623a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,7,1.00,4078,: 9bd97c26-df3c-db31-b42c-e7c77ad07feb.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,8,0.00,4081,: 5f373a17-3a3f-3943-055a-f82f4ffdb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,9,0.00,4020,: 60b1f5fd-d15a-2b96-e687-14ad6e5921,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,10,0.00,4058,: 26e3abe2-0f37-d45e-e4a7-25ee1a8d9c2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,11,1.00,4047,: 4ed60328-d069-c640-b746-91d1fdd2aeb7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,12,1.00,4056,: 4574caab-2b19-50cf-c82a-ae051fdc723a.,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,13,1.00,4089,: 8a32c9dc-a251-ff93-c44b-c7233bf9ddef.<|endoftext|>,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,14,1.00,4040,: 4e79aa8b-42dc-811e-282f-73c5debcffef,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,15,0.00,4058,: f22ba823-53e1-38c9-62d9-c1337ad8a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,16,1.00,4026,: 8ace85eb-c012-beec-9da5-4d29baa7191c.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,17,0.00,4042,: 0e990215-0721-3cfa-649a-7730304,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,18,0.00,4035,: 6e06a7bb-40b0-a558-535a-9c245638,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_kh,19,0.00,4077,: 30596249-5c6c-029a-128f-38b707,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,0,0.00,4054,: 317f8945-638b-8bcf-c00e-3dd553b60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,1,0.00,4091,: 80b63078-b72b-5bb1-f449-74c3ea5469,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,2,0.00,4064,: 52ff88ee-e146-045c-7ba3-43b92e882b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,3,0.00,4093,: e5bd7e4f-af57-40af-104f-3fe36178929,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,4,1.00,4093,: e5ee21ae-be66-4f8e-8954-af5342868b00,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,5,1.00,4031,: f4bacbb4-fc4b-2b8f-d428-6b18d2b626a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,6,0.00,4043,: 5845f34d-b359-f608-9fd4-2cfa27623a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,7,1.00,4078,: 9bd97c26-df3c-db31-b42c-e7c77ad07feb.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,8,0.00,4081,: 5f373a17-3a3f-3943-055a-f82f4ffdb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,9,0.00,4020,: 60b1f5fd-d15a-2b96-e687-14ad6e5921,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,10,0.00,4058,: 26e3abe2-0f37-d45e-e4a7-25ee1a8d9c2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,11,1.00,4047,: 4ed60328-d069-c640-b746-91d1fdd2aeb7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,12,1.00,4056,: 4574caab-2b19-50cf-c82a-ae051fdc723a.,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,13,1.00,4089,: 8a32c9dc-a251-ff93-c44b-c7233bf9ddef.<|endoftext|>,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,14,1.00,4040,: 4e79aa8b-42dc-811e-282f-73c5debcffef,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,15,0.00,4058,: f22ba823-53e1-38c9-62d9-c1337ad8a4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,16,1.00,4026,: 8ace85eb-c012-beec-9da5-4d29baa7191c.<|endoftext|>Human,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,17,0.00,4042,: 0e990215-0721-3cfa-649a-7730304,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,18,0.00,4035,: 6e06a7bb-40b0-a558-535a-9c245638,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,4096,mxfp4_uq_kh,19,0.00,4077,: 30596249-5c6c-029a-128f-38b707,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,0,0.00,16370,: 6a5a74f3-900c-f908-d8b8-75210ae5b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,1,0.00,16344,: 5524d934-fd2d-33c6-cd5b-494d25dd4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,2,1.00,16336,: 3f03defa-0ac0-eb64-5432-99bab1b4c2d4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,3,0.00,16331,:  - 43c9cc7f-a04b-2415-ffc7-56689143b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,4,1.00,16349,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,5,0.00,16351,: 81d10180-b63c-22f0-ff8d-a99f44491,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,6,0.00,16374,:  - cb06aa3f-046e-9d36-7999-283025d5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,7,0.00,16314,: 40056b39-7729-4dfb-d74d-d1fff415912,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,8,0.00,16341,: e1d0d5c8-65f0-7c15-e2b2-948c9fd8f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,9,0.00,16372,: 7973b379-42c6-21ae-624a-c3f10b81,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,10,0.00,16323,: 78f83e25-2a12-e8d0-136b-eb43785a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,11,0.00,16322,: 4e2400ae-ece5-9d01-e6d5-913f8ec256b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,12,0.00,16373,: 29914789-ba82-b39b-2ed8-9db6851445,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,13,0.00,16335,: 3135e25d-1223-3755-fd9b-2805cfaed,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,14,0.00,16346,: 08e23f5a-3238-19ef-eead-0daa0c327bd,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,15,0.00,16373,: 34ee45e6-626c-01c9-6da9-937c9a4ffc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,16,0.00,16360,: 9c62be60-a822-ec53-f858-63c1403f94,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,17,0.00,16343,: a0f9250a-aa3b-dd26-1249-4d2fcb33502,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,18,0.00,16348,: 7a28c953-3968-0524-84db-cdb5246e4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,bf16,19,1.00,16310,:  - ca02a290-4a2b-ac66-8ddd-4d040026af45,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,0,0.00,16370,: 6a5a74f3-900c-f908-d8b8-75210ae5b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,1,0.00,16344,: 5524d934-fd2d-33c6-cd5b-494d25dd4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,2,1.00,16336,: 3f03defa-0ac0-eb64-5432-99bab1b4c2d4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,3,0.00,16331,:  - 43c9cc7f-a04b-2415-ffc7-56689143b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,4,1.00,16349,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,5,0.00,16351,: 81d10180-b63c-22f0-ff8d-a99f44491,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,6,0.00,16374,:  - 2f356b15-9d6e-c8c1-5041-c525a69,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,7,0.00,16314,: 40056b39-7729-4dfb-d74d-d1fff415912,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,8,0.00,16341,: e1d0d5c8-65f0-7c15-e2b2-948c9fd8f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,9,0.00,16372,: 7973b379-42c6-21ae-624a-c3f10b81,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,10,0.00,16323,: 78f83e25-2a12-e8d0-136b-eb43785a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,11,0.00,16322,: 4e2400ae-ece5-9d01-e6d5-913f8ec256b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,12,0.00,16373,: 29914789-ba82-b39b-2ed8-9db6851445,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,13,0.00,16335,: 3135e25d-1223-3755-fd9b-2805cfaed,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,14,0.00,16346,: 08e23f5a-3238-19ef-eead-0daa0c327bd,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,15,0.00,16373,: 34ee45e6-626c-01c9-6da9-937c9a4ffc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,16,0.00,16360,: 9c62be60-a822-ec53-f858-63c1403f94,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,17,0.00,16343,: a0f9250a-aa3b-dd26-1249-4d2fcb33502,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,18,0.00,16348,: 7a28c953-3968-0524-84db-cdb5246e4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,fp8,19,1.00,16310,:  - ca02a290-4a2b-ac66-8ddd-4d040026af45,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,0,0.00,16370,: 6a5a74f3-900c-f908-d8b8-75210ae5b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,1,0.00,16344,: 5524d934-fd2d-33c6-cd5b-494d25dd4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,2,1.00,16336,: 3f03defa-0ac0-eb64-5432-99bab1b4c2d4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,3,0.00,16331,:  - 43c9cc7f-a04b-2415-ffc7-56689143b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,4,1.00,16349,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,5,0.00,16351,: 81d10180-b63c-22f0-ff8d-a99f44491,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,6,0.00,16374,:  - cb06aa3f-046e-9d36-7999-283025d5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,7,0.00,16314,: 40056b39-7729-4dfb-d74d-d1fff415912,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,8,0.00,16341,: e1d0d5c8-65f0-7c15-e2b2-948c9fd8f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,9,0.00,16372,: 7973b379-42c6-21ae-624a-c3f10b81,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,10,0.00,16323,: 78f83e25-2a12-e8d0-136b-eb43785a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,11,0.00,16322,: 4e2400ae-ece5-9d01-e6d5-913f8ec256b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,12,0.00,16373,: 29914789-ba82-b39b-2ed8-9db6851445,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,13,0.00,16335,: 3135e25d-1223-3755-fd9b-2805cfaed,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,14,0.00,16346,: 08e23f5a-3238-19ef-eead-0daa0c327bd,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,15,0.00,16373,: 34ee45e6-626c-01c9-6da9-937c9a4ffc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,16,0.00,16360,: 7ef87f28-06d1-2563-8c53-6748c76,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,17,0.00,16343,: a0f9250a-aa3b-dd26-1249-4d2fcb33502,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,18,0.00,16348,: 7a28c953-3968-0524-84db-cdb5246e4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,int4a_kh,19,1.00,16310,:  - ca02a290-4a2b-ac66-8ddd-4d040026af45,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,0,0.00,16370,: 6a5a74f3-900c-f908-d8b8-75210ae5b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,1,0.00,16344,: 5524d934-fd2d-33c6-cd5b-494d25dd4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,2,1.00,16336,: 3f03defa-0ac0-eb64-5432-99bab1b4c2d4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,3,0.00,16331,:  - 43c9cc7f-a04b-2415-ffc7-56689143b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,4,0.00,16349,: 4f2daea9-3d05-e3f8-9a87-3be7f5d35b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,5,0.00,16351,: 81d10180-b63c-22f0-ff8d-a99f44491,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,6,0.00,16374,:  - 2f356b15-9d6e-c8c1-5041-c525a69,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,7,0.00,16314,: 40056b39-7729-4dfb-d74d-d1fff415912,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,8,0.00,16341,: e1d0d5c8-65f0-7c15-e2b2-948c9fd8f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,9,0.00,16372,: 7973b379-42c6-21ae-624a-c3f10b81,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,10,0.00,16323,: 78f83e25-2a12-e8d0-136b-eb43785a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,11,0.00,16322,: 4e2400ae-ece5-9d01-e6d5-913f8ec256b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,12,0.00,16373,: 29914789-ba82-b39b-2ed8-9db6851445,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,13,0.00,16335,: 3135e25d-1223-3755-fd9b-2805cfaed,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,14,0.00,16346,: 08e23f5a-3238-19ef-eead-0daa0c327bd,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,15,0.00,16373,: 34ee45e6-626c-01c9-6da9-937c9a4ffc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,16,0.00,16360,: 9c62be60-a822-ec53-f858-63c1403f94,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,17,0.00,16343,: a0f9250a-aa3b-dd26-1249-4d2fcb33502,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,18,0.00,16348,: 7a28c953-3968-0524-84db-cdb5246e4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,nvfp4_kh,19,1.00,16310,:  - ca02a290-4a2b-ac66-8ddd-4d040026af45,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,0,0.00,16370,: 6a5a74f3-900c-f908-d8b8-75210ae5b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,1,0.00,16344,: 5524d934-fd2d-33c6-cd5b-494d25dd4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,2,1.00,16336,: 3f03defa-0ac0-eb64-5432-99bab1b4c2d4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,3,0.00,16331,:  - 43c9cc7f-a04b-2415-ffc7-56689143b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,4,1.00,16349,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,5,0.00,16351,: 81d10180-b63c-22f0-ff8d-a99f44491,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,6,0.00,16374,:  - cb06aa3f-046e-9d36-7999-283025d5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,7,0.00,16314,: 40056b39-7729-4dfb-d74d-d1fff415912,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,8,0.00,16341,: e1d0d5c8-65f0-7c15-e2b2-948c9fd8f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,9,0.00,16372,: 7973b379-42c6-21ae-624a-c3f10b81,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,10,0.00,16323,: 78f83e25-2a12-e8d0-136b-eb43785a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,11,0.00,16322,: 4e2400ae-ece5-9d01-e6d5-913f8ec256b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,12,0.00,16373,: 29914789-ba82-b39b-2ed8-9db6851445,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,13,0.00,16335,: 3135e25d-1223-3755-fd9b-2805cfaed,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,14,0.00,16346,: 08e23f5a-3238-19ef-eead-0daa0c327bd,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,15,0.00,16373,: 34ee45e6-626c-01c9-6da9-937c9a4ffc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,16,0.00,16360,: 7ef87f28-06d1-2563-8c53-6748c76,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,17,0.00,16343,: a0f9250a-aa3b-dd26-1249-4d2fcb33502,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,18,0.00,16348,: 7a28c953-3968-0524-84db-cdb5246e4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_kh,19,1.00,16310,:  - ca02a290-4a2b-ac66-8ddd-4d040026af45,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,0,0.00,16370,: 6a5a74f3-900c-f908-d8b8-75210ae5b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,1,0.00,16344,: 5524d934-fd2d-33c6-cd5b-494d25dd4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,2,1.00,16336,: 3f03defa-0ac0-eb64-5432-99bab1b4c2d4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,3,0.00,16331,:  - 43c9cc7f-a04b-2415-ffc7-56689143b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,4,1.00,16349,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,5,0.00,16351,: 81d10180-b63c-22f0-ff8d-a99f44491,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,6,0.00,16374,:  - cb06aa3f-046e-9fb7-3184-7f563364f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,7,0.00,16314,: 40056b39-7729-4dfb-d74d-d1fff411591,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,8,0.00,16341,: e1d0d5c8-65f0-7c15-e2b2-948c9fd8f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,9,0.00,16372,: 7973b379-42c6-21ae-624a-c3f10b81,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,10,0.00,16323,: 78f83e25-2a12-e8d0-136b-eb43785a,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,11,0.00,16322,: 4e2400ae-ece5-9d01-e6d5-913f8ec256b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,12,0.00,16373,: 29914789-ba82-b39b-2ed8-9db6851445,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,13,0.00,16335,: 3135e25d-1223-3755-fd9b-2805cfaed,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,14,0.00,16346,: 08e23f5a-3238-19ef-eead-0daa0c327bd,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,15,0.00,16373,: 34ee45e6-626c-01c9-6da9-937c9a4ffc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,16,0.00,16360,: 7fb2c1e0-0b74-e85f-095a-04070de2bc,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,17,0.00,16343,: a0f9250a-aa3b-dd26-1249-4d2fcb33502,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,18,0.00,16348,: 7a28c953-3968-0524-84db-cdb5246e4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,16384,mxfp4_uq_kh,19,1.00,16310,:  - ca02a290-4a2b-ac66-8ddd-4d040026af45,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,0,0.00,31975,:  - 26a2b254-0988-f56f-304c-7b7af26,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,1,0.00,31973,:  - 66cc3403-94d8-c72e-9772-ba944986,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,2,0.00,31991,:  - 83efcf5e-c8bb-4609-7a67-d55df07c789,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,3,0.00,31998,:  - 37e441f4-513b-4600-0ebd-ddbc8dca64,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,4,0.00,31994,:  - 53b1b0ea-381d-80ae-ff79-3db12f017,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,5,0.00,31957,:  - 8e98f9c7-0166-1813-e9c4-f1e480e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,6,0.00,31932,:  - 253185ac-7399-133e-3b67-c9b03dfcf,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,7,0.00,31992,:  - 1e4ce0a5-04f0-9e76-cda6-d7385b9b4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,8,0.00,31984,:  - 07d99e6b-e1b1-4600-30c0-8f135eb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,9,0.00,31960,:  - 97585986-f4e8-ca57-7ae1-72d6452f7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,10,0.00,31971,:  - 91b92cc6-7f56-9172-7d75-7967e3,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,11,0.00,31966,:  - 34432d47-51db-e283-46a0-9143ffde5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,12,0.00,31926,:  - 468068d1-9c0e-759c-c85a-83572f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,13,0.00,31996,:  - 8ad44e32-8900-ed19-65e7-25fa67d08,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,14,0.00,31929,:  - 1f49f089-a716-1cef-4655-feba0628882,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,15,0.00,31939,:  - 422dc08d-a6bd-e124-0c14-b20c959991,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,16,0.00,31975,:  - 834a80e2-3a8f-1ccf-4cf6-ccd1a766d,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,17,0.00,31986,:  - 51c7bf55-696e-41b9-e044-0a7367b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,18,0.00,31981,:  - 97ee01c5-864d-54fb-75b2-f4c62d13,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,bf16,19,0.00,31980,:  1. 14e36d2d-2109-728e-6f17-bfe4a5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,0,0.00,31975,:  - 26a2b254-0988-f56f-304c-7b7af26,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,1,0.00,31973,:  - 66cc3403-94d8-c72e-9772-ba944986,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,2,0.00,31991,:  - 83efcf5e-c8bb-4609-7a67-d55df07c789,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,3,0.00,31998,:  - 37e441f4-513b-4600-0ebd-ddbc8dca64,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,4,0.00,31994,:  - 53b1b0ea-381d-80ae-ff79-3db12f017,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,5,0.00,31957,:  - 8e98f9c7-0166-1813-e9c4-f1e480e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,6,0.00,31932,:  - 253185ac-7399-133e-3b67-c9b03dfcf,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,7,0.00,31992,:  - 1e4ce0a5-04f0-9e76-cda6-d7385b9b4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,8,0.00,31984,:  - 07d99e6b-e1b1-4600-30c0-8f135eb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,9,0.00,31960,:  - 97585986-f4e8-ca57-7ae1-72d6452f7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,10,0.00,31971,:  - 91b92cc6-7f56-9172-7d75-7967e3,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,11,0.00,31966,:  - 34432d47-51db-e283-46a0-9143ffde5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,12,0.00,31926,:  - 468068d1-9c0e-759c-c85a-83572f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,13,0.00,31996,:  - 8ad44e32-8900-ed19-65e7-25fa67d08,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,14,0.00,31929,:  - 1f49f089-a716-1cef-4655-feba0628882,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,15,0.00,31939,:  - 422dc08d-a6bd-e124-0c14-b20c959991,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,16,0.00,31975,:  - 834a80e2-3a8f-1ccf-4cf6-ccd1a766d,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,17,0.00,31986,:  - 51c7bf55-696e-41b9-e044-0a7367b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,18,0.00,31981,:  - 97ee01c5-864d-54fb-75b2-f4c62d13,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,fp8,19,0.00,31980,:  - 14e36d2d-2109-728e-6f17-bfe4a5e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,0,0.00,31975,:  - 26a2b254-0988-f56f-304c-7b7af26,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,1,0.00,31973,:  - 66cc3403-94d8-c72e-9772-ba944986,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,2,0.00,31991,:  - 83efcf5e-c8bb-4609-7a67-d55df07c789,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,3,0.00,31998,:  - 37e441f4-513b-4600-0ebd-ddbc8dca64,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,4,0.00,31994,:  - 53b1b0ea-381d-80ae-ff79-3db12f017,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,5,0.00,31957,:  - 8e98f9c7-0166-1813-e9c4-f1e480e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,6,0.00,31932,:  - 253185ac-7399-133e-3b67-c9b03dfcf,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,7,0.00,31992,:  - 1e4ce0a5-04f0-9e76-cda6-d7385b9b4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,8,0.00,31984,:  - 07d99e6b-e1b1-4600-30c0-8f135eb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,9,0.00,31960,:  - 97585986-f4e8-ca57-7ae1-72d6452f7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,10,0.00,31971,:  - 91b92cc6-7f56-9172-7d75-7967e3,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,11,0.00,31966,:  - 34432d47-51db-e283-46a0-9143ffde5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,12,0.00,31926,:  - 468068d1-9c0e-759c-c85a-83572f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,13,0.00,31996,:  - 8ad44e32-8900-ed19-65e7-25fa67d08,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,14,0.00,31929,:  - 1f49f089-a716-1cef-4655-feba0628882,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,15,0.00,31939,:  - 422dc08d-a6bd-e124-0c14-b20c959991,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,16,0.00,31975,:  - 834a80e2-3a8f-1ccf-4cf6-ccd1a766d,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,17,0.00,31986,:  - 51c7bf55-696e-41b9-e044-0a7367b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,18,0.00,31981,:  - 97ee01c5-864d-54fb-75b2-f4c62d13,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,int4a_kh,19,0.00,31980,:  1. 14e36d2d-2109-728e-6f17-bfe4a5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,0,0.00,31975,:  - 10c66cc3-f912-4a0a-bb93-67d3e2c6,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,1,0.00,31973,:  - 6c257d34-b905-7943-8f6f-97adcdede0,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,2,0.00,31991,:  - 83efcf5e-c8bb-4609-7a67-d55df07c789,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,3,0.00,31998,:  1. 37e441f4-513b-4600-0ebd-ddbc8dca6,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,4,0.00,31994,:  - 53b1b0ea-381d-80ae-ff79-3db12f017,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,5,0.00,31957,:  - 8e98f9c7-0166-1813-e9c4-f1e480e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,6,0.00,31932,:  - 253185ac-7399-133e-3b67-c9b03dfcf,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,7,0.00,31992,:  - 1e4ce0a5-04f0-9e76-cda6-d7385b9b4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,8,0.00,31984,:  - 07d99e6b-e1b1-4600-30c0-8f135eb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,9,0.00,31960,:  - 97585986-f4e8-683f-94eb-2bb59236,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,10,0.00,31971,:  - 91b92cc6-7f56-9172-7d75-7967e3,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,11,0.00,31966,:  - 34432d47-51db-e283-46a0-9143ffde5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,12,0.00,31926,:  - 468068d1-9c0e-759c-c85a-83572f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,13,0.00,31996,:  - 8ad44e32-8900-ed19-65e7-25fa67d08,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,14,0.00,31929,:  - 1f49f089-a716-1cef-4655-feba0628882,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,15,0.00,31939,:  - 422dc08d-a6bd-e124-0c14-b20c959991,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,16,0.00,31975,:  - 834a80e2-3a8f-1ccf-4cf6-ccd1a766d,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,17,0.00,31986,:  - 51c7bf55-696e-41b9-e044-0a7367b,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,18,0.00,31981,:  - 97ee01c5-864d-54fb-75b2-f4c62d13,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,nvfp4_kh,19,0.00,31980,:  1. 14e36d2d-2109-728e-6f17-bfe4a5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,0,0.00,31975,:  - 94a02310-d3b2-21c5-23a7-d350eed60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,1,0.00,31973,:  - 66cc3403-94d8-c72e-9772-ba944986,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,2,0.00,31991,:  - 83efcf5e-c8bb-4609-7a67-d55df078989,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,3,0.00,31998,:  - 37e441f4-513b-4600-0ebd-ddbc8dca64,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,4,0.00,31994,:  - 53b1b0ea-381d-80ae-ff79-3db12f017,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,5,0.00,31957,:  - 8e98f9c7-0166-1813-e9c4-f1e480e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,6,0.00,31932,:  - 253185ac-7399-133e-3b67-c9b03dfcf,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,7,0.00,31992,:  - 1e4ce0a5-04f0-9e76-cda6-d7385b9b4,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,8,0.00,31984,:  - 07d99e6b-e1b1-4600-30c0-8f135eb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,9,0.00,31960,:  - 9540aa82-3dd6-360b-0a5a-b7c6aa761,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,10,0.00,31971,:  - 91b92cc6-7f56-9172-7d75-7967e3,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,11,0.00,31966,:  - 34432d47-51db-e283-46a0-9143ffde5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,12,0.00,31926,:  - 468068d1-9c0e-759c-c85a-83572f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,13,0.00,31996,:  - 8ad44e32-8900-ed19-65e7-25fa67d08,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,14,0.00,31929,:  - 1f49f089-a716-1cef-4655-feba0628882,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,15,0.00,31939,:  - 422dc08d-a6bd-e124-0c14-b20c959991,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,16,0.00,31975,:  - 5228a610-28a2-8524-648e-4d990,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,17,0.00,31986,:  - 5df63af2-1e01-3d89-fc8f-56b03276,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,18,0.00,31981,:  - 97ee01c5-864d-54fb-75b2-f4c62d13,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_kh,19,0.00,31980,:  - 14e36d2d-2109-728e-6f17-bfe4a5e,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,0,0.00,31975,:  - 94a02310-d3b2-21c5-23a7-d350eed60,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,1,0.00,31973,:  - 6c720000-0000-0000-0000-00000,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,2,0.00,31991,:  - 83efcf5e-c8bb-4609-7a67-d55df07c789,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,3,0.00,31998,:  - 37e441f4-513b-4600-0ebd-ddbc8dca64,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,4,0.00,31994,:  - 53b1b0ea-381d-80ae-ff79-3db12f017,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,5,0.00,31957,:  - 8e98f9c7-0166-1813-e9c4-dcf653c7,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,6,0.00,31932,:  - 253185ac-7399-133e-3b67-c9b03dfcf,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,7,0.00,31992,:  - 1e4968a-171b-4207-8611-111111,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,8,0.00,31984,:  - 07d99e6b-e1b1-4600-30c0-8f135eb,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,9,0.00,31960,:  - 9540aa82-3dd6-360b-a5a7-b7c6aa7616,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,10,0.00,31971,:  - 91b92cc6-7f56-9172-7d75-7967e3,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,11,0.00,31966,:  - 34432d47-51db-e283-46a0-9143ffde5,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,12,0.00,31926,:  - 468068d1-9c0e-759c-c85a-83572f,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,13,0.00,31996,:  - 8ad44e32-8900-ed19-65e7-25fa67d08,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,14,0.00,31929,:  - 1f49f089-a716-1cef-4655-feba0628882,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,15,0.00,31939,:  - 00af1dc4-2f71-bb8c-8ce7-d074315228,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,16,0.00,31975,:  - 5228a610-28a2-8524-648e-4d990,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,17,0.00,31986,:  - 5df63af2-1e01-3d89-fc8f-56b03276,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,18,0.00,31981,:  - 97ee01c5-864d-54fb-75b2-f4c62d13,91e0644
+Qwen/Qwen3-8B-Base,decode,multikey,32000,mxfp4_uq_kh,19,0.00,31980,:  - 14e36d2d-2109-728e-6f17-bfe4a5e,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,0,1.00,4095,": 4262131, 4815776, 8393697, and 6926407.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,1,1.00,4095,": 7663393, 9040296, 1593786.012, 4211344",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,2,1.00,4095,": 2755271, 9174924.9, 5513610, and 8873546.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,3,0.75,4095,": 5455187, 3441915, and 2934031.<|endoftext|>Human: Given the task definition an",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,4,1.00,4095,": 1864767, 1064148, 6129544, and 9429004.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,5,1.00,4095,": 6355886, 2741999, 1299923, 6007483.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,6,1.00,4095,": 1469928, 3489524, 1908470, and 2576512.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,7,1.00,4095,": 9387001.23, 7894488, 9741466, 9931797.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,8,1.00,4095,": 7484945, 3352695, 6635083, and 5329226.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,9,1.00,4095,": 3835240, 4673091, 6324646, 8321273.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,10,0.75,4095,:  1. 2340924.4 2. 5056315.0 3. 6869190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,11,1.00,4095,": 2544680, 4732629, 6132921, and 6422521.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,12,1.00,4095,": 5401673, 9049048, 9062619, and 7194262.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,13,1.00,4095,": 1842548, 6052501, 2428871, and 2216513.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,14,0.75,4095,": 7443898, 8884336, and 8431482.<|endoftext|>Human: Given the task definition an",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,15,1.00,4095,": 7730454, 2470101, 6584917, and 8187714.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,16,1.00,4095,": 3257850, 8059893, 5810347, and 8996202.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,17,1.00,4095,": 1637650, 9919549, 4929743, 8340975.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,18,1.00,4095,": 6142714, 1106225, 4102766, 5399557.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,bf16,19,1.00,4095,": 2529867, 6218150, 4659341, and 5755333.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,0,1.00,4095,": 4262131, 4815776, 8393697, and 6926407.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,1,1.00,4095,": 7663393, 9040296, 1593786.012, 4211344",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,2,1.00,4095,": 2755271, 9174924.9, 5513610, and 8873546.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,3,0.75,4095,": 5455187, 3441915, and 2934031.<|endoftext|>Human: Answer the following questio",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,4,1.00,4095,": 1864767, 1064148, 6129544, and 9429004.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,5,1.00,4095,": 6355886, 2741999, 1299923, 6007483.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,6,1.00,4095,": 1469928, 3489524, 1908470, and 2576512.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,7,1.00,4095,": 9387001.23, 7894488, 9741466, 9931797.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,8,1.00,4095,": 7484945, 3352695, 6635083, and 5329226.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,9,1.00,4095,": 3835240, 4673091, 6324646, 8321273.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,10,0.75,4095,:  1. 2340924.4 2. 5056315.0 3. 6869190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,11,1.00,4095,": 2544680, 4732629, 6132921, and 6422521.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,12,1.00,4095,": 5401673, 9049048, 9062619, and 7194262.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,13,1.00,4095,": 1842548, 6052501, 2428871, and 2216513.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,14,0.75,4095,": 7443898, 8884336, and 8431482.<|endoftext|>Human: Given the task definition an",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,15,1.00,4095,": 7730454, 2470101, 6584917, and 8187714.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,16,1.00,4095,": 3257850, 8059893, 5810347, and 8996202.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,17,1.00,4095,": 1637650, 9919549, 4929743, 8340975.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,18,1.00,4095,": 6142714, 1106225, 4102766, 5399557.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,fp8,19,1.00,4095,": 2529867, 6218150, 4659341, and 5755333.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,0,1.00,4095,": 4262131, 4815776, 8393697, and 6926407.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,1,1.00,4095,": 7663393, 9040296, 1593786, 4211344.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,2,1.00,4095,": 2755271, 9174924.9, 5513610, and 8873546.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,3,1.00,4095,": 5455187, 3441915, 2934031, and 5732069.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,4,1.00,4095,": 1864767, 1064148, 6129544, and 9429004.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,5,1.00,4095,": 6355886, 2741999, 1299923, and 6007483.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,6,1.00,4095,": 1469928, 3489524, 1908470, and 2576512.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,7,1.00,4095,": 9387001.23, 7894488, 9741466, 9931797.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,8,1.00,4095,": 7484945, 3352695, 6635083, and 5329226.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,9,1.00,4095,": 3835240, 4673091, 6324646, and 8321273.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,10,0.75,4095,:  1. 2340924.4 2. 5056315.0 3. 6869190.0,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,11,1.00,4095,": 2544680, 4732629, 6132921, and 6422521.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,12,1.00,4095,": 5401673, 9049048, 9062619, and 7194262.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,13,1.00,4095,": 1842548, 6052501, 2428871, and 2216513.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,14,0.75,4095,": 7443898, 8884336, and 8431482.<|endoftext|>Human: Please answer the following ",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,15,1.00,4095,": 7730454, 2470101, 6584917, and 8187714.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,16,1.00,4095,": 3257850, 8059893, 5810347, and 8996202.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,17,1.00,4095,": 1637650, 9919549, 4929743, 8340975.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,18,1.00,4095,": 6142714, 1106225, 4102766, 5399557.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,int4a_kh,19,0.75,4095,": 2529867, 6218150, and 4659341.<|endoftext|>Human: Please answer the following ",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,0,1.00,4095,": 4262131, 4815776, 8393697, and 6926407.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,1,1.00,4095,": 7663393, 9040296, 1593786, 4211344.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,2,0.75,4095,": 2755271, 9174924.9, and 5513610.<|endoftext|>Human: Given the task definition ",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,3,0.75,4095,": 5455187, 3441915, and 2934031.<|endoftext|>Human: Please answer the following ",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,4,1.00,4095,": 1864767, 1064148, 6129544, and 9429004.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,5,1.00,4095,": 6355886, 2741999, 1299923, 6007483.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,6,1.00,4095,": 1469928, 3489524, 1908470, and 2576512.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,7,1.00,4095,": 9387001.23, 7894488, 9741466, 9931797.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,8,1.00,4095,": 7484945, 3352695, 6635083, and 5329226.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,9,1.00,4095,": 3835240, 4673091, 6324646, and 8321273.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,10,0.75,4095,:  1. 2340924.4 2. 5056315.0 3. 6869190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,11,1.00,4095,": 2544680, 4732629, 6132921, and 6422521.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,12,1.00,4095,": 5401673, 9049048, 9062619, and 7194262.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,13,1.00,4095,": 1842548, 6052501, 2428871, and 2216513.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,14,1.00,4095,": 7443898, 8884336, 8431482, and 4683003.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,15,1.00,4095,": 7730454, 2470101, 6584917, and 8187714.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,16,1.00,4095,": 3257850, 8059893, 5810347, and 8996202.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,17,1.00,4095,": 1637650, 9919549, 4929743, 8340975.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,18,1.00,4095,": 6142714, 1106225, 4102766, 5399557.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,nvfp4_kh,19,1.00,4095,": 2529867, 6218150, 4659341, and 5755333.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,0,1.00,4095,": 4262131, 4815776, 8393697, 6926407.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,1,1.00,4095,": 7663393, 9040296, 1593786.012, 4211344",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,2,1.00,4095,": 2755271, 9174924.9, 5513610, and 8873546.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,3,1.00,4095,": 5455187, 3441915, 2934031, and 5732069.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,4,1.00,4095,": 1864767, 1064148, 6129544, 9429004.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,5,1.00,4095,": 6355886, 2741999, 1299923, and 6007483.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,6,1.00,4095,": 1469928, 3489524, 1908470, and 2576512.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,7,0.75,4095,": 9387001.23, 7894488, and 9741466.<|endoftext|>Human: Detailed Instructions: In",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,8,1.00,4095,": 7484945, 3352695, 6635083, and 5329226.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,9,1.00,4095,": 3835240, 4673091, 6324646, 8321273.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,10,0.75,4095,:  1. 2340924.4 2. 5056315.0 3. 6869190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,11,1.00,4095,": 2544680, 4732629, 6132921, and 6422521.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,12,1.00,4095,": 5401673, 9049048, 9062619, 7194262, and 9",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,13,1.00,4095,": 1842548, 6052501, 2428871, 2216513, and 2",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,14,1.00,4095,": 7443898, 8884336, 8431482, and 4683003.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,15,1.00,4095,": 7730454, 2470101, 6584917, and 8187714.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,16,1.00,4095,": 3257850, 8059893, 5810347, 8996202.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,17,1.00,4095,": 1637650, 9919549, 4929743, 8340975, and 8",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,18,0.75,4095,": 6142714, 1106225, 4102766, 1106225, 41",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_kh,19,1.00,4095,": 2529867, 6218150, 4659341, and 5755333.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,0,1.00,4095,": 4262131, 4815776, 8393697, 6926407.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,1,1.00,4095,": 7663393, 9040296, 1593786, and 4211344.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,2,1.00,4095,": 2755271, 9174924.9, 5513610, and 8873546.",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,3,1.00,4095,": 5455187, 3441915, 2934031, and 5732069.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,4,1.00,4095,": 1864767, 1064148, 6129544, 9429004.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,5,1.00,4095,": 6355886, 2741999, 1299923, 6007483.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,6,1.00,4095,": 1469928, 3489524, 1908470, and 2576512.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,7,0.75,4095,": 9387001.23, 7894488, and 9741466.<|endoftext|>Human: Please tell me if each",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,8,1.00,4095,": 7484945, 3352695, 6635083, and 5329226.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,9,1.00,4095,": 3835240, 4673091, 6324646, 8321273.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,10,0.75,4095,:  1. 2340924.4 2. 5980487 3. 6869190 4. 5,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,11,1.00,4095,": 2544680, 4732629, 6132921, and 6422521.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,12,1.00,4095,": 5401673, 9049048, 9062619, 7194262, 90",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,13,1.00,4095,": 1842548, 6052501, 2428871, 2216513, 22",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,14,0.75,4095,": 7443898, 8884336, and 8431482.<|endoftext|>Human: Given the task definition an",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,15,1.00,4095,": 7730454, 2470101, 6584917, and 8187714.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,16,1.00,4095,": 3257850, 8059893, 5810347, 8996202.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,17,0.75,4095,": 1637650, 9919543, 4929743, 8340975, and 8",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,18,0.75,4095,": 6142714, 1106225, 4102766, 1106225, 41",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,4096,mxfp4_uq_kh,19,1.00,4095,": 2529867, 6218150, 4659341, and 5755333.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,0,0.75,16383,:  1. 8206612 2. 2038081 3. 1425255 4. 142,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,1,0.75,16383,": 9162644, 3990524, 3924884, and 3924884.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,2,1.00,16383,": 9065963, 3533921, 6449165, 4921088, 12",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,3,0.75,16383,:  1. 9985981 2. 7424964 3. 3913720 4. 177,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,4,1.00,16383,": 6274086, 7011632, 4478537, 1166673.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,5,1.00,16383,": 9880277, 1754010, 3266571, 9541068.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,6,0.75,16383,:  1. 8557004 2. 2597805 3. 4609972 4. 404,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,7,0.75,16383,:  1. 2529797 2. 3878470 3. 8118414 4. 587,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,8,0.75,16383,:  1. 6321556 2. 1484033 3. 9486358 4. 428,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,9,1.00,16383,": 7162363, 7885653, 1789206, 3171648.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,10,0.75,16383,:  1. 4053321 2. 4723729 3. 8310664 4. 112,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,11,0.75,16383,:  1. 8130959.1 2. 1541249 3. 8346568 4. 5,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,12,0.75,16383,:  1. 4207938 2. 1065482 3. 3277428 4. 779,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,13,0.75,16383,:  1. 4005546 2. 1140893 3. 5567578 4. 196,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,14,0.75,16383,:  1. 4888552 2. 5893959 3. 9059167 4. 311,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,15,0.75,16383,:  1. 5679362 2. 3954925 3. 3386886 4. 875,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,16,0.50,16383,:  1. 8407219 2. 2720985 3. 273000000 (P273,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,17,1.00,16383,": 5787792, 9633274, 1534388, and 9828277.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,18,0.75,16383,:  1. 4994089.00 2. 5676313. 3. 2758301. 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,bf16,19,0.75,16383,:  1. 3915342 2. 9316198.982 3. 6312190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,0,0.75,16383,:  1. 8206612 2. 2038081 3. 1425255 4. 142,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,1,1.00,16383,": 9162644, 3990524, 5081399, and 3924884.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,2,1.00,16383,": 9065963, 3533921, 6449165, 4921088.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,3,0.75,16383,:  1. 9985981 2. 7424964 3. 3913720 4. 177,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,4,1.00,16383,": 6274086, 7011632, 4478537, 1166673.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,5,1.00,16383,": 9880277, 1754010, 3266571, 9541068.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,6,0.75,16383,:  1. 8557004 2. 2597805 3. 4609972 4. 404,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,7,0.75,16383,:  1. 2529797 2. 3878470 3. 8118414 4. 587,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,8,0.75,16383,:  1. 6321556 2. 1484033 3. 9486358 4. 428,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,9,1.00,16383,": 7162363, 7885653, 1789206, 3171648, and 6",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,10,0.75,16383,:  1. 4053321 2. 4723729 3. 8310664 4. 112,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,11,0.75,16383,:  1. 8130959.1 2. 1541249 3. 8346568 4. 5,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,12,0.75,16383,:  1. 4207938 2. 1065482 3. 3277428 4. 779,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,13,0.75,16383,:  1. 4005546 2. 1140893 3. 5567578 4. 196,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,14,0.75,16383,:  1. 4888552 2. 5893959 3. 9059167 4. 311,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,15,0.75,16383,:  1. 5679362 2. 3954925 3. 3386886 4. 875,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,16,0.50,16383,:  1. 8407219 2. 2720985 3. 273000000 (P273,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,17,1.00,16383,": 5787792, 9633274, 1534388, and 9828277.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,18,0.75,16383,:  1. 4994089.00 2. 5676313 3. 2758301 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,fp8,19,0.75,16383,:  1. 3915342 2. 9316198.982 3. 6312190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,0,0.75,16383,:  1. 8206612 2. 2038081 3. 1425255 4. 142,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,1,1.00,16383,": 9162644, 3990524, 3924884, and 5081399.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,2,0.50,16383,": 9065963, 3533921, 3533921, 3533921, 35",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,3,0.75,16383,:  1. 9985981 2. 7424964 3. 3913720 4. 177,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,4,1.00,16383,": 6274086, 7011632, 4478537, 1166673, 11",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,5,1.00,16383,": 9880277, 1754010, 3266571, 9541068.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,6,0.75,16383,:  1. 8557004 2. 2597805 3. 4609972 4. 404,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,7,0.75,16383,:  1. 2529797 2. 3878470 3. 8118414 4. 587,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,8,0.75,16383,:  1. 6321556 2. 1484033 3. 9486358 4. 428,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,9,1.00,16383,": 7162363, 7885653, 1789206, 3171648.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,10,0.75,16383,:  1. 4053321 2. 4723729 3. 8310664 4. 112,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,11,0.75,16383,:  1. 8130959.1 2. 1541249 3. 8346568 4. 5,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,12,0.75,16383,:  1. 4207938 2. 1065482 3. 3277428 4. 779,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,13,0.75,16383,:  1. 4005546 2. 1140893 3. 5567578 4. 196,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,14,0.75,16383,:  1. 4888552 2. 5893959 3. 9059167 4. 311,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,15,0.75,16383,:  1. 5679362 2. 3954925 3. 3386886 4. 875,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,16,0.50,16383,:  1. 8407219 2. 2720985 3. 273000000 (P273,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,17,1.00,16383,": 5787792, 9633274, 1534388, and 9828277.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,18,0.75,16383,:  1. 4994089.00 2. 5676313. 3. 2758301. 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,int4a_kh,19,0.75,16383,:  1. 3915342 2. 9316198.982 3. 6312190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,0,0.75,16383,:  1. 8206612 2. 2038081 3. 1425255 4. 916,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,1,0.75,16383,": 9162644, 3990524, 3924884, and 3924884.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,2,1.00,16383,": 9065963, 3533921, 6449165, 4921088, 12",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,3,0.75,16383,:  1. 9985981 2. 7424964 3. 3913720 4. 177,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,4,1.00,16383,": 6274086, 7011632, 4478537, 1166673.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,5,1.00,16383,": 9880277, 1754010, 3266571, and 9541068.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,6,0.75,16383,:  1. 8557004 2. 2597805 3. 4609972 4. 404,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,7,0.75,16383,:  1. 2529797 2. 3878470 3. 8118414 4. 587,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,8,0.75,16383,:  1. 6321556 2. 1484033 3. 9486358 4. 428,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,9,1.00,16383,": 7162363, 7885653, 1789206, and 3171648.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,10,0.75,16383,:  1. 4053321 2. 4723729 3. 8310664 4. 112,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,11,0.75,16383,:  1. 8130959.1 2. 1541249 3. 8346568 4. 5,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,12,0.75,16383,:  1. 4207938 2. 1065482 3. 3277428 4. 779,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,13,0.75,16383,:  1. 4005546 2. 1140893 3. 5567578 4. 196,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,14,0.75,16383,:  1. 4888552 2. 5893959 3. 9059167 4. 311,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,15,0.75,16383,:  1. 5679362 2. 3954925 3. 3386886 4. 875,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,16,0.50,16383,:  1. 8407219 2. 2720985 3. 273000000 (P273,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,17,1.00,16383,": 5787792, 9633274, 1534388, and 9828277.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,18,0.75,16383,:  1. 4994089.00 2. 5676313 3. 2758301 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,nvfp4_kh,19,0.75,16383,:  1. 3915342 2. 9316198.982 3. 6312190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,0,0.75,16383,:  1. 8206612 2. 2038081 3. 1425255 4. 203,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,1,0.75,16383,": 9162644, 3990524, 3924884, and 3924884.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,2,1.00,16383,": 9065963, 3533921, 6449165, 4921088, 12",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,3,0.75,16383,:  1. 9985981 2. 7424964 3. 3913720 4. 177,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,4,1.00,16383,": 6274086, 7011632, 4478537, 1166673.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,5,1.00,16383,": 9880277, 1754010, 3266571, 9541068.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,6,0.75,16383,:  1. 8557004 2. 2597805 3. 4609972 4. 404,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,7,0.75,16383,:  1. 2529797 2. 3878470 3. 8118414 4. 587,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,8,0.75,16383,:  1. 6321556 2. 1484033 3. 9486358 4. 428,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,9,1.00,16383,": 7162363, 7885653, 1789206, 3171648, 31",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,10,0.75,16383,:  1. 4053321 2. 4723729 3. 8310664 4. 112,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,11,0.75,16383,:  1. 8130959.1 2. 1541249 3. 8346568 4. 8,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,12,0.75,16383,:  1. 4207938 2. 1065482 3. 3277428 4. 779,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,13,0.75,16383,:  1. 4005546 2. 1140893 3. 5567578 4. 196,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,14,0.75,16383,:  1. 4888552 2. 5893959 3. 9059167 4. 311,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,15,0.75,16383,:  1. 5679362 2. 3954925 3. 3386886 4. 338,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,16,0.50,16383,:  1. 8407219 2. 2720985 3. 2720985 4. 272,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,17,1.00,16383,": 5787792, 9633274, 1534388, and 9828277.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,18,0.75,16383,:  1. 4994089.00 2. 5676313.00 3. 2758301.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_kh,19,0.75,16383,:  1. 3915342 2. 9316198.982 3. 6312190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,0,0.75,16383,:  1. 8206612 2. 2038081 3. 1425255 4. 203,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,1,0.75,16383,": 9162644, 3990524, 3924884, and 3924884.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,2,1.00,16383,": 9065963, 3533921, 6449165, 4921088, 10",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,3,0.75,16383,:  1. 9985981 2. 7424964 3. 3913720 4. 177,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,4,1.00,16383,": 6274086, 7011632, 4478537, 1166673.<|endoftext|>Human:",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,5,1.00,16383,": 9880277, 1754010, 3266571, 9541068, 95",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,6,0.75,16383,:  1. 8557004 2. 2597805 3. 4609972 4. 404,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,7,0.75,16383,:  1. 2529797 2. 3878470 3. 8118414 4. 42.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,8,0.75,16383,:  1. 6321556 2. 1484033 3. 4283263 4. 948,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,9,0.75,16383,": 7162363, 7885653, 1789206, 1789206, 31",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,10,0.75,16383,:  1. 4053321 2. 4723729 3. 8310664 4. 112,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,11,0.75,16383,:  1. 8130959.1 2. 1541249 3. 8346568 4. 5,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,12,0.75,16383,:  1. 4207938 2. 1065482 3. 3277428 4. 779,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,13,0.75,16383,:  1. 4005546 2. 1140893 3. 5567578 4. 196,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,14,0.75,16383,:  1. 4888552 2. 5893959 3. 9059167 4. 311,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,15,0.75,16383,:  1. 5679362 2. 3954925 3. 3386886 4. 395,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,16,0.50,16383,:  1. 8407219 2. 2720985 3. 2720985 4. 277,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,17,1.00,16383,": 5787792, 9633274, 1534388, and 9828277.<|endoftext|>Human",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,18,0.75,16383,:  1. 4994089.00 2. 5676313 3. 2758301 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,16384,mxfp4_uq_kh,19,0.75,16383,:  1. 3915342 2. 9316198.982 3. 6312190 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,0,1.00,31999,": 1243831, 2319506, 7567108, 3228965, and 3",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,1,0.75,31999,:  1. 9436764 2. 5862997 3. 2507351 4. 308,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,2,0.75,31999,:  1. 8648267 2. 7181130 3. 3352989 4. 611,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,3,0.75,31999,:  1. 2132884 2. 4486548 3. 2820315 4. 282,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,4,0.75,31999,:  1. 6295246 2. 6993070 3. 9047789 4. 353,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,5,0.75,31999,:  1. 5240233.80 2. 7193690.00 3. 1782469.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,6,0.75,31999,:  1. 8067040 2. 5019419 3. 2380691 4. 213,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,7,0.75,31999,:  1. 6558622 2. 5455673 3. 1060425 4. 829,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,8,0.75,31999,:  1. 3550014 2. 1762912 3. 4812787 4. 665,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,9,0.75,31999,:  1. 2658353 2. 2020013 3. 5319552 4. 158,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,10,0.75,31999,:  1. 5307711 2. 8970845 3. 4610974 4. 193,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,11,1.00,31999,": 3481120, 1185606, 8105747, 1852164, 18",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,12,0.75,31999,:  1. 5218653 2. 8316261 3. 8190548 4. 819,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,13,0.75,31999,:  1. 2794304 2. 3159945 3. 8404258 4. 204,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,14,1.00,31999,": 5402910, 8470569, 6616403, 5774558, 54",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,15,0.75,31999,:  1. 8849460 2. 6998050 3. 4766852 4. 571,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,16,0.75,31999,:  1. 3776933 2. 5354854 3. 8997650 4. 348,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,17,0.75,31999,:  1. 1042250 2. 6199705 3. 3749897 4. 111,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,18,0.75,31999,:  1. 7204350.008 2. 3208412 3. 2325377 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,bf16,19,0.50,31999,:  1. 7230040.23 2. 1135483.200 3. 1135483,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,0,1.00,31999,": 1243831, 2319506, 7567108, 3228965, and 3",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,1,0.75,31999,:  1. 9436764 2. 5862997 3. 2507351 4. 308,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,2,0.75,31999,:  1. 8648267 2. 7181130 3. 6114241 4. 335,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,3,0.75,31999,:  1. 2132884 2. 4486548 3. 2820315 4. 282,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,4,0.75,31999,":  1. 6295246 2. 9047789 3. 3530485<|endoftext|>Human: In this task,",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,5,0.75,31999,:  1. 5240233.80 2. 7193690.00 3. 1782469.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,6,0.75,31999,:  1. 8067040 2. 5019419 3. 2380691 4. 213,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,7,0.75,31999,:  1. 6558622 2. 5455673 3. 1060425 4. 829,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,8,0.75,31999,:  1. 3550014 2. 1762912 3. 4812787 4. 665,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,9,0.75,31999,:  1. 2658353 2. 2020013 3. 5319552 4. 158,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,10,0.75,31999,:  1. 5307711 2. 8970845 3. 4610974 4. 193,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,11,1.00,31999,": 3481120, 1185606, 8105747, 1852164, 18",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,12,0.75,31999,:  1. 5218653 2. 8316261 3. 8190548 4. 819,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,13,0.75,31999,:  1. 2794304 2. 3159945 3. 8404258 4. 204,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,14,1.00,31999,": 5402910, 8470569, 6616403, 5774558, 54",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,15,0.75,31999,:  1. 8849460 2. 6998050 3. 4766852 4. 571,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,16,0.50,31999,:  1. 3776933 2. 5354854 3. 5354854 4. 535,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,17,0.75,31999,:  1. 1042250 2. 6199705 3. 3749897 4. 111,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,18,0.75,31999,:  1. 7204350.008 2. 3208412 3. 2325377 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,fp8,19,0.75,31999,:  1. 7230040.23 2. 1135483.200 3. 4910185,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,0,1.00,31999,": 1243831, 2319506, 7567108, 3228965, and 3",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,1,0.75,31999,:  1. 9436764 2. 5862997 3. 2507351 4. 308,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,2,0.75,31999,:  1. 8648267 2. 7181130 3. 3352989 4. 611,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,3,0.75,31999,:  1. 2132884 2. 4486548 3. 2820315 4. 282,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,4,0.75,31999,:  1. 6295246 2. 9047789 3. 3530485<|endoftext|>Human: Instruct: Please,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,5,0.75,31999,:  1. 5240233.80 2. 7193690.00 3. 1782469.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,6,0.75,31999,:  1. 8067040 2. 5019419 3. 2380691 4. 213,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,7,0.75,31999,:  1. 6558622 2. 5455673 3. 1060425 4. 829,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,8,0.75,31999,:  1. 3550014 2. 1762912 3. 4812787 4. 665,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,9,0.75,31999,:  1. 2658353 2. 2020013 3. 5319552 4. 158,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,10,0.75,31999,:  1. 5307711 2. 4610974 3. 1935329 4. 897,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,11,1.00,31999,": 3481120, 1185606, 8105747, 1852164, 18",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,12,0.75,31999,:  1. 5218653 2. 8316261 3. 8190548 4. 819,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,13,0.75,31999,:  1. 2794304 2. 3159945 3. 8404258 4. 204,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,14,1.00,31999,": 5402910, 8470569, 6616403, 5774558, 57",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,15,0.75,31999,:  1. 8849460 2. 6998050 3. 4766852 4. 571,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,16,0.50,31999,:  1. 3776933 2. 5354854 3. 5354854 4. 535,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,17,0.75,31999,:  1. 1042250 2. 6199705 3. 3749897 4. 111,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,18,0.75,31999,:  1. 7204350.008 2. 3208412 3. 6230984 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,int4a_kh,19,0.75,31999,:  1. 7230040.23 2. 1135483.200 3. 4910185,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,0,1.00,31999,": 1243831, 2319506, 7567108, 3228965, and 3",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,1,0.75,31999,:  1. 9436764 2. 5862997 3. 2507351 4. 308,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,2,0.75,31999,:  1. 8648267 2. 7181130 3. 6114241 4. 335,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,3,0.75,31999,:  1. 2132884 2. 4486548 3. 2820315 4. 282,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,4,0.75,31999,:  1. 6295246 2. 6993070 3. 9047789 4. 353,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,5,0.50,31999,:  1. 5240233.80 2. 7193690 3. 5240233.80,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,6,0.75,31999,:  1. 8067040 2. 5019419 3. 2380691 4. 213,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,7,0.75,31999,:  1. 6558622 2. 5455673 3. 1060425 4. 829,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,8,0.75,31999,:  1. 3550014 2. 1762912 3. 4812787 4. 665,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,9,0.75,31999,:  1. 2658353 2. 2020013 3. 5319552 4. 158,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,10,0.75,31999,:  1. 5307711 2. 4610974 3. 1935329 4. 897,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,11,1.00,31999,": 3481120, 1185606, 8105747, 1852164, 18",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,12,0.75,31999,:  1. 5218653 2. 8316261 3. 8190548 4. 819,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,13,0.75,31999,:  1. 2794304 2. 3159945 3. 8404258 4. 204,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,14,1.00,31999,": 5402910, 8470569, 6616403, 5774558, 57",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,15,0.75,31999,:  1. 8849460 2. 6998050 3. 4766852 4. 571,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,16,0.50,31999,:  1. 3776933 2. 5354854 3. 5354854 4. 535,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,17,0.75,31999,:  1. 1042250 2. 6199705 3. 3749897 4. 111,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,18,0.75,31999,:  1. 7204350.008 2. 3208412 3. 2325377 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,nvfp4_kh,19,0.50,31999,:  1. 7230040.23 2. 1135483.200 3. 1135483,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,0,1.00,31999,": 1243831, 2319506, 7567108, 3228965, and 3",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,1,0.75,31999,:  1. 9436764 2. 5862997 3. 2507351 4. 308,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,2,0.50,31999,:  1. 8648267 2. 7181130 3. 7181130 4. 335,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,3,0.75,31999,:  1. 2132884 2. 4486548 3. 2820315 4. 282,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,4,0.75,31999,:  1. 6295246 2. 6993070 3. 9047789 4. 353,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,5,0.50,31999,:  1. 5240233.80 2. 7193690.00 3. 5240233.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,6,0.75,31999,:  1. 8067040 2. 5019419 3. 2380691 4. 213,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,7,0.75,31999,:  1. 6558622 2. 5455673 3. 1060425 4. 829,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,8,0.75,31999,:  1. 3550014 2. 1762912 3. 4812787 4. 665,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,9,0.75,31999,:  1. 2658353 2. 2020013 3. 5319552 4. 250,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,10,0.75,31999,:  1. 5307711 2. 8970845 3. 1935329 4. 461,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,11,0.50,31999,": 3481120, 1185606, 1185606, 1185606, 11",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,12,0.75,31999,:  1. 5218653 2. 8316261 3. 8190548 4. 819,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,13,0.75,31999,:  1. 2794304 2. 3159945 3. 8404258 4. 204,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,14,1.00,31999,": 5402910, 8470569, 6616403, 5774558, 57",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,15,0.75,31999,:  1. 8849460 2. 6998050 3. 4766852 4. 571,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,16,0.50,31999,:  1. 3776933 2. 5354854 3. 5354854 4. 535,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,17,0.75,31999,:  1. 1042250 2. 6199705 3. 3749897 4. 111,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,18,0.75,31999,:  1. 7204350.008 2. 3208412 3. 2325377 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_kh,19,0.50,31999,:  1. 7230040.23 2. 1135483.200 3. 1135483,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,0,1.00,31999,": 1243831, 2319506, 7567108, 3228965, and 3",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,1,0.75,31999,:  1. 9436764 2. 5862997 3. 2507351 4. 308,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,2,0.50,31999,:  1. 8648267 2. 7181130 3. 7181130 4. 335,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,3,0.75,31999,:  1. 2132884 2. 4486548 3. 2820315 4. 282,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,4,0.75,31999,:  1. 6295246 2. 9047789 3. 3530485 4. 353,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,5,0.75,31999,:  1. 5240233.80 2. 7193690.00 3. 1782469.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,6,0.75,31999,:  1. 8067040 2. 5019419 3. 2380691 4. 213,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,7,0.75,31999,:  1. 6558622 2. 5455673 3. 1060425 4. 829,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,8,0.75,31999,:  1. 3550014 2. 1762912 3. 4812787 4. 665,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,9,0.75,31999,:  1. 2658353 2. 2020013 3. 5319552 4. 202,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,10,0.75,31999,:  1. 5307711 2. 8970845 3. 1935329 4. 133,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,11,1.00,31999,": 3481120, 1185606, 8105747, 1852164, 18",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,12,0.75,31999,:  1. 5218653 2. 8316261 3. 8190548 4. 819,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,13,0.75,31999,:  1. 2794304 2. 3159945 3. 8404258 4. 204,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,14,1.00,31999,": 5402910, 8470569, 6616403, 5774558, 57",91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,15,0.50,31999,:  1. 8849460 2. 6998050 3. 6998050 4. 476,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,16,0.50,31999,:  1. 3776933 2. 5354854 3. 5354854 4. 899,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,17,0.50,31999,:  1. 114646 2. 1042250 3. 6199705 4. 3749,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,18,0.75,31999,:  1. 7204350.008 2. 3208412 3. 6230984 4.,91e0644
+Qwen/Qwen3-8B-Base,decode,multivalue,32000,mxfp4_uq_kh,19,0.50,31999,:  1. 7230040.23 2. 1135483.200 3. 1135483,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,0,1.00,4095,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,1,1.00,4095,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,2,1.00,4095,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,3,1.00,4095,FIWSF RZQQX YXMOQ QAYFE BCFXB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,4,1.00,4095,MGBKE KVOTA RJMUA HWZJZ ERQLI  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,5,1.00,4095,AKKCQ OHSUX SMJRO GMIFH COZZM  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,6,1.00,4095,NIYEL QWXAW JJCXQ HAZRH ACKWS  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,7,1.00,4095,PFZKD AWHAG UMDHT DKNTN GIRER  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,8,1.00,4095,HTCWI VKQZU BUJCD UAGTP VTBWO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,9,1.00,4095,PZPLG WSUEB HPUPA CZOUG IRXCR  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,10,1.00,4095,NSSEX AQHWD LQWXH VWWYG NBIVT  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,11,1.00,4095,GUZKW BDMIQ HLRCE IVTRO VRMAJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,12,1.00,4095,DKKVO CJKSZ MTZCD EGYXH MZRGY  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,13,1.00,4095,YNRKW IALET FZOOF CGLFR XVSZB  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,14,1.00,4095,JICXR MTVGB XEZLH UIBYL MHDRV  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,15,1.00,4095,ZWFYJ SXKXV LQSSW JQBTB TVBSO  Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,16,1.00,4095,AWEGV FBBNT PQXQS YHPHS WIDBQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,17,1.00,4095,TRMQY PKFZR CHYDX VWTHI LBJPO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,18,1.00,4095,KLNKF YGOTW HAYTR SGCCN HBMQP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,bf16,19,1.00,4095,HNOKS ZGALP UAYFR VPWCU EMUKB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,0,1.00,4095,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,1,1.00,4095,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,2,1.00,4095,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,3,1.00,4095,FIWSF RZQQX YXMOQ QAYFE BCFXB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,4,1.00,4095,MGBKE KVOTA RJMUA HWZJZ ERQLI  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,5,1.00,4095,AKKCQ OHSUX SMJRO GMIFH COZZM  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,6,1.00,4095,NIYEL QWXAW JJCXQ HAZRH ACKWS  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,7,1.00,4095,PFZKD AWHAG UMDHT DKNTN GIRER  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,8,1.00,4095,HTCWI VKQZU BUJCD UAGTP VTBWO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,9,1.00,4095,PZPLG WSUEB HPUPA CZOUG IRXCR  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,10,1.00,4095,NSSEX AQHWD LQWXH VWWYG NBIVT  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,11,1.00,4095,GUZKW BDMIQ HLRCE IVTRO VRMAJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,12,1.00,4095,DKKVO CJKSZ MTZCD EGYXH MZRGY  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,13,1.00,4095,YNRKW IALET FZOOF CGLFR XVSZB  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,14,1.00,4095,JICXR MTVGB XEZLH UIBYL MHDRV  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,15,1.00,4095,ZWFYJ SXKXV LQSSW JQBTB TVBSO  Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,16,1.00,4095,AWEGV FBBNT PQXQS YHPHS WIDBQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,17,1.00,4095,TRMQY PKFZR CHYDX VWTHI LBJPO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,18,1.00,4095,KLNKF YGOTW HAYTR SGCCN HBMQP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,fp8,19,1.00,4095,HNOKS ZGALP UAYFR VPWCU EMUKB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,0,1.00,4095,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,1,1.00,4095,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,2,1.00,4095,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,3,1.00,4095,FIWSF RZQQX YXMOQ QAYFE BCFXB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,4,1.00,4095,MGBKE KVOTA RJMUA HWZJZ ERQLI  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,5,1.00,4095,AKKCQ OHSUX SMJRO GMIFH COZZM  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,6,1.00,4095,NIYEL QWXAW JJCXQ HAZRH ACKWS  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,7,1.00,4095,PFZKD AWHAG UMDHT DKNTN GIRER  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,8,1.00,4095,HTCWI VKQZU BUJCD UAGTP VTBWO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,9,1.00,4095,PZPLG WSUEB HPUPA CZOUG IRXCR  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,10,1.00,4095,NSSEX AQHWD LQWXH VWWYG NBIVT  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,11,1.00,4095,GUZKW BDMIQ HLRCE IVTRO VRMAJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,12,1.00,4095,DKKVO CJKSZ MTZCD EGYXH MZRGY  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,13,1.00,4095,YNRKW IALET FZOOF CGLFR XVSZB  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,14,1.00,4095,JICXR MTVGB XEZLH UIBYL MHDRV  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,15,1.00,4095,ZWFYJ SXKXV LQSSW JQBTB TVBSO  Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,16,1.00,4095,AWEGV FBBNT PQXQS YHPHS WIDBQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,17,1.00,4095,TRMQY PKFZR CHYDX VWTHI LBJPO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,18,1.00,4095,KLNKF YGOTW HAYTR SGCCN HBMQP<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,int4a_kh,19,1.00,4095,HNOKS ZGALP UAYFR VPWCU EMUKB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,0,1.00,4095,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,1,1.00,4095,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,2,1.00,4095,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,3,1.00,4095,FIWSF RZQQX YXMOQ QAYFE BCFXB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,4,1.00,4095,MGBKE KVOTA RJMUA HWZJZ ERQLI  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,5,1.00,4095,AKKCQ OHSUX SMJRO GMIFH COZZM  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,6,1.00,4095,NIYEL QWXAW JJCXQ HAZRH ACKWS  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,7,1.00,4095,PFZKD AWHAG UMDHT DKNTN GIRER  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,8,1.00,4095,HTCWI VKQZU BUJCD UAGTP VTBWO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,9,1.00,4095,PZPLG WSUEB HPUPA CZOUG IRXCR  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,10,1.00,4095,NSSEX AQHWD LQWXH VWWYG NBIVT  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,11,1.00,4095,GUZKW BDMIQ HLRCE IVTRO VRMAJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,12,1.00,4095,DKKVO CJKSZ MTZCD EGYXH MZRGY  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,13,1.00,4095,YNRKW IALET FZOOF CGLFR XVSZB  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,14,1.00,4095,JICXR MTVGB XEZLH UIBYL MHDRV  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,15,1.00,4095,ZWFYJ SXKXV LQSSW JQBTB TVBSO  Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,16,1.00,4095,AWEGV FBBNT PQXQS YHPHS WIDBQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,17,1.00,4095,TRMQY PKFZR CHYDX VWTHI LBJPO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,18,1.00,4095,KLNKF YGOTW HAYTR SGCCN HBMQP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,nvfp4_kh,19,1.00,4095,HNOKS ZGALP UAYFR VPWCU EMUKB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,0,1.00,4095,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,1,1.00,4095,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,2,1.00,4095,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,3,1.00,4095,FIWSF RZQQX YXMOQ QAYFE BCFXB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,4,1.00,4095,MGBKE KVOTA RJMUA HWZJZ ERQLI  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,5,1.00,4095,AKKCQ OHSUX SMJRO GMIFH COZZM  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,6,1.00,4095,NIYEL QWXAW JJCXQ HAZRH ACKWS  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,7,1.00,4095,PFZKD AWHAG UMDHT DKNTN GIRER  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,8,1.00,4095,HTCWI VKQZU BUJCD UAGTP VTBWO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,9,1.00,4095,PZPLG WSUEB HPUPA CZOUG IRXCR VXSTT ZBOTT LBR,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,10,1.00,4095,NSSEX AQHWD LQWXH VWWYG NBIVT  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,11,1.00,4095,GUZKW BDMIQ HLRCE IVTRO VRMAJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,12,1.00,4095,DKKVO CJKSZ MTZCD EGYXH MZRGY  Memorize and track:,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,13,1.00,4095,YNRKW IALET FZOOF CGLFR XVSZB  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,14,1.00,4095,JICXR MTVGB XEZLH UIBYL MHDRV  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,15,1.00,4095,ZWFYJ SXKXV LQSSW JQBTB TVBSO  Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,16,1.00,4095,AWEGV FBBNT PQXQS YHPHS WIDBQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,17,1.00,4095,TRMQY PKFZR CHYDX VWTHI LBJPO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,18,1.00,4095,KLNKF YGOTW HAYTR SGCCN HBMQP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_kh,19,1.00,4095,HNOKS ZGALP UAYFR VPWCU EMUKB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,0,1.00,4095,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,1,1.00,4095,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,2,1.00,4095,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,3,1.00,4095,FIWSF RZQQX YXMOQ QAYFE BCFXB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,4,1.00,4095,MGBKE KVOTA RJMUA HWZJZ ERQLI  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,5,1.00,4095,AKKCQ OHSUX SMJRO GMIFH COZZM  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,6,1.00,4095,NIYEL QWXAW JJCXQ HAZRH ACKWS  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,7,1.00,4095,PFZKD AWHAG UMDHT DKNTN GIRER  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,8,1.00,4095,HTCWI VKQZU BUJCD UAGTP VTBWO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,9,1.00,4095,PZPLG WSUEB HPUPA CZOUG IRXCR  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,10,1.00,4095,NSSEX AQHWD LQWXH VWWYG NBIVT  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,11,1.00,4095,GUZKW BDMIQ HLRCE IVTRO VRMAJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,12,1.00,4095,DKKVO CJKSZ MTZCD EGYXH MZRGY  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,13,1.00,4095,YNRKW IALET FZOOF CGLFR XVSZB  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,14,0.80,4095,JICXR MTVGB XEZLH UIBYL<|endoftext|>Human: [INST] Write a Python program to find,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,15,1.00,4095,ZWFYJ SXKXV LQSSW JQBTB TVBSO  Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,16,1.00,4095,AWEGV FBBNT PQXQS YHPHS WIDBQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,17,1.00,4095,TRMQY PKFZR CHYDX VWTHI LBJPO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,18,1.00,4095,KLNKF YGOTW HAYTR SGCCN HBMQP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,4096,mxfp4_uq_kh,19,1.00,4095,HNOKS ZGALP UAYFR VPWCU EMUKB  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,0,1.00,16383,JKTHZ XEEKC CPLMS IDTLJ NLXKY  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,1,1.00,16383,FWCTU ERLMH ZDOXP KVNOQ VJBNO<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,2,1.00,16383,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,3,1.00,16383,XRNQK AKLFD WILAD OENNK MMLAZ<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,4,1.00,16383,FFSQY BFVIE EOKRE FRZNY TLJWD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,5,1.00,16383,WDIGU FDNDM WJPCG VXAJP BWSGW<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,6,1.00,16383,RODFD XXGHA BGAVD HVDJI YVANB<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,7,1.00,16383,NAXEG XSQAZ EJRVB IZIED LCKIT<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,8,1.00,16383,IMVWK GCYHU YCPJL EEOFQ XXYDP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,9,1.00,16383,GYRNX XFNKY BHQCS HIDRN UWRHN<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,10,1.00,16383,UHZUL STZAU IGASQ ANRNN BOGRF  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,11,1.00,16383,GHDTC VTTFU TEALL KQYCC KJZUF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,12,1.00,16383,LHOTZ DTWQH YBSUN XUEMX XQVPP  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,13,1.00,16383,ZRICK ZEPHW EOJWM IIQXK VMETU<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,14,1.00,16383,SACZJ ALLML VGJYJ CGYOW PZGVD<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,15,1.00,16383,NHJKI AKSDD PFGTE UKMPD OXRGY<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,16,1.00,16383,IAUUY CSKZI IDHME XMDMQ WJKVW<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,17,1.00,16383,QBNGP SOYMC RFYZV RAEGA VRIWH  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,18,1.00,16383,BNCAP VIFYA EAHKY SMJSG QVGZZ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,bf16,19,1.00,16383,WYZLI ONILD BMNCU CGNDT UNBFV  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,0,1.00,16383,JKTHZ XEEKC CPLMS IDTLJ NLXKY  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,1,1.00,16383,FWCTU ERLMH ZDOXP KVNOQ VJBNO<|endoftext|>Human: 1. The grass is,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,2,1.00,16383,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,3,1.00,16383,XRNQK AKLFD WILAD OENNK MMLAZ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,4,1.00,16383,FFSQY BFVIE EOKRE FRZNY TLJWD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,5,1.00,16383,WDIGU FDNDM WJPCG VXAJP BWSGW<|endoftext|>Human: 1. The grass,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,6,1.00,16383,RODFD XXGHA BGAVD HVDJI YVANB<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,7,1.00,16383,NAXEG XSQAZ EJRVB IZIED LCKIT<|endoftext|>Human: 1. The grass,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,8,1.00,16383,IMVWK GCYHU YCPJL EEOFQ XXYDP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,9,1.00,16383,GYRNX XFNKY BHQCS HIDRN UWRHN<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,10,1.00,16383,UHZUL STZAU IGASQ ANRNN BOGRF  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,11,1.00,16383,GHDTC VTTFU TEALL KQYCC KJZUF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,12,1.00,16383,LHOTZ DTWQH YBSUN XUEMX XQVPP  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,13,1.00,16383,ZRICK ZEPHW EOJWM IIQXK VMETU<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,14,1.00,16383,SACZJ ALLML VGJYJ CGYOW PZGVD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,15,1.00,16383,NHJKI AKSDD PFGTE UKMPD OXRGY<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,16,1.00,16383,IAUUY CSKZI IDHME XMDMQ WJKVW  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,17,1.00,16383,QBNGP SOYMC RFYZV RAEGA VRIWH  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,18,1.00,16383,BNCAP VIFYA EAHKY SMJSG QVGZZ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,fp8,19,1.00,16383,WYZLI ONILD BMNCU CGNDT UNBFV  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,0,1.00,16383,JKTHZ XEEKC CPLMS IDTLJ NLXKY  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,1,1.00,16383,FWCTU ERLMH ZDOXP KVNOQ VJBNO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,2,1.00,16383,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,3,1.00,16383,XRNQK AKLFD WILAD OENNK MMLAZ<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,4,1.00,16383,FFSQY BFVIE EOKRE FRZNY TLJWD<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,5,1.00,16383,WDIGU FDNDM WJPCG VXAJP BWSGW<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,6,1.00,16383,RODFD XXGHA BGAVD HVDJI YVANB<|endoftext|>Human: Given the task definition and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,7,1.00,16383,NAXEG XSQAZ EJRVB IZIED LCKIT  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,8,1.00,16383,IMVWK GCYHU YCPJL EEOFQ XXYDP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,9,1.00,16383,GYRNX XFNKY BHQCS HIDRN UWRHN<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,10,1.00,16383,UHZUL STZAU IGASQ ANRNN BOGRF  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,11,1.00,16383,GHDTC VTTFU TEALL KQYCC KJZUF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,12,1.00,16383,LHOTZ DTWQH YBSUN XUEMX XQVPP  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,13,1.00,16383,ZRICK ZEPHW EOJWM IIQXK VMETU<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,14,1.00,16383,SACZJ ALLML VGJYJ CGYOW PZGVD<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,15,1.00,16383,NHJKI AKSDD PFGTE UKMPD OXRGY<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,16,1.00,16383,IAUUY CSKZI IDHME XMDMQ WJKVW  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,17,1.00,16383,QBNGP SOYMC RFYZV RAEGA VRIWH  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,18,1.00,16383,BNCAP VIFYA EAHKY SMJSG QVGZZ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,int4a_kh,19,1.00,16383,WYZLI ONILD BMNCU CGNDT UNBFV  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,0,1.00,16383,JKTHZ XEEKC CPLMS NLXKY IDTLJ  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,1,1.00,16383,FWCTU ERLMH ZDOXP KVNOQ VJBNO  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,2,1.00,16383,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,3,1.00,16383,XRNQK AKLFD WILAD OENNK MMLAZ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,4,1.00,16383,FFSQY BFVIE EOKRE FRZNY TLJWD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,5,1.00,16383,WDIGU FDNDM WJPCG VXAJP BWSGW<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,6,1.00,16383,RODFD XXGHA BGAVD HVDJI YVANB  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,7,1.00,16383,NAXEG XSQAZ EJRVB IZIED LCKIT  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,8,1.00,16383,IMVWK GCYHU YCPJL XXYDP EEOFQ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,9,1.00,16383,GYRNX XFNKY BHQCS HIDRN UWRHN  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,10,1.00,16383,UHZUL STZAU IGASQ ANRNN BOGRF  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,11,1.00,16383,GHDTC VTTFU TEALL KQYCC KJZUF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,12,1.00,16383,LHOTZ DTWQH YBSUN XUEMX XQVPP  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,13,1.00,16383,ZRICK ZEPHW EOJWM IIQXK VMETU  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,14,1.00,16383,SACZJ ALLML VGJYJ CGYOW PZGVD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,15,1.00,16383,"NHJKI AKSDD PFGTE UKMPD OXRGY<|endoftext|>Human: In this task, you",91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,16,1.00,16383,IAUUY CSKZI IDHME XMDMQ WJKVW  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,17,1.00,16383,QBNGP SOYMC RFYZV RAEGA VRIWH  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,18,1.00,16383,BNCAP VIFYA EAHKY SMJSG QVGZZ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,nvfp4_kh,19,1.00,16383,WYZLI ONILD BMNCU CGNDT UNBFV  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,0,1.00,16383,JKTHZ XEEKC CPLMS IDTLJ NLXKY  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,1,0.80,16383,FWCTU ERLMH KVNOQ VJBNO  Memorize and track the chain(s) of variable,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,2,1.00,16383,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,3,1.00,16383,XRNQK AKLFD WILAD OENNK MMLAZ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,4,1.00,16383,FFSQY BFVIE EOKRE FRZNY TLJWD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,5,1.00,16383,WDIGU FDNDM WJPCG VXAJP BWSGW<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,6,1.00,16383,RODFD XXGHA BGAVD HVDJI YVANB<|endoftext|>Human: I am looking for a,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,7,1.00,16383,NAXEG XSQAZ EJRVB IZIED LCKIT  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,8,1.00,16383,IMVWK GCYHU YCPJL EEOFQ XXYDP<|endoftext|>Human: Please answer the following que,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,9,1.00,16383,GYRNX XFNKY BHQCS HIDRN UWRHN  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,10,1.00,16383,UHZUL STZAU IGASQ ANRNN BOGRF  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,11,1.00,16383,GHDTC VTTFU TEALL KQYCC KJZUF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,12,1.00,16383,LHOTZ DTWQH YBSUN XQVPP XUEMX  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,13,1.00,16383,ZRICK ZEPHW EOJWM IIQXK VMETU  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,14,1.00,16383,SACZJ ALLML VGJYJ CGYOW PZGVD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,15,1.00,16383,NHJKI AKSDD PFGTE UKMPD OXRGY<|endoftext|>Human: Continue writing the following ,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,16,1.00,16383,IAUUY CSKZI IDHME XMDMQ WJKVW  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,17,1.00,16383,QBNGP SOYMC RFYZV RAEGA VRIWH  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,18,1.00,16383,BNCAP VIFYA EAHKY SMJSG QVGZZ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_kh,19,1.00,16383,WYZLI ONILD BMNCU CGNDT UNBFV  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,0,1.00,16383,JKTHZ XEEKC CPLMS IDTLJ NLXKY  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,1,0.80,16383,"FWCTU ERLMH KVNOQ VJBNO<|endoftext|>Human: In this task, you are given a context",91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,2,0.80,16383,KZZIM FZIQO GUBIM RBNSV  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,3,1.00,16383,XRNQK AKLFD WILAD OENNK MMLAZ  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,4,1.00,16383,FFSQY BFVIE EOKRE FRZNY TLJWD  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,5,1.00,16383,WDIGU FDNDM WJPCG VXAJP BWSGW<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,6,1.00,16383,RODFD XXGHA BGAVD HVDJI YVANB<|endoftext|>Human: I am a helpful assistant,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,7,1.00,16383,NAXEG XSQAZ EJRVB IZIED LCKIT  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,8,1.00,16383,IMVWK GCYHU YCPJL EEOFQ XXYDP  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,9,1.00,16383,GYRNX XFNKY BHQCS HIDRN UWRHN<|endoftext|>Human: You are given a sentence and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,10,1.00,16383,UHZUL STZAU IGASQ ANRNN BOGRF  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,11,1.00,16383,GHDTC VTTFU TEALL KQYCC KJZUF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,12,1.00,16383,LHOTZ DTWQH YBSUN XQVPP XUEMX  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,13,1.00,16383,ZRICK ZEPHW EOJWM IIQXK VMETU  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,14,0.80,16383,SACZJ ALLML VGJYJ PZGVD  Memorize and track the chain(s) of,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,15,1.00,16383,NHJKI AKSDD PFGTE UKMPD OXRGY  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,16,1.00,16383,IAUUY CSKZI IDHME XMDMQ WJKVW  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,17,1.00,16383,QBNGP SOYMC RFYZV RAEGA VRIWH  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,18,1.00,16383,BNCAP VIFYA EAHKY SMJSG QVGZZ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,16384,mxfp4_uq_kh,19,1.00,16383,WYZLI ONILD BMNCU CGNDT UNBFV  Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,0,1.00,31999,BAYUU GQDEX SLYOQ ORCAQ SHWBP<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,1,1.00,31999,PBWLX ZKCIM WAOVE NAZBH IOIRJ<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,2,1.00,31999,WDZCF ZNQSB ISQVQ PXSMW MHAGB<|endoftext|>Human: 1. The,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,3,1.00,31999,TAOZT UVFPX JWYAB CTENV XODCD<|endoftext|>Human: 1. The grass is,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,4,1.00,31999,FDYHA OZJBM AEQQB EHONR YWPCW<|endoftext|>Human: 1. The,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,5,1.00,31999,TQIRZ QIFEI IUXTJ FRPEA DWGTF<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,6,1.00,31999,CVNDN YMJCN LGWZQ NIXBU WNKDH<|endoftext|>Human: 请根据以下文本,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,7,1.00,31999,KPZRG VWUKW SAMTN OLNYJ KPUQU<|endoftext|>Human: 1. The grass is green,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,8,1.00,31999,TFBCT RDVWV XSJSH ZDUSU QWTCF<|endoftext|>Human: 1.,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,9,1.00,31999,QAHOU USMJN QQMKA JXLXM ARYIJ<|endoftext|>Human: 1. 10,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,10,1.00,31999,XTSYB KYJPB SPVMB GERQV SDCOT<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,11,1.00,31999,BEIIL OVBDF WGCJF CKRFB KIPVP<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,12,1.00,31999,JVVLD XSNJP GGLTX BARLO WFMKW<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,13,1.00,31999,CXRHG GPOUM DDUAH AZSTX TTTLK<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,14,1.00,31999,VSYIR PLXNW ERYHN GPIEX THEGH<|endoftext|>Human: 1. 1000,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,15,1.00,31999,FSBZV VCKMS OBCAL WYRJC ZWTHW<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,16,1.00,31999,REXSA OOMFL MHKDP NMRIU YTPUF<|endoftext|>Human: 1. 10,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,17,1.00,31999,ALJCD WJRLF OALQG VBHYM XCUEM<|endoftext|>Human: 1. The grass,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,18,1.00,31999,QADWX BZNXW MYPXX YTGHX HXULQ<|endoftext|>Human: 1. The,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,bf16,19,1.00,31999,YIYEK SDAIZ XZRFT PKYSN YCRVF<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,0,1.00,31999,BAYUU GQDEX SLYOQ ORCAQ SHWBP<|endoftext|>Human: 1. The grass,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,1,1.00,31999,PBWLX ZKCIM WAOVE NAZBH IOIRJ<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,2,1.00,31999,WDZCF ZNQSB ISQVQ PXSMW MHAGB<|endoftext|>Human: 1. The,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,3,1.00,31999,TAOZT UVFPX JWYAB CTENV XODCD<|endoftext|>Human: 1. The grass is,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,4,1.00,31999,FDYHA OZJBM AEQQB EHONR YWPCW<|endoftext|>Human: 1. The,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,5,1.00,31999,TQIRZ QIFEI IUXTJ FRPEA DWGTF<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,6,1.00,31999,CVNDN YMJCN LGWZQ NIXBU WNKDH<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,7,1.00,31999,KPZRG VWUKW SAMTN OLNYJ KPUQU<|endoftext|>Human: 1. 192,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,8,1.00,31999,TFBCT RDVWV XSJSH ZDUSU QWTCF<|endoftext|>Human: 请根据,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,9,1.00,31999,QAHOU USMJN QQMKA JXLXM ARYIJ<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,10,1.00,31999,XTSYB KYJPB SPVMB GERQV SDCOT<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,11,1.00,31999,BEIIL OVBDF WGCJF CKRFB KIPVP<|endoftext|>Human: 1. 1,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,12,1.00,31999,JVVLD XSNJP GGLTX BARLO WFMKW<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,13,1.00,31999,CXRHG GPOUM DDUAH AZSTX TTTLK<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,14,0.80,31999,VNSLP PLXNW ERYHN GPIEX THEGH<|endoftext|>Human: 1. 1000,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,15,1.00,31999,FSBZV VCKMS OBCAL WYRJC ZWTHW<|endoftext|>Human: 1.,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,16,1.00,31999,REXSA OOMFL MHKDP NMRIU YTPUF<|endoftext|>Human: 1. The grass is,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,17,1.00,31999,ALJCD WJRLF OALQG VBHYM XCUEM<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,18,1.00,31999,QADWX BZNXW MYPXX YTGHX HXULQ<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,fp8,19,1.00,31999,YIYEK SDAIZ XZRFT PKYSN YCRVF<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,0,1.00,31999,BAYUU GQDEX SLYOQ ORCAQ SHWBP<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,1,1.00,31999,PBWLX ZKCIM WAOVE NAZBH IOIRJ  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,2,1.00,31999,WDZCF ZNQSB ISQVQ PXSMW MHAGB<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,3,1.00,31999,TAOZT UVFPX JWYAB CTENV XODCD<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,4,1.00,31999,FDYHA OZJBM AEQQB EHONR YWPCW<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,5,1.00,31999,TQIRZ QIFEI IUXTJ FRPEA DWGTF<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,6,1.00,31999,CVNDN YMJCN LGWZQ NIXBU WNKDH<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,7,1.00,31999,KPZRG VWUKW SAMTN OLNYJ KPUQU<|endoftext|>Human: 1. Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,8,1.00,31999,TFBCT RDVWV XSJSH ZDUSU QWTCF<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,9,1.00,31999,QAHOU USMJN QQMKA JXLXM ARYIJ<|endoftext|>Human: 1. The grass is,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,10,1.00,31999,XTSYB KYJPB SPVMB GERQV SDCOT  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,11,1.00,31999,BEIIL OVBDF WGCJF CKRFB KIPVP<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,12,1.00,31999,JVVLD XSNJP GGLTX WFMKW BARLO<|endoftext|>Human: 1. The grass is green,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,13,1.00,31999,CXRHG GPOUM DDUAH AZSTX TTTLK  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,14,1.00,31999,VSYIR PLXNW ERYHN GPIEX THEGH<|endoftext|>Human: Memorize and track the chain(s),91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,15,1.00,31999,FSBZV VCKMS OBCAL WYRJC ZWTHW<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,16,1.00,31999,REXSA OOMFL MHKDP NMRIU YTPUF<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,17,1.00,31999,ALJCD WJRLF OALQG VBHYM XCUEM<|endoftext|>Human: You are given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,18,1.00,31999,QADWX BZNXW MYPXX YTGHX HXULQ<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,int4a_kh,19,1.00,31999,YIYEK SDAIZ XZRFT PKYSN YCRVF  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,0,1.00,31999,BAYUU GQDEX SLYOQ ORCAQ SHWBP<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,1,1.00,31999,PBWLX ZKCIM WAOVE NAZBH IOIRJ<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,2,1.00,31999,WDZCF ISQVQ PXSMW MHAGB ZNQSB<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,3,1.00,31999,TAOZT UVFPX JWYAB CTENV XODCD<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,4,1.00,31999,FDYHA OZJBM AEQQB EHONR YWPCW<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,5,1.00,31999,TQIRZ QIFEI IUXTJ FRPEA DWGTF<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,6,1.00,31999,CVNDN YMJCN LGWZQ NIXBU WNKDH<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,7,1.00,31999,KPZRG VWUKW SAMTN OLNYJ KPUQU<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,8,1.00,31999,TFBCT RDVWV XSJSH ZDUSU QWTCF<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,9,1.00,31999,QAHOU USMJN QQMKA JXLXM ARYIJ<|endoftext|>Human: You are given a sentence in,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,10,1.00,31999,XTSYB KYJPB SPVMB GERQV SDCOT<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,11,1.00,31999,BEIIL OVBDF WGCJF CKRFB KIPVP<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,12,1.00,31999,JVVLD XSNJP GGLTX BARLO WFMKW<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,13,1.00,31999,CXRHG GPOUM DDUAH AZSTX TTTLK  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,14,0.80,31999,VNSLP VSYIR PLXNW ERYHN THEGH<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,15,1.00,31999,FSBZV VCKMS OBCAL WYRJC ZWTHW<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,16,1.00,31999,REXSA OOMFL MHKDP NMRIU YTPUF<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,17,1.00,31999,ALJCD WJRLF OALQG VBHYM XCUEM  Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,18,1.00,31999,QADWX BZNXW MYPXX YTGHX HXULQ<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,nvfp4_kh,19,1.00,31999,YIYEK SDAIZ XZRFT PKYSN YCRVF<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,0,1.00,31999,BAYUU GQDEX SLYOQ ORCAQ SHWBP<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,1,1.00,31999,PBWLX ZKCIM WAOVE NAZBH IOIRJ<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,2,1.00,31999,WDZCF ZNQSB ISQVQ PXSMW MHAGB<|endoftext|>Human: Question: Find all,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,3,1.00,31999,TAOZT JWYAB CTENV XODCD UVFPX<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,4,1.00,31999,FDYHA OZJBM AEQQB EHONR YWPCW<|endoftext|>Human: Please answer the following,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,5,1.00,31999,TQIRZ QIFEI IUXTJ FRPEA DWGTF<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,6,1.00,31999,CVNDN YMJCN LGWZQ NIXBU WNKDH<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,7,1.00,31999,"KPZRG VWUKW SAMTN OLNYJ KPUQU<|endoftext|>Human: Given the following passage, an",91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,8,1.00,31999,TFBCT RDVWV XSJSH ZDUSU QWTCF<|endoftext|>Human: Question 1,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,9,1.00,31999,QAHOU USMJN QQMKA JXLXM ARYIJ<|endoftext|>Human: Q: What is the title,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,10,1.00,31999,XTSYB KYJPB SPVMB GERQV SDCOT<|endoftext|>Human: Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,11,1.00,31999,BEIIL OVBDF WGCJF CKRFB KIPVP<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,12,1.00,31999,JVVLD XSNJP GGLTX BARLO WFMKW<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,13,1.00,31999,CXRHG GPOUM DDUAH AZSTX TTTLK  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,14,0.80,31999,VNSLP PLXNW ERYHN GPIEX THEGH<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,15,1.00,31999,FSBZV VCKMS OBCAL WYRJC ZWTHW<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,16,1.00,31999,REXSA OOMFL MHKDP NMRIU YTPUF<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,17,1.00,31999,ALJCD WJRLF OALQG VBHYM XCUEM<|endoftext|>Human: Q: Given the sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,18,1.00,31999,QADWX BZNXW MYPXX YTGHX HXULQ<|endoftext|>Human: Question: Find all,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_kh,19,1.00,31999,YIYEK SDAIZ XZRFT PKYSN YCRVF<|endoftext|>Human: The following text contains a,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,0,1.00,31999,BAYUU GQDEX SLYOQ ORCAQ SHWBP<|endoftext|>Human: Q: Given a sentence,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,1,0.80,31999,PBWLZKCIM ZKCIM WAOVE NAZBH IOIRJ  Memorize and track the,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,2,0.80,31999,WDZCF ISQVQ PXSMW MHAGB OZNFY<|endoftext|>Human: Question: Find all,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,3,0.80,31999,TAOZT JWYAB CTENV XODCD XEZPC<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,4,1.00,31999,FDYHA OZJBM AEQQB EHONR YWPCW<|endoftext|>Human: Question: Find all,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,5,1.00,31999,TQIRZ QIFEI IUXTJ FRPEA DWGTF<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,6,1.00,31999,CVNDN YMJCN LGWZQ NIXBU WNKDH<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,7,1.00,31999,KPZRG VWUKW SAMTN OLNYJ KPUQU<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,8,1.00,31999,TFBCT RDVWV XSJSH ZDUSU QWTCF<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,9,1.00,31999,QAHOU USMJN QQMKA JXLXM ARYIJ<|endoftext|>Human: Question: What is the name,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,10,1.00,31999,XTSYB KYJPB SPVMB GERQV SDCOT<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,11,1.00,31999,BEIIL OVBDF WGCJF CKRFB KIPVP<|endoftext|>Human: What is the difference between,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,12,1.00,31999,JVVLD XSNJP GGLTX BARLO WFMKW<|endoftext|>Human: Question: Find all variables th,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,13,1.00,31999,CXRHG GPOUM DDUAH AZSTX TTTLK  Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,14,1.00,31999,VSYIR PLXNW ERYHNH GPIEX THEGH<|endoftext|>Human: Memorize and track the chain(s,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,15,1.00,31999,FSBZV VCKMS OBCAL WYRJC ZWTHW<|endoftext|>Human: Memorize and,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,16,1.00,31999,REXSA OOMFL MHKDP NMRIU YTPUF<|endoftext|>Human: Memorize and track the chain,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,17,1.00,31999,ALJCD WJRLF OALQG VBHYM XCUEM<|endoftext|>Human: Question: Find all variables,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,18,1.00,31999,QADWX BZNXW MYPXX YTGHX HXULQ<|endoftext|>Human: Memorize and track,91e0644
+Qwen/Qwen3-8B-Base,decode,vt,32000,mxfp4_uq_kh,19,1.00,31999,YIYEK SDAIZ PKYSN YCRVF VAR XZRFT  Memorize and track the,91e0644

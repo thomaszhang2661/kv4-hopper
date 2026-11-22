@@ -1,0 +1,13 @@
+model,mode,config,k_fmt,v_fmt,ctx,depth,needle,ok,output,commit
+meta-llama/Llama-3.1-8B,decode,bf16,bf16,bf16,4096,0.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://www.google.com/se,5d55ba9
+meta-llama/Llama-3.1-8B,decode,bf16,bf16,bf16,4096,0.50,Lisbon,1,7463343.735  The special magic number for,5d55ba9
+meta-llama/Llama-3.1-8B,decode,bf16,bf16,bf16,4096,1.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://www.google.com/se,5d55ba9
+meta-llama/Llama-3.1-8B,decode,bf16,bf16,bf16,65536,0.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://www.<|end_of_text,5d55ba9
+meta-llama/Llama-3.1-8B,decode,bf16,bf16,bf16,65536,0.50,Lisbon,1,7463343.ontologist Robert Carroll suggested that the,5d55ba9
+meta-llama/Llama-3.1-8B,decode,bf16,bf16,bf16,65536,1.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://www.<|end_of_text,5d55ba9
+meta-llama/Llama-3.1-8B,decode,nvfp4_kh,nvfp4_h,nvfp4,4096,0.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://-><|end_of_text|>,5d55ba9
+meta-llama/Llama-3.1-8B,decode,nvfp4_kh,nvfp4_h,nvfp4,4096,0.50,Lisbon,1,7463343.735 . The poem is a lament,5d55ba9
+meta-llama/Llama-3.1-8B,decode,nvfp4_kh,nvfp4_h,nvfp4,4096,1.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://->  The special,5d55ba9
+meta-llama/Llama-3.1-8B,decode,nvfp4_kh,nvfp4_h,nvfp4,65536,0.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://www.<|end_of_text,5d55ba9
+meta-llama/Llama-3.1-8B,decode,nvfp4_kh,nvfp4_h,nvfp4,65536,0.50,Lisbon,1,7463343.ontologist Rainer Schoch has,5d55ba9
+meta-llama/Llama-3.1-8B,decode,nvfp4_kh,nvfp4_h,nvfp4,65536,1.00,Lisbon,1,7463343.<|end_of_text|><|begin_of_text|>://www.<|end_of_text,5d55ba9

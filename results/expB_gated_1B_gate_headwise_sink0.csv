@@ -1,0 +1,3 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+QwQZh/gated_attention/1B_gate_headwise,2048,8,0,nvfp4_kh,nvfp4_h,nvfp4,9.156e-01,18.675,21.7628,+nan,0.6619,fp32,1.1777e-02,8.9392e-03,b28e64d
+QwQZh/gated_attention/1B_gate_headwise,2048,8,0,nvfp4_khs,nvfp4_h~s,nvfp4,1.210e-02,2.044,8.8300,+nan,0.9496,fp32,1.3054e-03,8.9221e-03,b28e64d

@@ -1,0 +1,151 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,0,0.00,122861,: - 11b895dd-3d22-d431-e8c4-590109b326a2 - 208b9af2,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,1,1.00,122864,: - e43b75ba-e138-ba48-f404-804683743f2e.<|eot_id|><|start_header_id|>user1: Wha,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,2,1.00,122856,: - db4fe9a4-2f41-d12b-0419-9e85fde2a81c.<|eot_id|><|start_header_id|>user,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,3,1.00,122846,: - 8ee54e2a-7131-ec3d-5cb0-fad10081771a.<|eot_id|><|start_header_id|>user1:,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,4,1.00,122863,: - 3bb97003-83fe-6891-5d81-123a59466242 - dc47c52b-a255,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,5,1.00,122851,: - 69dfac1f-d191-2c8a-a836-6dff328ef396.<|eot_id|><|start_header_id|>user1: Wha,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,6,1.00,122880,: - 57d91d57-fbbe-0a10-0f8d-376e49920922 - 48f5d,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,7,1.00,122842,: - 46fbf992-8938-454b-9c19-53eb9440ff49.<|eot_id|><|start_header_id|>user1: Wha,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,8,1.00,122875,: 25652d52-ff3f-114f-1a8f-3bd52d60283f.<|eot_id|><|start_header_id|>user1:,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,9,1.00,122863,: - 209e9c62-2537-0684-10aa-044a81168673 - d2c2f29d,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,10,1.00,122873,: 1. 1d0e2d24-3140-9ac6-e717-514e5194dd38 2. 5,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,11,0.00,122829,: - 903e4b7f-07c8-ef79-5c79-7b1776bd9c42 -,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,12,1.00,122877,: - 2cb82451-e17b-a593-3856-0988d8d918e4 - 8ed63a8,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,13,1.00,122849,: - 7dd42424-855a-1fc1-8993-2aa416cb210d - d98f7c4,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,14,1.00,122841,: - 9864b63e-e9a8-9c2f-a627-d16a7f43ddab - 0d,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,15,1.00,122880,: - 96e47c15-69a9-8941-bf98-8660b105d63c - 835aaf,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,16,1.00,122830,: - c4b47617-35c2-16c1-b1d3-69d13ff93571.<|eot_id|><|start_header_id|>user1:,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,17,1.00,122852,: 6486f7b6-a45e-eeb9-960a-cb9bb11d6588.<|eot_id|><|start_header_id|>user1:,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,18,1.00,122851,: - 310883d6-7c45-3263-de59-a9a4c1655a1d - c0f545,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,19,1.00,122860,: 63d0b607-9ad3-ba22-c81c-fa442cdb5787.<|eot_id|><|start_header_id|>user  What a,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,20,1.00,122841,: 22432929-4428-f701-f01d-079e02e810fd.<|eot_id|><|start_header_id|>user  I am t,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,21,1.00,122834,: - 4833c196-0408-bbd8-0615-e1c2f4df7aab - 7a67f,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,22,0.00,122838,: - 29d5dfc5-324d-0e30-a7f6-dcaf7c5a62b7 -,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,23,1.00,122846,: 141ff1b2-a7a6-5dff-cb91-a69d55f0e7a3.<|eot_id|><|start_header_id|>user1,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,24,1.00,122871,: f542cb51-3d0b-7354-a92c-a4c836bc49ab.<|eot_id|><|start_header_id|>assistant:<|,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,25,1.00,122844,: - 9f879eda-5bff-0882-2d5e-2ddb1212f72d - f771b6,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,26,1.00,122871,: - 1d9ee9c8-25a8-f412-0778-7f096a49046f - 0f,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,27,1.00,122858,: - 04f0d312-4902-aa57-ef83-42708f922fcb.<|eot_id|><|start_header_id|>user1: Wha,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,28,1.00,122878,: - 48328dda-f43e-5f60-0c9c-16b9b70b3774 - 5a,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,29,1.00,122849,: 5fc940a4-8290-fcf9-4e5a-fe49e991d875.<|eot_id|><|start_header_id|>assistant:<|,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,30,1.00,122850,: - e0df5605-1419-91c1-6b25-a639e871d22c - 6db2264,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,31,1.00,122863,: - 8a1015e7-fcdd-9757-3d3c-2d7a6959d523  What are,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,32,1.00,122866,: - 0156fb2f-d36d-1904-67bb-fd7d36382cb7.<|eot_id|><|start_header_id|>user1: Wha,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,33,1.00,122819,: - 5108b9b1-2132-01ed-6f68-84dd4727ad05.<|eot_id|><|start_header_id|>user1:,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,34,1.00,122846,: 09ecfbff-fa6b-bb66-e392-772f34d6a816.<|eot_id|><|start_header_id|>user1: What ,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,35,1.00,122854,: - ab00d875-7a70-4de1-8bd6-eb8c42fbe1a5 - 419ac,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,36,1.00,122867,: - 7408df72-f451-1e17-73b1-7d77695d307a - e2792070-a,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,37,0.00,122846,: - d073575f-8b45-b0df-425f-77b92da4a7c8 - 969526c,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,38,1.00,122856,: - 7b20b1f8-1cfe-d0ca-3bbd-a6039195f7ae - ae4,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,39,1.00,122879,: - 5eb45c8a-4a52-e3ad-a262-83834e268288 - 226a3fb4,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,40,1.00,122822,: - bfaae582-76fb-aad6-8156-18645ffab4bd - e854e5c1-2,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,41,1.00,122879,: 1. 1c079148-5bfe-a9c7-44a4-81150434ece0 2. 7f,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,42,1.00,122863,: - c9cce111-2526-4d91-40d8-b8528f3e910a - 8bbabce,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,43,1.00,122862,: 1. 1a157072-a8d9-8936-14e7-19eae6b5b2df 2.,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,44,1.00,122831,: - 00fb471f-d14a-60bb-0177-67055461bf0a - 748cf676-5648,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,45,1.00,122851,: - 890a3aa1-6670-e05e-59a3-ac99e95404b0 - 2e7d,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,46,1.00,122828,: - dc88d6fa-54f1-be17-76ce-424d56b8f11b - 4c3e,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,47,0.00,122852,: - c744513f-5198-738a-99fc-8bf1831c95d4 - 7f9e0,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,48,0.00,122872,: 25e6910e-d778-5d35-ec46-ee829d247799.<|eot_id|><|start_header_id|>assistant:<|,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multikey,122880,bf16,49,1.00,122822,: - f3da0c5c-681c-c75f-7301-e220708ff047.<|eot_id|><|start_header_id|>user1: Wha,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,0,1.00,122880,": 3007762, 2058172, 4325340, 2477613.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,1,1.00,122880,": 1093497, 3250955, 5917237, and 3073308.<|eot_id|><|start_header_id|>assistant:",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,2,1.00,122880,": 4669472, 6017156, 8076641, 4792957.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,3,1.00,122880,": 4750024, 5759606, 5329741, 3945983.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,4,1.00,122880,": 3149049, 4966039, 4716976, and 3429627.<|eot_id|><|start_header_id|>assistant:",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,5,1.00,122880,": 7661586, 6040957, 2656400, 4719345, 10, 100, 1000, 10000, 100000,",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,6,1.00,122880,": 7263094, 4683110, 4599013, 8325824.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,7,1.00,122880,": 8837967, 7369960, 1942066, 8991354.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,8,1.00,122880,": 9840067, 8454172, 9474867, 1228996.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,9,1.00,122880,": 6859943.6, 1049793, 9981129, and 4547482.<|eot_id|><|start_header_id|>assistan",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,10,1.00,122880,": 7014033, 2816988, 2948194, 6148000.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,11,1.00,122880,": 6923488, 2553606, 2897980, 5613233.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,12,1.00,122880,": 5956537, 1447013, 7067322, 2256980.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,13,1.00,122880,": 6517973.25, 7205266, 2353540, 1127297, and 4.<|eot_id|><|start_header_id|>assi",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,14,1.00,122880,": 1718336, 2758445.42, 5632279, 7009277, 1718336, 5632279, 7009277.<|eot_id|><|s",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,15,1.00,122880,": 9701036, 9345544, 4374780, 1593390.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,16,0.75,122880,": 8464562, 2443112, 5588074. WWE World Heavyweight Championship at WrestleMania ",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,17,1.00,122880,": 8898776, 9208103, 3117651, 3952460.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,18,0.75,122880,": 6504157, 7677808, 7926382.<|eot_id|><|start_header_id|>assistant:<|eot_id|>  T",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,19,1.00,122880,": 6795885, 7270408, 3483153, 5219025.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,20,1.00,122880,": 2670671, 9420709, 8978621, 2919327.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,21,1.00,122880,": 9973942, 1239493, 5795737, and 9343767.<|eot_id|><|start_header_id|>assistant:",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,22,1.00,122880,": 8327715, 8468539, 4121003, 6708429.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,23,1.00,122880,": 1079337, 3989782, 6994951, 4888948, 285, 217, 135, 11, 2, 1,",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,24,1.00,122880,": 5678032, 3413175, 2959777, 9234042, and 9234042.<|eot_id|><|start_header_id|>a",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,25,1.00,122880,": 8962713, 6013644, 1594610, 8738552.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,26,0.75,122880,": 7963502, 3151178, 3546016.<|eot_id|><|start_header_id|>assistant:<|eot_id|>  I",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,27,0.75,122880,": 6569354, 2244848, 4716460.8.<|eot_id|><|start_header_id|>assistant:<|eot_id|> ",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,28,0.75,122880,": 1732197, 6186713, 6007521.<|eot_id|><|start_header_id|>assistant:<|eot_id|>  I",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,29,1.00,122880,": 9337435, 3889784, 1202099, 7951187.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,30,1.00,122880,": 8837992, 7995636, 7878208, 1994269.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,31,1.00,122880,": 2217305, 3452159, 6774517, 9343551.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,32,1.00,122880,": 9246414, 8954209, 9709821, 1123645, 8954209, 1123645, 8954209, 1123645",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,33,1.00,122880,": 7756341, 3400531, 6374615, 5850231.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,34,1.00,122880,": 9783386, 2392355, 1674119, 8298589.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,35,1.00,122880,": 4162917, 6154224, 8276546, and 1705051.<|eot_id|><|start_header_id|>assistant:",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,36,1.00,122880,": 9716832, 8120102, 5369342, and 3823867.<|eot_id|><|start_header_id|>assistant:",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,37,1.00,122880,": 2928068, 8873079, 2261841, 2161714.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,38,1.00,122880,": 1975665, 7504198, 3320825, 6762668.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,39,1.00,122880,": 5955896, 4324871, 1359367, 8907898.125.<|eot_id|><|start_header_id|>assistant:",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,40,1.00,122880,": 3554020, 1664252, 9358483, 4029361.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,41,1.00,122880,": 1941326, 4302945, 1984933, 2919218, and 1984933.<|eot_id|><|start_header_id|>a",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,42,1.00,122880,": 3336809, 6136496, 3839671, 9157877.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,43,0.00,122880,": 74, 18, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,44,1.00,122880,": 7537257, 8142463, 1499092, 1330056, and 123456789.<|eot_id|><|start_header_id|",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,45,1.00,122880,": 4850011, 1252039, 1231273.20, 5454456.<|eot_id|><|start_header_id|>assistant:<",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,46,1.00,122880,": 3615388, 4473523, 5179239, 3525982, and 3525982.<|eot_id|><|start_header_id|>a",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,47,0.75,122880,": 4477365.0, 4496428.0, 9707358.0.<|eot_id|><|start_header_id|>assistant:<|eot_i",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,48,1.00,122880,": 9287513, 7721417, 2018876, 8839644.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,multivalue,122880,bf16,49,1.00,122880,": 1089033, 1302743, 6227188, 8368939.<|eot_id|><|start_header_id|>assistant:<|eo",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,0,1.00,122880,ASEQK JBWTM MGXLJ YXSBS PSGKF  Memorize and track the chain(s),c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,1,1.00,122880,MGPSO YXOPU HFTLL FQUCM OBGOC  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,2,1.00,122880,XNLLV QFUPX SQTOI RLEBO RYWWL  Memorize and track,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,3,1.00,122880,ZCCCW GJDNX YXSVM NUUMD ZHHTM  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,4,0.80,122880,WKXQP RGKWC HHVXJ MUOWZ UXTYI  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,5,1.00,122880,LYXIR CUMBW ZAJPP DXCVD YKJWV  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,6,1.00,122880,YDSBP IZKLX XKTMI UNAND JHVEJ  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,7,1.00,122880,YDKKN XOZXR JIPSH UWCFD BBDLC  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,8,1.00,122880,MSHSV FXRAS DETHY JRPPV WRFQF  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,9,1.00,122880,PXQXV DHYVR JLWVG MJCSW KIRJL  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,10,1.00,122880,DEBLU DDWQA WFXFR IQLCW MZAKG  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,11,1.00,122880,ETUZD ZKIFW EGPGP GRUMO ODUWA  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,12,1.00,122880,PCNEP OZPVL UJCMU VCACC LFPBM  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,13,1.00,122880,KZZHN ZTKFL ISVJR NGJOA KWUBT  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,14,1.00,122880,LMRPU WLMIE KXQKF KONTU OMVVY  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,15,1.00,122880,BSJGS JPXKN WVUIO NDYLU CKAUE  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,16,1.00,122880,YYCSB QABIF NQMIU PUVIP VDPKK  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,17,1.00,122880,QWDLR GZKYJ NAJGF NXGYY DLEPW  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,18,1.00,122880,UHZTB ZGNAY ETORH KZXYA GUKIB  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,19,1.00,122880,NTCNX YCUSF DFWTF AXWTJ SCOJO  Memorize and track the chain(s),c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,20,1.00,122880,BSUIP YEHML LHGWE RWMSZ PXIUQ  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,21,1.00,122880,DSRVW NZCYC OHORS YYZOO AUZAK  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,22,1.00,122880,IUUJL VCVTG QWAZF JYRMN FSJKE  Memorize and track,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,23,1.00,122880,FPILI VNAEO SOVTF QCZGS NXYQF  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,24,1.00,122880,PYOFY HCMCO ZHZZF MZJUY FFTZL  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,25,1.00,122880,YYJXS UWHWT EOTXS PRDUK MIIIU  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,26,1.00,122880,NQMHZ SWFQA FLVGY LQAJW RQRNT  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,27,0.80,122880,XQRGM SOUDW GWSKG NAVCC  Memorize and track the chain(s) of variable assignment,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,28,1.00,122880,MULLG ODPWL YSKLY GPMII MVJRJ  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,29,1.00,122880,PHGGG VHGHI QCEPN XPIZH ZITJA  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,30,1.00,122880,AKFZV KPLLE FSEPR KBXOZ SECFU  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,31,1.00,122880,YKRXP HMLRS VQGDA FKCOO KANKO  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,32,1.00,122880,MRAEX HSAQM PNYKY VWWJP CIFXG  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,33,1.00,122880,JYSLM VPOMF TILBP DYNRU HGHGP  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,34,1.00,122880,PRCTI QWZRD NGGSB KCZUZ EVZDR  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,35,1.00,122880,QPOOK NCVLD EICUL RFONM WIINK  Memorize and track the chain(s),c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,36,1.00,122880,NSGQR WCIPP CEXOS KEUWJ ZKVDL  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,37,1.00,122880,ALQDV GNVTQ GFFSG XTFWE UHWSU  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,38,1.00,122880,ZQNEB CEFTH UGGWN SBZTQ KQBPX  Memorize and track,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,39,1.00,122880,AJCHX MZAHD HXSZN PWBBQ QCCID  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,40,0.80,122880,"KKTRO, HYWFJ, CZTER, IYZXH, OERCI  Memorize and track",c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,41,1.00,122880,JIYAP YSQUM VWSJT OPFKG WUURY  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,42,1.00,122880,ASCCN XFTVK LBMVR IRUAV QQLSN  Memorize and track the chain(s),c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,43,1.00,122880,MHNSY SHODQ XBAWE DWFBF ZTCKK  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,44,1.00,122880,FJMXP GAXZE LBEPX ACMUD TWJVL  Memorize and track the chain(s),c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,45,1.00,122880,RXYOQ WVCUO IMRGY YFUFV HUJAJ  Memorize and,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,46,1.00,122880,HNRVA AJRWZ WLZQY UXMLA RHFCC  Memorize and track the chain,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,47,1.00,122880,OJWVX SGUPI AUOTT WUGUP IGXDC  Memorize and track the chain(s,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,48,0.80,122880,GZUXV FDKRD GYMYA SKTND YDPBH  Memorize and track the,c784088
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,decode,vt,122880,bf16,49,1.00,122880,FNQOU LHACS LJKAN GQELT QTHZU  Memorize and track the chain,c784088

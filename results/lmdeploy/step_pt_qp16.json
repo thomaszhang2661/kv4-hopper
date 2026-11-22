@@ -1,0 +1,68 @@
+[
+ {
+  "B": 1,
+  "S": 16384,
+  "out": 512,
+  "step_ms": 5.556058543214825,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 1,
+  "backend": "pytorch",
+  "qp": 16
+ },
+ {
+  "B": 8,
+  "S": 16384,
+  "out": 512,
+  "step_ms": 9.83191144328806,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 8,
+  "backend": "pytorch",
+  "qp": 16
+ },
+ {
+  "B": 32,
+  "S": 16384,
+  "out": 512,
+  "step_ms": 21.305164226121608,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.5272054569763258,
+  "n_ok": 32,
+  "backend": "pytorch",
+  "qp": 16
+ },
+ {
+  "B": 1,
+  "S": 32768,
+  "out": 512,
+  "step_ms": 6.154819630421771,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 1,
+  "backend": "pytorch",
+  "qp": 16
+ },
+ {
+  "B": 8,
+  "S": 32768,
+  "out": 512,
+  "step_ms": 14.42318924161936,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 8,
+  "backend": "pytorch",
+  "qp": 16
+ },
+ {
+  "B": 32,
+  "S": 32768,
+  "out": 512,
+  "step_ms": 36.8012275575893,
+  "window_tokens": 511,
+  "tokens_per_tick": 1.0,
+  "n_ok": 32,
+  "backend": "pytorch",
+  "qp": 16
+ }
+]

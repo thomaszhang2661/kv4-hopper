@@ -1,0 +1,61 @@
+task,ctx,trial,config,first_diff,n,score_kernel,score_fake,out_kernel,out_fake,commit
+multikey,16384,0,nvfp4_kh,28,32,1.00,1.00,": 6a5a74f3-900c-f908-d8b8-75210ae5b950, 7d3f0",": 6a5a74f3-900c-f908-d8b8-75210ae5b950, 7df25654-",63e50e3
+multikey,16384,1,nvfp4_kh,32,32,1.00,1.00,: 5524d934-fd2d-33c6-cd5b-494d25dd4d79. <|end_of_text|><|beg,: 5524d934-fd2d-33c6-cd5b-494d25dd4d79. <|end_of_text|><|beg,63e50e3
+multikey,16384,2,nvfp4_kh,32,32,1.00,1.00,": 3f03defa-0ac0-eb64-5432-99bab1b4c2d4, c16bb0",": 3f03defa-0ac0-eb64-5432-99bab1b4c2d4, c16bb0",63e50e3
+multikey,16384,3,nvfp4_kh,32,32,1.00,1.00,": 43c9cc7f-a04b-2415-ffc7-56689143b932, 0d5114de-6",": 43c9cc7f-a04b-2415-ffc7-56689143b932, 0d5114de-6",63e50e3
+multikey,16384,4,nvfp4_kh,32,32,1.00,1.00,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2. What are all the,: 4f2daea9-3d05-e3f8-09af-89c6774bcfd2. What are all the,63e50e3
+multikey,16384,5,nvfp4_kh,32,32,1.00,1.00,": 81d10180-b63c-22f0-ff8d-a99f444915c1, 8c16edd6-",": 81d10180-b63c-22f0-ff8d-a99f444915c1, 8c16edd6-",63e50e3
+multikey,16384,6,nvfp4_kh,32,32,0.00,0.00,": 0c209755-6392-9a9e-1fd7-e62d70100fa5, 0f809957-",": 0c209755-6392-9a9e-1fd7-e62d70100fa5, 0f809957-",63e50e3
+multikey,16384,7,nvfp4_kh,32,32,1.00,1.00,": 40056b39-7729-4dfb-d74d-d1fff4159129, 6b5b3440-882",": 40056b39-7729-4dfb-d74d-d1fff4159129, 6b5b3440-882",63e50e3
+multikey,16384,8,nvfp4_kh,32,32,0.00,0.00,": 74c88674-98ce-2f4b-0ea4-2c2001d9f5d4, 8",": 74c88674-98ce-2f4b-0ea4-2c2001d9f5d4, 8",63e50e3
+multikey,16384,9,nvfp4_kh,32,32,1.00,1.00,": 7973b379-42c6-21ae-624a-c3f10b813a55, 109c02d3-",": 7973b379-42c6-21ae-624a-c3f10b813a55, 109c02d3-",63e50e3
+multikey,32768,0,nvfp4_kh,32,32,0.00,0.00,": 2d0f6bc1-4f21-a6ee-b790-45d4fcf1ccd3, dd32e9",": 2d0f6bc1-4f21-a6ee-b790-45d4fcf1ccd3, dd32e9",63e50e3
+multikey,32768,1,nvfp4_kh,32,32,0.00,0.00,": 200e5ebf-3573-9aba-236a-27d1d10d9d94, 200e5eb",": 200e5ebf-3573-9aba-236a-27d1d10d9d94, 200e5eb",63e50e3
+multikey,32768,2,nvfp4_kh,25,32,1.00,1.00,: 31709d73-af79-6193-ff15-574bbe841f99. <|end_of_text|><|beg,: 31709d73-af79-6193-ff15-574bbe841f99. <|end_of_text|><|beg,63e50e3
+multikey,32768,3,nvfp4_kh,32,32,0.00,0.00,": 0f0d6b88-481f-14d5-faed-1dda82721bba, 0f9cee60",": 0f0d6b88-481f-14d5-faed-1dda82721bba, 0f9cee60",63e50e3
+multikey,32768,4,nvfp4_kh,32,32,1.00,1.00,": 2a8c8c89-3f1f-1c6c-9eff-83823acf5f55, 00",": 2a8c8c89-3f1f-1c6c-9eff-83823acf5f55, 00",63e50e3
+multikey,32768,5,nvfp4_kh,32,32,1.00,1.00,": 709652bb-bea2-395a-8782-2bf5d583e656, 5ea8e54e-360",": 709652bb-bea2-395a-8782-2bf5d583e656, 5ea8e54e-360",63e50e3
+multikey,32768,6,nvfp4_kh,32,32,0.00,0.00,": 0b83ee1b-c191-bfc5-fc08-3b57af6b6084, 0db69aef",": 0b83ee1b-c191-bfc5-fc08-3b57af6b6084, 0db69aef",63e50e3
+multikey,32768,7,nvfp4_kh,28,32,0.00,0.00,": 0c6fb194-d9c0-a4f6-e5a0-b3bbab23ab37, 2da487f",": 0c6fb194-d9c0-a4f6-e5a0-b3bbab23ab37, 0026deec",63e50e3
+multikey,32768,8,nvfp4_kh,32,32,1.00,1.00,: 6a55b05b-baf2-762c-0be5-6dcf4c2a0c7e. What,: 6a55b05b-baf2-762c-0be5-6dcf4c2a0c7e. What,63e50e3
+multikey,32768,9,nvfp4_kh,32,32,1.00,1.00,: 9e1d0674-414c-cb5e-2405-6d7854c41e17. What are all the,: 9e1d0674-414c-cb5e-2405-6d7854c41e17. What are all the,63e50e3
+multivalue,16384,0,nvfp4_kh,40,40,1.00,1.00,": 2038081, 1425255, 9160233, 8206612.2, 1425255, 2038081, 14",": 2038081, 1425255, 9160233, 8206612.2, 1425255, 2038081, 14",63e50e3
+multivalue,16384,1,nvfp4_kh,7,40,1.00,1.00,": 9162644, 3990524, 5081399, 3924884, 5081399, 5081399, 5081",": 9162644, 5081399, 3990524, 3924884, 5081399, 5081399, 5081",63e50e3
+multivalue,16384,2,nvfp4_kh,40,40,1.00,1.00,": 9065963, 3533921, 6449165, 4921088, 4921088, 4921088, 4921",": 9065963, 3533921, 6449165, 4921088, 4921088, 4921088, 4921",63e50e3
+multivalue,16384,3,nvfp4_kh,40,40,1.00,1.00,": 9985981, 7424964, 3913720, 1775054.<|end_of_text|><|begin_",": 9985981, 7424964, 3913720, 1775054.<|end_of_text|><|begin_",63e50e3
+multivalue,16384,4,nvfp4_kh,40,40,1.00,1.00,": 6274086, 7011632, 4478537, 1166673, 1166673, 1166673, 1166",": 6274086, 7011632, 4478537, 1166673, 1166673, 1166673, 1166",63e50e3
+multivalue,16384,5,nvfp4_kh,22,40,1.00,1.00,": 9880277, 1754010, 3266571, 9541068, 9541068, 9541068, 9541",": 9880277, 1754010, 3266571, 9541068, 3266571, 3266571, 3266",63e50e3
+multivalue,16384,6,nvfp4_kh,22,40,1.00,1.00,": 8557004, 2597805, 4609972, 4049594, 4609972, 4049594, 4049",": 8557004, 2597805, 4609972, 4049594, 4049594, 4049594, 4049",63e50e3
+multivalue,16384,7,nvfp4_kh,24,40,1.00,1.00,": 2529797, 3878470, 8118414, 5878892.<|end_of_text|><|begin_",": 2529797, 3878470, 8118414, 5878892.<|end_of_text|><|begin_",63e50e3
+multivalue,16384,8,nvfp4_kh,37,40,1.00,1.00,": 6321556, 1484033, 9486358, 4283263, 425, 3, 2, 4, 3, 0,",": 6321556, 1484033, 9486358, 4283263, 425, 3, 2, 4, 3, 2,",63e50e3
+multivalue,16384,9,nvfp4_kh,40,40,1.00,1.00,": 7162363, 7885653, 1789206, 3171648, 1, 2, 3, 4, 5, 6,",": 7162363, 7885653, 1789206, 3171648, 1, 2, 3, 4, 5, 6,",63e50e3
+multivalue,32768,0,nvfp4_kh,40,40,1.00,1.00,": 2171804, 7634147, 2929291, 9784698, 9784698, 2929291, 7634",": 2171804, 7634147, 2929291, 9784698, 9784698, 2929291, 7634",63e50e3
+multivalue,32768,1,nvfp4_kh,24,40,1.00,1.00,": 4364749, 9747398, 8978596, 8429742.<|end_of_text|><|begin_",": 4364749, 9747398, 8978596, 8429742.<|end_of_text|><|begin_",63e50e3
+multivalue,32768,2,nvfp4_kh,24,40,1.00,1.00,": 2103453, 1405872, 9590813, 7492013.<|end_of_text|><|begin_",": 2103453, 1405872, 9590813, 7492013.<|end_of_text|><|begin_",63e50e3
+multivalue,32768,3,nvfp4_kh,40,40,0.00,0.00,": 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016",": 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016",63e50e3
+multivalue,32768,4,nvfp4_kh,40,40,1.00,1.00,": 3730697, 4954339, 9628455, 2122683, 1, 2, 3, 4, 5, 6,",": 3730697, 4954339, 9628455, 2122683, 1, 2, 3, 4, 5, 6,",63e50e3
+multivalue,32768,5,nvfp4_kh,40,40,1.00,1.00,": 8121283, 3149645, 7250473, 7656254, 7250473, 7250473, 7250",": 8121283, 3149645, 7250473, 7656254, 7250473, 7250473, 7250",63e50e3
+multivalue,32768,6,nvfp4_kh,40,40,1.00,1.00,": 6852988, 4628106, 4887042, 2452715, 4628106, 4887042, 4628",": 6852988, 4628106, 4887042, 2452715, 4628106, 4887042, 4628",63e50e3
+multivalue,32768,7,nvfp4_kh,40,40,1.00,1.00,": 2631512, 1395352, 4718396, 6879709, 6879709, 6879709, 6879",": 2631512, 1395352, 4718396, 6879709, 6879709, 6879709, 6879",63e50e3
+multivalue,32768,8,nvfp4_kh,40,40,1.00,1.00,": 7781536, 6557727, 7948015, 4586770, 4586770, 4586770, 4586",": 7781536, 6557727, 7948015, 4586770, 4586770, 4586770, 4586",63e50e3
+multivalue,32768,9,nvfp4_kh,40,40,1.00,1.00,": 3475392, 6283131, 2374069, 2374069, 3085258, 3085258, 3085",": 3475392, 6283131, 2374069, 2374069, 3085258, 3085258, 3085",63e50e3
+vt,16384,0,nvfp4_kh,24,24,1.00,1.00,XEEKC CPLMS IDTLJ NLXKY JKTHZ  Memorize and track the chain(,XEEKC CPLMS IDTLJ NLXKY JKTHZ  Memorize and track the chain(,63e50e3
+vt,16384,1,nvfp4_kh,3,24,1.00,1.00,FWCTU ERLMH ZDOXP KVNOQ VJBNO  Memorize and track the chain(,FWCTU KVNOQ VJBNO ZDOXP ERLMH  Memorize and track the chain(,63e50e3
+vt,16384,2,nvfp4_kh,24,24,1.00,1.00,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the chain,KZZIM FZIQO GUBIM IFXHJ RBNSV  Memorize and track the chain,63e50e3
+vt,16384,3,nvfp4_kh,24,24,1.00,1.00,XRNQK AKLFD WILAD MMLAZ OENNK  Memorize and track the chain,XRNQK AKLFD WILAD MMLAZ OENNK  Memorize and track the chain,63e50e3
+vt,16384,4,nvfp4_kh,24,24,1.00,1.00,FFSQY BFVIE EOKRE TLJWD FRZNY  Memorize and track the chain,FFSQY BFVIE EOKRE TLJWD FRZNY  Memorize and track the chain,63e50e3
+vt,16384,5,nvfp4_kh,24,24,1.00,1.00,WDIGU FDNDM WJPCG BWSGW VXAJP  Memorize and track the chain,WDIGU FDNDM WJPCG BWSGW VXAJP  Memorize and track the chain,63e50e3
+vt,16384,6,nvfp4_kh,24,24,1.00,1.00,RODFD XXGHA BGAVD HVDJI YVANB  Memorize and track the chain,RODFD XXGHA BGAVD HVDJI YVANB  Memorize and track the chain,63e50e3
+vt,16384,7,nvfp4_kh,24,24,1.00,1.00,NAXEG XSQAZ EJRVB IZIED LCKIT  Memorize and track the chain,NAXEG XSQAZ EJRVB IZIED LCKIT  Memorize and track the chain,63e50e3
+vt,16384,8,nvfp4_kh,24,24,1.00,1.00,IMVWK GCYHU YCPJL EEOFQ XXYDP  Memorize and track the chain,IMVWK GCYHU YCPJL EEOFQ XXYDP  Memorize and track the chain,63e50e3
+vt,16384,9,nvfp4_kh,24,24,1.00,1.00,GYRNX XFNKY BHQCS HIDRN UWRHN  Memorize and track the chain(,GYRNX XFNKY BHQCS HIDRN UWRHN  Memorize and track the chain(,63e50e3
+vt,32768,0,nvfp4_kh,24,24,1.00,1.00,ZUAOR RDQQG IBPOY SIGQV MWYDI  Memorize and track the chain(,ZUAOR RDQQG IBPOY SIGQV MWYDI  Memorize and track the chain(,63e50e3
+vt,32768,1,nvfp4_kh,24,24,1.00,1.00,KJTCX SUPGP MQFSA WKATR HLVDG  Memorize and track the chain(,KJTCX SUPGP MQFSA WKATR HLVDG  Memorize and track the chain(,63e50e3
+vt,32768,2,nvfp4_kh,24,24,0.80,0.80,98919 KFAWJ MWCNE ESTWN NMKZD  Memorize and track the chain(,98919 KFAWJ MWCNE ESTWN NMKZD  Memorize and track the chain(,63e50e3
+vt,32768,3,nvfp4_kh,24,24,1.00,1.00,URVVJ VEUGM NHYXL VKQYK EQMRR  Memorize and track the chain(,URVVJ VEUGM NHYXL VKQYK EQMRR  Memorize and track the chain(,63e50e3
+vt,32768,4,nvfp4_kh,24,24,1.00,1.00,ZFNWR CAHZE HOUTL IIPMY RJMTH  Memorize and track the chain(,ZFNWR CAHZE HOUTL IIPMY RJMTH  Memorize and track the chain(,63e50e3
+vt,32768,5,nvfp4_kh,24,24,1.00,1.00,JRTTP MFLDL SDPHY ZDWEP SWTZN  Memorize and track the chain(,JRTTP MFLDL SDPHY ZDWEP SWTZN  Memorize and track the chain(,63e50e3
+vt,32768,6,nvfp4_kh,24,24,1.00,1.00,ZKREG MXALQ FWGFG EPTNH FTRBC  Memorize and track the chain(,ZKREG MXALQ FWGFG EPTNH FTRBC  Memorize and track the chain(,63e50e3
+vt,32768,7,nvfp4_kh,24,24,0.80,0.80,36042 NPYFY RRKRY VSEPA AKNPX  Memorize and track the chain(,36042 NPYFY RRKRY VSEPA AKNPX  Memorize and track the chain(,63e50e3
+vt,32768,8,nvfp4_kh,24,24,1.00,1.00,31596 DYMHO GYJWU WSNUK AGJHK XMFEA  Memorize and,31596 DYMHO GYJWU WSNUK AGJHK XMFEA  Memorize and,63e50e3
+vt,32768,9,nvfp4_kh,24,24,1.00,1.00,BYDUB VMKZT DKWZT OQYXI YWIWH  Memorize and track,BYDUB VMKZT DKWZT OQYXI YWIWH  Memorize and track,63e50e3

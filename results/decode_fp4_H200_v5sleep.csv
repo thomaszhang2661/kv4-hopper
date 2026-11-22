@@ -1,0 +1,21 @@
+gpu,commit,tag,impl,config,batch,ctx,ms,gbs,peak_frac
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=1,nst=2",32,16384,0.1830,3300,0.688
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=2,nst=2",32,16384,0.1849,3267,0.681
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=4,nst=2",32,16384,0.1879,3215,0.670
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=1,nst=2",32,16384,0.1852,3079,0.642
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=2,nst=2",32,16384,0.1858,3070,0.640
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=4,nst=2",32,16384,0.1890,3018,0.629
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=1,nst=2",128,16384,0.6669,3622,0.755
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=2,nst=2",128,16384,0.6995,3454,0.720
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=4,nst=2",128,16384,0.7335,3294,0.686
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=1,nst=2",128,16384,0.6671,3420,0.713
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=2,nst=2",128,16384,0.6999,3260,0.679
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=4,nst=2",128,16384,0.7055,3234,0.674
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=1,nst=2",8,65536,0.4041,1495,0.311
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=2,nst=2",8,65536,0.2138,2826,0.589
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4,"splits=4,nst=2",8,65536,0.1831,3299,0.687
+NVIDIA H200,6bb450c,v5sleep,cuda_nvfp4+merge,"splits=4,nst=2",8,65536,0.2123,2845,0.593
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=1,nst=2",8,65536,0.4084,1397,0.291
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=2,nst=2",8,65536,0.2148,2656,0.553
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4,"splits=4,nst=2",8,65536,0.1839,3102,0.646
+NVIDIA H200,6bb450c,v5sleep,cuda_mxfp4+merge,"splits=4,nst=2",8,65536,0.2124,2686,0.560

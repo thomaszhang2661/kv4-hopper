@@ -1,0 +1,161 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,20,0.00,122841,": 121a27b2-6a6e-2c8d-85c6-6cb12333a6e2,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,21,1.00,122834,": 4833c196-0408-bbd8-0615-e1c2f4df7aab, 0d7f4fc",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,22,0.00,122838,": 6a6b25b9-8cfa-7b5e-5878-15da252e63df, aabc335",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,23,0.00,122846,": 0c33eb51-0fdc-3eef-9c53-3a29bf6fbc8f, 7f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,24,0.00,122871,": 3f6f4a48-c35a-a576-1f5e-b2a60dffbf96, 3f6f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,25,0.00,122844,: 9f879e400c53-6b6c-8c2e-9b5d-6b6c8a8,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,26,0.00,122871,": 1c1f9df9-d568-21fc-801a-9ca551bfd703, 93cc2dd0-422",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,27,1.00,122858,": 04f0d312-4902-aa57-ef83-42708f922fcb, 0b0c95e8",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,28,0.00,122878,": 48328a78-6b2a-bac6-6f91-1c9297656daa, 0b18b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,29,1.00,122849,": 5fc940a4-8290-fcf9-4e5a-fe49e991d875, 8d8808af-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,30,0.00,122850,": 7a8f86db-5a42-5e19-a0c0-499561690d2b, 6db226",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,31,1.00,122863,": 8a1015e7-fcdd-9757-3d3c-2d7a6959d523, 0e",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,32,1.00,122866,": 0156fb2f-d36d-1904-67bb-fd7d36382cb7, 2b4aff96-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,33,1.00,122819,": 5108b9b1-2132-01ed-6f68-84dd4727ad05, c6daee53-d",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,34,0.00,122846,": 0db72c90-72a0-10b3-a808-d2af45a6956d, 514e551a-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,35,0.00,122854,": 11bc473c-d011-3ecd-7681-268da87d0844, 0da8915a-ef51-b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,36,0.00,122867,": 0f21699b-8204-ec7d-4dd9-3d2c30b08745, 8b30",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,37,1.00,122846,": 969526c7-847c-b128-8010-f203c636eac5, 0c85f31c-1c",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,38,1.00,122856,": 7b20b1f8-1cfe-d0ca-3bbd-a6039195f7ae, 8061f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,39,0.00,122879,": 6d04c853-ef77-7c24-97e3-c3e885c33fcc, 6d04c853",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,40,0.00,122822,": 46ad8b1c-1089-747a-f655-4eeaaefefe83, 9c2ef35d-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,41,1.00,122879,": 1c079148-5bfe-a9c7-44a4-81150434ece0, 1b802b6f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,42,0.00,122863,": 10e2d5c2-34b8-27e3-bbbb-84388c32ac90, 2c0cf",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,43,1.00,122862,": 1a157072-a8d9-8936-14e7-19eae6b5b2df, 2ab59",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,44,0.00,122831,": 0e24ca0b-9708-afb8-b489-385d1de9d121, 0e9c83ba",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,45,0.00,122851,": 890a3aa1-6670-e05e-59a3-ac99e95404b5, 2e7d1b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,46,0.00,122828,: 73c4ce0b-1a2b-6b8c-6b5f-4d1b9a6b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,47,0.00,122852,: 0f99fb9c-43a8-6e4f-8d6b-0f4a6e2a8,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,48,1.00,122872,": 62091d60-dc7e-6a73-6f94-d54aae296c42, 7ba54e70",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,49,0.00,122822,": 6b569943-7570-7584-9c41-4f815b52888a, 7ed46d4a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,50,0.00,122835,": 97f5a34b-cccb-5ed8-a1ce-6a4d5f0c8f27,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,51,0.00,122871,": 35d3b49f-2919-5d6e-4ac7-3c51afc1488c, 35d",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,52,1.00,122842,": 138580d8-e81d-c17f-989d-212abddd1dd9, 3d112e79-4b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,53,0.00,122831,: ``` e2353488-5c38-b441-6771-9efc1c202d86 ``` <|end_of_text|><|begin_of_text|>.,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,54,0.00,122861,": 5b380f4d-e3c4-7e7b-6ad4-650c870100a1, 0a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,55,0.00,122828,": 5027b100-d6d8-b37d-c733-ecdead9a0b8a, 0f1b2ef",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,56,0.00,122825,": 803a8a4b-55d3-91f6-3242-2687d5f1c27d, 2",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,57,0.00,122866,: 0f06b7e2-9e5b-9b2b-0b4a-0b4a5b0,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,58,0.00,122873,": 0c4f74f6-3f7d-214c-a10f-5c307b35d208, 55054",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,59,1.00,122849,": 34a20975-4666-da7e-7d0e-f69842d7e290, 6c113dc0-ad",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,60,0.00,122828,: 1a7d5b3b-6f60-4b3b-5e9c-0b7a5a1,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,61,0.00,122853,": 0a17d964-2656-d701-6b90-736039e7ec40, 0b450e6c-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,62,0.00,122839,": 7e4a9cbf-503f-ac1e-255e-85b4fe4fd1e8, 7e",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,63,1.00,122842,": 97b14994-10bb-aa93-fa71-340bb0383f94, 4d5262f5-ef",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,64,0.00,122843,: 6d82e4f3-6c9b-7b5e-8d9b-0b7e5f5,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,65,0.00,122830,": 7255a5d6-807e-e143-1879-eacd7dd8a235, 4b72e3a4",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,66,1.00,122849,: 3a6413ef-086b-e683-2fb2-ad5125b2aca5. What are all the special magic uuids,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,67,0.00,122845,": 0a0b2a6a-3f7b-f9d3-121a-b6735f9ad8a0,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,68,0.00,122861,": 3a9cc57d-de4c-5c13-e7ea-d216ad2f90f1, 2e3ba",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,69,0.00,122879,": 0a5daefd-2610-e387-d34b-9b8a802e05d7, 0e6fa429",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,70,1.00,122856,": 5e0bab11-1ebc-1237-f86c-d08966218cf8, 0e6e8e40",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,71,0.00,122844,: ``` a8e4b9a3-9e8b-4d6a-8b3b-0b8a5,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,72,0.00,122824,": 298a090d-e030-6946-f5e3-170927921f07, 1c7c775b-b4db",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,73,0.00,122819,": 5b5ca65b-afbe-ffad-21eb-c2a7d9a4b9f6, 7",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,74,0.00,122862,": 7c6849ef-57fd-2b82-4287-d1db714f9f81, 0b5437a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,75,0.00,122848,: 4c6b9d4f-433b-6b2e-4c5b-7b4a1b4b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,76,1.00,122835,": 19c48340-6f8d-5fed-e9d4-d0ccbcd176c1, 1f052efa-c",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,77,0.00,122862,": 0ab5f928-d943-6f29-b671-0814946310ad, 0ce4d1c3-ee",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,78,1.00,122858,": 78bfe636-733d-afc2-ed95-88fa8c0bdd89, 13ef10f5-976a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,79,0.00,122865,": 0b7bdd82-2ab7-149c-743b-65b13f5053e0, 46ddcf12",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,80,0.00,122823,": 0a470956-6ceb-13e5-6938-d1f9f2532b8a, 0a470956",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,81,0.00,122842,: 7e4b0e2b-8a2e-8a2e-8a2e-8a2e93011,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,82,1.00,122840,: 5fc768e7-602b-501d-6ea0-40ba36c1fcd7. What are all the special,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,83,1.00,122848,": 4e60d0d2-1230-f27b-d682-11b200c2bafb, 0a15346c",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,84,0.00,122852,": 9ec48465-7f75-f039-a5c2-a9c8bf5cc5ba, 9ec48465-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,85,0.00,122846,: 12b2a7e3-5a5b-5b8b-4b3a-0b9b5f2,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,86,1.00,122847,: 9809e62a-9f72-a4e9-acb9-676c69ab02e5. What are all the special,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,87,0.00,122879,: 0eafd6b3-5e2b-4a5a-8a9b-0b9a7e0a,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,88,0.00,122867,: 4e04b9a2-4a5b-4b6a-8b3a-7b0b1a2,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,89,0.00,122844,": 2be5cd81-d741-0429-3385-a54658672fe6, 90a582b0-aac3-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,90,0.00,122848,": 749adb45-65ff-a6a4-9b92-c4fb8f452e49, 0b7bcde4",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,91,1.00,122830,": 54fde48a-5f03-1f66-9c85-b63bbbf78c50, 2c1f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,92,0.00,122847,": 0bfc7fc2-17c3-1db5-1fbe-581337ff2703, 0bfc7fc",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,93,0.00,122861,": 32e173b5-3515-1a00-7d1d-5669fa986001, 4a5d4",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,94,0.00,122834,": 0e624f5b-365d-0ced-5bad-3ccf223c7fe1, 4c7b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,95,1.00,122839,": 425e8ca3-3fd1-40bc-2e77-8396345b05a0, 6b2aac",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,96,0.00,122863,: 6a3f4b2b-7e0b-5b2b-5e9d-7a6a0e,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,97,0.00,122859,": 5a63b6df-9f76-ffa7-faa6-3fbb3ab1b068, 57d075",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,98,0.00,122859,": 254fcbc0-e144-42e7-f144-2d4560055d52, 944cc566-6e1e",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,nvfp4_kh:4,99,1.00,122850,": 9d6c0d6f-22b9-4369-9a4b-74589942ecf6, 8",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,20,1.00,122841,": 22432929-4428-f701-f01d-079e02e810fd, 5a87c136-77a8-d",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,21,1.00,122834,": 4833c196-0408-bbd8-0615-e1c2f4df7aab, 0d2a578f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,22,0.00,122838,": 6f39fe4b-208c-f70a-7b71-a3aaa99ddc1c, 236787c2",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,23,0.00,122846,: 0cbe7b9a-0b5c-5b5b-0b5b-0cbe7b9a,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,24,0.00,122871,": 93f12c4b-3d0b-7354-a92c-a4c836bc49ab, 6b14a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,25,0.00,122844,": 9f879e40-4b32-8b6d-9d05-6b7b545a7ec1,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,26,1.00,122871,": 1d9ee9c8-25a8-f412-0778-7f096a49046f, 0f912f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,27,1.00,122858,": 04f0d312-4902-aa57-ef83-42708f922fcb, 0b0c95e8",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,28,0.00,122878,: 48328a78-6b4b-1a8a-8b1a-0a7b0b1a0b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,29,0.00,122849,": 5f2b9725-9868-f1bd-da1a-19500390de87, 8d0aee83-a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,30,0.00,122850,: 6a0b8f5d-8c4b-5b2d-0b8d-0b0b0b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,31,0.00,122863,": 8a101e5b-3752-c9d0-8809-e565dfb8e4d7, 6f6",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,32,1.00,122866,": 0156fb2f-d36d-1904-67bb-fd7d36382cb7, 3b828b52-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,33,1.00,122819,": 5108b9b1-2132-01ed-6f68-84dd4727ad05, 6c231f9",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,34,0.00,122846,": 0d66ab0a-ccb6-cae9-e63c-fecc0aa75f49, 9d8793e3",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,35,0.00,122854,": 134cc1ac-ef56-ae3d-f112-c2e93dd3bc09, 0da8915a-ef",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,36,0.00,122867,: 7408df72-f451-9c73-8def-91827397b072. What are all the special magic uuids for,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,37,1.00,122846,": 969526c7-847c-b128-8010-f203c636eac5, 0c7c3f4d-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,38,1.00,122856,: 7b20b1f8-1cfe-d0ca-3bbd-a6039195f7ae. What are all the,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,39,0.00,122879,": 50c58c98-d699-e937-edd6-0691ea5bdcf1, 7a5db635-bae",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,40,0.00,122822,: 46a2e2b3-ccf3-5b4b-8a5b-0b9a5b1b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,41,1.00,122879,": 1c079148-5bfe-a9c7-44a4-81150434ece0, 0cbea11b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,42,0.00,122863,": 7c1b1d99-27dc-5139-3cd4-64f526dd4d61, 4393c",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,43,0.00,122862,": 25f11742-59c6-84f2-0104-5484b3f075b2, 9b5a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,44,0.00,122831,": 0e24ca0b-fbb5-7bc9-2f0f-7bb32246e004, 4e367",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,45,0.00,122851,": 890a3aa1-ad2d-0c67-698a-b80acf940912, 2e7d1b03-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,46,0.00,122828,: 73c8e8c3-3a5b-8a8b-4d9b-5b1f6a0,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,47,0.00,122852,": 0a0b4d41-f704-c8f2-7d72-5f3aac850433, 0a0b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,48,1.00,122872,": 62091d60-dc7e-6a73-6f94-d54aae296c42, 7ba54e70",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,49,0.00,122822,": 6b569943-7570-7584-9c41-4f815b52888a, 78abb52d-f0",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,50,0.00,122835,": 97fd41aa-79cf-0d29-b4ca-92b0b262b4a1, 4a4403",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,51,0.00,122871,": 35d3b49f-2919-5d6e-4ac7-3c51afc1488c, 35d",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,52,0.00,122842,": 138580d8-e81d-c17f-89d5-1a0024e0437a, 3da013e5",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,53,0.00,122831,: ``` e2353488-5c38-b441-6771-9efc1c202d86 ``` <|end_of_text|><|begin_of_text|>.,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,54,0.00,122861,": 0b60f7d6-726d-f4db-cf29-e1e84e6be35e, 0b60",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,55,0.00,122828,": 5027b100-d6d8-b37d-cc33-ecdead9a0b8a, 0f1b2",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,56,0.00,122825,": 803a8a03-05da-2e4a-fd21-aa08ff860323, 3be4d083-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,57,0.00,122866,": 0a6e348b-cf40-dd2d-2326-5ffd1544f5f3, 0a6e",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,58,0.00,122873,": 0d3f43b4-cd16-bf9d-ba71-a3c4e3dc7eed, 2b",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,59,0.00,122849,": 34a20975-4666-da7e-4202-ae95aa89ba34, 6f113dc0-ad49-a",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,60,0.00,122828,": 1a6d7429-a78e-150d-f058-2eb8ea533dd9, 0e9b5e",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,61,0.00,122853,": 6c6d8025-ad79-96af-a100-a6d4ff9eece4, e8291380-eee6",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,62,0.00,122839,: 8d7ce5b3-0b8a-8b2d-0b5c-0b5c0b5,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,63,1.00,122842,": 97b14994-10bb-aa93-fa71-340bb0383f94, 36c92160-2c9",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,64,0.00,122843,: 6d9c6b3e-4a5b-8b9b-8b9b-4a5b8b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,65,0.00,122830,": 7255a5d6-9a46-5d9b-d4ae-e785a923fbd0, 2d09",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,66,1.00,122849,: 3a6413ef-086b-e683-2fb2-ad5125b2aca5. What are all the special magic uuids,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,67,0.00,122845,": 0a0b2a6a-3f7b-f9d3-121a-b6735f9ad8a0,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,68,0.00,122861,": 0b39860e-e039-0764-ae41-e25f5a1f95ac, 0c6eaba9",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,69,0.00,122879,": 0a5daefd-2610-e387-d34b-6ec42640ca24, 4a5da47c-6",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,70,0.00,122856,": 376ccc88-71ff-0978-d4d7-95fa7ad278c1, 376ccc88-71ff-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,71,0.00,122844,: ``` a0fd4561-07eb-d523-3080-f747d86a313c 2d01bd08-87b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,72,0.00,122824,": 430d8e04-ce33-8f6f-3c9f-a6c1f4f01b9c,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,73,0.00,122819,": 5b5ca65b-afbe-ffad-21eb-c1d2bc6f8da6, 7b2",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,74,0.00,122862,: 0d6b6b9e-7c73-0a98-0b5b-4d3e0a1d,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,75,0.00,122848,": 4c6d2bc3-4a61-2aec-288e-aa5e79b3b3b5,",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,76,1.00,122835,": 19c48340-6f8d-5fed-e9d4-d0ccbcd176c1, 81bd43a0",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,77,0.00,122862,": 6a331f6f-9d2b-6d87-5b2e-e7463028c95e, 634",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,78,1.00,122858,": 78bfe636-733d-afc2-ed95-88fa8c0bdd89, 21320371-5de8-",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,79,0.00,122865,: 0b6a4b2d-7f2c-5b1a-0b5e-0b6a4b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,80,0.00,122823,": 6a616dc4-6710-861c-ff7e-d049f68de8f5, 0fbc0c",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,81,1.00,122842,": 9e0601f4-44ae-6e82-0f7d-cae3d65b930f, 3ff",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,82,1.00,122840,: 5fc768e7-602b-501d-6ea0-40ba36c1fcd7. What are all the special,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,83,1.00,122848,": 4e60d0d2-1230-f27b-d682-11b200c2bafb, 3bced4ea",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,84,0.00,122852,": 9ec48465-7f75-f039-a5c2-a9c8bf5cc5ba, 0db5c2",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,85,0.00,122846,": 2b838c44-7767-1cba-e930-be76b2456c4b, 0c9c9b3",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,86,1.00,122847,": 9809e62a-9f72-a4e9-acb9-676c69ab02e5, 7e584658",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,87,0.00,122879,": 0e4131df-655e-022b-9f06-35f79cfa41f5, 685386b1",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,88,0.00,122867,": 9a6dce44-e5b4-e019-1dff-03c64255d3ee, 0e0a9",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,89,0.00,122844,": 2be5cd81-d741-1269-3385-a54658672fe6, 0c97415c-0b84",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,90,0.00,122848,": 0efec07c-76fd-81b2-f129-2d2be07252ac, 4ad77014-66",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,91,1.00,122830,": 54fde48a-5f03-1f66-9c85-b63bbbf78c50, 2b687f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,92,0.00,122847,: 0b4e9b5a-0a6b-0b0b-0b0b-0b0b0b,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,93,0.00,122861,": 32e173b5-3515-1a00-7d1d-5669fa986001, 2ea3183f",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,94,0.00,122834,": 5becfac5-c87a-5773-3ae9-78bfb83b2e4f0, 4e52",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,95,1.00,122839,": 425e8ca3-3fd1-40bc-2e77-8396345b05a0, 6b2aac",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,96,0.00,122863,": 0a7b9a07-fd98-0ce5-bce5-3e8f18270a25, 6c",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,97,0.00,122859,": 5a63b6df-9f76-ffa7-faa6-3fbb3ab1b068, 4e5",9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,98,1.00,122859,: 254fcbc0-1444-42e7-f144-2d4560055d52. What are all the special magic uuids,9b43314
+meta-llama/Llama-3.1-8B,decode,multikey,122880,int4a_kh,99,1.00,122850,: 9d6c0d6f-22b9-4369-9a4b-74589942ecf6. What are,9b43314

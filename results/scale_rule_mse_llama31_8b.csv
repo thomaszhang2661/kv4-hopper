@@ -1,0 +1,93 @@
+model,tensor,rule,c,rel_mse,commit
+meta-llama/Llama-3.1-8B,K rotated,ocp,,0.01287,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.125,0.02284,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.14,0.01406,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.15,0.01124,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.156,0.01042,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.166,0.01022,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.177,0.01136,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.19,0.01413,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.2,0.01711,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.21,0.01416,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.22,0.01226,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,continuous,0.25,0.01134,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.125,0.03526,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.14,0.02289,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.15,0.01814,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.156,0.01616,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.166,0.01404,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.177,0.01285,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.19,0.01233,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.2,0.01232,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.21,0.01254,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.22,0.01282,6c258b2
+meta-llama/Llama-3.1-8B,K rotated,pow2,0.25,0.01404,6c258b2
+meta-llama/Llama-3.1-8B,K,ocp,,0.01761,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.125,0.03237,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.14,0.01828,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.15,0.01311,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.156,0.01144,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.166,0.01087,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.177,0.01315,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.19,0.01941,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.2,0.02671,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.21,0.02192,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.22,0.01861,6c258b2
+meta-llama/Llama-3.1-8B,K,continuous,0.25,0.01666,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.125,0.04021,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.14,0.02853,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.15,0.02425,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.156,0.02252,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.166,0.01975,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.177,0.01761,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.19,0.01666,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.2,0.01695,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.21,0.01784,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.22,0.01881,6c258b2
+meta-llama/Llama-3.1-8B,K,pow2,0.25,0.02173,6c258b2
+meta-llama/Llama-3.1-8B,V,ocp,,0.01434,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.125,0.02529,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.14,0.01516,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.15,0.01165,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.156,0.01056,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.166,0.01020,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.177,0.01164,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.19,0.01543,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.2,0.01969,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.21,0.01626,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.22,0.01397,6c258b2
+meta-llama/Llama-3.1-8B,V,continuous,0.25,0.01269,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.125,0.03404,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.14,0.02376,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.15,0.01988,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.156,0.01832,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.166,0.01596,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.177,0.01434,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.19,0.01357,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.2,0.01360,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.21,0.01401,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.22,0.01447,6c258b2
+meta-llama/Llama-3.1-8B,V,pow2,0.25,0.01594,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,ocp,,0.01339,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.125,0.02315,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.14,0.01421,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.15,0.01127,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.156,0.01039,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.166,0.01015,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.177,0.01134,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.19,0.01429,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.2,0.01750,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.21,0.01449,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.22,0.01254,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,continuous,0.25,0.01153,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.125,0.03166,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.14,0.02221,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.15,0.01856,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.156,0.01689,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.166,0.01479,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.177,0.01337,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.19,0.01262,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.2,0.01260,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.21,0.01287,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.22,0.01317,6c258b2
+meta-llama/Llama-3.1-8B,V rotated,pow2,0.25,0.01421,6c258b2

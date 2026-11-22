@@ -1,0 +1,8 @@
+# In-vLLM perplexity, RedHatAI/Qwen2.5-72B-Instruct-FP8-dynamic (FP8 weights), wikitext-2, 16 x 8192 tokens, chunk 2048.
+# Job 12037667 (kv4ppl72), H200 SXM (d4055, driver 570.86.15), vLLM 0.33.0, KV4_COMMIT=6a0c66a; the RESULT lines of
+# its log, verbatim. auto = BF16 KV; fp8 = FP8 KV; fp8_l0 = FP8 KV with layer 0 in BF16; plugin_recipe = our recipe
+# (calibration from the BF16 model). Paper: Section 7 capacity paragraph and the accuracy section (+0.03% vs +0.95%).
+RESULT auto [-, boundary vllm, mean 0, sinks 0]: ppl 3.4712 nll 1.244489 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT fp8 [-, boundary vllm, mean 0, sinks 0]: ppl 3.5043 nll 1.253991 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT fp8_l0 [-, boundary vllm, mean 0, sinks 0]: ppl 3.5018 nll 1.253274 over 131056 tokens (16 x 8192, chunk 2048)
+RESULT plugin_recipe [nvfp4, boundary 0, mean 1, sinks 1]: ppl 3.4723 nll 1.244815 over 131056 tokens (16 x 8192, chunk 2048)

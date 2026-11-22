@@ -1,0 +1,901 @@
+model,task,idx,config,k_fmt,v_fmt,sink,prompt_tokens,score,pred,commit
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,bf16,bf16,bf16,0,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,fp8,fp8,fp8,0,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,nvfp4_kh,nvfp4_h,nvfp4,0,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,bf16,bf16,bf16,0,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,fp8,fp8,fp8,0,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,nvfp4_kh,nvfp4_h,nvfp4,0,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,bf16,bf16,bf16,0,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,fp8,fp8,fp8,0,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,nvfp4_kh,nvfp4_h,nvfp4,0,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,3,bf16,bf16,bf16,0,16353,0.0952,"Gary L. Bennett was a part of the space missions that have a primary destination of the Sun, Mars, Jupiter, and other celestial bodies.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,3,fp8,fp8,fp8,0,16353,0.0952,"Gary L. Bennett was a part of the space missions that have a primary destination of the Sun, Mars, Jupiter, and other celestial bodies.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,3,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16353,0.1333,Gary L. Bennett was a part of the space missions that have a primary destination of the Sun.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,3,nvfp4_kh,nvfp4_h,nvfp4,0,16353,0.0952,"Gary L. Bennett was a part of the space missions that have a primary destination of the Sun, Mars, Jupiter, and other celestial bodies.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,3,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16353,0.1333,Gary L. Bennett was a part of the space missions that have a primary destination of the Sun.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,3,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16353,0.0952,"Gary L. Bennett was a part of the space missions that have a primary destination of the Sun, Mars, Jupiter, and other celestial bodies.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,4,bf16,bf16,bf16,0,14511,0.4000,On film.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,4,fp8,fp8,fp8,0,14511,0.4000,On film.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,4,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14511,0.4000,On film.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,4,nvfp4_kh,nvfp4_h,nvfp4,0,14511,0.4000,On film.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,4,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14511,0.4000,On film.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,4,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14511,0.4000,On film.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,5,bf16,bf16,bf16,0,14619,1.0000,Parliament.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,5,fp8,fp8,fp8,0,14619,1.0000,Parliament.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,5,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14619,1.0000,Parliament.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,5,nvfp4_kh,nvfp4_h,nvfp4,0,14619,1.0000,Parliament.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,5,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14619,1.0000,Parliament.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,5,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14619,1.0000,Parliament.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,6,bf16,bf16,bf16,0,15825,0.1667,"Thirukkalacherry is a village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,6,fp8,fp8,fp8,0,15825,0.1667,"Thirukkalacherry is a village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,6,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15825,0.1667,"Thirukkalacherry is a village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,6,nvfp4_kh,nvfp4_h,nvfp4,0,15825,0.1667,"Thirukkalacherry is a village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,6,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15825,0.1667,"Thirukkalacherry is a village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,6,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15825,0.1667,"Thirukkalacherry is a small village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,7,bf16,bf16,bf16,0,2256,0.2500,Both Pueraria and Pleiospilos are flowering plants.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,7,fp8,fp8,fp8,0,2256,0.2500,Both Pueraria and Pleiospilos are flowering plants.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,7,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,2256,0.2500,Both Pueraria and Pleiospilos are flowering plants.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,7,nvfp4_kh,nvfp4_h,nvfp4,0,2256,0.2500,Both Pueraria and Pleiospilos are flowering plants.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,7,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,2256,0.2500,Both Pueraria and Pleiospilos are flowering plants.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,7,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,2256,0.2500,Both Pueraria and Pleiospilos are flowering plants.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,8,bf16,bf16,bf16,0,12161,0.1429,Russell D. Moore became the President of The Ethics & Religious Liberty Commission (ERLC) in 2013.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,8,fp8,fp8,fp8,0,12161,0.1429,Russell D. Moore became the President of The Ethics & Religious Liberty Commission (ERLC) in 2013.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,8,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,12161,0.1429,Russell D. Moore became the President of The Ethics & Religious Liberty Commission (ERLC) in 2013.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,8,nvfp4_kh,nvfp4_h,nvfp4,0,12161,0.1429,Russell D. Moore became the President of The Ethics & Religious Liberty Commission (ERLC) in 2013.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,8,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,12161,0.1429,Russell D. Moore became the President of The Ethics & Religious Liberty Commission (ERLC) in 2013.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,8,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,12161,0.1429,Russell D. Moore became President of The Ethics & Religious Liberty Commission (ERLC) in 2013.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,9,bf16,bf16,bf16,0,8755,0.1000,"The female member of Fitz and The Tantrums, Noelle Scaggs, was the front woman for the Los Angeles soul band The Rebirth for ten",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,9,fp8,fp8,fp8,0,8755,0.1000,"The female member of Fitz and The Tantrums, Noelle Scaggs, was the front woman for the Los Angeles soul band The Rebirth for ten",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,9,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,8755,0.1000,"The female member of Fitz and The Tantrums, Noelle Scaggs, was the front woman for the Los Angeles soul band The Rebirth for ten",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,9,nvfp4_kh,nvfp4_h,nvfp4,0,8755,0.0000,"The female member of Fitz and The Tantrums, Noelle Scaggs, was the front woman for ten years for the Los Angeles soul band, The",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,9,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,8755,0.1000,"The female member of Fitz and The Tantrums, Noelle Scaggs, was the front woman for the Los Angeles soul band The Rebirth for ten",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,9,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,8755,0.0000,"The female member of Fitz and The Tantrums, Noelle Scaggs, was the front woman for ten years for the Los Angeles soul band The Re",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,10,bf16,bf16,bf16,0,16265,0.6000,"Ashanti was born on October 13, 1980.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,10,fp8,fp8,fp8,0,16265,0.6000,"Ashanti was born on October 13, 1980.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,10,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16265,0.6000,"Ashanti was born on October 13, 1980.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,10,nvfp4_kh,nvfp4_h,nvfp4,0,16265,0.6000,"Ashanti was born on October 13, 1980.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,10,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16265,0.6000,"Ashanti was born on October 13, 1980.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,10,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16265,0.6000,"Ashanti was born on October 13, 1980.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,11,bf16,bf16,bf16,0,15885,0.0000,Cartoon Network.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,11,fp8,fp8,fp8,0,15885,0.0000,Cartoon Network.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,11,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15885,0.0000,Cartoon Network.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,11,nvfp4_kh,nvfp4_h,nvfp4,0,15885,0.0000,Cartoon Network.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,11,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15885,0.0000,Cartoon Network.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,11,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15885,0.0000,Cartoon Network.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,12,bf16,bf16,bf16,0,15485,0.1538,"Mary Astor starred in her final film role in the 1964 film directed by Robert Aldrich, who also directed Vera Cruz and Kiss Me Deadly.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,12,fp8,fp8,fp8,0,15485,0.1538,"Mary Astor starred in her final film role in the 1964 film directed by Robert Aldrich, who also directed Vera Cruz and Kiss Me Deadly.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,12,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15485,0.1538,"Mary Astor starred in her final film role in the 1964 film directed by Robert Aldrich, who also directed Vera Cruz and Kiss Me Deadly.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,12,nvfp4_kh,nvfp4_h,nvfp4,0,15485,0.1538,"Mary Astor starred in her final film role in the 1964 film directed by Robert Aldrich, who also directed Vera Cruz and Kiss Me Deadly.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,12,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15485,0.1538,"Mary Astor starred in her final film role in the 1964 film directed by Robert Aldrich, who also directed Vera Cruz and Kiss Me Deadly.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,12,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15485,0.1538,"Mary Astor starred in her final film role in the 1964 film directed by Robert Aldrich, who also directed Vera Cruz and Kiss Me Deadly.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,13,bf16,bf16,bf16,0,10301,1.0000,Number five.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,13,fp8,fp8,fp8,0,10301,1.0000,Number five.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,13,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,10301,1.0000,Number five.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,13,nvfp4_kh,nvfp4_h,nvfp4,0,10301,1.0000,Number five.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,13,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,10301,1.0000,Number five.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,13,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,10301,1.0000,Number five.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,14,bf16,bf16,bf16,0,16221,0.0833,The Sri Lankan sambar deer is a subspecies of the sambar that lives in India and Sri Lanka.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,14,fp8,fp8,fp8,0,16221,0.0833,The Sri Lankan sambar deer is a subspecies of the sambar that lives in India and Sri Lanka.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,14,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16221,0.0833,The Sri Lankan sambar deer is a subspecies of the sambar that lives in India and Sri Lanka.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,14,nvfp4_kh,nvfp4_h,nvfp4,0,16221,0.0741,The passage does not mention any other areas that share a common deer species with the forests of Mara and Mondrem.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,14,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16221,0.0714,"The sambar deer is found in both India and Sri Lanka, sharing a common subspecies with the Forests of Mara and Mondrem.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,14,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16221,0.0741,The Sri Lankan sambar deer is a subspecies of the sambar that shares a common area with the Forests of Mara and Mondrem.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,15,bf16,bf16,bf16,0,12245,0.2667,"Sara Symington competed in the 2000 Summer Olympics held in Sydney, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,15,fp8,fp8,fp8,0,12245,0.2667,"Sara Symington competed in the 2000 Summer Olympics held in Sydney, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,15,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,12245,0.2667,"Sara Symington competed in the 2000 Summer Olympics held in Sydney, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,15,nvfp4_kh,nvfp4_h,nvfp4,0,12245,0.2667,"Sara Symington competed in the 2000 Summer Olympics held in Sydney, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,15,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,12245,0.2667,"Sara Symington competed in the 2000 Summer Olympics held in Sydney, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,15,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,12245,0.2667,"Sara Symington competed in the 2000 Summer Olympics held in Sydney, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,16,bf16,bf16,bf16,0,6194,0.8000,Claudio López.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,16,fp8,fp8,fp8,0,6194,0.8000,Claudio López.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,16,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6194,0.8000,Claudio López.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,16,nvfp4_kh,nvfp4_h,nvfp4,0,6194,0.8000,Claudio López.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,16,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6194,0.8000,Claudio López.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,16,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6194,0.6667,Claudio López (footballer),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,17,bf16,bf16,bf16,0,16292,0.0000,Ronald Reagan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,17,fp8,fp8,fp8,0,16292,0.0000,Ronald Reagan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,17,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16292,0.0000,Ronald Reagan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,17,nvfp4_kh,nvfp4_h,nvfp4,0,16292,0.0000,Ronald Reagan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,17,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16292,0.0000,Ronald Reagan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,17,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16292,0.0000,Ronald Reagan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,18,bf16,bf16,bf16,0,14012,0.1600,"The song that came out ahead of The Wanted's ""Lightning"" on the UK Singles Chart was Rihanna's ""We Found Love"" from her album Talk That",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,18,fp8,fp8,fp8,0,14012,0.1600,"The song that came out ahead of The Wanted's ""Lightning"" on the UK Singles Chart was Rihanna's ""We Found Love"" from her album Talk That",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,18,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14012,0.1600,"The song that came out ahead of The Wanted's ""Lightning"" on the UK Singles Chart was Rihanna's ""We Found Love"" from her album Talk That",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,18,nvfp4_kh,nvfp4_h,nvfp4,0,14012,0.1600,"The song that came out ahead of The Wanted's ""Lightning"" on the UK Singles Chart was Rihanna's ""We Found Love"" from her album Talk That",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,18,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14012,0.1600,"The song that came out ahead of The Wanted's ""Lightning"" on the UK Singles Chart was Rihanna's ""We Found Love"" from her album Talk That",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,18,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14012,0.1600,"The song that came out ahead of The Wanted's ""Lightning"" on the UK Singles Chart was Rihanna's ""We Found Love"" from her album Talk That",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,19,bf16,bf16,bf16,0,15460,0.0000,Tom Petty.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,19,fp8,fp8,fp8,0,15460,0.0000,Tom Petty.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,19,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15460,0.0000,Tom Petty.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,19,nvfp4_kh,nvfp4_h,nvfp4,0,15460,0.0000,Tom Petty.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,19,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15460,0.0000,Tom Petty.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,19,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15460,0.0000,Tom Petty.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,20,bf16,bf16,bf16,0,11050,0.2727,"The Friday night programming block that included the collective series that includes ""Whatever Happened to... Robot Jones?"" is Cartoon Cartoon Fridays.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,20,fp8,fp8,fp8,0,11050,0.0769,"The Friday night programming block that included the Cartoon Cartoons collective series that includes ""Whatever Happened to... Robot Jones?"" is not specified in the given passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,20,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11050,0.2400,"The Friday night programming block that included the collective series of Cartoon Cartoons, which includes ""Whatever Happened to... Robot Jones?"", was Cartoon Cartoon Fridays.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,20,nvfp4_kh,nvfp4_h,nvfp4,0,11050,0.1053,"The Friday night programming block included the Cartoon Cartoons collective series that includes ""Whatever Happened to... Robot Jones?"".",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,20,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11050,0.2609,"The Friday night programming block that included the Cartoon Cartoons series that includes ""Whatever Happened to... Robot Jones?"" is Cartoon Cartoon Fridays.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,20,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11050,0.1000,"The Friday night programming block included the collective series of Cartoon Cartoons, which includes ""Whatever Happened to... Robot Jones?"".",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,21,bf16,bf16,bf16,0,15129,0.0000,"The city situated where Kellyville Ridge is located is Sydney, in the state of New South Wales, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,21,fp8,fp8,fp8,0,15129,0.0000,"The city situated where Kellyville Ridge is located is Sydney, in the state of New South Wales, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,21,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15129,0.0000,"The city situated where Kellyville Ridge is located is Sydney, in the state of New South Wales, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,21,nvfp4_kh,nvfp4_h,nvfp4,0,15129,0.0000,"The city situated where Kellyville Ridge is located is Sydney, in the state of New South Wales, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,21,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15129,0.0000,"The city situated where Kellyville Ridge is located is Sydney, in the state of New South Wales, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,21,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15129,0.0000,"The city situated where Kellyville Ridge is located is Sydney, in the state of New South Wales, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,22,bf16,bf16,bf16,0,5145,0.4000,Jones Beach Island.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,22,fp8,fp8,fp8,0,5145,0.4000,Jones Beach Island.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,22,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5145,0.4000,Jones Beach Island.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,22,nvfp4_kh,nvfp4_h,nvfp4,0,5145,0.4000,Jones Beach Island.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,22,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5145,0.4000,Jones Beach Island.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,22,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5145,0.4000,Jones Beach Island.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,23,bf16,bf16,bf16,0,11385,1.0000,PewDiePie.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,23,fp8,fp8,fp8,0,11385,1.0000,PewDiePie.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,23,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11385,1.0000,PewDiePie.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,23,nvfp4_kh,nvfp4_h,nvfp4,0,11385,1.0000,PewDiePie.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,23,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11385,1.0000,PewDiePie.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,23,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11385,1.0000,PewDiePie.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,24,bf16,bf16,bf16,0,14223,0.1667,Robbie Tucker plays in The Young and the Restless.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,24,fp8,fp8,fp8,0,14223,0.1667,Robbie Tucker plays in The Young and the Restless.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,24,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14223,0.1667,Robbie Tucker plays in The Young and the Restless.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,24,nvfp4_kh,nvfp4_h,nvfp4,0,14223,0.1667,Robbie Tucker plays in The Young and the Restless.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,24,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14223,0.1667,Robbie Tucker plays in The Young and the Restless.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,24,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14223,0.1667,Robbie Tucker plays in The Young and the Restless.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,25,bf16,bf16,bf16,0,9295,0.0000,"The passage does not mention the ranking of the high school in the 2009 Newsweek ranking of the top 1,500 high schools in the United States",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,25,fp8,fp8,fp8,0,9295,0.0000,"The passage does not mention the ranking of the high school in the 2009 Newsweek ranking of the top 1,500 high schools in the United States",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,25,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,9295,0.0000,"The passage does not mention the ranking of the high school in the 2009 Newsweek ranking of the top 1,500 high schools in the United States",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,25,nvfp4_kh,nvfp4_h,nvfp4,0,9295,0.0000,"The passage does not mention the ranking of the high school in the 2009 Newsweek ranking of the top 1,500 high schools in the United States",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,25,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,9295,0.0000,"The passage does not mention the ranking of the high school in Overland Park, Kansas in the 2009 Newsweek ranking of the top 1,500",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,25,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,9295,0.0000,"The passage does not mention the ranking of the high school in the 2009 Newsweek ranking of the top 1,500 high schools in the United States",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,26,bf16,bf16,bf16,0,16310,1.0000,Ribosomes.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,26,fp8,fp8,fp8,0,16310,1.0000,Ribosomes.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,26,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16310,1.0000,Ribosomes.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,26,nvfp4_kh,nvfp4_h,nvfp4,0,16310,1.0000,Ribosomes.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,26,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16310,1.0000,Ribosomes.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,26,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16310,1.0000,Ribosomes.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,27,bf16,bf16,bf16,0,9707,0.1429,"Pistacia has more species, with about 10-20 species, while Dracula has 118 species.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,27,fp8,fp8,fp8,0,9707,0.1429,"Pistacia has more species, with about 10-20 species, while Dracula has 118 species.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,27,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,9707,0.1429,"Pistacia has more species, with about 10-20 species, while Dracula has 118 species.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,27,nvfp4_kh,nvfp4_h,nvfp4,0,9707,0.1429,"Pistacia has more species, with about 10-20 species, while Dracula has 118 species.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,27,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,9707,0.1538,"Pistacia has more species, with 10-20 species, while Dracula has 118 species.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,27,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,9707,0.1538,"Pistacia has more species, with 10-20 species, while Dracula has 118 species.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,28,bf16,bf16,bf16,0,3113,0.5714,Band-e-Amir National Park.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,28,fp8,fp8,fp8,0,3113,0.5714,Band-e-Amir National Park.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,28,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,3113,0.5714,Band-e-Amir National Park.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,28,nvfp4_kh,nvfp4_h,nvfp4,0,3113,0.5714,Band-e-Amir National Park.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,28,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,3113,0.5714,Band-e-Amir National Park.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,28,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,3113,0.5714,Band-e-Amir National Park.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,29,bf16,bf16,bf16,0,16212,0.3077,"The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home stadium for the University of Southern California Trojans football team",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,29,fp8,fp8,fp8,0,16212,0.3077,"The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home stadium for the University of Southern California Trojans football team",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,29,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16212,0.3077,"The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home stadium for the University of Southern California Trojans football team",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,29,nvfp4_kh,nvfp4_h,nvfp4,0,16212,0.3077,"The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home stadium for the University of Southern California Trojans football team",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,29,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16212,0.3077,"The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home stadium for the University of Southern California Trojans football team",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,29,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16212,0.3077,"The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home stadium for the University of Southern California Trojans football team",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,30,bf16,bf16,bf16,0,16349,0.0000,"The estimated population of Yau Ma Tei North constituency is 12,817.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,30,fp8,fp8,fp8,0,16349,0.0000,"The estimated population of Yau Ma Tei North is 12,817.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,30,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16349,0.0000,"The estimated population of Yau Ma Tei North constituency is 12,817.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,30,nvfp4_kh,nvfp4_h,nvfp4,0,16349,0.0000,"The estimated population of Yau Ma Tei North constituency is 12,817.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,30,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16349,0.0000,"The estimated population of Yau Ma Tei North is 12,817.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,30,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16349,0.0000,"The estimated population of Yau Ma Tei North is 12,817.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,31,bf16,bf16,bf16,0,14416,0.2353,"Spider9 was founded in 2011 by the head of A123 Systems, a subsidiary of Wanxiang Group.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,31,fp8,fp8,fp8,0,14416,0.2353,"Spider9 was founded in 2011 by the head of A123 Systems, a subsidiary of Wanxiang Group.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,31,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14416,0.2353,"Spider9 was founded in 2011 by the head of A123 Systems, a subsidiary of Wanxiang Group.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,31,nvfp4_kh,nvfp4_h,nvfp4,0,14416,0.2353,"Spider9 was founded in 2011 by the head of A123 Systems, a subsidiary of Wanxiang Group.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,31,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14416,0.3333,"Spider9 was founded in 2011 by the head of A123 Systems, LLC, a subsidiary of Wanxiang Group.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,31,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14416,0.1600,"Spider9 was founded in 2011 by Glynne Townsend (A123 Systems), Dave Park (former Vice President of Production at Wave Crest Energy Systems),",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,32,bf16,bf16,bf16,0,14223,0.0000,The population of the city at which the transmitter of WLLZ-LP was placed is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,32,fp8,fp8,fp8,0,14223,0.0000,The population of the city at which the transmitter of WLLZ-LP was placed is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,32,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14223,0.0000,The population of the city at which the transmitter of WLLZ-LP was placed is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,32,nvfp4_kh,nvfp4_h,nvfp4,0,14223,0.0000,The population of the city at which the transmitter of WLLZ-LP was placed is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,32,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14223,0.0000,The population of the city at which the transmitter of WLLZ-LP was placed is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,32,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14223,0.0000,The population of the city at which the transmitter of WLLZ-LP was placed is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,33,bf16,bf16,bf16,0,15884,0.1250,Charles Haughey was the Taoiseach when he dissolved the 25th Dáil on 25 May 1989.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,33,fp8,fp8,fp8,0,15884,0.1250,Charles Haughey was the Taoiseach when he dissolved the 25th Dáil on 25 May 1989.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,33,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15884,0.1250,Charles Haughey was the Taoiseach when he dissolved the 23rd Dáil on 4 November 1982.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,33,nvfp4_kh,nvfp4_h,nvfp4,0,15884,0.1250,Charles Haughey was the Taoiseach when he dissolved the 25th Dáil on 25 May 1989.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,33,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15884,0.1250,Charles Haughey was the Taoiseach when he dissolved the 25th Dáil on 25 May 1989.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,33,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15884,0.1250,Charles Haughey was the Taoiseach when he dissolved the 25th Dáil on 25 May 1989.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,34,bf16,bf16,bf16,0,13841,0.0870,"There is no mention of Vegepet being based in any city located in Lincoln County, Montana, United States in the given passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,34,fp8,fp8,fp8,0,13841,0.0952,"There is no mention of Vegepet being based in any city located in Lincoln County, Montana in the given passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,34,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,13841,0.0833,"There is no information in the given passages that indicates Vegepet is based in any city located in Lincoln County, Montana, United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,34,nvfp4_kh,nvfp4_h,nvfp4,0,13841,0.0870,"There is no mention of Vegepet being based in any city located in Lincoln County, Montana, United States in the given passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,34,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,13841,0.0870,"There is no mention of Vegepet being based in any city located in Lincoln County, Montana, United States in the given passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,34,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,13841,0.0870,"There is no mention of Vegepet being based in any city located in Lincoln County, Montana, United States in the given passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,35,bf16,bf16,bf16,0,16400,1.0000,Mika Häkkinen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,35,fp8,fp8,fp8,0,16400,1.0000,Mika Häkkinen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,35,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16400,1.0000,Mika Häkkinen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,35,nvfp4_kh,nvfp4_h,nvfp4,0,16400,1.0000,Mika Häkkinen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,35,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16400,1.0000,Mika Häkkinen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,35,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16400,1.0000,Mika Häkkinen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,36,bf16,bf16,bf16,0,15544,0.6667,Constantine (film),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,36,fp8,fp8,fp8,0,15544,0.6667,Constantine (film),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,36,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15544,0.6667,Constantine (film),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,36,nvfp4_kh,nvfp4_h,nvfp4,0,15544,0.6667,Constantine (film),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,36,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15544,0.6667,Constantine (film),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,36,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15544,0.6667,Constantine (film),b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,37,bf16,bf16,bf16,0,13417,0.0000,Darci Kistler choreographed one who is said to be the last muse for the choreographer and starred in the Nutcracker.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,37,fp8,fp8,fp8,0,13417,0.0000,Darci Kistler choreographed one who is said to be the last muse for the choreographer and starred in the Nutcracker.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,37,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,13417,0.0000,Darci Kistler choreographed one who is said to be the last muse for the choreographer and starred in the Nutcracker.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,37,nvfp4_kh,nvfp4_h,nvfp4,0,13417,0.0000,Darci Kistler.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,37,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,13417,0.0000,Darci Kistler choreographed one who is said to be the last muse for the choreographer and starred in the Nutcracker.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,37,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,13417,0.0000,Darci Kistler.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,38,bf16,bf16,bf16,0,16038,0.3000,"Alfred A. Marcus worked as a consultant with companies such as 3M, Corning Inc., Xcel Energy, Medtronic, General Mills,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,38,fp8,fp8,fp8,0,16038,0.3000,"Alfred A. Marcus worked as a consultant with companies such as 3M, Corning Inc., Xcel Energy, Medtronic, General Mills,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,38,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16038,0.3000,"Alfred A. Marcus worked as a consultant with companies such as 3M, Corning Inc., Xcel Energy, Medtronic, General Mills,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,38,nvfp4_kh,nvfp4_h,nvfp4,0,16038,0.3000,"Alfred A. Marcus worked as a consultant with companies such as 3M, Corning Inc., Xcel Energy, Medtronic, General Mills,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,38,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16038,0.3000,"Alfred A. Marcus worked as a consultant with companies such as 3M, Corning Inc., Xcel Energy, Medtronic, General Mills,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,38,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16038,0.3000,"Alfred A. Marcus worked as a consultant with companies such as 3M, Corning Inc., Xcel Energy, Medtronic, General Mills,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,39,bf16,bf16,bf16,0,15650,0.2105,"Around the World in 80 Days was released first in 1956, while Summer Magic was released in 1963.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,39,fp8,fp8,fp8,0,15650,0.2105,"Around the World in 80 Days was released first in 1956, while Summer Magic was released in 1963.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,39,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15650,0.2222,"Around the World in 80 Days was released first, in 1956. Summer Magic was released in 1963.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,39,nvfp4_kh,nvfp4_h,nvfp4,0,15650,0.0000,"Around the World in 80 Days was released first, in 1956.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,39,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15650,0.0000,Around the World in 80 Days was released first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,39,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15650,0.0000,"Around the World in 80 Days was released first, in 1956.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,40,bf16,bf16,bf16,0,16253,0.2353,The physicist who is responsible for identifying the Rabi cycle won the Nobel Prize in Physics in 1944.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,40,fp8,fp8,fp8,0,16253,0.2353,The physicist who is responsible for identifying the Rabi cycle won the Nobel Prize in Physics in 1944.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,40,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16253,0.6667,The Nobel Prize in Physics.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,40,nvfp4_kh,nvfp4_h,nvfp4,0,16253,0.2353,The physicist who is responsible for identifying the Rabi cycle won the Nobel Prize in Physics in 1944.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,40,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16253,0.6667,The Nobel Prize in Physics.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,40,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16253,0.6667,The Nobel Prize in Physics.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,41,bf16,bf16,bf16,0,16214,0.4242,"The production company for The Year Without a Santa Claus, Rankin/Bass Productions, is best known for their seasonal television specials, usually done in stop motion animation",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,41,fp8,fp8,fp8,0,16214,0.4242,"The production company for The Year Without a Santa Claus, Rankin/Bass Productions, is best known for their seasonal television specials, usually done in stop motion animation",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,41,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16214,0.4242,"The production company for The Year Without a Santa Claus, Rankin/Bass Productions, is best known for their seasonal television specials, usually done in stop motion animation",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,41,nvfp4_kh,nvfp4_h,nvfp4,0,16214,0.4242,"The production company for The Year Without a Santa Claus, Rankin/Bass Productions, is best known for their seasonal television specials, usually done in stop motion animation",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,41,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16214,0.4242,"The production company for The Year Without a Santa Claus, Rankin/Bass Productions, is best known for their seasonal television specials, usually done in stop motion animation",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,41,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16214,0.4242,"The production company for The Year Without a Santa Claus, Rankin/Bass Productions, is best known for their seasonal television specials, usually done in stop motion animation",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,42,bf16,bf16,bf16,0,12038,0.6667,Eileen Atkins.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,42,fp8,fp8,fp8,0,12038,0.6667,Eileen Atkins.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,42,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,12038,0.6667,Eileen Atkins.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,42,nvfp4_kh,nvfp4_h,nvfp4,0,12038,0.6667,Eileen Atkins.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,42,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,12038,0.6667,Eileen Atkins.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,42,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,12038,0.6667,Eileen Atkins.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,43,bf16,bf16,bf16,0,16247,1.0000,Iran.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,43,fp8,fp8,fp8,0,16247,1.0000,Iran.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,43,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16247,1.0000,Iran.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,43,nvfp4_kh,nvfp4_h,nvfp4,0,16247,1.0000,Iran.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,43,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16247,1.0000,Iran.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,43,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16247,1.0000,Iran.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,44,bf16,bf16,bf16,0,16320,0.8000,Hakim Jamal,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,44,fp8,fp8,fp8,0,16320,0.8000,Hakim Jamal,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,44,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16320,0.8000,Hakim Jamal,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,44,nvfp4_kh,nvfp4_h,nvfp4,0,16320,0.8000,Hakim Jamal,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,44,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16320,0.8000,Hakim Jamal,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,44,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16320,0.8000,Hakim Jamal,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,45,bf16,bf16,bf16,0,13786,1.0000,Keith Morris.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,45,fp8,fp8,fp8,0,13786,1.0000,Keith Morris.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,45,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,13786,1.0000,Keith Morris.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,45,nvfp4_kh,nvfp4_h,nvfp4,0,13786,1.0000,Keith Morris.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,45,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,13786,1.0000,Keith Morris.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,45,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,13786,1.0000,Keith Morris.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,46,bf16,bf16,bf16,0,11373,0.1250,"Arnold Richards was the former chair of YIVO, which is a member of the Center for Jewish History.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,46,fp8,fp8,fp8,0,11373,0.1250,"Arnold Richards was the former chair of YIVO, which is a member of the Center for Jewish History.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,46,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11373,0.1250,"Arnold Richards was the former chair of YIVO, which is a member of the Center for Jewish History.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,46,nvfp4_kh,nvfp4_h,nvfp4,0,11373,0.1250,"Arnold Richards was the former chair of YIVO, which is a member of the Center for Jewish History.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,46,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11373,0.1250,"Arnold Richards was the former chair of YIVO, which is a member of the Center for Jewish History.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,46,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11373,0.1250,"Arnold Richards was the former chair of YIVO, which is a member of the Center for Jewish History.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,47,bf16,bf16,bf16,0,10011,0.3333,"Joseph Glidden, the plaintiff in the 1892 Barbed Wire Patent Case, was born on January 18, 1813.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,47,fp8,fp8,fp8,0,10011,0.3333,"Joseph Glidden, the plaintiff in the 1892 Barbed Wire Patent Case, was born on January 18, 1813.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,47,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,10011,0.3333,"Joseph Glidden, the plaintiff in the 1892 Barbed Wire Patent Case, was born on January 18, 1813.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,47,nvfp4_kh,nvfp4_h,nvfp4,0,10011,0.5455,"Joseph Glidden was born on January 18, 1813.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,47,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,10011,0.5455,"Joseph Glidden was born on January 18, 1813.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,47,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,10011,0.3333,"Joseph Glidden, the plaintiff in the 1892 Barbed Wire Patent Case, was born on January 18, 1813.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,48,bf16,bf16,bf16,0,10005,0.1000,Tongshanjiabu is higher than Himalchuli.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,48,fp8,fp8,fp8,0,10005,0.1000,Tongshanjiabu is higher than Himalchuli.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,48,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,10005,0.1000,Tongshanjiabu is higher than Himalchuli.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,48,nvfp4_kh,nvfp4_h,nvfp4,0,10005,0.1000,Tongshanjiabu is higher than Himalchuli.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,48,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,10005,0.1000,Tongshanjiabu is higher than Himalchuli.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,48,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,10005,0.1000,Tongshanjiabu is higher than Himalchuli.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,49,bf16,bf16,bf16,0,15035,0.0000,The Province of Quebec acquired its present name in 1791.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,49,fp8,fp8,fp8,0,15035,0.0000,The Province of Quebec acquired its present name in 1791.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,49,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15035,0.0000,The Province of Quebec acquired its present name in 1791.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,49,nvfp4_kh,nvfp4_h,nvfp4,0,15035,0.0000,The place in Canada where François Beaucourt was mainly active acquired its present name in 1791 when the colony of Quebec was divided into Lower Canada and Upper,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,49,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15035,0.0000,The Province of Quebec acquired its present name in 1791.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,49,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15035,0.0000,The place in Canada where François Beaucourt was mainly active acquired its present name after 1791 when it was divided into Lower Canada and Upper Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,0,bf16,bf16,bf16,0,7080,0.1429,"Ilona Zrínyi, the wife of Francis I Rákóczi, was born in Ozalj, present-day Croatia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,0,fp8,fp8,fp8,0,7080,0.1429,"Ilona Zrínyi, the wife of Francis I Rákóczi, was born in Ozalj, present-day Croatia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,0,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7080,0.1429,"Ilona Zrínyi, the wife of Francis I Rákóczi, was born in Ozalj, present-day Croatia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,0,nvfp4_kh,nvfp4_h,nvfp4,0,7080,0.1429,"Ilona Zrínyi, the wife of Francis I Rákóczi, was born in Ozalj, present-day Croatia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,0,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7080,0.1429,"Ilona Zrínyi, the wife of Francis I Rákóczi, was born in Ozalj, present-day Croatia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,0,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7080,0.1429,"Ilona Zrínyi, the wife of Francis I Rákóczi, was born in Ozalj, present-day Croatia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,1,bf16,bf16,bf16,0,6950,0.0000,There is no mention of Sobe (Sister of Saint Anne)'s grandchild in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,1,fp8,fp8,fp8,0,6950,0.0000,There is no mention of Sobe (Sister of Saint Anne)'s grandchild in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,1,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6950,0.0000,There is no mention of Sobe (Sister of Saint Anne)'s grandchild in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,1,nvfp4_kh,nvfp4_h,nvfp4,0,6950,0.0000,There is no mention of Sobe (Sister of Saint Anne)'s grandchild in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,1,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6950,0.0000,There is no mention of Sobe (Sister of Saint Anne)'s grandchild in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,1,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6950,0.0000,There is no mention of Sobe (Sister of Saint Anne)'s grandchild in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,2,bf16,bf16,bf16,0,6368,0.0000,"The director of film Man At Bath, Christophe Honoré, works in the French film industry.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,2,fp8,fp8,fp8,0,6368,0.0000,"The director of film Man At Bath, Christophe Honoré, works in the French film industry.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,2,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6368,0.0000,"The director of film Man At Bath, Christophe Honoré, works in the French film industry.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,2,nvfp4_kh,nvfp4_h,nvfp4,0,6368,0.0000,"The director of film Man At Bath, Christophe Honoré, works in the film industry.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,2,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6368,0.0000,"The director of film Man At Bath, Christophe Honoré, works in the French film industry.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,2,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6368,0.0000,"The director of film Man At Bath, Christophe Honoré, works as a film and theatre director.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,3,bf16,bf16,bf16,0,11029,0.0909,"No, Beauty And The Bad Man was directed by an American director, William Worthington, while Wild Child (Film) was directed by a British director,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,3,fp8,fp8,fp8,0,11029,0.0800,"No, the directors of Beauty And The Bad Man and Wild Child (Film) are from different countries. Beauty And The Bad Man was directed by William Worthing",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,3,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11029,0.0909,"No, the directors of Beauty and the Bad Man and Wild Child (Film) are from different countries. William Worthington, the director of Beauty and the",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,3,nvfp4_kh,nvfp4_h,nvfp4,0,11029,0.0870,"No, Beauty and the Bad Man was directed by an American director, William Worthington, while Wild Child was directed by a British director, Nick Moore.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,3,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11029,0.0800,"No, Beauty and the Bad Man and Wild Child (Film) have directors from different countries. Beauty and the Bad Man was directed by an American director, William",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,3,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11029,0.0833,"No, Beauty and the Bad Man was directed by an American director William Worthington, while Wild Child (Film) was directed by a British director Nick Moore",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,4,bf16,bf16,bf16,0,7190,0.0000,"The date of birth of William Paulet, 3rd Marquess of Winchester's father is not given in the passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,4,fp8,fp8,fp8,0,7190,0.0000,"The date of birth of William Paulet, 3rd Marquess of Winchester's father is not given in the passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,4,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7190,0.0000,"The date of birth of William Paulet, 3rd Marquess of Winchester's father is not given in the passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,4,nvfp4_kh,nvfp4_h,nvfp4,0,7190,0.0000,"The date of birth of William Paulet, 3rd Marquess of Winchester's father is not given in the passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,4,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7190,0.0000,"The date of birth of William Paulet, 3rd Marquess of Winchester's father is not given in the passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,4,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7190,0.0000,"The date of birth of William Paulet, 3rd Marquess of Winchester's father is not given in the passages.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,5,bf16,bf16,bf16,0,7331,0.2500,"Lewis Watson, 1st Earl of Rockingham.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,5,fp8,fp8,fp8,0,7331,0.2500,"Lewis Watson, 1st Earl of Rockingham.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,5,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7331,0.2500,"Lewis Watson, 1st Earl of Rockingham.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,5,nvfp4_kh,nvfp4_h,nvfp4,0,7331,0.2500,"Lewis Watson, 1st Earl of Rockingham.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,5,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7331,0.2500,"Lewis Watson, 1st Earl of Rockingham.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,5,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7331,0.2500,"Lewis Watson, 1st Earl of Rockingham",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,6,bf16,bf16,bf16,0,7443,0.0000,"Humphrey de Bohun, 7th Earl of Hereford's father died in 1373.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,6,fp8,fp8,fp8,0,7443,0.0000,"Humphrey de Bohun, 7th Earl of Hereford's father died in 1373.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,6,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7443,0.0000,"Humphrey de Bohun, 7th Earl of Hereford's father died in 1373.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,6,nvfp4_kh,nvfp4_h,nvfp4,0,7443,0.0000,"Humphrey de Bohun, 7th Earl of Hereford's father died in 1373.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,6,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7443,0.0000,"Humphrey de Bohun, 7th Earl of Hereford's father died in 1373.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,6,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7443,0.0000,"Humphrey de Bohun, 7th Earl of Hereford's father died in 1373.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,7,bf16,bf16,bf16,0,10933,0.0000,Helmichis's father-in-law is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,7,fp8,fp8,fp8,0,10933,0.0000,Helmichis's father-in-law is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,7,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,10933,0.0000,Helmichis's father-in-law is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,7,nvfp4_kh,nvfp4_h,nvfp4,0,10933,0.0000,Helmichis's father-in-law is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,7,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,10933,0.0000,Helmichis's father-in-law is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,7,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,10933,0.0000,Helmichis's father-in-law is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,8,bf16,bf16,bf16,0,5835,0.5000,"Helena Carroll's father studied at St Patrick's College, Dublin.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,8,fp8,fp8,fp8,0,5835,0.5000,"Helena Carroll's father studied at St Patrick's College, Dublin.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,8,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5835,0.5000,"Helena Carroll's father studied at St Patrick's College, Dublin.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,8,nvfp4_kh,nvfp4_h,nvfp4,0,5835,0.4000,"Helena Carroll's father, Paul Vincent Carroll, studied at St Patrick's College, Dublin.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,8,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5835,0.5000,"Helena Carroll's father studied at St Patrick's College, Dublin.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,8,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5835,0.5000,"Helena Carroll's father studied at St Patrick's College, Dublin.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,9,bf16,bf16,bf16,0,7444,0.3333,"The director of Wine of Morning works at Unusual Films, the production company of Bob Jones University.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,9,fp8,fp8,fp8,0,7444,0.3158,"The director of film Wine Of Morning works at Unusual Films, the production company of Bob Jones University.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,9,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7444,0.3333,"The director of Wine of Morning works at Unusual Films, the production company of Bob Jones University.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,9,nvfp4_kh,nvfp4_h,nvfp4,0,7444,0.3000,"The director of Wine Of Morning, Katherine Stenholm, worked at Unusual Films, the production company of Bob Jones University.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,9,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7444,0.2727,"The director of Wine of Morning, Katherine Stenholm, was the founding director of Unusual Films, the production company of Bob Jones University.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,9,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7444,0.4286,The director of film Wine Of Morning works at Bob Jones University.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,10,bf16,bf16,bf16,0,14721,1.0000,The House Of The Seven Hawks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,10,fp8,fp8,fp8,0,14721,1.0000,The House Of The Seven Hawks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,10,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14721,1.0000,The House Of The Seven Hawks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,10,nvfp4_kh,nvfp4_h,nvfp4,0,14721,0.5333,The House Of The Seven Hawks has a director born earlier than The Secret Invasion.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,10,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14721,1.0000,The House Of The Seven Hawks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,10,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14721,0.0000,The Secret Invasion.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,11,bf16,bf16,bf16,0,5439,1.0000,Marie of Hohenstaufen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,11,fp8,fp8,fp8,0,5439,1.0000,Marie of Hohenstaufen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,11,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5439,0.3750,"Marie of Hohenstaufen is the paternal grandmother of Marie Of Brabant, Queen Of France.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,11,nvfp4_kh,nvfp4_h,nvfp4,0,5439,1.0000,Marie of Hohenstaufen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,11,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5439,1.0000,Marie of Hohenstaufen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,11,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5439,1.0000,Marie of Hohenstaufen.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,12,bf16,bf16,bf16,0,2325,0.4000,"William Busac, Count of Eu and Soissons, de jure uxoris.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,12,fp8,fp8,fp8,0,2325,0.4000,"William Busac, Count of Eu and Soissons, de jure uxoris.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,12,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,2325,0.5000,"William Busac, Count of Eu and Soissons.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,12,nvfp4_kh,nvfp4_h,nvfp4,0,2325,0.5000,"William Busac, Count of Eu and Soissons.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,12,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,2325,0.0000,William Busac.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,12,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,2325,0.0000,William Busac.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,13,bf16,bf16,bf16,0,5140,0.0000,The passage does not mention when William Le Poer Trench's father died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,13,fp8,fp8,fp8,0,5140,0.0000,The passage does not mention when William Le Poer Trench's father died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,13,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5140,0.0000,The passage does not mention when William Le Poer Trench's father died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,13,nvfp4_kh,nvfp4_h,nvfp4,0,5140,0.0000,The passage does not mention when William Le Poer Trench's father died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,13,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5140,0.0000,The passage does not mention William Le Poer Trench's father or his death.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,13,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5140,0.0000,The passage does not mention the death of William Le Poer Trench's father.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,14,bf16,bf16,bf16,0,6495,0.0000,"The director of film Renegade Force, Martin Kunert, is from the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,14,fp8,fp8,fp8,0,6495,0.0000,"The director of film Renegade Force, Martin Kunert, is from the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,14,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6495,0.0000,"The director of film Renegade Force, Martin Kunert, is from the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,14,nvfp4_kh,nvfp4_h,nvfp4,0,6495,0.0000,"The director of film Renegade Force, Martin Kunert, is from the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,14,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6495,0.0000,"The director of film Renegade Force, Martin Kunert, is from the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,14,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6495,0.0000,The director of film Renegade Force is from the United States.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,15,bf16,bf16,bf16,0,14554,0.0000,The spouse of the director of film Emergency Wedding is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,15,fp8,fp8,fp8,0,14554,0.0000,The passage does not mention the spouse of the director of Emergency Wedding.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,15,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14554,0.0000,The spouse of the director of film Emergency Wedding is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,15,nvfp4_kh,nvfp4_h,nvfp4,0,14554,0.0000,The spouse of the director of film Emergency Wedding is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,15,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14554,0.0000,The passage does not mention the spouse of the director of Emergency Wedding.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,15,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14554,0.0000,The spouse of the director of film Emergency Wedding is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,16,bf16,bf16,bf16,0,2588,0.4000,"Indradhanura Chhai came out earlier in 1993, while The Death of Black King was released in 1971.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,16,fp8,fp8,fp8,0,2588,0.5714,Indradhanura Chhai came out earlier than The Death Of Black King.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,16,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,2588,0.4000,"Indradhanura Chhai came out earlier in 1993, while The Death of Black King was released in 1971.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,16,nvfp4_kh,nvfp4_h,nvfp4,0,2588,0.5714,Indradhanura Chhai came out earlier than The Death Of Black King.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,16,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,2588,0.5714,Indradhanura Chhai came out earlier than The Death Of Black King.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,16,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,2588,0.0000,Indradhanura Chhai came out earlier.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,17,bf16,bf16,bf16,0,8292,0.0800,"No, The Reincarnation of Golden Lotus is directed by Clara Law from Hong Kong, while I'll Get By (Film) is directed by Richard Sale from",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,17,fp8,fp8,fp8,0,8292,0.0800,"No, The Reincarnation of Golden Lotus is directed by Clara Law from Hong Kong, while I'll Get By (Film) is directed by Richard Sale from",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,17,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,8292,0.0800,"No, The Reincarnation of Golden Lotus is directed by Clara Law from Hong Kong, while I'll Get By (film) is directed by Richard Sale from",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,17,nvfp4_kh,nvfp4_h,nvfp4,0,8292,0.0800,"No, The Reincarnation of Golden Lotus is directed by Clara Law from Hong Kong, while I'll Get By (film) is directed by Richard Sale from",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,17,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,8292,0.0909,"No, The Reincarnation of Golden Lotus is directed by a Hong Kong director, Clara Law, while I'll Get By (Film) is directed by an",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,17,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,8292,0.0800,"No, The Reincarnation of Golden Lotus is directed by Clara Law, who is from Hong Kong, while I'll Get By is directed by Richard Sale,",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,18,bf16,bf16,bf16,0,1156,0.0952,"No, they are not located in the same country. Rhosgoch is located in Wales, while Qaleh-ye Sahar is located in Iran",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,18,fp8,fp8,fp8,0,1156,0.0952,"No, they are not located in the same country. Rhosgoch is located in Wales, while Qaleh-ye Sahar is located in Iran",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,18,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,1156,0.0952,"No, they are not located in the same country. Rhosgoch is located in Wales, while Qaleh-ye Sahar is located in Iran",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,18,nvfp4_kh,nvfp4_h,nvfp4,0,1156,0.1053,"No, they are not located in the same country. Rhosgoch is in Wales, while Qaleh-ye Sahar is in Iran.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,18,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,1156,0.0952,"No, they are not located in the same country. Rhosgoch is located in Wales, while Qaleh-ye Sahar is located in Iran",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,18,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,1156,0.1053,"No, they are not located in the same country. Rhosgoch is in Wales, while Qaleh-ye Sahar is in Iran.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,19,bf16,bf16,bf16,0,5335,0.1429,"The director of film Kanneshwara Rama, M. S. Sathyu, was born in Mysore, India.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,19,fp8,fp8,fp8,0,5335,0.1429,"The director of film Kanneshwara Rama, M. S. Sathyu, was born in Mysore, India.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,19,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5335,0.1429,"The director of film Kanneshwara Rama, M. S. Sathyu, was born in Mysore, India.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,19,nvfp4_kh,nvfp4_h,nvfp4,0,5335,0.1429,"The director of film Kanneshwara Rama, M. S. Sathyu, was born in Mysore, India.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,19,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5335,0.1429,"The director of film Kanneshwara Rama, M. S. Sathyu, was born in Mysore, India.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,19,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5335,0.1429,"The director of film Kanneshwara Rama, M. S. Sathyu, was born in Mysore, India.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,20,bf16,bf16,bf16,0,4020,0.0000,The place of death of Randi Monsen's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,20,fp8,fp8,fp8,0,4020,0.0000,The place of death of Randi Monsen's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,20,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,4020,0.0000,The passage does not mention the place of death of Randi Monsen's father.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,20,nvfp4_kh,nvfp4_h,nvfp4,0,4020,0.0000,The place of death of Randi Monsen's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,20,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,4020,0.0000,The passage does not mention the place of death of Randi Monsen's father.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,20,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,4020,0.0000,The place of death of Randi Monsen's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,21,bf16,bf16,bf16,0,10630,0.4615,"The performer of song I'll Say It, Kathy Griffin, studied drama at the Lee Strasberg Theatre and Film Institute in Los Angeles.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,21,fp8,fp8,fp8,0,10630,0.4615,"The performer of song I'll Say It, Kathy Griffin, studied drama at the Lee Strasberg Theatre and Film Institute in Los Angeles.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,21,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,10630,0.5217,"The performer of song I'll Say It, Kathy Griffin, studied drama at the Lee Strasberg Theatre and Film Institute.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,21,nvfp4_kh,nvfp4_h,nvfp4,0,10630,0.5217,"The performer of song I'll Say It, Kathy Griffin, studied drama at the Lee Strasberg Theatre and Film Institute.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,21,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,10630,0.4615,"The performer of song I'll Say It, Kathy Griffin, studied drama at the Lee Strasberg Theatre and Film Institute in Los Angeles.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,21,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,10630,0.6000,The performer of song I'll Say It graduated from the Lee Strasberg Theatre and Film Institute.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,22,bf16,bf16,bf16,0,12545,0.0000,The Soviet Story.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,22,fp8,fp8,fp8,0,12545,0.0000,The Soviet Story.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,22,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,12545,0.0000,The Soviet Story.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,22,nvfp4_kh,nvfp4_h,nvfp4,0,12545,0.0000,The Soviet Story.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,22,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,12545,0.0000,The Soviet Story.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,22,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,12545,0.0000,The Soviet Story.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,23,bf16,bf16,bf16,0,8561,0.2000,"Cipriano Castro was born first, on 12 October 1858, while Damir Nikšić was born on 6 December 1970",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,23,fp8,fp8,fp8,0,8561,0.2000,"Cipriano Castro was born first, on 12 October 1858, while Damir Nikšić was born on 6 December 1970",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,23,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,8561,0.2000,"Cipriano Castro was born on 12 October 1858, while Damir Nikšić was born on 6 December 1970. Therefore",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,23,nvfp4_kh,nvfp4_h,nvfp4,0,8561,0.2000,"Cipriano Castro was born first, on 12 October 1858, while Damir Nikšić was born on 6 December 1970",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,23,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,8561,0.2000,"Cipriano Castro was born first, on 12 October 1858, while Damir Nikšić was born on 6 December 1970",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,23,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,8561,0.2000,"Cipriano Castro was born on 12 October 1858, while Damir Nikšić was born on 6 December 1970. Therefore",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,24,bf16,bf16,bf16,0,9065,0.0000,"The director who died first is Fernando Ayala, who directed The Year of the Rabbit.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,24,fp8,fp8,fp8,0,9065,0.0000,"The director who died first is Fernando Ayala, who directed The Year of the Rabbit.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,24,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,9065,0.0000,"The director who died first is Fernando Ayala, who directed The Year of the Rabbit.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,24,nvfp4_kh,nvfp4_h,nvfp4,0,9065,0.0000,"The director who died first is Fernando Ayala, who directed The Year of the Rabbit.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,24,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,9065,0.0000,"The director who died first is Fernando Ayala, who directed The Year of the Rabbit.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,24,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,9065,0.0000,"The director who died first is Fernando Ayala, who directed The Year of the Rabbit.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,25,bf16,bf16,bf16,0,1607,0.4000,Altuğ Çelikbilek is younger than Guy Arvely Dolsin.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,25,fp8,fp8,fp8,0,1607,0.4000,Altuğ Çelikbilek is younger than Guy Arvely Dolsin.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,25,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,1607,0.4000,Altuğ Çelikbilek is younger than Guy Arvely Dolsin.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,25,nvfp4_kh,nvfp4_h,nvfp4,0,1607,0.6667,Altuğ Çelikbilek is younger.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,25,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,1607,0.6667,Altuğ Çelikbilek is younger.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,25,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,1607,0.6667,Altuğ Çelikbilek is younger.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,26,bf16,bf16,bf16,0,4725,0.2222,"Jugband Blues came out first in 1968, while Joel the Lump of Coal was released in 2014.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,26,fp8,fp8,fp8,0,4725,0.2222,"Jugband Blues came out first in 1968, while Joel the Lump of Coal was released in 2014.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,26,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,4725,0.2353,"Jugband Blues came out in 1968, while Joel the Lump of Coal was released in 2014.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,26,nvfp4_kh,nvfp4_h,nvfp4,0,4725,0.2353,"Jugband Blues was released in 1968, while Joel the Lump of Coal was released in 2014.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,26,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,4725,0.2222,"Jugband Blues came out first in 1968, while Joel the Lump of Coal was released in 2014.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,26,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,4725,0.2353,"Jugband Blues was released in 1968, while Joel the Lump of Coal was released in 2014.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,27,bf16,bf16,bf16,0,5875,0.1667,"Yes, both Open Mobile and Primestar are located in the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,27,fp8,fp8,fp8,0,5875,0.1667,"Yes, both Open Mobile and Primestar are located in the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,27,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5875,0.1667,"Yes, both Open Mobile and Primestar are located in the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,27,nvfp4_kh,nvfp4_h,nvfp4,0,5875,0.1667,"Yes, both Open Mobile and Primestar are located in the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,27,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5875,0.1667,"Yes, both Open Mobile and Primestar are located in the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,27,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5875,0.1667,"Yes, both Open Mobile and Primestar are located in the United States.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,28,bf16,bf16,bf16,0,6641,0.5000,Rathold Rátót.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,28,fp8,fp8,fp8,0,6641,0.5000,Rathold Rátót.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,28,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6641,0.5000,Rathold Rátót.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,28,nvfp4_kh,nvfp4_h,nvfp4,0,6641,0.5000,Rathold Rátót.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,28,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6641,0.5000,Rathold Rátót.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,28,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6641,0.5000,Rathold Rátót.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,29,bf16,bf16,bf16,0,7146,0.0000,The place of birth of Ratna Malla's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,29,fp8,fp8,fp8,0,7146,0.0000,The place of birth of Ratna Malla's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,29,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7146,0.0000,The place of birth of Ratna Malla's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,29,nvfp4_kh,nvfp4_h,nvfp4,0,7146,0.0000,The place of birth of Ratna Malla's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,29,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7146,0.0000,The place of birth of Ratna Malla's father is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,29,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7146,0.0000,The place of birth of Ratna Malla's father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,30,bf16,bf16,bf16,0,6900,0.4762,"Archibald Acheson, 4th Earl of Gosford's paternal grandfather was Arthur Acheson, 1st Earl of Gosford.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,30,fp8,fp8,fp8,0,6900,0.4762,"Archibald Acheson, 4th Earl of Gosford's paternal grandfather was Arthur Acheson, 1st Earl of Gosford.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,30,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6900,0.4762,"Archibald Acheson, 4th Earl of Gosford's paternal grandfather was Arthur Acheson, 1st Earl of Gosford.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,30,nvfp4_kh,nvfp4_h,nvfp4,0,6900,0.4762,"Archibald Acheson, 4th Earl of Gosford's paternal grandfather was Arthur Acheson, 1st Earl of Gosford.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,30,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6900,0.4762,"Archibald Acheson, 4th Earl of Gosford's paternal grandfather was Arthur Acheson, 1st Earl of Gosford.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,30,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6900,0.5714,"Archibald Acheson, 2nd Earl of Gosford's paternal grandfather was Arthur Acheson, 1st Earl of Gosford.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,31,bf16,bf16,bf16,0,8285,0.5714,John Paul Getty Jr.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,31,fp8,fp8,fp8,0,8285,0.5714,John Paul Getty Jr.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,31,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,8285,0.5714,John Paul Getty Jr.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,31,nvfp4_kh,nvfp4_h,nvfp4,0,8285,0.5714,John Paul Getty Jr.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,31,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,8285,0.5714,John Paul Getty Jr.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,31,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,8285,0.5714,John Paul Getty Sr.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,32,bf16,bf16,bf16,0,16196,0.2500,"The performer of song Fantasy (George Michael Song) died at his home in Goring-on-Thames, Oxfordshire.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,32,fp8,fp8,fp8,0,16196,0.2500,"The performer of song Fantasy (George Michael Song) died at his home in Goring-on-Thames, Oxfordshire.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,32,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16196,0.2500,"The performer of song Fantasy (George Michael Song) died at his home in Goring-on-Thames, Oxfordshire.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,32,nvfp4_kh,nvfp4_h,nvfp4,0,16196,0.2500,"The performer of the song Fantasy (George Michael song) died at his home in Goring-on-Thames, Oxfordshire.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,32,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16196,0.2500,"The performer of song Fantasy (George Michael Song) died at his home in Goring-on-Thames, Oxfordshire.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,32,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16196,0.2500,"The performer of the song Fantasy (George Michael Song) died at his home in Goring-on-Thames, Oxfordshire.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,33,bf16,bf16,bf16,0,4702,0.0000,"No, they do not share the same nationality. Betrayal (1932 Film) was directed by a British director, Reginald Fogwell, while",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,33,fp8,fp8,fp8,0,4702,0.0000,"No, they do not share the same nationality. Betrayal (1932 Film) was directed by a British director, Reginald Fogwell, while",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,33,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,4702,0.0000,"No, they do not share the same nationality. Betrayal (1932 Film) was directed by a British director, Reginald Fogwell, while",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,33,nvfp4_kh,nvfp4_h,nvfp4,0,4702,0.0000,"No, they do not share the same nationality. Betrayal (1932 film) is a British crime film directed by Reginald Fogwell, while",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,33,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,4702,0.0000,"No, they do not share the same nationality. Betrayal (1932 film) was directed by a British director, Reginald Fogwell, while",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,33,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,4702,0.0000,"No, they do not share the same nationality.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,34,bf16,bf16,bf16,0,6123,0.1667,"Wooden Crosses was directed by Raymond Bernard, who was born on October 10, 1891, while The Abduction Club was directed by Stefan Schwartz",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,34,fp8,fp8,fp8,0,6123,0.1667,"Wooden Crosses was directed by Raymond Bernard, who was born on October 10, 1891, while The Abduction Club was directed by Stefan Schwartz",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,34,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6123,0.1667,"Wooden Crosses was directed by Raymond Bernard, who was born on October 10, 1891, while The Abduction Club was directed by Stefan Schwartz",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,34,nvfp4_kh,nvfp4_h,nvfp4,0,6123,1.0000,Wooden Crosses.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,34,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6123,0.1667,"Wooden Crosses was directed by Raymond Bernard, who was born on October 10, 1891, while The Abduction Club was directed by Stefan Schwartz",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,34,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6123,1.0000,Wooden Crosses.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,35,bf16,bf16,bf16,0,4552,0.2500,"Above Rubies came out earlier in 1932, while The Magic Aster was released in 2009.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,35,fp8,fp8,fp8,0,4552,0.2500,"Above Rubies came out earlier in 1932, while The Magic Aster was released in 2009.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,35,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,4552,0.2500,"Above Rubies came out earlier in 1932, while The Magic Aster was released in 2009.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,35,nvfp4_kh,nvfp4_h,nvfp4,0,4552,0.4444,"Above Rubies came out earlier, in 1998.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,35,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,4552,0.2500,"Above Rubies came out earlier in 1932, while The Magic Aster was released in 2009.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,35,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,4552,0.4000,Above Rubies came out earlier than The Magic Aster.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,36,bf16,bf16,bf16,0,6657,0.0000,The Longshot.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,36,fp8,fp8,fp8,0,6657,0.0000,The Longshot.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,36,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6657,0.0000,The Longshot.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,36,nvfp4_kh,nvfp4_h,nvfp4,0,6657,0.0000,The Longshot.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,36,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6657,0.0000,The Longshot.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,36,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6657,0.0000,The Longshot.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,37,bf16,bf16,bf16,0,4319,0.0000,The place of birth of the director of film Clowning Around is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,37,fp8,fp8,fp8,0,4319,0.0000,The place of birth of the director of film Clowning Around is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,37,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,4319,0.3750,"The director of film Clowning Around, George Whaley, was born in Castlemaine, Victoria, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,37,nvfp4_kh,nvfp4_h,nvfp4,0,4319,0.3750,"The director of film Clowning Around, George Whaley, was born in Castlemaine, Victoria, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,37,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,4319,0.3333,"The place of birth of the director of film Clowning Around, George Whaley, is Castlemaine, Victoria, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,37,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,4319,0.3750,"The director of film Clowning Around, George Whaley, was born in Castlemaine, Victoria, Australia.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,38,bf16,bf16,bf16,0,9498,0.2105,"Lyudmyla Olyanovska was born later, on 20 February 1993, while Paul De Scherff was born on 14",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,38,fp8,fp8,fp8,0,9498,0.2105,"Lyudmyla Olyanovska was born later, on 20 February 1993, while Paul De Scherff was born on 14",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,38,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,9498,0.2353,"Lyudmyla Olyanovska was born later, in 1993, while Paul De Scherff was born in 1820.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,38,nvfp4_kh,nvfp4_h,nvfp4,0,9498,0.2105,"Lyudmyla Olyanovska was born later, on 20 February 1993, while Paul De Scherff was born on 14",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,38,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,9498,0.2105,"Lyudmyla Olyanovska was born later, on 20 February 1993, while Paul De Scherff was born on 14",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,38,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,9498,0.3636,Lyudmyla Olyanovska was born later than Paul De Scherff.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,39,bf16,bf16,bf16,0,6926,0.0000,"The place of death of Kamures Kadın's husband, Sultan Mehmed V, was at Yıldız Palace in Istanbul.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,39,fp8,fp8,fp8,0,6926,0.0000,"The place of death of Kamures Kadın's husband, Sultan Mehmed V, was at Yıldız Palace in Istanbul.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,39,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6926,0.0000,"The place of death of Kamures Kadın's husband was in Yıldız Palace, Istanbul.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,39,nvfp4_kh,nvfp4_h,nvfp4,0,6926,0.0000,"The place of death of Kamures Kadın's husband, Sultan Mehmed V, was at Yıldız Palace in Istanbul.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,39,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6926,0.0000,The place of death of Kamures Kadın's husband was Yıldız Palace in Istanbul.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,39,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6926,0.0000,"The place of death of Kamures Kadın's husband, Sultan Mehmed V, was at Yıldız Palace on 3 July 1918.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,40,bf16,bf16,bf16,0,7020,0.0000,The place of birth of Bernard (Son Of Charles The Fat)'s father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,40,fp8,fp8,fp8,0,7020,0.0000,The place of birth of Bernard (Son Of Charles The Fat)'s father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,40,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,7020,0.0000,The place of birth of Bernard (Son Of Charles The Fat)'s father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,40,nvfp4_kh,nvfp4_h,nvfp4,0,7020,0.0000,The place of birth of Bernard (Son Of Charles The Fat)'s father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,40,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,7020,0.0000,The place of birth of Bernard (Son Of Charles The Fat)'s father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,40,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,7020,0.0000,The place of birth of Bernard (Son Of Charles The Fat)'s father is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,41,bf16,bf16,bf16,0,3816,0.0000,Tex And The Lord Of The Deep.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,41,fp8,fp8,fp8,0,3816,0.0000,Tex And The Lord Of The Deep.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,41,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,3816,0.0000,Tex And The Lord Of The Deep.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,41,nvfp4_kh,nvfp4_h,nvfp4,0,3816,0.0000,Tex And The Lord Of The Deep.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,41,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,3816,0.0000,Tex And The Lord Of The Deep.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,41,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,3816,0.0000,Tex And The Lord Of The Deep.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,42,bf16,bf16,bf16,0,11872,0.0000,The performer of the song I Believe In Your Sweet Love is Welsh singer Bonnie Tyler.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,42,fp8,fp8,fp8,0,11872,0.0000,The performer of the song I Believe In Your Sweet Love is Welsh singer Bonnie Tyler.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,42,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11872,0.0000,The performer of the song I Believe In Your Sweet Love is Welsh singer Bonnie Tyler.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,42,nvfp4_kh,nvfp4_h,nvfp4,0,11872,0.0000,The performer of the song I Believe In Your Sweet Love is from Wales.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,42,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11872,0.0000,The performer of the song I Believe In Your Sweet Love is Welsh singer Bonnie Tyler.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,42,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11872,0.0000,"The performer of the song ""I Believe in Your Sweet Love"" is Welsh singer Bonnie Tyler.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,43,bf16,bf16,bf16,0,8065,0.4444,All-American Co-Ed was produced before Lagu Kenangan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,43,fp8,fp8,fp8,0,8065,0.4444,All-American Co-Ed was produced before Lagu Kenangan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,43,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,8065,0.4444,All-American Co-Ed was produced before Lagu Kenangan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,43,nvfp4_kh,nvfp4_h,nvfp4,0,8065,0.4444,All-American Co-Ed was produced before Lagu Kenangan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,43,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,8065,0.4444,All-American Co-Ed was produced before Lagu Kenangan.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,43,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,8065,0.2500,"All-American Co-Ed was produced first, in 1941, while Lagu Kenangan was released in 1953.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,44,bf16,bf16,bf16,0,5921,1.0000,Buenos Aires.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,44,fp8,fp8,fp8,0,5921,1.0000,Buenos Aires.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,44,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5921,1.0000,Buenos Aires.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,44,nvfp4_kh,nvfp4_h,nvfp4,0,5921,1.0000,Buenos Aires.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,44,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5921,1.0000,Buenos Aires.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,44,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5921,1.0000,Buenos Aires.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,45,bf16,bf16,bf16,0,9370,0.2500,Magdalene Sibylle of Holstein-Gottorp.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,45,fp8,fp8,fp8,0,9370,0.2500,Magdalene Sibylle of Holstein-Gottorp.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,45,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,9370,0.1429,Magdalene Sibylle of Holstein-Gottorp is the mother-in-law of Louise of Mecklenburg-Güstrow.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,45,nvfp4_kh,nvfp4_h,nvfp4,0,9370,0.1429,Magdalene Sibylle of Holstein-Gottorp is the mother-in-law of Louise of Mecklenburg-Güstrow.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,45,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,9370,0.2500,Magdalene Sibylle of Holstein-Gottorp.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,45,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,9370,0.2500,Magdalene Sibylle of Holstein-Gottorp,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,46,bf16,bf16,bf16,0,6094,0.1818,"Henry V, Count Palatine of the Rhine died in Brunswick Cathedral.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,46,fp8,fp8,fp8,0,6094,0.1818,"Henry V, Count Palatine of the Rhine died in Brunswick Cathedral.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,46,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,6094,0.1818,"Henry V, Count Palatine of the Rhine died in Brunswick Cathedral.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,46,nvfp4_kh,nvfp4_h,nvfp4,0,6094,0.2000,"Henry V, Count Palatine of the Rhine died in Brunswick.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,46,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,6094,0.1250,"Henry V, Count Palatine of the Rhine died in 1227 and is entombed in Brunswick Cathedral.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,46,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,6094,0.1818,"Henry V, Count Palatine of the Rhine died in Brunswick Cathedral.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,47,bf16,bf16,bf16,0,5591,0.0000,Nola Fairbanks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,47,fp8,fp8,fp8,0,5591,0.0000,Nola Fairbanks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,47,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,5591,0.0000,Nola Fairbanks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,47,nvfp4_kh,nvfp4_h,nvfp4,0,5591,0.0000,Nola Fairbanks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,47,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,5591,0.0000,Nola Fairbanks.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,47,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,5591,0.0000,Nola Fairbanks is Marcus Annius Libo's aunt.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,48,bf16,bf16,bf16,0,1807,0.6000,Bajo Otro Sol was released more recently.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,48,fp8,fp8,fp8,0,1807,0.6000,Bajo Otro Sol was released more recently.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,48,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,1807,0.6000,Bajo Otro Sol was released more recently.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,48,nvfp4_kh,nvfp4_h,nvfp4,0,1807,0.6000,Bajo Otro Sol was released more recently.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,48,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,1807,0.6000,Bajo Otro Sol was released more recently.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,48,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,1807,0.4286,Bajo Otro Sol was released more recently than Riding The California Trail.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,49,bf16,bf16,bf16,0,4802,0.0000,The mother of the director of the film Dalida (2017) is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,49,fp8,fp8,fp8,0,4802,0.0000,The mother of the director of the film Dalida (2017) is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,49,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,4802,0.0000,The mother of the director of Dalida (2017 film) is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,49,nvfp4_kh,nvfp4_h,nvfp4,0,4802,0.0000,The mother of the director of the film Dalida (2017) is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,49,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,4802,0.0000,The mother of the director of film Dalida (2017 Film) is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,2wikimqa,49,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,4802,0.0000,The mother of the director of Dalida (2017 film) is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,0,bf16,bf16,bf16,0,15939,0.0000,Salma Hayek plays the wife of the producer in Grown Ups.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,0,fp8,fp8,fp8,0,15939,0.0000,Salma Hayek plays the wife of the producer of Here Comes the Boom in Grown Ups.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,0,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15939,0.0000,Salma Hayek plays the wife of the producer in Grown Ups.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,0,nvfp4_kh,nvfp4_h,nvfp4,0,15939,0.0000,Salma Hayek plays the wife of the producer in Grown Ups.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,0,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15939,0.0000,Salma Hayek plays the wife of the producer in Grown Ups.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,0,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15939,0.0000,Salma Hayek plays the wife of the producer in Grown Ups.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,1,bf16,bf16,bf16,0,15972,0.0000,"Walther Bothe and Herbert Becker in Giessen, Germany.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,1,fp8,fp8,fp8,0,15972,0.0000,Walther Bothe and Herbert Becker provided evidence to suggest the existence of the neutron.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,1,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15972,0.0000,"Walther Bothe and Herbert Becker in Giessen, Germany.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,1,nvfp4_kh,nvfp4_h,nvfp4,0,15972,0.0000,Walther Bothe and Herbert Becker provided evidence to suggest the existence of the neutron.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,1,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15972,0.0000,Walther Bothe and Herbert Becker provided evidence to suggest the existence of the neutron.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,1,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15972,0.0000,Walther Bothe and Herbert Becker.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,2,bf16,bf16,bf16,0,15967,0.0000,"Whiston, Merseyside.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,2,fp8,fp8,fp8,0,15967,0.0000,"Whiston, Merseyside.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,2,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15967,0.0000,"Whiston, Merseyside.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,2,nvfp4_kh,nvfp4_h,nvfp4,0,15967,0.0000,"Whiston, Merseyside.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,2,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15967,0.0000,"Whiston, Merseyside.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,2,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15967,0.0000,"Whiston, Merseyside.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,3,bf16,bf16,bf16,0,16271,0.0000,"Francisco Bojado's brother, Angel Bojado.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,3,fp8,fp8,fp8,0,16271,0.0000,"Francisco Bojado's brother, Angel Bojado.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,3,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16271,0.0000,"Francisco Bojado's brother, Angel Bojado.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,3,nvfp4_kh,nvfp4_h,nvfp4,0,16271,0.0000,"Francisco Bojado's brother, Angel Bojado, is the child of the Italian navigator who sailed for England and explored the eastern coast of the continent",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,3,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16271,0.0000,"Francisco Bojado's brother, Angel Bojado.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,3,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16271,0.0000,"Francisco Bojado's brother, Angel Bojado.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,4,bf16,bf16,bf16,0,16366,0.0000,The passage does not mention the spouse of the actor who played Hannibal Smith in The A-Team.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,4,fp8,fp8,fp8,0,16366,0.0000,The passage does not mention the spouse of the actor who played Hannibal Smith in The A-Team.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,4,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16366,0.0000,The passage does not mention the spouse of the actor who played Hannibal Smith in the A-Team.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,4,nvfp4_kh,nvfp4_h,nvfp4,0,16366,0.0000,The passage does not mention the spouse of the actor who played Hannibal Smith in The A-Team.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,4,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16366,0.0000,The passage does not mention the spouse of the actor who played Hannibal Smith in The A-Team.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,4,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16366,0.0000,The passage does not mention the spouse of the actor who played Hannibal Smith in the A-Team.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,5,bf16,bf16,bf16,0,16333,0.0000,There is no information in the given passages about Peter Till's sports team beating the winner of the 1894-95 FA Cup.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,5,fp8,fp8,fp8,0,16333,0.0000,There is no information in the given passages about Peter Till's sports team beating the winner of the 1894-95 FA Cup.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,5,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16333,0.0000,There is no information in the given passages about Peter Till's sports team beating the winner of the 1894-95 FA Cup.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,5,nvfp4_kh,nvfp4_h,nvfp4,0,16333,0.0000,There is no information in the given passages to answer this question.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,5,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16333,0.0000,There is no information in the given passages to answer this question.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,5,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16333,0.0000,There is no information in the given passages about Peter Till's sports team beating the winner of the 1894-95 FA Cup.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,6,bf16,bf16,bf16,0,16081,0.1429,"Griffin O'Neal is the child of Ryan O'Neal, the cast member of Green Ice.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,6,fp8,fp8,fp8,0,16081,0.1111,"Griffin O'Neal, the son of Ryan O'Neal, played the role of a boy on a bicycle in the film Green Ice.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,6,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16081,0.1429,"Griffin O'Neal is the child of Ryan O'Neal, the cast member of Green Ice.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,6,nvfp4_kh,nvfp4_h,nvfp4,0,16081,0.1429,"Griffin O'Neal is the child of Ryan O'Neal, the cast member of Green Ice.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,6,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16081,0.1429,"Griffin O'Neal is the child of Ryan O'Neal, the cast member of Green Ice.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,6,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16081,0.1176,"Griffin O'Neal, the son of Ryan O'Neal, played the role of the boy on a bicycle in the Nickelodeon film.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,7,bf16,bf16,bf16,0,16245,0.0000,There is no information in the given passages about the birthplace of La Silvia's composer or the number of times plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,7,fp8,fp8,fp8,0,16245,0.0000,There is no information in the given passages about the birthplace of La Silvia's composer or how many times plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,7,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16245,0.0000,There is no information in the given passages about the birthplace of La Silvia's composer or how many times plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,7,nvfp4_kh,nvfp4_h,nvfp4,0,16245,0.0000,There is no information in the given passages about the birthplace of La Silvia's composer or the number of times plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,7,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16245,0.0000,There is no information in the given passages about the birthplace of La Silvia's composer or how many times plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,7,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16245,0.0000,There is no information in the given passages about the number of times plague occurred in the birthplace of La Silvia's composer.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,8,bf16,bf16,bf16,0,14993,0.1333,"Larry Alcala was educated at the University of the Philippines, where military instruction started in 1912.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,8,fp8,fp8,fp8,0,14993,0.1333,"Larry Alcala was educated at the University of the Philippines, where military instruction started in 1912.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,8,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14993,0.1333,"Larry Alcala was educated at the University of the Philippines, where military instruction started in 1912.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,8,nvfp4_kh,nvfp4_h,nvfp4,0,14993,0.1333,"Larry Alcala was educated at the University of the Philippines, where military instruction started in 1912.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,8,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14993,0.1333,"Larry Alcala was educated at the University of the Philippines, where military instruction started in 1912.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,8,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14993,0.0000,Larry Alcala obtained a degree of Bachelor of Fine Arts in Painting at the University of the Philippines (UP) in 1950. ROTC in the Philippines,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,9,bf16,bf16,bf16,0,16032,1.0000,ATS-6.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,9,fp8,fp8,fp8,0,16032,1.0000,ATS-6,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,9,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16032,1.0000,ATS-6.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,9,nvfp4_kh,nvfp4_h,nvfp4,0,16032,1.0000,ATS-6,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,9,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16032,1.0000,ATS-6.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,9,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16032,1.0000,ATS-6.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,10,bf16,bf16,bf16,0,16311,0.0000,"Robert Robinson Taylor was the first African American student at the University of Mississippi, where Robert Khayat was educated.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,10,fp8,fp8,fp8,0,16311,0.0000,"Robert Robinson Taylor was the first African American student at the University of Mississippi, where Robert Khayat was educated.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,10,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16311,0.0000,Robert Robinson Taylor was the first African American student at the University of Mississippi.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,10,nvfp4_kh,nvfp4_h,nvfp4,0,16311,0.0000,"Robert Robinson Taylor was the first African American student at the Massachusetts Institute of Technology (MIT), where Robert Khayat also received his education.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,10,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16311,0.0000,"Robert Robinson Taylor was the first African American student at the University of Mississippi, where Robert Khayat later served as Chancellor.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,10,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16311,0.0000,Robert Khayat was the first African American student at the university he was educated at.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,11,bf16,bf16,bf16,0,15638,0.1111,The prize named after the author of Lectures on Jurisprudence is awarded by the Royal Society of Chemistry.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,11,fp8,fp8,fp8,0,15638,0.1111,The prize named after the author of Lectures on Jurisprudence is awarded by the Royal Society of Chemistry.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,11,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15638,0.1176,The Royal Society of Chemistry gives out the prize named after the author of Lectures on Jurisprudence.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,11,nvfp4_kh,nvfp4_h,nvfp4,0,15638,0.1176,The Royal Society of Chemistry gives out the prize named after the author of Lectures on Jurisprudence.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,11,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15638,0.1176,The Royal Society of Chemistry gives out the prize named after the author of Lectures on Jurisprudence.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,11,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15638,0.1176,The Royal Society of Chemistry gives out the prize named after the author of Lectures on Jurisprudence.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,12,bf16,bf16,bf16,0,16383,0.4444,Frances Freeling Broderip's sibling was Tom Hood.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,12,fp8,fp8,fp8,0,16383,0.3077,"Frances Freeling Broderip's sibling was the humorist, playwright, and author Tom Hood.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,12,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16383,0.4444,Frances Freeling Broderip's sibling was Tom Hood.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,12,nvfp4_kh,nvfp4_h,nvfp4,0,16383,0.4444,Frances Freeling Broderip's sibling was Tom Hood.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,12,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16383,0.4000,Frances Freeling Broderip's sibling was the humorist Tom Hood.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,12,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16383,0.4000,Frances Freeling Broderip's sibling was the humorist Tom Hood.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,13,bf16,bf16,bf16,0,15901,0.2857,The spouse of the person who voices Jarvis in Iron Man is Jennifer Connelly.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,13,fp8,fp8,fp8,0,15901,0.2857,The spouse of the person who voices Jarvis in Iron Man is Jennifer Connelly.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,13,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15901,0.2857,The spouse of the person who voices Jarvis in Iron Man is Jennifer Connelly.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,13,nvfp4_kh,nvfp4_h,nvfp4,0,15901,0.2857,The spouse of the person who voices Jarvis in Iron Man is Jennifer Connelly.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,13,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15901,0.2857,The spouse of the person who voices Jarvis in Iron Man is Jennifer Connelly.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,13,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15901,0.2857,The spouse of the person who voices Jarvis in Iron Man is Jennifer Connelly.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,14,bf16,bf16,bf16,0,12951,0.0000,The source of the river that is the mouth of the Caledon River is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,14,fp8,fp8,fp8,0,12951,0.0000,The source of the river that is the mouth of the Caledon River is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,14,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,12951,0.0000,The source of the river that is the mouth of the Caledon River is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,14,nvfp4_kh,nvfp4_h,nvfp4,0,12951,0.0000,The Orange River.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,14,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,12951,0.0000,The source of the river that is the mouth of the Caledon River is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,14,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,12951,0.0000,The mouth of the Caledon River is the Orange River.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,15,bf16,bf16,bf16,0,16229,0.0870,The name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,15,fp8,fp8,fp8,0,16229,0.0870,The name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,15,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16229,0.0870,The name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,15,nvfp4_kh,nvfp4_h,nvfp4,0,16229,0.0870,The name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,15,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16229,0.0870,The name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,15,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16229,0.0870,The name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,16,bf16,bf16,bf16,0,16261,0.0000,The party that gained control of Congress in the midterm elections in 1946 took control of the Senate.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,16,fp8,fp8,fp8,0,16261,0.0000,The party that gained control of Congress in the midterm elections in 1946 took control of the Senate.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,16,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16261,0.0000,The party that gained control of Congress in the 1946 midterm elections took control of the Senate.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,16,nvfp4_kh,nvfp4_h,nvfp4,0,16261,0.0000,The party that gained control of Congress in the midterm elections in 1946 took control of the Senate.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,16,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16261,0.0000,The party that gained control of Congress in the midterm elections in 1946 took control of the Senate.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,16,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16261,0.0000,The party that gained control of Congress in the midterm elections in 1946 took control of the Senate in the same elections.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,17,bf16,bf16,bf16,0,16252,0.1600,"The producer of Julius Caesar, John Houseman, studied at Clifton College in England and worked in the grain trade in London before emigrating to the United",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,17,fp8,fp8,fp8,0,16252,0.1600,"The producer of Julius Caesar, John Houseman, studied at Clifton College in England and worked in the grain trade in London before emigrating to the United",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,17,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16252,0.1739,"The producer of Julius Caesar, John Houseman, studied or worked in England at Clifton College before emigrating to the United States in 1925.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,17,nvfp4_kh,nvfp4_h,nvfp4,0,16252,0.1600,"The producer of Julius Caesar, John Houseman, studied at Clifton College in England and worked in the grain trade in London before emigrating to the United",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,17,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16252,0.1600,"The producer of Julius Caesar, John Houseman, studied at Clifton College in England and worked in the grain trade in London before emigrating to the United",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,17,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16252,0.1600,"The producer of Julius Caesar, John Houseman, was educated in England at Clifton College and worked in the grain trade in London before emigrating to the",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,18,bf16,bf16,bf16,0,16177,0.0000,Mehmet Hayri Tarhan's birthplace is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,18,fp8,fp8,fp8,0,16177,0.0000,Mehmet Hayri Tarhan's birthplace is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,18,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16177,0.0000,Mehmet Hayri Tarhan's birthplace is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,18,nvfp4_kh,nvfp4_h,nvfp4,0,16177,0.2353,"Mehmet Hayri Tarhan's birthplace is Tirnovadjik (Malko Tarnovo), which is the capital of Malko Tarn",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,18,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16177,0.0000,Mehmet Hayri Tarhan's birthplace is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,18,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16177,0.0000,Mehmet Hayri Tarhan's birthplace is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,19,bf16,bf16,bf16,0,16339,0.0000,The performer of Heartbeat is named after Amanda Feilding.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,19,fp8,fp8,fp8,0,16339,0.0000,"The performer of Heartbeat is named after Ernst Otto Beckmann, a German chemist.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,19,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16339,0.0000,"The performer of Heartbeat is named after Ernst Otto Beckmann, who discovered the Beckmann rearrangement.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,19,nvfp4_kh,nvfp4_h,nvfp4,0,16339,0.0000,The performer of Heartbeat is named after the city Budapest.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,19,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16339,0.0000,"The performer of Heartbeat is named after the city of Budapest, as the Standard Chinese phonetic translation of Budapest is ""Bù Dá Peì Sī",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,19,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16339,0.0000,The performer of Heartbeat is named after Amanda Feilding.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,20,bf16,bf16,bf16,0,16060,0.3529,"The author of Elizabeth and After, Matt Cohen, studied political economy at the University of Toronto.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,20,fp8,fp8,fp8,0,16060,0.3529,"The author of Elizabeth and After, Matt Cohen, studied political economy at the University of Toronto.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,20,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16060,0.5000,The author of Elizabeth and After attended the University of Toronto.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,20,nvfp4_kh,nvfp4_h,nvfp4,0,16060,0.4286,"The author of Elizabeth and After, Matt Cohen, attended the University of Toronto.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,20,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16060,0.2222,"The author of Elizabeth and After, Matt Cohen, studied political philosophy and religion at McMaster University.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,20,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16060,0.4286,"The author of Elizabeth and After, Matt Cohen, attended the University of Toronto.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,21,bf16,bf16,bf16,0,16313,0.2222,"The publisher of Labyrinth, Acornsoft, ended in January 1986.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,21,fp8,fp8,fp8,0,16313,0.2222,"The publisher of Labyrinth, Acornsoft, ended in January 1986.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,21,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16313,0.0000,"The publisher of Labyrinth, Acornsoft, ended in 1999.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,21,nvfp4_kh,nvfp4_h,nvfp4,0,16313,0.2222,"The publisher of Labyrinth, Acornsoft, ended in January 1986.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,21,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16313,0.1429,"The publisher of Labyrinth, Acornsoft, ceased to operate as a separate company in January 1986.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,21,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16313,0.2500,"The publisher of Labyrinth, Acornsoft, ended in 1986.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,22,bf16,bf16,bf16,0,16220,0.0000,The Marketed Health Products Directorate (MHPD) of Health Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,22,fp8,fp8,fp8,0,16220,0.0000,The Marketed Health Products Directorate (MHPD) of Health Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,22,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16220,0.0000,The Marketed Health Products Directorate (MHPD) of Health Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,22,nvfp4_kh,nvfp4_h,nvfp4,0,16220,0.0000,The Marketed Health Products Directorate (MHPD) of Health Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,22,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16220,0.0000,The Marketed Health Products Directorate (MHPD) of Health Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,22,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16220,0.0800,The Marketed Health Products Directorate (MHPD) is the Canadian federal authority that monitors the safety and effectiveness of health products marketed in Canada.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,23,bf16,bf16,bf16,0,15802,0.0000,The passage does not mention the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,23,fp8,fp8,fp8,0,15802,0.0000,The passage does not mention the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,23,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15802,0.0000,The passage does not mention the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,23,nvfp4_kh,nvfp4_h,nvfp4,0,15802,0.0000,The passage does not mention the president of the newly declared independent country or the country where Ambelau is located.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,23,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15802,0.0000,The passage does not mention the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,23,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15802,0.0000,The passage does not mention the president of the newly declared independent country.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,24,bf16,bf16,bf16,0,16344,0.0833,"The British general in the Battle of New Orleans was named after the birth city of the person who recorded Mother-in-Law, which was Ernie K-Doe",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,24,fp8,fp8,fp8,0,16344,0.0833,"The British general in the Battle of New Orleans was named after the birth city of the person who recorded Mother-in-Law, which was Ernie K-Doe",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,24,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16344,0.4286,The British general in the Battle of New Orleans was named Edward Pakenham.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,24,nvfp4_kh,nvfp4_h,nvfp4,0,16344,0.0909,The British general in the battle named after the birth city of the person who recorded Mother-in-Law is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,24,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16344,0.0909,The British general in the battle named after the birth city of the person who recorded Mother-in-Law is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,24,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16344,0.0800,The British general in the Battle of New Orleans named after the birth city of the person who recorded Mother-in-Law is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,25,bf16,bf16,bf16,0,15929,0.3077,Sean Hampton's birth place in the state of Florida is Ocala.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,25,fp8,fp8,fp8,0,15929,0.3077,Sean Hampton's birth place in the state of Florida is Ocala.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,25,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15929,0.2500,Sean Hampton's birthplace in the state of Florida is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,25,nvfp4_kh,nvfp4_h,nvfp4,0,15929,0.3077,Sean Hampton's birth place in the state of Florida is Ocala.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,25,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15929,0.3077,Sean Hampton's birth place in the state of Florida is Ocala.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,25,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15929,0.3077,Sean Hampton's birth place in the state of Florida is Ocala.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,26,bf16,bf16,bf16,0,16404,0.0000,The president of the group Kim Un-yong is a member of is not specified in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,26,fp8,fp8,fp8,0,16404,0.0000,The president of the group Kim Un-yong is a member of is not specified in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,26,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16404,0.0000,The president of the group Kim Un-yong is a member of is not specified in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,26,nvfp4_kh,nvfp4_h,nvfp4,0,16404,0.0000,The president of the group Kim Un-yong is a member of is not specified in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,26,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16404,0.0000,The president of the group Kim Un-yong is a member of is the International Olympic Committee (IOC).,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,26,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16404,0.0000,The president of the group Kim Un-yong is a member of is not specified in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,27,bf16,bf16,bf16,0,15679,0.0000,"Conscription was introduced during World War I in Australia, the country where the film Grievous Bodily Harm was later released.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,27,fp8,fp8,fp8,0,15679,0.0000,"Conscription was introduced during World War I in Australia, the country where the film Grievous Bodily Harm was later released.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,27,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15679,0.0000,"Conscription was introduced during World War I in Australia, the country where the film Grievous Bodily Harm was later released.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,27,nvfp4_kh,nvfp4_h,nvfp4,0,15679,0.0000,"Conscription was introduced during World War I in Australia, the country where the film Grievous Bodily Harm was later released.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,27,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15679,0.0000,"Conscription was introduced in Australia during World War I and World War II, and again during the Vietnam War. Grievous Bodily Harm, the Australian crime",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,27,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15679,0.0000,"Conscription was introduced during World War I in Australia, where the film Grievous Bodily Harm was later released.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,28,bf16,bf16,bf16,0,15613,0.0000,The president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo is not mentioned in the given passages,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,28,fp8,fp8,fp8,0,15613,0.0000,The passage does not mention the president of a new country or Satyo Husodo.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,28,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15613,0.0000,The question is not based on the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,28,nvfp4_kh,nvfp4_h,nvfp4,0,15613,0.0000,The passage does not mention the president of the new country that has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,28,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15613,0.0000,The president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo is not mentioned in the given passages,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,28,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15613,0.0000,The passage does not mention the president of the new country that has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,29,bf16,bf16,bf16,0,15505,0.1111,"The current queen of England is Elizabeth II and her spouse is Prince Philip, Duke of Edinburgh.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,29,fp8,fp8,fp8,0,15505,0.1111,"The current queen of England is Elizabeth II and her spouse is Prince Philip, Duke of Edinburgh.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,29,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15505,0.1429,"The spouse of the current queen of England is Prince Philip, Duke of Edinburgh.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,29,nvfp4_kh,nvfp4_h,nvfp4,0,15505,0.1111,"The current queen of England is Elizabeth II and her spouse is Prince Philip, Duke of Edinburgh.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,29,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15505,0.1111,"The current queen of England is Elizabeth II and her spouse is Prince Philip, Duke of Edinburgh.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,29,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15505,0.1429,"The spouse of the current queen of England is Prince Philip, Duke of Edinburgh.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,30,bf16,bf16,bf16,0,10475,0.0000,The birthplace of Francisco Giner de los Rios ceased to exist in 1915.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,30,fp8,fp8,fp8,0,10475,0.0000,The birthplace of Francisco Giner de los Rios ceased to exist in 1915.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,30,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,10475,0.0000,The birthplace of Francisco Giner de los Rios ceased to exist in 1839.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,30,nvfp4_kh,nvfp4_h,nvfp4,0,10475,0.0000,The birthplace of Francisco Giner de los Ríos ceased to exist in 1915.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,30,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,10475,0.0000,"The birthplace of Francisco Giner de los Rios, Ronda, Spain, ceased to exist in 1836.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,30,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,10475,0.0000,The birthplace of Francisco Giner de los Rios ceased to exist in 1898.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,31,bf16,bf16,bf16,0,16210,0.5854,Shell announced that it was in the process of trying to find a potential buyer for all of its operations in Finland and is doing similar market research concerning Swedish operations.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,31,fp8,fp8,fp8,0,16210,0.5854,Shell announced that it was in the process of trying to find a potential buyer for all of its operations in Finland and is doing similar market research concerning Swedish operations.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,31,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16210,0.5854,Shell announced that it was in the process of trying to find a potential buyer for all of its operations in Finland and is doing similar market research concerning Swedish operations.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,31,nvfp4_kh,nvfp4_h,nvfp4,0,16210,0.5854,Shell announced that it was in the process of trying to find a potential buyer for all of its operations in Finland and is doing similar market research concerning Swedish operations.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,31,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16210,0.5854,Shell announced that it was in the process of trying to find a potential buyer for all of its operations in Finland and is doing similar market research concerning Swedish operations.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,31,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16210,0.5854,Shell announced that it was in the process of trying to find a potential buyer for all of its operations in Finland and is doing similar market research concerning Swedish operations.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,32,bf16,bf16,bf16,0,16254,1.0000,Keturah.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,32,fp8,fp8,fp8,0,16254,1.0000,Keturah.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,32,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16254,1.0000,Keturah.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,32,nvfp4_kh,nvfp4_h,nvfp4,0,16254,1.0000,Keturah.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,32,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16254,1.0000,Keturah.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,32,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16254,1.0000,Keturah.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,33,bf16,bf16,bf16,0,14990,0.0000,The place of birth of John Phan is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,33,fp8,fp8,fp8,0,14990,0.0000,The place of birth of John Phan is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,33,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14990,0.0000,The place of birth of John Phan is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,33,nvfp4_kh,nvfp4_h,nvfp4,0,14990,0.0000,The passage about John Phan does not mention any information about his place of birth.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,33,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14990,0.0000,The place of birth of John Phan is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,33,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14990,0.0000,The place of birth of John Phan is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,34,bf16,bf16,bf16,0,16208,0.0000,Josh Groban.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,34,fp8,fp8,fp8,0,16208,0.0000,Josh Groban.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,34,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16208,0.0000,Josh Groban.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,34,nvfp4_kh,nvfp4_h,nvfp4,0,16208,0.0000,Josh Groban.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,34,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16208,0.0000,Josh Groban.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,34,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16208,0.0000,Josh Groban.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,35,bf16,bf16,bf16,0,13091,0.0000,"The Live Life Loud album's band, Hawk Nelson, signed to BEC Recordings.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,35,fp8,fp8,fp8,0,13091,0.0000,"The Live Life Loud album's band, Hawk Nelson, signed to BEC Recordings.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,35,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,13091,0.0000,"The Live Life Loud album's band, Hawk Nelson, was signed to BEC Recordings.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,35,nvfp4_kh,nvfp4_h,nvfp4,0,13091,0.0000,The Live Life Loud album's band signed to BEC Recordings.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,35,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,13091,0.0000,"The Live Life Loud album's band, Hawk Nelson, was signed to BEC Recordings.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,35,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,13091,0.0000,The band Hawk Nelson signed to the label BEC Recordings for the Live Life Loud album.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,36,bf16,bf16,bf16,0,16184,0.0000,King Gustav Vasa of Sweden.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,36,fp8,fp8,fp8,0,16184,0.0000,King Gustav Vasa of Sweden.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,36,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16184,0.0000,King Gustav Vasa of Sweden.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,36,nvfp4_kh,nvfp4_h,nvfp4,0,16184,0.0000,King Gustav Vasa of Sweden.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,36,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16184,0.0000,King Gustav Vasa of Sweden.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,36,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16184,0.0000,King Gustav Vasa of Sweden.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,37,bf16,bf16,bf16,0,11235,0.0000,The record label of the Metalworks Studio founder is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,37,fp8,fp8,fp8,0,11235,0.0000,The record label of the Metalworks Studio founder is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,37,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11235,0.0000,The record label of the Metalworks Studio founder is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,37,nvfp4_kh,nvfp4_h,nvfp4,0,11235,0.0000,The record label of the Metalworks Studio founder is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,37,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,11235,0.0000,The record label of the Metalworks Studio founder is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,37,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,11235,0.0000,The record label of the Metalworks Studio founder is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,38,bf16,bf16,bf16,0,15252,0.0000,The president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,38,fp8,fp8,fp8,0,15252,0.0000,The president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,38,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15252,0.0000,The president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,38,nvfp4_kh,nvfp4_h,nvfp4,0,15252,0.0000,The president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,38,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15252,0.0000,The president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,38,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15252,0.0000,The president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,39,bf16,bf16,bf16,0,16315,0.0000,There is no information in the given passages about the city where Flora's painter died or how many times the plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,39,fp8,fp8,fp8,0,16315,0.0000,There is no information in the given passages about the city where Flora's painter died or how many times the plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,39,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16315,0.0000,There is no information in the given passages about the city where Flora's painter died or how many times the plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,39,nvfp4_kh,nvfp4_h,nvfp4,0,16315,0.0000,There is no information in the given passages about the painter of Flora or the city where he died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,39,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16315,0.0000,There is no information in the given passages about the city where Flora's painter died or how many times the plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,39,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16315,0.0000,There is no information in the given passages about the city where Flora's painter died or how many times the plague occurred there.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,40,bf16,bf16,bf16,0,14494,0.0000,The seat of the county sharing a border with the county in which Valley New School is located is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,40,fp8,fp8,fp8,0,14494,0.0000,The seat of the county sharing a border with the county in which Valley New School is located is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,40,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14494,0.0000,The seat of the county sharing a border with the county in which Valley New School is located is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,40,nvfp4_kh,nvfp4_h,nvfp4,0,14494,0.0000,The seat of the county sharing a border with the county in which Valley New School is located is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,40,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14494,0.0000,The seat of the county sharing a border with the county in which Valley New School is located is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,40,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14494,0.0000,The seat of the county sharing a border with the county in which Valley New School is located is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,41,bf16,bf16,bf16,0,16407,0.0000,The passage does not mention the highest city in the state where Dell ranks sixth by revenue.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,41,fp8,fp8,fp8,0,16407,0.0000,The passage does not mention the highest city in the state where Dell ranks sixth by revenue.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,41,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16407,0.0000,The passage does not mention the highest city in the state where Dell ranks sixth by revenue.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,41,nvfp4_kh,nvfp4_h,nvfp4,0,16407,0.0000,The passage does not mention the highest city in the state where Dell ranks sixth by revenue.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,41,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16407,0.0000,The passage does not mention a city where Dell ranks sixth by revenue.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,41,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16407,0.0000,The passage does not mention a state where Dell ranks sixth by revenue.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,42,bf16,bf16,bf16,0,14977,0.0000,"Elisabeth Shue played the girlfriend of Michael J. Fox, who plays Marty McFly's daughter in Back to the Future 2.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,42,fp8,fp8,fp8,0,14977,0.0000,"Elisabeth Shue played the girlfriend of Michael J. Fox, who plays Marty McFly's daughter in Back to the Future 2.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,42,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,14977,0.0000,"Elisabeth Shue played the girlfriend of Michael J. Fox, who plays Marty McFly's daughter in Back to the Future 2.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,42,nvfp4_kh,nvfp4_h,nvfp4,0,14977,0.0000,"Elisabeth Shue played the girlfriend of Michael J. Fox, who plays Marty McFly's daughter in Back to the Future 2.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,42,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,14977,0.0000,Elisabeth Shue played the girlfriend of Michael J. Fox's character Marty McFly in Back to the Future 2.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,42,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,14977,0.0000,Elisabeth Shue played the girlfriend of Michael J. Fox (who plays Marty McFly) in Back to the Future 2.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,43,bf16,bf16,bf16,0,16066,0.0000,"Passage 2: The quote ""by the skin of your teeth"" comes from Job 19:20 in the Bible.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,43,fp8,fp8,fp8,0,16066,0.0000,"Passage 2: The quote ""by the skin of your teeth"" comes from Job 19:20 in the Bible.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,43,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16066,0.0000,"Passage 2: The quote ""by the skin of your teeth"" comes from Job 19:20 in the Bible.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,43,nvfp4_kh,nvfp4_h,nvfp4,0,16066,0.0000,Passage 2,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,43,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16066,0.0000,"Passage 2: The quote ""by the skin of your teeth"" comes from the Bible, specifically Job 19:20.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,43,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16066,0.0000,"Passage 1 does not contain any information about Mary or the quote ""by the skin of your teeth"".",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,44,bf16,bf16,bf16,0,16327,0.0000,The seat of the county sharing a border with the county in which J. P. Hayes was born is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,44,fp8,fp8,fp8,0,16327,0.0000,The seat of the county sharing a border with the county in which J. P. Hayes was born is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,44,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16327,0.0000,The seat of the county sharing a border with the county in which J. P. Hayes was born is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,44,nvfp4_kh,nvfp4_h,nvfp4,0,16327,0.0000,The seat of the county sharing a border with the county in which J. P. Hayes was born is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,44,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16327,0.0000,The seat of the county sharing a border with the county in which J. P. Hayes was born is not mentioned in the given passage.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,44,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16327,0.0000,The seat of the county sharing a border with the county in which J. P. Hayes was born is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,45,bf16,bf16,bf16,0,16184,0.0000,The passage does not mention the number of times plague occurred in the place where Titian died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,45,fp8,fp8,fp8,0,16184,0.0000,The passage does not mention the number of times plague occurred in the place where Titian died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,45,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16184,0.0000,The passage does not mention the number of times plague occurred in the place where Titian died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,45,nvfp4_kh,nvfp4_h,nvfp4,0,16184,0.0000,The passage does not mention the number of times plague occurred in the place where Titian died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,45,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16184,0.0000,The passage does not mention the number of times plague occurred in the place where Titian died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,45,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16184,0.0000,The passage does not mention the number of times plague occurred in the place where Titian died.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,46,bf16,bf16,bf16,0,16318,0.0000,The source of the river Orlam clans crossed to migrate to Namibia is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,46,fp8,fp8,fp8,0,16318,0.0000,The source of the river Orlam clans crossed to migrate to Namibia is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,46,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16318,0.0000,The source of the river that the Oorlam clans crossed to migrate to Namibia is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,46,nvfp4_kh,nvfp4_h,nvfp4,0,16318,0.0000,The source of the river Orlam clans crossed to migrate to Namibia is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,46,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16318,0.0000,The source of the river Orlam clans crossed to migrate to Namibia is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,46,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16318,0.0000,The source of the river Orlam clans crossed to migrate to Namibia is not mentioned in the given passages.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,47,bf16,bf16,bf16,0,16359,0.1765,Common Sense was an important work because it crystallized sentiment for independence in 1776 and was immensely popular in disseminating to a very wide audience ideas that were,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,47,fp8,fp8,fp8,0,16359,0.1765,Common Sense was an important work because it crystallized sentiment for independence in 1776 and was immensely popular in disseminating to a very wide audience ideas that were,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,47,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16359,0.1765,Common Sense was an important work because it crystallized sentiment for independence in 1776 and was immensely popular in disseminating to a very wide audience ideas that were,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,47,nvfp4_kh,nvfp4_h,nvfp4,0,16359,0.1765,Common Sense was an important work because it crystallized sentiment for independence in 1776 and was immensely popular in disseminating to a very wide audience ideas that were,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,47,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16359,0.3750,Common Sense was an important work because it crystallized sentiment for independence in 1776 and demonstrated to many the inevitability of separation from Great Britain. It,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,47,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16359,0.1818,"Common Sense was an important work because it contributed significantly to spreading the idea of republicanism, bolstering enthusiasm for separation from Britain, and encouraging recruitment for the Continental",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,48,bf16,bf16,bf16,0,15986,0.1667,"Larkin I. Smith was born in Poplarville, Mississippi.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,48,fp8,fp8,fp8,0,15986,0.1667,"Larkin I. Smith was born in Poplarville, Mississippi.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,48,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,15986,0.5000,"Larkin I. Smith was born in Poplarville, Mississippi, in Pearl River County.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,48,nvfp4_kh,nvfp4_h,nvfp4,0,15986,0.4444,"Larkin I. Smith was born in Poplarville, Mississippi, which is in Pearl River County.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,48,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,15986,0.1667,"Larkin I. Smith was born in Poplarville, Mississippi.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,48,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,15986,0.5000,"Larkin I. Smith was born in Poplarville, Mississippi, in Pearl River County.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,49,bf16,bf16,bf16,0,16325,0.2105,"The person who acted in the comedy film Crime School, Humphrey Bogart, won his only Oscar for The African Queen.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,49,fp8,fp8,fp8,0,16325,0.2105,"The person who acted in the comedy film Crime School, Humphrey Bogart, won his only Oscar for The African Queen.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,49,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16325,0.2105,"The person who acted in the comedy film Crime School, Humphrey Bogart, won his only Oscar for The African Queen.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,49,nvfp4_kh,nvfp4_h,nvfp4,0,16325,0.2105,"The person who acted in the comedy film Crime School, Humphrey Bogart, won his only Oscar for The African Queen.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,49,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,16325,0.2105,"The person who acted in the comedy film Crime School, Humphrey Bogart, won his only Oscar for The African Queen.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,musique,49,mxfp4_uq_kh,mxfp4_uq_h,mxfp4_uq,0,16325,0.1818,"The person who acted in the comedy film Crime School, Humphrey Bogart, won his only Oscar for his performance in The African Queen.",b14dafa

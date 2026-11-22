@@ -1,0 +1,6 @@
+gpu,commit,tag,impl,config,batch,ctx,ms,gbs,peak_frac
+NVIDIA H100 80GB HBM3,3eafe7c,v7_h100,cuda_int4a,"splits=1,nst=2",32,16384,0.2034,2804,0.837
+NVIDIA H100 80GB HBM3,3eafe7c,v7_h100,cuda_int4a,"splits=1,nst=3",32,16384,0.2068,2759,0.823
+NVIDIA H100 80GB HBM3,3eafe7c,v7_h100,cuda_int4a_nocenter,"splits=1,nst=2",32,16384,0.2024,2818,0.841
+NVIDIA H100 80GB HBM3,3eafe7c,v7_h100,cuda_int4a_nocenter,"splits=1,nst=3",32,16384,0.2062,2767,0.826
+NVIDIA H100 80GB HBM3,3eafe7c,v7_h100,cuda_int4a+merge,"splits=1,nst=2",32,16384,0.2319,2460,0.734

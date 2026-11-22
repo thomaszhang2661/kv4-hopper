@@ -1,0 +1,17 @@
+\begin{table}[tbp]
+\centering
+\caption{Single-GPU capacity (\texttt{results/serve\_goodput\_x\_11-21.csv}; reasoning-like workload: 1K input, 8K output, lengths uniform within $\pm$50\%; Poisson arrivals, $\max(150, 600\,\mathrm{s} \times \mathrm{rate})$ requests; H200 SXM; four API-server processes; FP8 with XQA decode). The highest sustainable rate is the highest rate at which at least 99\% of requests meet the SLO (time to first token $\leq$ 2 s, time per output token $\leq$ 100 ms): [highest rate that held, lowest rate that failed), seed 0; the boundary points marked $^{\dagger}$ were repeated with seed 1, and Llama-3.1-8B's FP8 point at 1.25 also holds with seed 2. KV tokens: vLLM's reported cache size at \texttt{-{}-gpu-memory-utilization 0.9} in these serving runs (\texttt{-{}-max-model-len 14336}, \texttt{-{}-max-num-seqs 512}); the latency and throughput runs of Section~\ref{sec:e2e} use other engine settings and report 2.87M and 1.76M on Llama-3.1-8B, the same 1.63$\times$ ratio. Per step: pure decode speed-up over FP8 at batch 8 and above (\texttt{vllm bench forward}; Llama-3.1-8B and Qwen3-32B with BF16 weights, Qwen2.5-72B with FP8 weights, its shapes up to $32 \times 8$K and $8 \times 31$K). The SLO targets are the same for all three models. Qwen2.5-72B-Instruct uses FP8 weights (RedHatAI FP8-dynamic) to fit on one GPU.}
+\label{tab:capacity}
+\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrllrr@{}}
+\toprule
+ & \multicolumn{2}{c}{KV tokens} & \multicolumn{2}{c}{Highest sustainable rate (req/s)} & & Per step \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Model & FP8 & Ours & FP8 & Ours & Ratio & $B \geq 8$ \\
+\midrule
+Llama-3.1-8B          & 1.78M & 2.90M & [1.25, 1.3)  & [1.6, 1.65)$^{\dagger}$  & 1.23--1.32$\times$ & 1.12--1.64$\times$ \\
+Qwen3-32B             & 0.50M & 0.82M & [0.25, 0.275)$^{\dagger}$ & [0.4, 0.45)$^{\dagger}$  & 1.45--1.80$\times$ & 1.05--1.18$\times$ \\
+Qwen2.5-72B (FP8 w.)  & 0.34M & 0.54M & [0.125, 0.15)$^{\dagger}$ & [0.25, 0.275)$^{\dagger}$ & 1.67--2.20$\times$ & 1.04--1.18$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

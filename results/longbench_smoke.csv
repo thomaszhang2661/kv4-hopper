@@ -1,0 +1,52 @@
+model,task,idx,config,k_fmt,v_fmt,sink,prompt_tokens,score,pred,commit
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,bf16,bf16,bf16,0,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,0,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11355,0.5455,Miller v. California was brought to court first.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,bf16,bf16,bf16,0,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,1,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16307,1.0000,Charles L. Clifford.,b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,bf16,bf16,bf16,0,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,hotpotqa,2,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,16325,0.0000,"Lowell, Michigan.",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,lcc,0,bf16,bf16,bf16,0,11631,1.0000,"				Participant p = (Participant)m_Participants[i];
+				for ( int j = 0; j < p.Players.Length; ++j )
+				{
+					DuelPlayer pl = p.Players[j];
+					if ( pl == null )
+						continue;
+					pl.Mobile.CloseGump( types );
+					for (",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,lcc,0,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,11631,1.0000,"				Participant p = (Participant)m_Participants[i];
+				for ( int j = 0; j < p.Players.Length; ++j )
+				{
+					DuelPlayer pl = p.Players[j];
+					if ( pl == null )
+						continue;
+					pl.Mobile.CloseGump( types );
+					for (",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,lcc,1,bf16,bf16,bf16,0,2807,1.0000,"			Z_.add_edge(e_u, e_v, **data.copy())
+			if (e_u, e_v) in A.edges():
+				continue
+			if (e_v, e_u) in A.edges():
+				continue
+			if (e_u, e_v) in Y.edges():
+				continue
+		",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,lcc,1,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,2807,1.0000,"			Z_.add_edge(e_u, e_v, **data.copy())
+			if (e_u, e_v) in A.edges():
+				continue
+			if (e_u, e_v) in Y_.edges():
+				continue
+			if (e_v, e_u) in Y_.edges():
+				continue",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,lcc,2,bf16,bf16,bf16,0,2137,0.4700,"        # Open the test file for reading
+        a = Sndfile(ofilename, 'r')
+        nframes = a.nframes
+        buffsize = 1024
+        buffsize = min(nframes, buffsize)
+        # First, read some frames, go back, and compare buffers
+       ",b14dafa
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,lcc,2,nvfp4_khs:4,nvfp4_h~s,nvfp4,4,2137,0.4700,"        # Open the test file for reading
+        a = Sndfile(ofilename, 'r')
+        nframes = a.nframes
+        buffsize = 1024
+        buffsize = min(nframes, buffsize)
+        # First, read some frames, go back, and compare buffers
+       ",b14dafa

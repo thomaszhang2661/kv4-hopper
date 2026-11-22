@@ -1,0 +1,467 @@
+\begin{thebibliography}{53}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ashkboos et~al.(2024)Ashkboos, Mohtashami, Croci, Li, Cameron, Jaggi,
+  Alistarh, Hoefler, and Hensman]{ashkboos2024quarot}
+Saleh Ashkboos, Amirkeivan Mohtashami, Maximilian~L. Croci, Bo~Li, Pashmina
+  Cameron, Martin Jaggi, Dan Alistarh, Torsten Hoefler, and James Hensman.
+\newblock {QuaRot}: Outlier-free 4-bit inference in rotated {LLMs}.
+\newblock \emph{arXiv preprint arXiv:2404.00456}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.00456}.
+\newblock NeurIPS 2024.
+
+\bibitem[Bai et~al.(2023)Bai, Lv, Zhang, Lyu, Tang, Huang, Du, Liu, Zeng, Hou,
+  Dong, Tang, and Li]{bai2024longbench}
+Yushi Bai, Xin Lv, Jiajie Zhang, Hongchang Lyu, Jiankai Tang, Zhidian Huang,
+  Zhengxiao Du, Xiao Liu, Aohan Zeng, Lei Hou, Yuxiao Dong, Jie Tang, and
+  Juanzi Li.
+\newblock {LongBench}: A bilingual, multitask benchmark for long context
+  understanding.
+\newblock \emph{arXiv preprint arXiv:2308.14508}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2308.14508}.
+\newblock ACL 2024.
+
+\bibitem[{bhoomit}(2026)]{vllm67789}
+{bhoomit}.
+\newblock [bugfix][{TurboQuant}] skip prefill fast path when a request has
+  cached {KV}.
+\newblock vllm-project/vllm pull request \#67789, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/67789}.
+\newblock Opened 2026-11-15; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Chakrabarti et~al.(2026)Chakrabarti, Limpus, Rana, Bao, Tiwari,
+  Crepaldi, and Sirasao]{chakrabarti2026ultraquant}
+Inesh Chakrabarti, David Limpus, Aditi~Ghai Rana, Bowen Bao, Spandan Tiwari,
+  Thiago Crepaldi, and Ashish Sirasao.
+\newblock {UltraQuant}: 4-bit {KV} caching for context-heavy agents.
+\newblock \emph{arXiv preprint arXiv:2606.20474}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.20474}.
+\newblock EMNLP 2026 Industry Track.
+
+\bibitem[Dao(2023)]{dao2023flashattention2}
+Tri Dao.
+\newblock {FlashAttention-2}: Faster attention with better parallelism and work
+  partitioning.
+\newblock \emph{arXiv preprint arXiv:2307.08691}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.08691}.
+\newblock ICLR 2024.
+
+\bibitem[Dao et~al.(2023)Dao, Haziza, Massa, and Sizov]{dao2023flashdecoding}
+Tri Dao, Daniel Haziza, Francisco Massa, and Grigory Sizov.
+\newblock Flash-decoding for long-context inference.
+\newblock Stanford CRFM blog, 2023.
+\newblock URL \url{https://crfm.stanford.edu/2023/10/12/flashdecoding.html}.
+
+\bibitem[Du et~al.(2025)Du, Cao, Cheng, Mai, Cao, and Yang]{du2025bitdecoding}
+Dayou Du, Shijie Cao, Jianyi Cheng, Luo Mai, Ting Cao, and Mao Yang.
+\newblock {BitDecoding}: Unlocking tensor cores for long-context {LLMs} with
+  low-bit {KV} cache.
+\newblock \emph{arXiv preprint arXiv:2503.18773}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.18773}.
+\newblock HPCA 2026.
+
+\bibitem[Du et~al.(2026)Du, Ng, Sheng, Lau, Cheng, and
+  Mai]{du2026bitdecodingfp4}
+Dayou Du, Woon~Yee Ng, Guangming Sheng, Nick Lau, Jianyi Cheng, and Luo Mai.
+\newblock {BitDecoding-FP4}: Native {FP4} {KV} cache decoding via
+  algorithm-system co-design.
+\newblock \emph{arXiv preprint arXiv:2611.09825}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2611.09825}.
+
+\bibitem[Frantar et~al.(2024)Frantar, Castro, Chen, Hoefler, and
+  Alistarh]{frantar2024marlin}
+Elias Frantar, Roberto~L. Castro, Jiale Chen, Torsten Hoefler, and Dan
+  Alistarh.
+\newblock {MARLIN}: Mixed-precision auto-regressive parallel inference on large
+  language models.
+\newblock \emph{arXiv preprint arXiv:2408.11743}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.11743}.
+\newblock PPoPP 2025.
+
+\bibitem[{GreatGIF}(2026)]{vllm46461}
+{GreatGIF}.
+\newblock [bugfix][{TurboQuant}] add continuation guard to fast-path to prevent
+  prefix {K/V} loss under prefix caching.
+\newblock vllm-project/vllm pull request \#46461, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/46461}.
+\newblock Opened 2026-06-23; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart, Tang,
+  Song, and Steinhardt]{hendrycks2021math}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt.
+\newblock Measuring mathematical problem solving with the {MATH} dataset.
+\newblock \emph{arXiv preprint arXiv:2103.03874}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2103.03874}.
+\newblock NeurIPS 2021.
+
+\bibitem[Hooper et~al.(2024)Hooper, Kim, Mohammadzadeh, Mahoney, Shao, Keutzer,
+  and Gholami]{hooper2024kvquant}
+Coleman Hooper, Sehoon Kim, Hiva Mohammadzadeh, Michael~W. Mahoney,
+  Yakun~Sophia Shao, Kurt Keutzer, and Amir Gholami.
+\newblock {KVQuant}: Towards 10 million context length {LLM} inference with
+  {KV} cache quantization.
+\newblock \emph{arXiv preprint arXiv:2401.18079}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.18079}.
+\newblock NeurIPS 2024.
+
+\bibitem[Hsieh et~al.(2024)Hsieh, Sun, Kriman, Acharya, Rekesh, Jia, Zhang, and
+  Ginsburg]{hsieh2024ruler}
+Cheng-Ping Hsieh, Simeng Sun, Samuel Kriman, Shantanu Acharya, Dima Rekesh, Fei
+  Jia, Yang Zhang, and Boris Ginsburg.
+\newblock {RULER}: What's the real context size of your long-context language
+  models?
+\newblock \emph{arXiv preprint arXiv:2404.06654}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.06654}.
+\newblock COLM 2024.
+
+\bibitem[Hu et~al.(2025)Hu, Xiao, Sun, Yin, Zhang, Luo, Jiang, Xu, Jia, Liu,
+  and Guo]{hu2025liquidgemm}
+Huanqi Hu, Bowen Xiao, Shixuan Sun, Jianian Yin, Zhexi Zhang, Xiang Luo,
+  Chengquan Jiang, Weiqi Xu, Xiaoying Jia, Xin Liu, and Minyi Guo.
+\newblock {LiquidGEMM}: Hardware-efficient {W4A8} {GEMM} kernel for
+  high-performance {LLM} serving.
+\newblock \emph{arXiv preprint arXiv:2509.01229}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.01229}.
+\newblock SC 2025.
+
+\bibitem[{InternLM}(2023)]{lmdeploy}
+{InternLM}.
+\newblock {LMDeploy}.
+\newblock GitHub repository InternLM/lmdeploy, ``LMDeploy is a toolkit for
+  compressing, deploying, and serving LLMs'', 2023.
+\newblock URL \url{https://github.com/InternLM/lmdeploy}.
+\newblock Repository created 2023-06-15. Accessed 2026-11-16.
+
+\bibitem[{Jeffwan}(2026)]{vllm66590}
+{Jeffwan}.
+\newblock [performance]: On {H100}, the default {FP8} {KV} cache path ({FA3},
+  {FP8} query) is \textasciitilde11\% slower than {FlashInfer} and its outputs
+  vary from run to run.
+\newblock vllm-project/vllm issue \#66590, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/issues/66590}.
+\newblock Opened 2026-11-09; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[{jhaotingc}(2026{\natexlab{a}})]{fa206}
+{jhaotingc}.
+\newblock [{Cute},{Fwd},{Sm90}] native {FP8} ({E4M3} {Q/K/V}) forward for
+  {Hopper}.
+\newblock vllm-project/flash-attention pull request \#206, 2026{\natexlab{a}}.
+\newblock URL \url{https://github.com/vllm-project/flash-attention/pull/206}.
+\newblock Opened 2026-10-22; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[{jhaotingc}(2026{\natexlab{b}})]{vllm63139}
+{jhaotingc}.
+\newblock [attention] run {SM90} {FP8-KV} attention on {FA4} native {FP8}.
+\newblock vllm-project/vllm pull request \#63139, 2026{\natexlab{b}}.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/63139}.
+\newblock Opened 2026-10-22; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Jia et~al.(2026)Jia, Li, Zhou, Heo, Wang, Dao, Song, Athiwaratkun, Xu,
+  Zhang, and Wu]{jia2026sawint4}
+Jinda Jia, Jisen Li, Zhongzhu Zhou, Jung~Hwan Heo, Jue Wang, Tri Dao,
+  Shuaiwen~Leon Song, Ben Athiwaratkun, Chenfeng Xu, Tianyi Zhang, and Xiaoxia
+  Wu.
+\newblock {SAW-INT4}: System-aware 4-bit {KV}-cache quantization for real-world
+  {LLM} serving.
+\newblock \emph{arXiv preprint arXiv:2604.19157}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2604.19157}.
+
+\bibitem[Kim et~al.(2022)Kim, Henry, Fahim, and Awadalla]{kim2022elephants}
+Young~Jin Kim, Rawn Henry, Raffy Fahim, and Hany~Hassan Awadalla.
+\newblock Who says elephants can't run: Bringing large scale {MoE} models into
+  cloud scale production.
+\newblock \emph{arXiv preprint arXiv:2211.10017}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2211.10017}.
+\newblock SustaiNLP Workshop 2022.
+
+\bibitem[Kwon et~al.(2023)Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez, Zhang,
+  and Stoica]{kwon2023vllm}
+Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody~Hao Yu,
+  Joseph~E. Gonzalez, Hao Zhang, and Ion Stoica.
+\newblock Efficient memory management for large language model serving with
+  {PagedAttention}.
+\newblock \emph{arXiv preprint arXiv:2309.06180}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2309.06180}.
+\newblock SOSP 2023.
+
+\bibitem[Li et~al.(2025)Li, Wu, Liu, Wang, Li, Tang, Chen, Shi, and
+  Chu]{li2025rllmserving}
+Qi~Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen,
+  Shaohuai Shi, and Xiaowen Chu.
+\newblock Reasoning language model inference serving unveiled: An empirical
+  study.
+\newblock \emph{arXiv preprint arXiv:2510.18672}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.18672}.
+\newblock ICLR 2026.
+
+\bibitem[Lightman et~al.(2023)Lightman, Kosaraju, Burda, Edwards, Baker, Lee,
+  Leike, Schulman, Sutskever, and Cobbe]{lightman2023verify}
+Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy
+  Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl Cobbe.
+\newblock Let's verify step by step.
+\newblock \emph{arXiv preprint arXiv:2305.20050}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.20050}.
+\newblock ICLR 2024.
+
+\bibitem[Lin et~al.(2025)Lin, Tang, Yang, Zhang, Xiao, Gan, and
+  Han]{lin2025qserve}
+Yujun Lin, Haotian Tang, Shang Yang, Zhekai Zhang, Guangxuan Xiao, Chuang Gan,
+  and Song Han.
+\newblock {QServe}: {W4A8KV4} quantization and system co-design for efficient
+  {LLM} serving.
+\newblock In \emph{Proceedings of Machine Learning and Systems (MLSys)}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2405.04532}.
+\newblock arXiv:2405.04532.
+
+\bibitem[Liu et~al.(2024{\natexlab{a}})Liu, Bai, Lin, Li, Gao, Xu, Hou, Yao,
+  and Yuan]{liu2024intactkv}
+Ruikang Liu, Haoli Bai, Haokun Lin, Yuening Li, Han Gao, Zhengzhuo Xu, Lu~Hou,
+  Jun Yao, and Chun Yuan.
+\newblock {IntactKV}: Improving large language model quantization by keeping
+  pivot tokens intact.
+\newblock \emph{arXiv preprint arXiv:2403.01241}, 2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2403.01241}.
+\newblock Findings of ACL 2024.
+
+\bibitem[Liu et~al.(2025)Liu, Sun, Zhang, Bai, Yu, Yu, Yuan, and
+  Hou]{liu2025quantreasoning}
+Ruikang Liu, Yuxuan Sun, Manyi Zhang, Haoli Bai, Xianzhi Yu, Tiezheng Yu, Chun
+  Yuan, and Lu~Hou.
+\newblock Quantization hurts reasoning? {An} empirical study on quantized
+  reasoning models.
+\newblock \emph{arXiv preprint arXiv:2504.04823}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.04823}.
+\newblock COLM 2025.
+
+\bibitem[Liu et~al.(2024{\natexlab{b}})Liu, Yuan, Jin, Zhong, Xu, Braverman,
+  Chen, and Hu]{liu2024kivi}
+Zirui Liu, Jiayi Yuan, Hongye Jin, Shaochen Zhong, Zhaozhuo Xu, Vladimir
+  Braverman, Beidi Chen, and Xia Hu.
+\newblock {KIVI}: A tuning-free asymmetric 2bit quantization for {KV} cache.
+\newblock \emph{arXiv preprint arXiv:2402.02750}, 2024{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2402.02750}.
+\newblock ICML 2024.
+
+\bibitem[{LyrisZhong}(2025)]{vllm20396}
+{LyrisZhong}.
+\newblock {[Kernel] SM90 CUTLASS FP8 GEMM}: add support for swap {AB} + kernel
+  tuning.
+\newblock vLLM pull request \#20396, merged 2025-07-28, 2025.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/20396}.
+
+\bibitem[Merity et~al.(2016)Merity, Xiong, Bradbury, and
+  Socher]{merity2016pointer}
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher.
+\newblock Pointer sentinel mixture models.
+\newblock \emph{arXiv preprint arXiv:1609.07843}, 2016.
+\newblock URL \url{https://arxiv.org/abs/1609.07843}.
+
+\bibitem[{Ningke-Li}(2026)]{vllm41343}
+{Ningke-Li}.
+\newblock [bug]: \texttt{kv\_cache\_dtype="fp8\_e5m2"} silently corrupts output
+  on {Qwen-VL} models ({Qwen2-VL}, {Qwen2.5-VL}) with default scaling.
+\newblock vllm-project/vllm issue \#41343, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/issues/41343}.
+\newblock Opened 2026-04-30; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Park et~al.(2026)Park, Kim, Jang, and Yang]{park2026kv4rl}
+Sihwan Park, Sung-Yub Kim, Doohyuk Jang, and Eunho Yang.
+\newblock {KV4-RL}: Unlocking faster asynchronous rollouts for {RLVR} with
+  {INT4} {KV} cache quantization.
+\newblock \emph{arXiv preprint arXiv:2610.14448}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.14448}.
+
+\bibitem[Pumma et~al.(2024)Pumma, Park, Huang, Yang, Lee, Haziza, Sizov,
+  Reizenstein, Johnson, and Zhang]{pytorch2024int4decoding}
+Sarunya Pumma, Jongsoo Park, Jianyu Huang, Amy Yang, Jaewon Lee, Daniel Haziza,
+  Grigory Sizov, Jeremy Reizenstein, Jeff Johnson, and Ying Zhang.
+\newblock {INT4} decoding {GQA} {CUDA} optimizations for {LLM} inference.
+\newblock PyTorch blog, 2024.
+\newblock URL \url{https://pytorch.org/blog/int4-decoding/}.
+\newblock Accessed 2026-11-17.
+
+\bibitem[{sha7doww}(2026{\natexlab{a}})]{vllm65821}
+{sha7doww}.
+\newblock [bug]: {FP8} {KV} cache with \texttt{kv\_cache\_dtype\_skip\_layers}
+  crashes {FA3}: ``scheduler\_metadata must have shape (metadata\_size)''.
+\newblock vllm-project/vllm issue \#65821, 2026{\natexlab{a}}.
+\newblock URL \url{https://github.com/vllm-project/vllm/issues/65821}.
+\newblock Opened 2026-11-05; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[{sha7doww}(2026{\natexlab{b}})]{vllm65891}
+{sha7doww}.
+\newblock [bugfix] fix {FA3} crash with kv\_cache\_dtype\_skip\_layers under an
+  {FP8} {KV} cache.
+\newblock vllm-project/vllm pull request \#65891, 2026{\natexlab{b}}.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/65891}.
+\newblock Opened 2026-11-05; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Shah et~al.(2024)Shah, Bikshandi, Zhang, Thakkar, Ramani, and
+  Dao]{shah2024flashattention3}
+Jay Shah, Ganesh Bikshandi, Ying Zhang, Vijay Thakkar, Pradeep Ramani, and Tri
+  Dao.
+\newblock {FlashAttention-3}: Fast and accurate attention with asynchrony and
+  low-precision.
+\newblock \emph{arXiv preprint arXiv:2407.08608}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.08608}.
+\newblock NeurIPS 2024.
+
+\bibitem[Shao et~al.(2026)Shao, Huang, Chen, Shao, Wang, Yu, Li, Zhang, Cheng,
+  and Tsui]{shao2026flagrot}
+Kunming Shao, Xijie Huang, Jierun Chen, Jiaqi Shao, Yanli Wang, Jiangnan Yu,
+  Qiwei Li, Wei Zhang, Kwang-Ting Cheng, and Chi~Ying Tsui.
+\newblock {FlagRot}: Selective rotation for low-bit {KV} caches.
+\newblock \emph{arXiv preprint arXiv:2611.03992}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2611.03992}.
+
+\bibitem[{starpit}(2026)]{scratchy134}
+{starpit}.
+\newblock fix(metal): stop {TurboQuant} garbling {Qwen2} by removing the {K/V}
+  bias before quantizing.
+\newblock AI-native-Systems-Research/scratchy pull request \#134, 2026.
+\newblock URL
+  \url{https://github.com/AI-native-Systems-Research/scratchy/pull/134}.
+\newblock Opened and merged 2026-09-26. Accessed 2026-11-20.
+
+\bibitem[Tang et~al.(2026)Tang, Kang, Lu, Wu, Wang, Han, Xi, Yang, Han, and
+  Cai]{tang2026jetqsparse}
+Haozhan Tang, Hao Kang, Meng Lu, Yecheng Wu, Zerui Wang, Seokho Han, Haocheng
+  Xi, Shuo Yang, Song Han, and Han Cai.
+\newblock {Jet-QSparse}: Accelerating agentic {LLM} inference with 4-bit sparse
+  attention.
+\newblock \emph{arXiv preprint arXiv:2611.01022}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2611.01022}.
+
+\bibitem[{Theodore-Liu}(2026)]{vllm63081}
+{Theodore-Liu}.
+\newblock [core] warn at startup when a quantized {KV} cache meets a large
+  first-layer key bias.
+\newblock vllm-project/vllm pull request \#63081, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/63081}.
+\newblock Opened 2026-10-22; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[{thomaszhang2661}(2026)]{vllm67176}
+{thomaszhang2661}.
+\newblock [{RFC}]: {UltraQuant}: the scale constant $c = 0.156$ is
+  {MSE}-optimal before the {UE8M0} snap, not after; $c \approx 0.2$ cuts
+  {KV}-quantization {KL} by 40--56\% at no cost.
+\newblock vllm-project/vllm issue \#67176, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/issues/67176}.
+\newblock Opened 2026-11-12; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Tillet et~al.(2019)Tillet, Kung, and Cox]{tillet2019triton}
+Philippe Tillet, H.~T. Kung, and David Cox.
+\newblock Triton: An intermediate language and compiler for tiled neural
+  network computations.
+\newblock In \emph{Proceedings of the 3rd ACM SIGPLAN International Workshop on
+  Machine Learning and Programming Languages}, pages 10--19. ACM, 2019.
+\newblock \doi{10.1145/3315508.3329973}.
+\newblock URL \url{https://doi.org/10.1145/3315508.3329973}.
+
+\bibitem[Villa et~al.(2019)Villa, Stephenson, Nellans, and
+  Keckler]{villa2019nvbit}
+Oreste Villa, Mark Stephenson, David Nellans, and Stephen~W. Keckler.
+\newblock {NVBit}: A dynamic binary instrumentation framework for {NVIDIA}
+  {GPUs}.
+\newblock In \emph{Proceedings of the 52nd Annual IEEE/ACM International
+  Symposium on Microarchitecture (MICRO '52)}, pages 372--383. ACM, 2019.
+\newblock \doi{10.1145/3352460.3358307}.
+\newblock URL \url{https://doi.org/10.1145/3352460.3358307}.
+
+\bibitem[Wang(2026)]{wang2026futransformer}
+Wei Wang.
+\newblock {FuTransformer}: {FP8} prefill and {INT4} decode for {Llama}-style
+  inference on {Hopper}.
+\newblock \emph{arXiv preprint arXiv:2610.23796}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.23796}.
+
+\bibitem[{WizardSource}(2026)]{vllm59674}
+{WizardSource}.
+\newblock [bugfix][kernel] restore {Qwen2} key-bias scores for int4 {KV} cache.
+\newblock vllm-project/vllm pull request \#59674, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/59674}.
+\newblock Opened 2026-10-01; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[{XiancaiTian}(2026)]{vllm47531}
+{XiancaiTian}.
+\newblock [attention][{TurboQuant}] preserve configured {FlashAttention}
+  version.
+\newblock vllm-project/vllm pull request \#47531, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/47531}.
+\newblock Opened 2026-07-03; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Xiao et~al.(2023)Xiao, Tian, Chen, Han, and
+  Lewis]{xiao2023streamingllm}
+Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, and Mike Lewis.
+\newblock Efficient streaming language models with attention sinks.
+\newblock \emph{arXiv preprint arXiv:2309.17453}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2309.17453}.
+\newblock ICLR 2024.
+
+\bibitem[{xupinjie}(2026)]{vllm53060}
+{xupinjie}.
+\newblock turboquant decode attetnion optimization.
+\newblock vllm-project/vllm pull request \#53060, 2026.
+\newblock URL \url{https://github.com/vllm-project/vllm/pull/53060}.
+\newblock Opened 2026-08-20; open as of 2026-11-20. Accessed 2026-11-20.
+
+\bibitem[Ye et~al.(2025)Ye, Chen, Lai, Lin, Zhang, Wang, Chen, Kasikci, Grover,
+  Krishnamurthy, and Ceze]{ye2025flashinfer}
+Zihao Ye, Lequn Chen, Ruihang Lai, Wuwei Lin, Yineng Zhang, Stephanie Wang,
+  Tianqi Chen, Baris Kasikci, Vinod Grover, Arvind Krishnamurthy, and Luis
+  Ceze.
+\newblock {FlashInfer}: Efficient and customizable attention engine for {LLM}
+  inference serving.
+\newblock \emph{arXiv preprint arXiv:2501.01005}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.01005}.
+\newblock MLSys 2025.
+
+\bibitem[Zhang et~al.(2024)Zhang, Wei, Huang, Zhang, Zhu, and
+  Chen]{zhang2025sageattention}
+Jintao Zhang, Jia Wei, Haofeng Huang, Pengle Zhang, Jun Zhu, and Jianfei Chen.
+\newblock {SageAttention}: Accurate 8-bit attention for plug-and-play inference
+  acceleration.
+\newblock \emph{arXiv preprint arXiv:2410.02367}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.02367}.
+\newblock ICLR 2025.
+
+\bibitem[Zheng et~al.(2023)Zheng, Yin, Xie, Sun, Huang, Yu, Cao, Kozyrakis,
+  Stoica, Gonzalez, Barrett, and Sheng]{zheng2023sglang}
+Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Chuyue Sun, Jeff Huang, Cody~Hao
+  Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph~E. Gonzalez, Clark
+  Barrett, and Ying Sheng.
+\newblock {SGLang}: Efficient execution of structured language model programs.
+\newblock \emph{arXiv preprint arXiv:2312.07104}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2312.07104}.
+\newblock NeurIPS 2024.
+
+\bibitem[Zhuang et~al.(2026)Zhuang, Ponnusamy, Wu, Song, and
+  Zhou]{zhuang2026foscar}
+Donglin Zhuang, Pragaash Ponnusamy, Xiaoxia Wu, Shuaiwen~Leon Song, and
+  Zhongzhu Zhou.
+\newblock {FOSCAR}: Accelerating decode attention over 2- and 4-bit {KV} caches
+  through affine folding.
+\newblock \emph{arXiv preprint arXiv:2611.09722}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2611.09722}.
+
+\bibitem[{Zn0425}(2026)]{rtpllm1583}
+{Zn0425}.
+\newblock fix: preserve {Qwen2} accuracy with per-token {FP8} {KV} cache.
+\newblock alibaba/rtp-llm pull request \#1583, merged 2026-10-27, 2026.
+\newblock URL \url{https://github.com/alibaba/rtp-llm/pull/1583}.
+
+\bibitem[Zou et~al.(2026)Zou, Chen, Meng, Wu, and Chen]{zou2026tensorbridge}
+Jiaxiang Zou, Yonghao Chen, Rui Meng, Ruilong Wu, and Xinyu Chen.
+\newblock {TensorBridge}: Bridging microscaled {FP4} weights to {FP8} tensor
+  cores for {LLM} serving.
+\newblock In \emph{Proceedings of the 2026 ACM SIGOPS Annual Technical
+  Conference (ATC)}, pages 1784--1798, 2026.
+\newblock \doi{10.1145/3828523.3857032}.
+\newblock URL \url{https://doi.org/10.1145/3828523.3857032}.
+
+\end{thebibliography}

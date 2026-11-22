@@ -1,0 +1,529 @@
+% refs.bib -- every entry below was checked on 2026-11-16 against a page that was
+% actually fetched:
+%   arXiv papers: https://arxiv.org/abs/<id> (citation_title / citation_author meta tags;
+%                 venue only where the arXiv "Comments"/"Journal ref" field states it)
+%   GitHub items: gh api repos/<owner>/<repo>/issues/<n> (title, user.login, state, created_at)
+%   NVBit, Triton: DOI metadata from https://doi.org/<doi>
+% Venues NOT stated on the fetched page are left out (entry cites the arXiv version);
+% see REVIEW_NOTES.md.
+
+% ---------------------------------------------------------------- arXiv ids cited in the text
+
+@article{zhuang2026foscar,
+  title   = {{FOSCAR}: Accelerating Decode Attention over 2- and 4-Bit {KV} Caches through Affine Folding},
+  author  = {Zhuang, Donglin and Ponnusamy, Pragaash and Wu, Xiaoxia and Song, Shuaiwen Leon and Zhou, Zhongzhu},
+  journal = {arXiv preprint arXiv:2611.09722},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.09722}
+}
+
+@article{du2025bitdecoding,
+  title   = {{BitDecoding}: Unlocking Tensor Cores for Long-Context {LLMs} with Low-Bit {KV} Cache},
+  author  = {Du, Dayou and Cao, Shijie and Cheng, Jianyi and Mai, Luo and Cao, Ting and Yang, Mao},
+  journal = {arXiv preprint arXiv:2503.18773},
+  year    = {2025},
+  note    = {HPCA 2026},
+  url     = {https://arxiv.org/abs/2503.18773}
+}
+
+@article{du2026bitdecodingfp4,
+  title   = {{BitDecoding-FP4}: Native {FP4} {KV} Cache Decoding via Algorithm-System Co-Design},
+  author  = {Du, Dayou and Ng, Woon Yee and Sheng, Guangming and Lau, Nick and Cheng, Jianyi and Mai, Luo},
+  journal = {arXiv preprint arXiv:2611.09825},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.09825}
+}
+
+@article{jia2026sawint4,
+  title   = {{SAW-INT4}: System-Aware 4-Bit {KV}-Cache Quantization for Real-World {LLM} Serving},
+  author  = {Jia, Jinda and Li, Jisen and Zhou, Zhongzhu and Heo, Jung Hwan and Wang, Jue and Dao, Tri and Song, Shuaiwen Leon and Athiwaratkun, Ben and Xu, Chenfeng and Zhang, Tianyi and Wu, Xiaoxia},
+  journal = {arXiv preprint arXiv:2604.19157},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2604.19157}
+}
+
+@article{shao2026flagrot,
+  title   = {{FlagRot}: Selective Rotation for Low-Bit {KV} Caches},
+  author  = {Shao, Kunming and Huang, Xijie and Chen, Jierun and Shao, Jiaqi and Wang, Yanli and Yu, Jiangnan and Li, Qiwei and Zhang, Wei and Cheng, Kwang-Ting and Tsui, Chi Ying},
+  journal = {arXiv preprint arXiv:2611.03992},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.03992}
+}
+
+@article{tang2026jetqsparse,
+  title   = {{Jet-QSparse}: Accelerating Agentic {LLM} Inference with 4-Bit Sparse Attention},
+  author  = {Tang, Haozhan and Kang, Hao and Lu, Meng and Wu, Yecheng and Wang, Zerui and Han, Seokho and Xi, Haocheng and Yang, Shuo and Han, Song and Cai, Han},
+  journal = {arXiv preprint arXiv:2611.01022},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.01022}
+}
+
+@article{liu2025quantreasoning,
+  title   = {Quantization Hurts Reasoning? {An} Empirical Study on Quantized Reasoning Models},
+  author  = {Liu, Ruikang and Sun, Yuxuan and Zhang, Manyi and Bai, Haoli and Yu, Xianzhi and Yu, Tiezheng and Yuan, Chun and Hou, Lu},
+  journal = {arXiv preprint arXiv:2504.04823},
+  year    = {2025},
+  note    = {COLM 2025},
+  url     = {https://arxiv.org/abs/2504.04823}
+}
+
+@article{li2025rllmserving,
+  title   = {Reasoning Language Model Inference Serving Unveiled: An Empirical Study},
+  author  = {Li, Qi and Wu, Junpan and Liu, Xiang and Wang, Yuxin and Li, Zeyu and Tang, Zhenheng and Chen, Yuhan and Shi, Shaohuai and Chu, Xiaowen},
+  journal = {arXiv preprint arXiv:2510.18672},
+  year    = {2025},
+  note    = {ICLR 2026},
+  url     = {https://arxiv.org/abs/2510.18672}
+}
+
+@article{park2026kv4rl,
+  title   = {{KV4-RL}: Unlocking Faster Asynchronous Rollouts for {RLVR} with {INT4} {KV} Cache Quantization},
+  author  = {Park, Sihwan and Kim, Sung-Yub and Jang, Doohyuk and Yang, Eunho},
+  journal = {arXiv preprint arXiv:2610.14448},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2610.14448}
+}
+
+% ---------------------------------------------------------------- named works without an id in the text
+
+@article{shah2024flashattention3,
+  title   = {{FlashAttention-3}: Fast and Accurate Attention with Asynchrony and Low-precision},
+  author  = {Shah, Jay and Bikshandi, Ganesh and Zhang, Ying and Thakkar, Vijay and Ramani, Pradeep and Dao, Tri},
+  journal = {arXiv preprint arXiv:2407.08608},
+  year    = {2024},
+  note    = {NeurIPS 2024},
+  url     = {https://arxiv.org/abs/2407.08608}
+}
+
+@article{dao2023flashattention2,
+  title   = {{FlashAttention-2}: Faster Attention with Better Parallelism and Work Partitioning},
+  author  = {Dao, Tri},
+  journal = {arXiv preprint arXiv:2307.08691},
+  year    = {2023},
+  note    = {ICLR 2024},
+  url     = {https://arxiv.org/abs/2307.08691}
+}
+
+@article{frantar2024marlin,
+  title   = {{MARLIN}: Mixed-Precision Auto-Regressive Parallel Inference on Large Language Models},
+  author  = {Frantar, Elias and Castro, Roberto L. and Chen, Jiale and Hoefler, Torsten and Alistarh, Dan},
+  journal = {arXiv preprint arXiv:2408.11743},
+  year    = {2024},
+  note    = {PPoPP 2025},
+  url     = {https://arxiv.org/abs/2408.11743}
+}
+
+@article{hooper2024kvquant,
+  title   = {{KVQuant}: Towards 10 Million Context Length {LLM} Inference with {KV} Cache Quantization},
+  author  = {Hooper, Coleman and Kim, Sehoon and Mohammadzadeh, Hiva and Mahoney, Michael W. and Shao, Yakun Sophia and Keutzer, Kurt and Gholami, Amir},
+  journal = {arXiv preprint arXiv:2401.18079},
+  year    = {2024},
+  note    = {NeurIPS 2024},
+  url     = {https://arxiv.org/abs/2401.18079}
+}
+
+@article{liu2024intactkv,
+  title   = {{IntactKV}: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact},
+  author  = {Liu, Ruikang and Bai, Haoli and Lin, Haokun and Li, Yuening and Gao, Han and Xu, Zhengzhuo and Hou, Lu and Yao, Jun and Yuan, Chun},
+  journal = {arXiv preprint arXiv:2403.01241},
+  year    = {2024},
+  note    = {Findings of ACL 2024},
+  url     = {https://arxiv.org/abs/2403.01241}
+}
+
+@article{zhang2025sageattention,
+  title   = {{SageAttention}: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration},
+  author  = {Zhang, Jintao and Wei, Jia and Huang, Haofeng and Zhang, Pengle and Zhu, Jun and Chen, Jianfei},
+  journal = {arXiv preprint arXiv:2410.02367},
+  year    = {2024},
+  note    = {ICLR 2025},
+  url     = {https://arxiv.org/abs/2410.02367}
+}
+
+@article{ye2025flashinfer,
+  title   = {{FlashInfer}: Efficient and Customizable Attention Engine for {LLM} Inference Serving},
+  author  = {Ye, Zihao and Chen, Lequn and Lai, Ruihang and Lin, Wuwei and Zhang, Yineng and Wang, Stephanie and Chen, Tianqi and Kasikci, Baris and Grover, Vinod and Krishnamurthy, Arvind and Ceze, Luis},
+  journal = {arXiv preprint arXiv:2501.01005},
+  year    = {2025},
+  note    = {MLSys 2025},
+  url     = {https://arxiv.org/abs/2501.01005}
+}
+
+@article{kwon2023vllm,
+  title   = {Efficient Memory Management for Large Language Model Serving with {PagedAttention}},
+  author  = {Kwon, Woosuk and Li, Zhuohan and Zhuang, Siyuan and Sheng, Ying and Zheng, Lianmin and Yu, Cody Hao and Gonzalez, Joseph E. and Zhang, Hao and Stoica, Ion},
+  journal = {arXiv preprint arXiv:2309.06180},
+  year    = {2023},
+  note    = {SOSP 2023},
+  url     = {https://arxiv.org/abs/2309.06180}
+}
+
+@inproceedings{villa2019nvbit,
+  title     = {{NVBit}: A Dynamic Binary Instrumentation Framework for {NVIDIA} {GPUs}},
+  author    = {Villa, Oreste and Stephenson, Mark and Nellans, David and Keckler, Stephen W.},
+  booktitle = {Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '52)},
+  pages     = {372--383},
+  publisher = {ACM},
+  year      = {2019},
+  doi       = {10.1145/3352460.3358307},
+  url       = {https://doi.org/10.1145/3352460.3358307}
+}
+
+@inproceedings{tillet2019triton,
+  title     = {Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations},
+  author    = {Tillet, Philippe and Kung, H. T. and Cox, David},
+  booktitle = {Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages},
+  pages     = {10--19},
+  publisher = {ACM},
+  year      = {2019},
+  doi       = {10.1145/3315508.3329973},
+  url       = {https://doi.org/10.1145/3315508.3329973}
+}
+
+@article{hsieh2024ruler,
+  title   = {{RULER}: What's the Real Context Size of Your Long-Context Language Models?},
+  author  = {Hsieh, Cheng-Ping and Sun, Simeng and Kriman, Samuel and Acharya, Shantanu and Rekesh, Dima and Jia, Fei and Zhang, Yang and Ginsburg, Boris},
+  journal = {arXiv preprint arXiv:2404.06654},
+  year    = {2024},
+  note    = {COLM 2024},
+  url     = {https://arxiv.org/abs/2404.06654}
+}
+
+@article{hendrycks2021math,
+  title   = {Measuring Mathematical Problem Solving With the {MATH} Dataset},
+  author  = {Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob},
+  journal = {arXiv preprint arXiv:2103.03874},
+  year    = {2021},
+  note    = {NeurIPS 2021},
+  url     = {https://arxiv.org/abs/2103.03874}
+}
+
+@article{lightman2023verify,
+  title   = {Let's Verify Step by Step},
+  author  = {Lightman, Hunter and Kosaraju, Vineet and Burda, Yura and Edwards, Harri and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl},
+  journal = {arXiv preprint arXiv:2305.20050},
+  year    = {2023},
+  note    = {ICLR 2024},
+  url     = {https://arxiv.org/abs/2305.20050}
+}
+
+@article{merity2016pointer,
+  title   = {Pointer Sentinel Mixture Models},
+  author  = {Merity, Stephen and Xiong, Caiming and Bradbury, James and Socher, Richard},
+  journal = {arXiv preprint arXiv:1609.07843},
+  year    = {2016},
+  url     = {https://arxiv.org/abs/1609.07843}
+}
+
+@article{bai2024longbench,
+  title   = {{LongBench}: A Bilingual, Multitask Benchmark for Long Context Understanding},
+  author  = {Bai, Yushi and Lv, Xin and Zhang, Jiajie and Lyu, Hongchang and Tang, Jiankai and Huang, Zhidian and Du, Zhengxiao and Liu, Xiao and Zeng, Aohan and Hou, Lei and Dong, Yuxiao and Tang, Jie and Li, Juanzi},
+  journal = {arXiv preprint arXiv:2308.14508},
+  year    = {2023},
+  note    = {ACL 2024},
+  url     = {https://arxiv.org/abs/2308.14508}
+}
+
+@article{zheng2023sglang,
+  title   = {{SGLang}: Efficient Execution of Structured Language Model Programs},
+  author  = {Zheng, Lianmin and Yin, Liangsheng and Xie, Zhiqiang and Sun, Chuyue and Huang, Jeff and Yu, Cody Hao and Cao, Shiyi and Kozyrakis, Christos and Stoica, Ion and Gonzalez, Joseph E. and Barrett, Clark and Sheng, Ying},
+  journal = {arXiv preprint arXiv:2312.07104},
+  year    = {2023},
+  note    = {NeurIPS 2024},
+  url     = {https://arxiv.org/abs/2312.07104}
+}
+
+@misc{lmdeploy,
+  title        = {{LMDeploy}},
+  author       = {{InternLM}},
+  howpublished = {GitHub repository InternLM/lmdeploy, ``LMDeploy is a toolkit for compressing, deploying, and serving LLMs''},
+  year         = {2023},
+  note         = {Repository created 2023-06-15. Accessed 2026-11-16},
+  url          = {https://github.com/InternLM/lmdeploy}
+}
+
+% ---------------------------------------------------------------- GitHub issues and pull requests
+
+@misc{vllm53060,
+  title        = {turboquant decode attetnion optimization},
+  author       = {{xupinjie}},
+  howpublished = {vllm-project/vllm pull request \#53060},
+  year         = {2026},
+  note         = {Opened 2026-08-20; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/53060}
+}
+
+@misc{vllm66590,
+  title        = {[Performance]: On {H100}, the default {FP8} {KV} cache path ({FA3}, {FP8} query) is \textasciitilde11\% slower than {FlashInfer} and its outputs vary from run to run},
+  author       = {{Jeffwan}},
+  howpublished = {vllm-project/vllm issue \#66590},
+  year         = {2026},
+  note         = {Opened 2026-11-09; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/issues/66590}
+}
+
+@misc{vllm47531,
+  title        = {[Attention][{TurboQuant}] Preserve configured {FlashAttention} version},
+  author       = {{XiancaiTian}},
+  howpublished = {vllm-project/vllm pull request \#47531},
+  year         = {2026},
+  note         = {Opened 2026-07-03; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/47531}
+}
+
+@misc{vllm67176,
+  title        = {[{RFC}]: {UltraQuant}: the scale constant $c = 0.156$ is {MSE}-optimal before the {UE8M0} snap, not after; $c \approx 0.2$ cuts {KV}-quantization {KL} by 40--56\% at no cost},
+  author       = {{thomaszhang2661}},
+  howpublished = {vllm-project/vllm issue \#67176},
+  year         = {2026},
+  note         = {Opened 2026-11-12; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/issues/67176}
+}
+
+@misc{vllm41343,
+  title        = {[Bug]: \texttt{kv\_cache\_dtype="fp8\_e5m2"} silently corrupts output on {Qwen-VL} models ({Qwen2-VL}, {Qwen2.5-VL}) with default scaling},
+  author       = {{Ningke-Li}},
+  howpublished = {vllm-project/vllm issue \#41343},
+  year         = {2026},
+  note         = {Opened 2026-04-30; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/issues/41343}
+}
+
+@misc{vllm63081,
+  title        = {[Core] Warn at startup when a quantized {KV} cache meets a large first-layer key bias},
+  author       = {{Theodore-Liu}},
+  howpublished = {vllm-project/vllm pull request \#63081},
+  year         = {2026},
+  note         = {Opened 2026-10-22; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/63081}
+}
+
+@misc{vllm65821,
+  title        = {[Bug]: {FP8} {KV} cache with \texttt{kv\_cache\_dtype\_skip\_layers} crashes {FA3}: ``scheduler\_metadata must have shape (metadata\_size)''},
+  author       = {{sha7doww}},
+  howpublished = {vllm-project/vllm issue \#65821},
+  year         = {2026},
+  note         = {Opened 2026-11-05; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/issues/65821}
+}
+
+@misc{vllm65891,
+  title        = {[Bugfix] Fix {FA3} crash with kv\_cache\_dtype\_skip\_layers under an {FP8} {KV} cache},
+  author       = {{sha7doww}},
+  howpublished = {vllm-project/vllm pull request \#65891},
+  year         = {2026},
+  note         = {Opened 2026-11-05; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/65891}
+}
+
+@misc{vllm46461,
+  title        = {[Bugfix][{TurboQuant}] Add continuation guard to fast-path to prevent prefix {K/V} loss under prefix caching},
+  author       = {{GreatGIF}},
+  howpublished = {vllm-project/vllm pull request \#46461},
+  year         = {2026},
+  note         = {Opened 2026-06-23; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/46461}
+}
+
+@misc{vllm67789,
+  title        = {[Bugfix][{TurboQuant}] Skip prefill fast path when a request has cached {KV}},
+  author       = {{bhoomit}},
+  howpublished = {vllm-project/vllm pull request \#67789},
+  year         = {2026},
+  note         = {Opened 2026-11-15; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/67789}
+}
+
+@misc{vllm59674,
+  title        = {[Bugfix][Kernel] Restore {Qwen2} key-bias scores for int4 {KV} cache},
+  author       = {{WizardSource}},
+  howpublished = {vllm-project/vllm pull request \#59674},
+  year         = {2026},
+  note         = {Opened 2026-10-01; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/59674}
+}
+
+@misc{scratchy134,
+  title        = {fix(metal): stop {TurboQuant} garbling {Qwen2} by removing the {K/V} bias before quantizing},
+  author       = {{starpit}},
+  howpublished = {AI-native-Systems-Research/scratchy pull request \#134},
+  year         = {2026},
+  note         = {Opened and merged 2026-09-26. Accessed 2026-11-20},
+  url          = {https://github.com/AI-native-Systems-Research/scratchy/pull/134}
+}
+
+% ---------------------------------------------------------------- added 2026-11-17 (related-work audit,
+% docs/paper_audit/related_work.md); arXiv metadata re-fetched 11-17, GitHub via gh api 11-17
+
+@inproceedings{lin2025qserve,
+  title     = {{QServe}: {W4A8KV4} Quantization and System Co-design for Efficient {LLM} Serving},
+  author    = {Lin, Yujun and Tang, Haotian and Yang, Shang and Zhang, Zhekai and Xiao, Guangxuan and Gan, Chuang and Han, Song},
+  booktitle = {Proceedings of Machine Learning and Systems (MLSys)},
+  year      = {2025},
+  note      = {arXiv:2405.04532},
+  url       = {https://arxiv.org/abs/2405.04532}
+}
+
+@article{hu2025liquidgemm,
+  title   = {{LiquidGEMM}: Hardware-Efficient {W4A8} {GEMM} Kernel for High-Performance {LLM} Serving},
+  author  = {Hu, Huanqi and Xiao, Bowen and Sun, Shixuan and Yin, Jianian and Zhang, Zhexi and Luo, Xiang and Jiang, Chengquan and Xu, Weiqi and Jia, Xiaoying and Liu, Xin and Guo, Minyi},
+  journal = {arXiv preprint arXiv:2509.01229},
+  year    = {2025},
+  note    = {SC 2025},
+  url     = {https://arxiv.org/abs/2509.01229}
+}
+
+@article{kim2022elephants,
+  title   = {Who Says Elephants Can't Run: Bringing Large Scale {MoE} Models into Cloud Scale Production},
+  author  = {Kim, Young Jin and Henry, Rawn and Fahim, Raffy and Awadalla, Hany Hassan},
+  journal = {arXiv preprint arXiv:2211.10017},
+  year    = {2022},
+  note    = {SustaiNLP Workshop 2022},
+  url     = {https://arxiv.org/abs/2211.10017}
+}
+
+@misc{pytorch2024int4decoding,
+  title        = {{INT4} Decoding {GQA} {CUDA} Optimizations for {LLM} Inference},
+  author       = {Sarunya Pumma and Jongsoo Park and Jianyu Huang and Amy Yang and Jaewon Lee and Daniel Haziza and Grigory Sizov and Jeremy Reizenstein and Jeff Johnson and Ying Zhang},
+  howpublished = {PyTorch blog},
+  year         = {2024},
+  note         = {Accessed 2026-11-17},
+  url          = {https://pytorch.org/blog/int4-decoding/}
+}
+
+@misc{dao2023flashdecoding,
+  title        = {Flash-Decoding for Long-Context Inference},
+  author       = {Dao, Tri and Haziza, Daniel and Massa, Francisco and Sizov, Grigory},
+  howpublished = {Stanford CRFM blog},
+  year         = {2023},
+  url          = {https://crfm.stanford.edu/2023/10/12/flashdecoding.html}
+}
+
+@article{liu2024kivi,
+  title   = {{KIVI}: A Tuning-Free Asymmetric 2bit Quantization for {KV} Cache},
+  author  = {Liu, Zirui and Yuan, Jiayi and Jin, Hongye and Zhong, Shaochen and Xu, Zhaozhuo and Braverman, Vladimir and Chen, Beidi and Hu, Xia},
+  journal = {arXiv preprint arXiv:2402.02750},
+  year    = {2024},
+  note    = {ICML 2024},
+  url     = {https://arxiv.org/abs/2402.02750}
+}
+
+@article{ashkboos2024quarot,
+  title   = {{QuaRot}: Outlier-Free 4-Bit Inference in Rotated {LLMs}},
+  author  = {Ashkboos, Saleh and Mohtashami, Amirkeivan and Croci, Maximilian L. and Li, Bo and Cameron, Pashmina and Jaggi, Martin and Alistarh, Dan and Hoefler, Torsten and Hensman, James},
+  journal = {arXiv preprint arXiv:2404.00456},
+  year    = {2024},
+  note    = {NeurIPS 2024},
+  url     = {https://arxiv.org/abs/2404.00456}
+}
+
+@article{xiao2023streamingllm,
+  title   = {Efficient Streaming Language Models with Attention Sinks},
+  author  = {Xiao, Guangxuan and Tian, Yuandong and Chen, Beidi and Han, Song and Lewis, Mike},
+  journal = {arXiv preprint arXiv:2309.17453},
+  year    = {2023},
+  note    = {ICLR 2024},
+  url     = {https://arxiv.org/abs/2309.17453}
+}
+
+@misc{fa206,
+  title        = {[{Cute},{Fwd},{Sm90}] Native {FP8} ({E4M3} {Q/K/V}) forward for {Hopper}},
+  author       = {{jhaotingc}},
+  howpublished = {vllm-project/flash-attention pull request \#206},
+  year         = {2026},
+  note         = {Opened 2026-10-22; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/flash-attention/pull/206}
+}
+
+@misc{vllm63139,
+  title        = {[Attention] Run {SM90} {FP8-KV} attention on {FA4} native {FP8}},
+  author       = {{jhaotingc}},
+  howpublished = {vllm-project/vllm pull request \#63139},
+  year         = {2026},
+  note         = {Opened 2026-10-22; open as of 2026-11-20. Accessed 2026-11-20},
+  url          = {https://github.com/vllm-project/vllm/pull/63139}
+}
+
+@misc{vllm20396,
+  title        = {{[Kernel] SM90 CUTLASS FP8 GEMM}: add support for swap {AB} + kernel tuning},
+  author       = {{LyrisZhong}},
+  howpublished = {vLLM pull request \#20396, merged 2025-07-28},
+  year         = {2025},
+  url          = {https://github.com/vllm-project/vllm/pull/20396}
+}
+
+@misc{rtpllm1583,
+  title        = {fix: preserve {Qwen2} accuracy with per-token {FP8} {KV} cache},
+  author       = {{Zn0425}},
+  howpublished = {alibaba/rtp-llm pull request \#1583, merged 2026-10-27},
+  year         = {2026},
+  url          = {https://github.com/alibaba/rtp-llm/pull/1583}
+}
+
+@article{wang2026futransformer,
+  title   = {{FuTransformer}: {FP8} Prefill and {INT4} Decode for {Llama}-Style Inference on {Hopper}},
+  author  = {Wang, Wei},
+  journal = {arXiv preprint arXiv:2610.23796},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2610.23796}
+}
+
+@inproceedings{zou2026tensorbridge,
+  title     = {{TensorBridge}: Bridging Microscaled {FP4} Weights to {FP8} Tensor Cores for {LLM} Serving},
+  author    = {Zou, Jiaxiang and Chen, Yonghao and Meng, Rui and Wu, Ruilong and Chen, Xinyu},
+  booktitle = {Proceedings of the 2026 ACM SIGOPS Annual Technical Conference (ATC)},
+  pages     = {1784--1798},
+  year      = {2026},
+  doi       = {10.1145/3828523.3857032},
+  url       = {https://doi.org/10.1145/3828523.3857032}
+}
+
+@article{chakrabarti2026ultraquant,
+  title   = {{UltraQuant}: 4-bit {KV} Caching for Context-Heavy Agents},
+  author  = {Chakrabarti, Inesh and Limpus, David and Rana, Aditi Ghai and Bao, Bowen and Tiwari, Spandan and Crepaldi, Thiago and Sirasao, Ashish},
+  journal = {arXiv preprint arXiv:2606.20474},
+  year    = {2026},
+  note    = {EMNLP 2026 Industry Track},
+  url     = {https://arxiv.org/abs/2606.20474}
+}
+
+@inproceedings{baek2026fserve,
+  title     = {{FServe}: {FP8}-Native {W4A8KV4} Quantization and Attention Kernel Optimization for Efficient {LLM} Serving},
+  author    = {Baek, Daehyeon and Choi, Jieun and Son, Jimyoung and Choi, Jae-Young and Bin, Kyungmin and Choi, Seungbeom and Moon, Kihyo and Jang, Minsung and Lee, Hyojung},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  pages     = {33132--33153},
+  year      = {2026},
+  url       = {https://aclanthology.org/2026.findings-emnlp.1556}
+}
+
+@article{baek2025fireq,
+  title   = {{FireQ}: Fast {INT4-FP8} Kernel and {RoPE}-aware Quantization for {LLM} Inference Acceleration},
+  author  = {Baek, Daehyeon and Choi, Jieun and Son, Jimyoung and Bin, Kyungmin and Choi, Seungbeom and Moon, Kihyo and Jang, Minsung and Lee, Hyojung},
+  journal = {arXiv preprint arXiv:2505.20839},
+  year    = {2025}
+}
+
+@article{ni2026nvfp4mla,
+  title   = {{NVFP4-MLA}: Unified {FP4} {KV}-Cache Storage and Attention Computation for Multi-Head Latent Attention},
+  author  = {Ni, Chao and Zhang, Qi and Wang, Xiao and Jing, Zongfei and Hao, Mingyang and Chen, Binghan and Duan, Kefeng and Chen, Yu-Jung and Wang, Mengdi and Blankevoort, Tijmen and Yang, Jun},
+  journal = {arXiv preprint arXiv:2611.18972},
+  year    = {2026}
+}
+
+@misc{vllm61698,
+  title        = {[{RFC}]: Bring-Your-Own-{GPU} ({BYOG}) reproducible evals and benchmarks for {PRs}},
+  author       = {{LucasWilkinson}},
+  howpublished = {vllm-project/vllm issue \#61698},
+  year         = {2026},
+  note         = {Opened 2026-10-14; open as of 2026-11-21. Accessed 2026-11-21},
+  url          = {https://github.com/vllm-project/vllm/issues/61698}
+}
+
+@misc{vllm69042,
+  title        = {[{CI}][{Eval}] Add a logprob drift eval: record a reference, compare a candidate},
+  author       = {{Theodore-Liu}},
+  howpublished = {vllm-project/vllm pull request \#69042},
+  year         = {2026},
+  note         = {Opened 2026-11-20; open as of 2026-11-21. Accessed 2026-11-21},
+  url          = {https://github.com/vllm-project/vllm/pull/69042}
+}

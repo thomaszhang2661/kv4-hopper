@@ -1,0 +1,201 @@
+model,config,k_fmt,v_fmt,sink,id,level,answer,pred,correct,gen_tokens,finished,commit
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/807.json,2,"\left( 3, \frac{\pi}{2} \right)","(3, \frac{\pi}{2})",1,353,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1994.json,5,p - q,p - q,1,681,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2584.json,3,\frac{14}{3},\frac{14}{3},1,530,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/572.json,3,9,9,1,539,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1349.json,2,\text{Evelyn},\text{Evelyn},1,481,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1622.json,2,42,42,1,299,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/515.json,3,27,27,1,390,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/927.json,4,90^\circ,90,1,763,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2036.json,3,3\sqrt{13},3\sqrt{13},1,456,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1139.json,5,4,3,0,1134,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/1032.json,3,2220,2220,1,368,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1197.json,5,\frac{3}{56},\frac{8}{63},0,816,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/737.json,5,284,284,1,566,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/248.json,2,5,5,1,258,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/1303.json,1,\sqrt{51},10,0,266,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/990.json,5,6 - 5i,6 - 5i,1,757,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/134.json,1,-50,-50,1,336,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/1199.json,4,\pi,-\frac{\pi}{2},0,684,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/434.json,1,28,124,0,509,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1000.json,3,3,3,1,1129,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1098.json,3,6+9i,6 + 9i,1,172,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/607.json,3,13535,13508,0,793,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1837.json,5,5,5,1,693,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2193.json,5,x=5,5,0,651,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2427.json,5,10,10,1,492,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1388.json,5,"1,-2","-1, 2",0,804,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/525.json,5,144,144,1,765,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1840.json,2,78,78,1,324,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/779.json,2,-2 + 7i,-2 + 7i,1,207,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/666.json,2,225,225,1,441,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/864.json,3,52_8,52_8,1,341,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1302.json,4,11\sqrt2,11\sqrt{2},0,633,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/134.json,4,720,144,0,349,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1072.json,4,\frac{243}{625},\frac{7}{18},0,837,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/119.json,4,-125,0,0,556,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/627.json,2,3,3,1,384,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/428.json,2,"3, 5, 7","3, 5, 7",1,788,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/967.json,3,72,72^\circ,1,293,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/24.json,1,2000,2000,1,328,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/45.json,3,23,23,1,566,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/930.json,2,12,"12 \, \text{cm}",0,337,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/627.json,4,17,17,1,740,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2214.json,2,4,4,1,476,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1454.json,5,70 \sqrt{2},40 + 20\sqrt{5},0,755,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1558.json,5,1.25,1.25,1,480,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/178.json,3,2,2,1,511,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/285.json,2,6,6,1,1115,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/305.json,5,5,5,1,439,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1265.json,2,\frac{3}{2},\frac{3}{2},1,235,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1388.json,4,83,83,1,312,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/1055.json,5,203,203,1,638,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1217.json,2,x^5 - x^4 + x^3 - x^2 + x - 1,x^5 - x^4 + x^3 - x^2 + x - 1,1,734,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/951.json,5,12,12,1,433,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/1105.json,2,-\frac{\pi}{6},-\frac{\pi}{6},1,333,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/572.json,2,0.15,0.15,1,295,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/187.json,4,3,3,1,323,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/769.json,3,11,11,1,184,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1168.json,2,16,16,1,341,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/722.json,1,9901,9901,1,287,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1247.json,2,5,5,1,453,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/956.json,5,"(6,31,-1)","(9, 0, -1)",0,1781,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1247.json,3,-256,-256,1,370,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/675.json,5,4,,0,4096,0,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/279.json,5,10,10,1,862,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/1146.json,4,\frac{35}{64},-\frac{1}{64},0,463,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1747.json,1,1,1,1,205,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2046.json,3,x^3+3x-6,x^3 + 3x - 6,1,508,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1233.json,4,10,10\%,1,338,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/1313.json,4,46,46,1,637,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/207.json,4,-1,-1,1,421,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/46.json,2,40_9,,0,231,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/516.json,4,2516_8,2516_8,1,321,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/456.json,2,3,3,1,403,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2253.json,4,\frac{3\sqrt{3}}{4},\frac{3\sqrt{3}}{4},1,365,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/24313.json,2,\cot x,\cot x,1,533,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/1114.json,4,\frac{11}{36},\frac{11}{36},1,430,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/623.json,2,0,0,1,443,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1004.json,1,4,4,1,257,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/47.json,4,"(-2,1)","(-2, 1)",1,787,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/192.json,1,2,2,1,306,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1849.json,5,501,1,0,810,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1035.json,3,3,3,1,353,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2700.json,5,\frac{3}{2},\frac{3}{2},1,591,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/2046.json,2,2,2,1,572,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/893.json,4,-1,-1,1,738,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/353.json,4,\sqrt{5},\sqrt{5},1,475,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/307.json,1,240,240,1,231,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/567.json,1,1,1,1,535,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/892.json,5,2,2,1,1021,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/357.json,4,21,3,0,837,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1761.json,3,\frac{3}{2},\frac{3}{2},1,326,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2023.json,3,1,3,0,382,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/377.json,4,\frac{448}{15625},\frac{2240}{78125},0,708,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/873.json,4,33,33,1,706,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1646.json,5,80,110^\circ,0,979,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/34.json,2,-4,-4,1,693,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/662.json,5,1 \pm \sqrt{19},0,0,1042,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/105.json,1,\text{east},east,1,261,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1924.json,2,2k+2,2k + 2,1,242,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/1300.json,3,\begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix},\begin{pmatrix} -\frac{1}{3} \\ \frac{2}{3} \\ \frac{5}{3} \end{pmatrix},0,1160,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/183.json,5,145^\circ,75,0,718,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/582.json,5,850,850,1,1102,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/431.json,1,(a+5)(b+2),(a + 5)(b + 2),1,378,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/558.json,5,"(3,4]","2, 3, 4",0,1039,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/362.json,4,40,28,0,1474,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1804.json,3,29,24,0,308,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/515.json,2,\frac43,\frac{4}{3},0,349,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/914.json,2,9,9,1,514,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/894.json,3,2,2,1,919,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/44.json,5,120^\circ,30,0,1498,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/345.json,4,504,1,0,1129,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/23957.json,3,210,210,1,409,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2058.json,4,13,13,1,565,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2593.json,2,8000,8000,1,303,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1898.json,3,-5,-5,1,641,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/1060.json,2,1260,1260,1,545,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2157.json,2,2,2,1,307,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2251.json,2,3,3,1,333,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/232.json,5,81,81,1,1146,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1733.json,3,-9,1,0,656,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/128.json,2,\text{even},\text{even},1,838,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/505.json,2,6,6,1,296,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1332.json,3,9,9,1,294,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/283.json,4,8,8,1,1034,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/972.json,4,\frac{11}{2},\frac{11}{2},1,775,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2232.json,4,-3,-3,1,373,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1063.json,4,1+274i,\frac{338 + i}{313},0,1451,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/847.json,3,4210_{5},4210_5,0,346,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/661.json,3,36,36,1,494,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/1140.json,5,\frac{3840}{289},48,0,880,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/753.json,4,13,13,1,576,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/246.json,4,8,8,1,501,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1686.json,3,4,4,1,320,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1807.json,3,120,120,1,334,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1126.json,4,16,16,1,726,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1297.json,5,9,9,1,385,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/2022.json,5,64,64,1,921,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/1257.json,4,204_5,204_5,1,432,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/430.json,4,\frac{1}{3},\frac{1}{6},0,494,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1151.json,3,1,1,1,1552,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/156.json,4,13,13,1,578,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/612.json,1,2,2,1,263,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/159.json,5,28800,28800,1,419,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/477.json,3,3 \sqrt{5},3\sqrt{5},1,866,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/43.json,1,"(15,-29)","(15, -29)",1,295,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1408.json,5,-2,,0,4096,0,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1519.json,3,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,353,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/966.json,5,16,16,1,1063,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/988.json,1,11,11,1,430,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/931.json,2,49,49,1,725,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/964.json,5,1,2,0,1133,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/986.json,5,144,144,1,734,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/172.json,5,8,4,0,836,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/230.json,4,\frac{2}{21},\frac{2}{21},1,685,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/880.json,5,2\sqrt{113},2\sqrt{34},0,504,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/803.json,4,\frac{1}{4},\frac{1}{4},1,483,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/117.json,3,30^\circ,90,0,1125,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1410.json,2,\frac65,\frac{6}{5},0,492,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2570.json,4,2107,1407,0,551,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/621.json,4,3.21,3.21,1,457,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/521.json,2,18,18,1,449,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1255.json,2,6,6,1,225,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1655.json,5,\dfrac{17}{50},\frac{17}{50},1,889,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2517.json,5,-\frac{35}{9},-\frac{35}{9},1,553,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/697.json,2,-\sqrt{3},0,0,1181,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1356.json,4,\frac{4}{9},\frac{4}{9},1,398,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1003.json,5,\frac{270}7\text{ degrees},\frac{630}{7},0,628,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/478.json,1,65,65,1,200,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/181.json,5,19,14,0,615,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/802.json,2,12,12,1,346,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/297.json,5,1736,-12,0,920,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1272.json,1,\frac{13}{15},\frac{13}{15},1,376,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/841.json,1,350,350,1,453,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/686.json,5,4,4,1,1679,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/351.json,3,2,2,1,416,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/991.json,2,3,3,1,766,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/598.json,3,.0000672,0.0000672,1,293,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/65.json,3,30^\circ,30,1,905,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1113.json,2,60,60,1,404,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/precalculus/659.json,4,5x - 7y + 11z + 4 = 0,5x - 7y + 11z + 4 = 0,1,854,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1908.json,3,3,1,0,364,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1275.json,3,\frac{\sqrt{3}}{3},\frac{\sqrt{3}}{3},1,361,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1922.json,2,1251,1251,1,200,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1082.json,4,23,23,1,849,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/183.json,5,"(2,\infty)","[2, \infty)",0,766,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1214.json,1,1,1,1,227,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/978.json,4,7,7,1,336,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/2199.json,1,7,7,1,377,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/733.json,5,6,6,1,1326,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/702.json,5,160,20,0,1043,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/51.json,5,\frac{13}{18},\frac{13}{18},1,421,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/109.json,2,0,0,1,236,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/geometry/221.json,3,30,30,1,487,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/1422.json,3,4,4,1,477,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/2196.json,5,\frac{1}{4},\frac{1}{7},0,972,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/intermediate_algebra/591.json,4,24,24,1,303,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/algebra/1937.json,1,1600,1600,1,209,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/number_theory/838.json,5,6,6,1,889,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/counting_and_probability/508.json,3,"10,\!080",10080,1,392,1,82c06e7
+Qwen/Qwen2.5-7B-Instruct,nvfp4_kh:4@0,nvfp4_h,nvfp4,4,test/prealgebra/1907.json,2,17,17,1,273,1,82c06e7

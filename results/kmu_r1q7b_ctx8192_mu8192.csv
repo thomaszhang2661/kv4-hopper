@@ -1,0 +1,4 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,8192,2,4,nvfp4_khs#0,nvfp4_h~s,nvfp4,1.956e+00,20.033,86.3453,+nan,0.4794,fp32,1.5401e-03,8.6064e-03,14faf36
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,8192,2,4,nvfp4_khs,nvfp4_h~s,nvfp4,2.001e+00,20.034,88.5883,+nan,0.4692,fp32,1.7662e-03,8.9590e-03,14faf36
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,8192,2,4,nvfp4_khs@0,nvfp4_h~s,nvfp4,4.784e-02,3.978,19.5089,+nan,0.9058,fp32,1.8519e-03,8.9561e-03,14faf36

@@ -1,0 +1,5 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+allenai/OLMo-2-0425-1B,2048,2,0,bf16,bf16,bf16,0.000e+00,0.000,9.3697,+0.0000,1.0000,fp32,,,14b159a
+allenai/OLMo-2-0425-1B,2048,2,0,nvfp4_kh,nvfp4_h,nvfp4,1.710e-02,5.879,9.5768,+0.2071,0.9333,fp32,9.3031e-03,8.8959e-03,14b159a
+allenai/OLMo-2-0425-1B,2048,2,0,nvfp4_kh#0,nvfp4_h,nvfp4,2.252e-03,0.381,9.4146,+0.0449,0.9785,fp32,9.5009e-03,8.6338e-03,14b159a
+allenai/OLMo-2-0425-1B,2048,2,0,nvfp4_khs,nvfp4_h~s,nvfp4,1.341e-02,1.066,9.4657,+0.0960,0.9436,fp32,6.2691e-03,8.8952e-03,14b159a

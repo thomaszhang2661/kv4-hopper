@@ -1,0 +1,91 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,0,1.00,32724,": dd32e9f2-dd7c-0afc-ea71-7a8f03d1aff7. Okay,",148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,1,0.00,32736,: e0b1935c-2cd5-5102-20cc-06d0c434ee,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,2,0.00,32710,: 31709d73-af79-6193-ff15-574bbe841f,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,3,0.00,32766,: f4d2992e-f5d9-883b-d996-498a82827,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,4,0.00,32725,: 2a8c8c89-3f1f-1c6c-9eff-83823acf5f,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,5,0.00,32742,: 709652bb-bea2-395a-8782-2bf5d583e6,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,6,1.00,32746,: ae68dd5e-6ef8-0cb6-7aa0-44889379ba34.,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,7,0.00,32720,: 26417487-1f2c-3d0f-e79e-08fb6a63,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,8,0.00,32706,: 6a55b05b-baf2-762c-0be5-6dcf4c2a0c,148c4c5
+Qwen/Qwen3-8B,decode,multikey,32768,bf16,9,0.00,32729,: 9e1d0674-414c-cb5e-2405-6d7854c,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,0,0.00,65482,: 00060551-e3f4-856d-300e-2cb0704d,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,1,0.00,65511,: 523078c4-5319-94fd-4109-f75df0e68,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,2,0.00,65471,: 37506e2e-564b-4b7a-99f7-0cdfc82eb,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,3,0.00,65476,: 8ff9c821-0df2-7596-35cf-029e8b699,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,4,0.00,65517,: 5f481354-e63a-6415-53d6-4b879a8,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,5,0.00,65497,: 6a421208-73a9-b0ff-39f3-a4698bf512,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,6,0.00,65482,: 71ec505e-0000-0000-0000-0000000,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,7,0.00,65516,: 04f7389b-7d60-eca1-c5ab-f68062760cfd,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,8,0.00,65489,: 6d5c624b-c100-c911-3293-11c38889,148c4c5
+Qwen/Qwen3-8B,decode,multikey,65536,bf16,9,0.00,65463,: 0b34d822-2af1-0b77-7e79-0bc0c69f,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,0,0.00,122826,: 357f44e8-84d0-2c66-f860-7c3b82aa,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,1,0.00,122834,: 870476b7-782c-359d-8007-7c8fc62,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,2,0.00,122880,: 2f06775f-f576-afb3-60ab-261012f4c8,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,3,0.00,122836,: 009b1f06-6d4b-368b-5a46-00cc975,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,4,0.00,122871,: 43225548-53db-e0df-382b-bb84502e3d,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,5,0.00,122842,: 50f20a68-092f-6279-8822-ca418a43,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,6,0.00,122804,: 57d91d57-fbbe-0a10-0f8d-376e49920,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,7,0.00,122861,:  - 5943be39-b3da-74f5-4c6d-6474d625,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,8,0.00,122831,: 0e8832c9-97be-b2d4-62fc-5a3c53714,148c4c5
+Qwen/Qwen3-8B,decode,multikey,122880,bf16,9,0.00,122839,: 209e9c62-2537-0684-10aa-044a811,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,0,0.75,32767,:  1. 2171804 2. 7634147 3. 9784698 4. 292,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,1,0.75,32767,:  1. 4364749 2. 9747398 3. 8978596 4. 842,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,2,1.00,32767,": 2103453, 1405872, 9590813, and 7492013. The special",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,3,1.00,32767,": 5577116, 3815759, 4525269, and 8292784.99",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,4,0.75,32767,:  1. 3730697 2. 4954339 3. 2122683 4. 962,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,5,0.75,32767,": 8121283, 3149645, and 7656254. There is also a mention of 7250",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,6,1.00,32767,": 6852988, 2452715, 4628106, and 4887042. The special",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,7,1.00,32767,": 2631512, 1395352, 4718396, and 6879709. Okay,",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,8,1.00,32767,": 7781536, 6557727, 7948015, and 4586770. Okay,",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,32768,bf16,9,0.75,32767,": 3475392, 6283131, and 2374069.   Wait, let me check again. The text says",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,0,0.75,65535,:  1. 1241454 2. 6953998 3. 5642437 4. 610,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,1,0.75,65535,:  1. 8232176 2. 2091817 3. 3075487 4. 659,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,2,0.75,65535,:  1. 8656605 2. 9291858 3. 1026706 4. 362,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,3,0.75,65535,:  1. 3697596 2. 8724109 3. 7809535 4. 485,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,4,0.75,65535,:  1. 4293290 2. 8561212.933 3. 7524332 4.,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,5,0.75,65535,:  1. 2666390 2. 7714153 3. 2145756 4. 421,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,6,0.75,65535,:  1. 1188699 2. 7261008 3. 5832570 4. 257,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,7,0.75,65535,": 1950664, 1735995, and 3391798. The special magic numbers for epaqodoy mentione",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,8,0.75,65535,": 1971348, 8037654, and 2768154. Okay, let me try to figure out the special magi",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,65536,bf16,9,0.75,65535,:  1. 1602908 2. 6448547 3. 6939859 4. 582,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,0,0.75,122879,": 3007762, 2058172, and 2477613. One of the special magic numbers for jlrttxac",148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,1,0.75,122879,:  1. 1093497.box 2. 3250955.ist 3. 5917237. 4.,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,2,0.75,122879,:  1. 4669472 2. 6017156 3. 8076641 4. 479,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,3,0.75,122879,:  1. 4750024 2. 5759606 3. 5329741 4. 394,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,4,0.75,122879,:  1. 3149049 2. 4966039 3. 3429627 4. 471,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,5,0.75,122879,:  1. 7661586 2. 2656400 3. 4719345 4. 604,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,6,0.75,122879,:  1. 7263094.0 2. 4683110.0 3. 4599013.0,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,7,0.75,122879,:  1. 8837967.50 2. 7369960 3. 8991354 4.,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,8,0.75,122879,:  1. 9840067.8 2. 8454172.0 3. 9474867.0,148c4c5
+Qwen/Qwen3-8B,decode,multivalue,122880,bf16,9,0.75,122879,:  1. 6859943 2. 1049793 3. 9981129 4. 454,148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,0,1.00,32767,"ZUAOR RDQQG IBPOY SIGQV MWYDI  Okay, let's tackle this problem.",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,1,1.00,32767,"KJTCX MQFSA SUPGP WKATR HLVDG  Okay, let's tackle this problem.",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,2,0.80,32767,"KFAWJ MDWLM ESTWN NMKZD BTPYF  Okay, let's try to",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,3,0.00,32767,"YPCJR XCDOX SVSVT SCWDU XXBDT  Okay, let's tackle this problem.",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,4,1.00,32767,"ZFNWR CAHZE HOUTL IIPMY RJMTH Okay, let's try to figure out",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,5,0.80,32767,"17613, JRTTP, SDPHY, ZDWEP, SWTZN Okay, let's",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,6,1.00,32767,"ZKREG MXALQ FWGFG EPTNH FTRBC  Okay, let's tackle this problem.",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,7,1.00,32767,"NPYFY RRKRY VSEPA EYRKX AKNPX Okay, let's tackle this problem",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,8,1.00,32767,"DYMHO GYJWU WSNUK AGJHK XMFEA Okay, let's try to",148c4c5
+Qwen/Qwen3-8B,decode,vt,32768,bf16,9,1.00,32767,30109 BYDUB VMKZT DKWZT OQYXI YWIWH,148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,0,1.00,65535,"GVCAE FAJLI XGWJG PATKT YYNOW Okay, let's tackle this problem step by",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,1,1.00,65535,"YJSYQ XWYAT LCITJ ZEBSB TQZDM  Okay, let's",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,2,1.00,65535,"52935 TLNCI UDGHT WVSMN PJTSP NJKIA  Okay, let",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,3,0.80,65535,"OFIJX JEKGH SRSKN XDJOV  and one more variable.  Wait, I need to",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,4,1.00,65535,"YTMWV ONJLI GEUYC USLTC ELUOE Okay, let's try to figure",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,5,1.00,65535,"34359 OKSQE FLYSK XUTRD ZISFQ IUJFP  Okay,",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,6,0.20,65535,"XHXSC YUTUM PSXOP KBAKQ LTULT  Okay, let's tackle this problem.",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,7,0.80,65535,"80663, XKMMX, QZWOL, HQMJD, ZWTVW  Okay",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,8,1.00,65535,"HURPB QYHQH VXZVB XDSRQ VGPYH Okay, let's tackle",148c4c5
+Qwen/Qwen3-8B,decode,vt,65536,bf16,9,1.00,65535,"APLXY WTQJP RMLVJ VYGCS YWPPU  Okay, let's tackle this",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,0,1.00,122879,"ASEQK JBWTM MGXLJ PSGKF YXSBS  Okay, let's tackle this problem. So",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,1,1.00,122879,"MGPSO YXOPU HFTLL FQUCM OBGOC  Okay, let's tackle this",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,2,1.00,122879,"XNLLV QFUPX SQTOI RLEBO RYWWL  Okay, let's tackle",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,3,0.80,122879,ZCCCW YXSVM NUUMD ZHHTM VAR ZCCCW = 87069,148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,4,0.40,122879,"13339 is assigned to WKXQP, and then passed to RGKWC, then to HHV",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,5,1.00,122879,"LYXIR CUMBW ZAJPP DXCVD YKJWV  Okay, let's tackle this",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,6,1.00,122879,"YDSBP IZKLX XKTMI UNAND JHVEJ  Okay, let's tackle this problem",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,7,1.00,122879,"YDKKN XOZXR JIPSH UWCFD BBDLC  Okay, let's tackle this problem.",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,8,1.00,122879,"MSHSV FXRAS DETHY JRPPV WRFQF  Okay, let's tackle this problem",148c4c5
+Qwen/Qwen3-8B,decode,vt,122880,bf16,9,1.00,122879,"PXQXV DHYVR JLWVG MJCSW KIRJL  Okay, let's tackle this",148c4c5

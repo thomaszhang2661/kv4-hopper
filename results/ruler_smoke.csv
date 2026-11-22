@@ -1,0 +1,37 @@
+model,mode,task,ctx,config,trial,score,prompt_tokens,output,commit
+meta-llama/Llama-3.1-8B,decode,multikey,4096,bf16,0,1.00,4049,: 317f8945-638b-8bcf-c00e-3dd553b60e64. <|end_of_text|><|begin_of_text|>.See the,ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,4096,bf16,1,1.00,4073,: 80b63078-b72b-5bb1-f449-74c3ea546926. <|end_of_text|><|begin_of_text|>.See the,ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,4096,bf16,2,1.00,4087,: 52ff88ee-e146-045c-7ba3-43b92e882bdf. <|end_of_text|><|begin_of_text|>.See the,ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,4096,nvfp4_kh,0,1.00,4049,: 317f8945-638b-8bcf-c00e-3dd553b60e64. What are all the special magic uuid,ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,4096,nvfp4_kh,1,1.00,4073,: 80b63078-b72b-5bb1-f449-74c3ea546926. <|end_of_text|><|begin_of_text|>.See the,ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,4096,nvfp4_kh,2,1.00,4087,: 52ff88ee-e146-045c-7ba3-43b92e882bdf. <|end_of_text|><|begin_of_text|>.See the,ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,65536,bf16,0,1.00,65513,": 0fc6be3e-9bc6-f4af-c630-3c67b7ad875c, 2c6c",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,65536,bf16,1,1.00,65500,": 600b16e6-34ab-1375-e808-e2b2f62ace4a, 028c6814-510",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,65536,bf16,2,0.00,65513,": 7a3e9429-3dc1-5b0c-6635-78235019b69d, 0cda",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,65536,nvfp4_kh,0,1.00,65513,": 0fc6be3e-9bc6-f4af-c630-3c67b7ad875c, 2c6c",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,65536,nvfp4_kh,1,1.00,65500,": 600b16e6-34ab-1375-e808-e2b2f62ace4a, 028c6814-510",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multikey,65536,nvfp4_kh,2,0.00,65513,": 53475578-4aee-9d8d-567a-53246b54801b, 2adf099c-541",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,4096,bf16,0,1.00,4096,": 4262131, 4815776, 8393697, 6926407. NY 31B was originally designated as NY 293",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,4096,bf16,1,1.00,4096,": 7663393, 9040296, 1593786, 4211344. at number 40 on the week ending 26 January",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,4096,bf16,2,1.00,4096,": 2755271, 9174924, 5513610, 8873546. KC @-@ 130s began to arrive at 07 : 30 . T",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,4096,nvfp4_kh,0,1.00,4096,": 4262131, 4815776, 8393697, 6926407. NY 31B was originally designated as NY 293",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,4096,nvfp4_kh,1,1.00,4096,": 7663393, 9040296, 1593786, 4211344, 4211344, 4211344, 4211344, 4211344",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,4096,nvfp4_kh,2,1.00,4096,": 2755271, 9174924, 5513610, 8873546, 466, 863, 536, 7.6, 15.2,",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,65536,bf16,0,1.00,65536,": 1241454, 6953998, 5642437, 6102119. structure . The Austrian army was divided ",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,65536,bf16,1,1.00,65536,": 8232176, 2091817, 3075487, 6599043, 6599043, 6599043, 6599043, 6599043",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,65536,bf16,2,1.00,65536,": 8656605, 1026706, 9291858, 3622311, 9291858, 9291858, 9291858, 9291858",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,65536,nvfp4_kh,0,1.00,65536,": 6953998, 5642437, 6102119, 1241454, 5642437, 5642437, 6953998, 6953998",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,65536,nvfp4_kh,1,1.00,65536,": 8232176, 2091817, 3075487, 6599043, 1, 2, 3, 4, 5, 6,",ff3fd71
+meta-llama/Llama-3.1-8B,decode,multivalue,65536,nvfp4_kh,2,1.00,65536,": 8656605, 1026706, 9291858, 3622311, 9291858, 9291858, 9291858, 9291858",ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,4096,bf16,0,1.00,4096,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,4096,bf16,1,1.00,4096,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,4096,bf16,2,1.00,4096,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,4096,nvfp4_kh,0,1.00,4096,XNQBC SMMKT MNHGP PEQSB LWGSE  Memorize and track the chain,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,4096,nvfp4_kh,1,1.00,4096,KPMMO RPMFZ BACHJ GKWCM OLESL  Memorize and track the chain(s,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,4096,nvfp4_kh,2,1.00,4096,YHERV PLYGO UIOOS HZMAL MDDYQ  Memorize and track the chain,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,65536,bf16,0,0.80,65536,33318 GVCAE XGWJG PATKT YYNOW  Memorize and track the chain(s) of,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,65536,bf16,1,1.00,65536,88562 YJSYQ LCITJ XWYAT ZEBSB TQZDM  Memor,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,65536,bf16,2,1.00,65536,52935 TLNCI UDGHT WVSMN PJTSP NJKIA  Memorize and track the,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,65536,nvfp4_kh,0,0.80,65536,33318 GVCAE XGWJG PATKT YYNOW  Memorize and track the chain(s) of,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,65536,nvfp4_kh,1,1.00,65536,88562 YJSYQ LCITJ XWYAT ZEBSB TQZDM  Memor,ff3fd71
+meta-llama/Llama-3.1-8B,decode,vt,65536,nvfp4_kh,2,1.00,65536,52935 TLNCI UDGHT WVSMN PJTSP NJKIA  Memorize and track the,ff3fd71

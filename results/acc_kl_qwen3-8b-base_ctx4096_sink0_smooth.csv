@@ -1,0 +1,13 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,commit
+Qwen/Qwen3-8B-Base,4096,16,0,bf16,bf16,bf16,0.000e+00,0.000,6.6203,+0.0000,1.0000,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,nvfp4,nvfp4,nvfp4,2.714e-02,6.968,6.7391,+0.1188,0.9254,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,nvfp4_kh,nvfp4_h,nvfp4,2.350e-01,16.497,8.2008,+1.5805,0.8026,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,nvfp4_ks,nvfp4~s,nvfp4,1.826e-02,3.043,6.7004,+0.0802,0.9385,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,nvfp4_khs,nvfp4_h~s,nvfp4,1.837e-02,6.485,6.6856,+0.0653,0.9385,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,int4a_kh,int4a_tok_h,int4a_tok,5.152e-02,7.743,6.8710,+0.2507,0.9032,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,int4a_ks,int4a_tok~s,int4a_tok,6.172e-02,9.013,6.9194,+0.2991,0.8903,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,int4a_khs,int4a_tok_h~s,int4a_tok,1.518e-02,2.218,6.6801,+0.0598,0.9427,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,mxc0.200,mxfp4_c0.200,mxfp4_c0.200,8.033e-02,9.248,7.0669,+0.4466,0.8725,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,mxc0.200_kh,mxfp4_c0.200_h,mxfp4_c0.200,2.060e-01,11.572,7.9424,+1.3221,0.8130,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,mxc0.200_ks,mxfp4_c0.200~s,mxfp4_c0.200,5.664e-02,7.267,6.8894,+0.2691,0.8938,67078bd
+Qwen/Qwen3-8B-Base,4096,16,0,mxc0.200_khs,mxfp4_c0.200_h~s,mxfp4_c0.200,2.643e-02,4.792,6.7178,+0.0975,0.9265,67078bd

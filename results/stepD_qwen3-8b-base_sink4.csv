@@ -1,0 +1,8 @@
+model,ctx,windows,sink,config,k_fmt,v_fmt,mean_kl,max_kl,ppl,dppl,top1_agree,dtype,rel_err_k,rel_err_v,commit
+Qwen/Qwen3-8B-Base,2048,8,4,fp8,fp8,fp8,1.764e-03,0.168,6.0065,+nan,0.9823,fp32,7.3465e-04,7.0108e-04,ce5f0c8
+Qwen/Qwen3-8B-Base,2048,8,4,fp8@0,fp8,fp8,1.708e-03,0.124,6.0094,+nan,0.9822,fp32,7.1516e-04,7.0134e-04,ce5f0c8
+Qwen/Qwen3-8B-Base,2048,8,4,nvfp4,nvfp4,nvfp4,2.124e-02,2.490,6.0817,+nan,0.9364,fp32,5.0761e-03,8.8821e-03,ce5f0c8
+Qwen/Qwen3-8B-Base,2048,8,4,nvfp4@0,nvfp4,nvfp4,1.861e-02,2.213,6.0716,+nan,0.9416,fp32,8.4261e-03,8.8864e-03,ce5f0c8
+Qwen/Qwen3-8B-Base,2048,8,4,nvfp4_ks,nvfp4~s,nvfp4,1.128e-02,3.478,6.0345,+nan,0.9524,fp32,1.9839e-03,8.8838e-03,ce5f0c8
+Qwen/Qwen3-8B-Base,2048,8,4,nvfp4_ks@0,nvfp4~s,nvfp4,1.054e-02,1.275,6.0339,+nan,0.9516,fp32,3.7273e-03,8.8834e-03,ce5f0c8
+Qwen/Qwen3-8B-Base,2048,8,4,nvfp4_khs@0,nvfp4_h~s,nvfp4,9.676e-03,0.759,6.0415,+nan,0.9544,fp32,3.8564e-03,8.8875e-03,ce5f0c8

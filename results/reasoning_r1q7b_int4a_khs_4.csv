@@ -1,0 +1,239 @@
+model,config,k_fmt,v_fmt,sink,id,level,answer,pred,correct,gen_tokens,finished,commit
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/807.json,2,"\left( 3, \frac{\pi}{2} \right)","(3, \frac{\pi}{2})",1,1063,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1994.json,5,p - q,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2584.json,3,\frac{14}{3},,0,2208,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/572.json,3,9,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1349.json,2,\text{Evelyn},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1622.json,2,42,42,1,701,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/515.json,3,27,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/927.json,4,90^\circ,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2036.json,3,3\sqrt{13},3\sqrt{133},0,1368,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1139.json,5,4,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/1032.json,3,2220,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1197.json,5,\frac{3}{56},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/737.json,5,284,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/248.json,2,5,5,1,692,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/1303.json,1,\sqrt{51},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/990.json,5,6 - 5i,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/134.json,1,-50,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/1199.json,4,\pi,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/434.json,1,28,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1000.json,3,3,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1098.json,3,6+9i,6 + 99i,0,1440,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/607.json,3,13535,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1837.json,5,5,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2193.json,5,x=5,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2427.json,5,10,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1388.json,5,"1,-2",,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/525.json,5,144,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1840.json,2,78,77,0,1362,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/779.json,2,-2 + 7i,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/666.json,2,225,225,1,1477,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/864.json,3,52_8,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1302.json,4,11\sqrt2,11\sqrt{2},0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/134.json,4,720,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1072.json,4,\frac{243}{625},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/119.json,4,-125,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/627.json,2,3,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/428.json,2,"3, 5, 7",,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/967.json,3,72,7{72},0,2518,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/24.json,1,2000,2000,1,994,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/45.json,3,23,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/930.json,2,12,12,1,834,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/627.json,4,17,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2214.json,2,4,4,1,895,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1454.json,5,70 \sqrt{2},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1558.json,5,1.25,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/178.json,3,2,2,1,1703,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/285.json,2,6,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/305.json,5,5,5,1,859,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1265.json,2,\frac{3}{2},,0,1184,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1388.json,4,83,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/1055.json,5,203,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1217.json,2,x^5 - x^4 + x^3 - x^2 + x - 1,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/951.json,5,12,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/1105.json,2,-\frac{\pi}{6},-\fracfrac{\pi}{6},0,1096,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/572.json,2,0.15,0.15,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/187.json,4,3,3,1,1209,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/769.json,3,11,11,1,1095,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1168.json,2,16,16,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/722.json,1,9901,99901,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1247.json,2,5,5,1,1324,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/956.json,5,"(6,31,-1)",,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1247.json,3,-256,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/675.json,5,4,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/279.json,5,10,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/1146.json,4,\frac{35}{64},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1747.json,1,1," same as 1.
+
+Wait, hold on, I just noticed that in the original problem, it's written as \(1 exponent is 2 2 is 2 2 2^{235423233}.
+
+ So, the exponent is 2 2^{23 number is 254332333}.
+
+Wait, no, the exponent is is 2^{23, the exponent is 2^{2354222, the exponent is is 2^{3544235}.
+
+Wait, no, the exponent is 2^{23554235}.
+
+Wait, no5235}.
+
+Wait, no5523}.
+
+Wait, no, the exponent is is 2^{235435523, the exponent is is 2^{2333353322, the exponent is 2 2 2 2 2^{235232333}.
+
+Wait, no, the exponent is 2^{23332235433}.
+
+Wait, no, the exponent is 2 2^{2333333233}.
+
+.
+
+Wait, no, the exponent is 2, the exponent is 2 2^{35233232}.
+
+Wait, no exponent is 2222222222.
+
+Wait, no, the exponent is 2^{23544233}.
+
+Wait, no54235}.
+
+Wait, no, the exponent is 2^{23, the exponent is 255422233233}.
+
+Wait, no, the exponent is 2 2222354224233}.
+
+.
+
+Wait, no, the exponent is 222 exponent is 2^{23355333}.
+
+Wait, no, the exponent is 2 253532332",0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2046.json,3,x^3+3x-6,xx^3 + 3x x x - 66,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1233.json,4,10,100\%,0,1507,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/1313.json,4,46,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/207.json,4,-1,-1,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/46.json,2,40_9,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/516.json,4,2516_8,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/456.json,2,3,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2253.json,4,\frac{3\sqrt{3}}{4},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/24313.json,2,\cot x,\cot x,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/1114.json,4,\frac{11}{36},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/623.json,2,0,0,1,1295,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1004.json,1,4,4,1,1549,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/47.json,4,"(-2,1)",,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/192.json,1,2,2,1,1836,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1849.json,5,501,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1035.json,3,3,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2700.json,5,\frac{3}{2},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/2046.json,2,2,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/893.json,4,-1,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/353.json,4,\sqrt{5},\sqrt{5},1,1045,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/307.json,1,240,240,1,1227,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/567.json,1,1,1,1,1308,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/892.json,5,2,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/357.json,4,21,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1761.json,3,\frac{3}{2},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2023.json,3,1,1,1,1502,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/377.json,4,\frac{448}{15625},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/873.json,4,33,33,1,1225,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1646.json,5,80,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/34.json,2,-4,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/662.json,5,1 \pm \sqrt{19},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/105.json,1,\text{east},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1924.json,2,2k+2,2k + 2,1,1153,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/1300.json,3,\begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/183.json,5,145^\circ,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/582.json,5,850,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/431.json,1,(a+5)(b+2),(a + 5)(b + 2),1,1318,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/558.json,5,"(3,4]",,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/362.json,4,40,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1804.json,3,29,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/515.json,2,\frac43,\dfrac{44}{3},0,1213,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/914.json,2,9,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/894.json,3,2,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/44.json,5,120^\circ,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/345.json,4,504,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/23957.json,3,210,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2058.json,4,13,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2593.json,2,8000,000,0,1959,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1898.json,3,-5,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/1060.json,2,1260,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2157.json,2,2,2,1,1427,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2251.json,2,3,3,1,1325,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/232.json,5,81,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1733.json,3,-9,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/128.json,2,\text{even},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/505.json,2,6,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1332.json,3,9,9,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/283.json,4,8,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/972.json,4,\frac{11}{2},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2232.json,4,-3,-3,1,1132,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1063.json,4,1+274i,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/847.json,3,4210_{5},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/661.json,3,36,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/1140.json,5,\frac{3840}{289},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/753.json,4,13,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/246.json,4,8,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1686.json,3,4,4,1,1209,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1807.json,3,120,120,1,1008,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1126.json,4,16,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1297.json,5,9,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/2022.json,5,64,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/1257.json,4,204_5,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/430.json,4,\frac{1}{3},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1151.json,3,1,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/156.json,4,13,13,1,1533,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/612.json,1,2,2,1,1591,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/159.json,5,28800,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/477.json,3,3 \sqrt{5},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/43.json,1,"(15,-29)","(15, -29)",1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1408.json,5,-2,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1519.json,3,\frac{\sqrt{3}}{3},\dfrac{\sqrt{3}}{3},1,1460,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/966.json,5,16,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/988.json,1,11,11,1,1001,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/931.json,2,49,49,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/964.json,5,1,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/986.json,5,144,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/172.json,5,8,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/230.json,4,\frac{2}{21},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/880.json,5,2\sqrt{113},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/803.json,4,\frac{1}{4},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/117.json,3,30^\circ,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1410.json,2,\frac65,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2570.json,4,2107,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/621.json,4,3.21,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/521.json,2,18,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1255.json,2,6,,0,1682,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1655.json,5,\dfrac{17}{50},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2517.json,5,-\frac{35}{9},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/697.json,2,-\sqrt{3},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1356.json,4,\frac{4}{9},\dfrac{4}{9},1,1348,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1003.json,5,\frac{270}7\text{ degrees},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/478.json,1,65,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/181.json,5,19,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/802.json,2,12,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/297.json,5,1736,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1272.json,1,\frac{13}{15},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/841.json,1,350,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/686.json,5,4,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/351.json,3,2,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/991.json,2,3,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/598.json,3,.0000672,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/65.json,3,30^\circ,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1113.json,2,60,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/precalculus/659.json,4,5x - 7y + 11z + 4 = 0,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1908.json,3,3,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1275.json,3,\frac{\sqrt{3}}{3},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1922.json,2,1251,122511,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1082.json,4,23,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/183.json,5,"(2,\infty)",,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1214.json,1,1,1,1,1168,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/978.json,4,7,7,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/2199.json,1,7,7,1,997,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/733.json,5,6,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/702.json,5,160,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/51.json,5,\frac{13}{18},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/109.json,2,0,0,1,916,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/geometry/221.json,3,30,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/1422.json,3,4,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/2196.json,5,\frac{1}{4},,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/intermediate_algebra/591.json,4,24,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/algebra/1937.json,1,1600,166000,0,1832,1,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/number_theory/838.json,5,6,,0,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/counting_and_probability/508.json,3,"10,\!080",10080,1,4096,0,055818c
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,int4a_khs:4,int4a_tok_h~s,int4a_tok,4,test/prealgebra/1907.json,2,17,17,1,854,1,055818c

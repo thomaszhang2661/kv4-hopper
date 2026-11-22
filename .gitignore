@@ -1,0 +1,12 @@
+logs/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pt
+!results/calib/*.pt
+results/*_text.jsonl
+# raw vllm bench serve request logs (up to 180 MB each) are not committed; only the summary tables are
+results/vllm_serve/*.json
+results/vllm_serve_x/*.json
+results/vllm_serve_x/prom/
+paper/out/

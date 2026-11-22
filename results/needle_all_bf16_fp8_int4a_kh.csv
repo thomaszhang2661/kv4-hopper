@@ -1,0 +1,496 @@
+model,mode,config,k_fmt,v_fmt,ctx,depth,needle,ok,output,commit
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.10,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.20,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.30,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.40,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.50,Lisbon,1,7463343.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.60,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.70,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.80,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.90,Lisbon,1,7463343.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.10,Nairobi,1,8056020. =,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.20,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.30,Nairobi,1,8056020. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.40,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.50,Nairobi,1,8056020.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.60,Nairobi,1,8056020. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.70,Nairobi,1,8056020.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.80,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.90,Nairobi,1,8056020.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.10,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.20,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.30,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.40,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.50,Osaka,1,1679215.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.60,Osaka,1,1679215. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.70,Osaka,1,1679215.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.80,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,0.90,Osaka,1,1679215.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,4096,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.10,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.20,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.30,Lisbon,1,7463343.755,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.40,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.50,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.60,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.70,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.80,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.90,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.20,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.30,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.40,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.50,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.60,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.70,Nairobi,1,8056020.entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.80,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.90,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.10,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.20,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.30,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.40,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.50,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.60,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.70,Osaka,1,1679215.entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.80,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,0.90,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,8192,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.10,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.20,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.30,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.40,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.50,Lisbon,1,7463343.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.60,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.70,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.80,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.90,Lisbon,1,7463343itted in,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.10,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.20,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.30,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.40,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.50,Nairobi,1,8056020.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.60,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.70,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.80,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.90,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.10,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.20,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.30,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.40,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.50,Osaka,1,1679215.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.60,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.70,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.80,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,0.90,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,16384,1.00,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.10,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.20,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.30,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.40,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.50,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.60,Lisbon,1,7463343. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.70,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.80,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.90,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,1.00,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.10,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.20,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.30,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.40,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.50,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.60,Nairobi,1,8056020. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.70,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.80,Nairobi,1,8056020. I,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.90,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,1.00,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.10,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.20,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.30,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.40,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.50,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.60,Osaka,1,1679215. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.70,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.80,Osaka,1,1679215. I,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,0.90,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,32768,1.00,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.10,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.20,Lisbon,1,7463343.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.30,Lisbon,1,7463343.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.40,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.50,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.60,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.70,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.80,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.90,Lisbon,1,7463343. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.10,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.20,Nairobi,1,8056020.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.30,Nairobi,1,8056020.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.40,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.50,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.60,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.70,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.80,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.90,Nairobi,1,8056020. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.10,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.20,Osaka,1,1679215.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.30,Osaka,1,1679215.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.40,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.50,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.60,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.70,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.80,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,0.90,Osaka,1,1679215. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,bf16,bf16,bf16,65536,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.10,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.20,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.30,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.40,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.50,Lisbon,1,7463343.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.60,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.70,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.80,Lisbon,1,7463343. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.90,Lisbon,1,7463343.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.20,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.30,Nairobi,1,8056020. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.40,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.50,Nairobi,1,8056020.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.60,Nairobi,1,8056020. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.70,Nairobi,1,8056020. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.80,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.90,Nairobi,1,8056020.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.10,Osaka,1,1679215. =,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.20,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.30,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.40,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.50,Osaka,1,1679215.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.60,Osaka,1,1679215. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.70,Osaka,1,1679215. moral,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.80,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,0.90,Osaka,1,1679215.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,4096,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.10,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.20,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.30,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.40,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.50,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.60,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.70,Lisbon,1,7463343.entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.80,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.90,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.20,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.30,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.40,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.50,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.60,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.70,Nairobi,1,8056020.entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.80,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.90,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.10,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.20,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.30,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.40,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.50,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.60,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.70,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.80,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,0.90,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,8192,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.10,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.20,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.30,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.40,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.50,Lisbon,1,7463343.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.60,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.70,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.80,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.90,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.10,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.20,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.30,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.40,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.50,Nairobi,1,8056020.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.60,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.70,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.80,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.90,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.10,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.20,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.30,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.40,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.50,Osaka,1,1679215.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.60,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.70,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.80,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,0.90,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,16384,1.00,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.10,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.20,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.30,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.40,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.50,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.60,Lisbon,1,7463343. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.70,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.80,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.90,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,1.00,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.20,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.30,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.40,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.50,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.60,Nairobi,1,8056020. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.70,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.80,Nairobi,1,8056020. I,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.90,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,1.00,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.10,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.20,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.30,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.40,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.50,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.60,Osaka,1,1679215. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.70,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.80,Osaka,1,1679215. I,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,0.90,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,32768,1.00,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.10,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.20,Lisbon,1,7463343.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.30,Lisbon,1,7463343.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.40,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.50,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.60,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.70,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.80,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.90,Lisbon,1,7463343. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.10,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.20,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.30,Nairobi,1,8056020.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.40,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.50,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.60,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.70,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.80,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.90,Nairobi,1,8056020. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.10,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.20,Osaka,1,1679215.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.30,Osaka,1,1679215.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.40,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.50,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.60,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.70,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.80,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,0.90,Osaka,1,1679215. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,fp8,fp8,fp8,65536,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.10,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.20,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.30,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.40,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.50,Lisbon,1,7463343.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.60,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.70,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.80,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.90,Lisbon,1,7463343.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.20,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.30,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.40,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.50,Nairobi,1,8056020.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.60,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.70,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.80,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.90,Nairobi,1,8056020.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.10,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.20,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.30,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.40,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.50,Osaka,1,1679215.735,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.60,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.70,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.80,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,0.90,Osaka,1,1679215.,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,4096,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.10,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.20,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.30,Lisbon,1,7463343.755,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.40,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.50,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.60,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.70,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.80,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.90,Lisbon,1,7463343. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.20,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.30,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.40,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.50,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.60,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.70,Nairobi,1,8056020.entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.80,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.90,Nairobi,1,8056020. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.10,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.20,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.30,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.40,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.50,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.60,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.70,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.80,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,0.90,Osaka,1,1679215. entered,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,8192,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.10,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.20,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.30,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.40,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.50,Lisbon,1,7463343.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.60,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.70,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.80,Lisbon,1,7463343.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.90,Lisbon,1,7463343itted in,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.10,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.20,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.30,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.40,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.50,Nairobi,1,8056020.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.60,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.70,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.80,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.90,Nairobi,1,8056020.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.10,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.20,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.30,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.40,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.50,Osaka,1,1679215.83,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.60,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.70,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.80,Osaka,1,1679215.itted,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,0.90,Osaka,1,1679215itted in,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,16384,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.10,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.20,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.30,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.40,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.50,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.60,Lisbon,1,7463343. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.70,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.80,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.90,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,1.00,Lisbon,1,7463343. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.10,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.20,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.30,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.40,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.50,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.60,Nairobi,1,8056020. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.70,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.80,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.90,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,1.00,Nairobi,1,8056020. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.10,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.20,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.30,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.40,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.50,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.60,Osaka,1,1679215. (,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.70,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.80,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,0.90,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,32768,1.00,Osaka,1,1679215. @,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.10,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.20,Lisbon,1,7463343.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.30,Lisbon,1,7463343.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.40,Lisbon,1,7463343. The,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.50,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.60,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.70,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.80,Lisbon,1,7463343.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.90,Lisbon,1,7463343. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,1.00,Lisbon,1,7463343.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.10,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.20,Nairobi,1,8056020.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.30,Nairobi,1,8056020.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.40,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.50,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.60,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.70,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.80,Nairobi,1,8056020.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.90,Nairobi,1,8056020. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,1.00,Nairobi,1,8056020.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.10,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.20,Osaka,1,1679215.14,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.30,Osaka,1,1679215.102,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.40,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.50,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.60,Osaka,1,1679215.<|end_of_text|>,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.70,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.80,Osaka,1,1679215.ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,0.90,Osaka,1,1679215. ont,4f1d9e2
+meta-llama/Llama-3.1-8B,all,int4a_kh,int4a_tok_h,int4a_tok,65536,1.00,Osaka,1,1679215.<|end_of_text|>,4f1d9e2

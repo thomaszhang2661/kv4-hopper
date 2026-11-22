@@ -1,0 +1,8 @@
+nvfp4 diag=0 (normal           ) B= 32 S=16384: 0.1822 ms (69% of peak at 72 B/row)
+nvfp4 diag=1 (no reconstruction) B= 32 S=16384: 0.1595 ms (79% of peak at 72 B/row)
+nvfp4 diag=2 (no MMA           ) B= 32 S=16384: 0.1667 ms (75% of peak at 72 B/row)
+int4a                         B= 32 S=16384: 0.1590 ms (75%)
+nvfp4 diag=0 (normal           ) B=128 S=16384: 0.6679 ms (75% of peak at 72 B/row)
+nvfp4 diag=1 (no reconstruction) B=128 S=16384: 0.5819 ms (86% of peak at 72 B/row)
+nvfp4 diag=2 (no MMA           ) B=128 S=16384: 0.6138 ms (82% of peak at 72 B/row)
+int4a                         B=128 S=16384: 0.5725 ms (83%)
