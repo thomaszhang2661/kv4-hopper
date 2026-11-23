@@ -1,4 +1,4 @@
-# Reproduction map for `paper/main.tex` (11-19; additions 11-21)
+# Reproduction map for `paper/main.tex` and `paper/v2/main.tex` (11-19; additions 11-21, 11-22)
 
 For every table and figure of the paper: what it shows, which result files and analysis script it uses, and the
 Slurm jobs that produced its numbers, with the exact `sbatch` line as Slurm recorded it (`sacct -o SubmitLine`,
@@ -905,6 +905,111 @@ Original runs: 12009230 (seed 2 at 1.25 / 1.5, 4 API servers; TIMEOUT after both
 12044818 (d4052): sbatch --parsable -J kv4srv8 -p gpu --gres=gpu:h200:1 --exclude=d4077 --mem=24G -t 01:30:00 --export=ALL,KV4_COMMIT=e0a826c,W=_reason,IN=1024,OUT=8192,RANGE=0.5,NP=150,NPT=600,APISRV=4,SEED=0,RTAG=_a4,RATES=0.25 0.5 slurm/vllm_serve.sbatch
 12044819 (d4052): sbatch --parsable -J kv4srv8 -p gpu --gres=gpu:h200:1 --exclude=d4077 --mem=24G -t 01:00:00 --export=ALL,KV4_COMMIT=e0a826c,W=_reason,IN=1024,OUT=8192,RANGE=0.5,NP=150,NPT=600,SEED=0,RTAG=_rep,CONFIGS=recipe,RATES=0.25 0.5 slurm/vllm_serve.sbatch
 ```
+
+## 11-22 additions (arXiv resubmission and the TMLR draft `paper/v2/main.tex`)
+
+Sources: the experiment logs named per item (each holds predictions written before the jobs, the verdicts and the
+exact settings). SubmitLines were not re-queried from `sacct` for these jobs; the logs give job id, node, commit
+label (`KV4_COMMIT`, a label as above) and the script/mode. Slurm account flags are dropped.
+"Missing locally" = referenced by the log or paper but not in `results/`; those exist only on the cluster
+(`~/kv4-hopper`, `~/kv4-fa4d`, ...) and were not fetched. The full list is at the end of this section.
+`repro/reproduce.sh` does not pick these up (no `## Table` headings with `sbatch` lines).
+
+### Table `tab:fa4` (arXiv Section 5 and v2) - FlashAttention-4 native FP8 against XQA and ours, kernel level, 11 shapes
+
+Log: our internal experiment log ("Kernel level"). Job 12060092 (H200 SXM d4054, KV4_COMMIT a930689, `slurm/fa4_kernel.sbatch`,
+`bench/fa4_fp8_bench.py`; FA4 in `vllm_fa4` env, ours and XQA in `kv4base`, CUDA-graph replays, one job). Files:
+`results/fa4_fp8_H200_v1.csv` (+ `_ours`, `_fa4`), `results/fa4_kernel-12060092.log`. Smoke runs (H200 NVL d4077, not
+used for numbers): kernel 12059232, vLLM 12059233 (`results/fa4_fp8_H200NVL_smoke*.csv`, `results/vllm_forward_fa4_smoke/`
+is empty locally). Env build: 12059225 (first submitted as 12058887, cancelled), `results/vllm_forward_fa4/setup_fa4_env-12059225.log`;
+FlashAttention commit `8ef2c611`, vLLM `0d99666a` / wheel `0.34.0rc1.dev955+g0d8b46bf3`. Numbers that trace here:
+FA4 at 85-89% of peak at B >= 8 (71% at 32 x 4K), faster than XQA at 8 of 11 shapes, best-FP8 / ours 1.12-1.49x (K8: 1.16-1.68x),
+about 30 us FA4 host overhead per call in eager timing (margin 1.23-1.73x), FA4 error 1.1-2.5e-3 vs FP32 reference
+(below the 3.4e-3 / 1.5e-3 of rounding q to E4M3; Section "Correctness" of the log). Both papers.
+
+### arXiv limitations ("FP8 baselines") and v2 Table `tab:fa4vllm` - FA4 inside vLLM, same build, per decode step
+
+Log: our internal experiment log (runs 1-3) and our internal experiment log ("vLLM decode step", cross-build estimate).
+- Per step (Llama-3.1-8B, dummy weights, 9 cases, `vllm bench forward`, `fp8` -> FA4, `fp8_fi_xqa`, `plugin_recipe`, `plugin_recipe_k8`,
+  one job): **12060667** (H200 SXM d4053, KV4_COMMIT d6df814). Files: `results/vllm_forward_fa4d/Llama-3.1-8B_{fp8,fp8_fi_xqa,plugin_recipe,plugin_recipe_k8}.{json,log}`.
+  Paper numbers: recipe / FA4 1.04-1.24x at B >= 8, 0.99-1.00x at B = 1; C1 1.06-1.34x; FA4 / XQA 0.78-1.00; recipe / XQA 1.00-1.59x in the same job.
+- Perplexity on the dev build (5.4831 recipe, 5.4858 recipe_k8; 0.33: 5.4841 / 5.4858 = 12056102 / 11-21): **12060665** (H200 SXM d4055),
+  `results/vllm_forward_fa4d/ppl-12060665.log`.
+- Cross-build estimate and "0.65-1.4 ms slower outside attention": **12060132** (H200 SXM d4054, one job, both envs one after the other, KV4_COMMIT a930689),
+  `results/vllm_forward_fa4/{v033,pr63139}/*.json`, `results/vllm_forward_fa4/fa4_vllm_forward-12060132.log`. FA4 and XQA reproduce between 12060132 and 12060667 within 0.3%.
+- Serving capacity (v2 `sec:fa4vllm`): FP8 (FA4) at 1.25 / 1.3 / 1.35 and `recipe_k8` at 1.65 / 1.7 in one job **12063653** (H200 SXM d4053, KV4_COMMIT f7dc862);
+  FP8 (FA4) at 1.2 / 1.275 in **12069461** (H200 SXM d4054, KV4_COMMIT 40d6200, another node). Settings as `tab:capacity`
+  (`W=_reason IN=1024 OUT=8192 RANGE=0.5 NP=150 NPT=600 APISRV=4 SEED=0`, `RTAG=_fa4`, config `fp8_fa4` in `slurm/vllm_serve.sbatch`).
+  Shares: `bench/analyze_serve.py --boot 1000` jobs 12069409 and 12070303 -> `results/serve_goodput_fa4_11-22.csv`. Logs: `results/vllm_forward_fa4d/serve-12063653.log`,
+  `serve-12069461.log`. Bracket FP8-FA4 [1.25, 1.275), C1 [1.65, 1.7), ratio 1.32-1.33x; 99.2% at 1.25, 85.8% at 1.275, 89.9% at 1.3; 94.3% at 1.7.
+  **Missing locally:** the per-run serving JSONs (`~/kv4-fa4d/results/vllm_serve_x/`, tag `_fa4`).
+
+### v2 `sec:c1` (K on FP8 tensor cores) and C1 capacity on 32B and 72B
+
+Kernel, per step, perplexity, NVBit: see "11-21 additions" above and our internal experiment log (12042910, 12043372, 12053678, 12055370 -> `results/k8_paged_H200_v1.csv`,
+`results/k8g8_v2.csv`, `results/k8_paged_H200_g8fix.csv`; fused q prep 12054307 / 12054318 -> `results/vllm_forward_k8_fused/`; perplexity 12053751 / 12053752 -> `results/vllm_ppl_k8_11-21.txt`).
+Capacity on Llama-3.1-8B (recipe_k8 at 1.6 / 1.65 / 1.7 / 1.75; 1.65 in 12054273 and 12058371, recipe at 1.65 in 12036489 / 12058371; shares 1.000 / 1.000 / 0.959 [0.946, 0.971] / 0.880):
+jobs 12054273, 12058371, 12058460, analyze_serve 12060126 / 12060187 -> `results/serve_goodput_x_11-22.csv` (cited by the v2 TODO comment and our internal experiment log).
+**Missing locally:** `results/serve_goodput_x_11-22.csv` and the Llama C1 serving JSONs.
+
+Larger models, our internal experiment log (`CONFIGS=recipe_k8`, `RTAG=_k8cap`, seed 0 unless `_s1k8cap`; all H200 SXM d4054 / d4055 / d4053, main-tree commit c6ee470):
+Qwen3-32B 0.45 / 0.5 = 12060190 (KV capacity 827,072 tokens), 0.4 = 12060553, 0.4 seed 1 = 12060769; Qwen2.5-72B 0.275 / 0.3 = 12060241 (KV capacity 553,280), 0.25 = 12063644,
+0.25 seed 1 = 12063993. Recipe / FP8 comparison runs are the 11-21 jobs above (12034671, 12034672, 12040415, 12040416, ...). Exact shares: analyze_serve **12064663** ->
+`results/serve_goodput_x_k8cap.csv` (32B at 0.45: 0.930 [0.900, 0.959] vs recipe 0.874, 116 vs 194 preemptions; 72B at 0.25: 0.987 / 1.000 vs 0.993 / 1.000;
+72B at 0.275: 0.861 vs 0.855). Conclusion in both papers: C1 does not move the 32B / 72B brackets at these rate steps. **Missing locally:** the per-run serving JSONs (tag `_k8cap`, `_s1k8cap`).
+
+### Table `tab:capacity` in v2 - unchanged inputs, new caption facts
+
+Same files and jobs as the 11-21 section (`results/serve_goodput_x_11-21.csv`, analyze_serve 12045665). The v2 caption's FP8-weight per-step range 1.15-1.70x
+is `results/vllm_forward_w8/` (12034667); the 72B 1.04-1.18x and 0.95% / 0.88% / 0.03% perplexity are `results/vllm_forward_72b/` (12037666) and `results/vllm_ppl_qwen2_5-72b-instruct-fp8.txt` (12037667).
+
+### v2 limitations "Prefill" and "Small batch", and the profile appendix numbers
+
+Log: our internal experiment log (code in `~/kv4-prof` on the cluster, `-p gpu-short`, H200 SXM d4054 / d4055, `--exclude=d4052,d4077`; predictions committed a1aa512 / d9e7078 before the jobs).
+- Prefill, 8 x 32,000 tokens, FP8 vs recipe: 12058840 (KV4_COMMIT a1aa512, ran 0db3a3d, `MODE=prefill`), `results/profile_11-22/prefill_{kernels,summary}_{recipe,fp8_fi_xqa}_12058840.csv`, `kv4prefP-12058840.out`.
+  The paper's 9.29 vs 8.66 s (7%) comes from the earlier job **11850980** (round-2 profile, 11-13; log not in `~/kv4-hopper/logs`, backed by our internal experiment log 11-13 and the 11-22 profile's agreement).
+- FP8-prefill option (5-7% slower than BF16; FA3 FP8 prefill 3-12% slower than its BF16): 12060170 (`MODE=prefill`, `CONFIGS=fp8_fi_xqa,recipe,recipe_pfp8,fp8_fi_xqa_rep`, d9e7078),
+  `results/profile_11-22/prefill_{kernels,summary}_{fp8_fi_xqa,recipe,recipe_pfp8,fp8_fi_xqa_rep}_12060170.csv`, `kv4prefF-12060170.out`. 12060169 (mangled config list) and 12058836 (prebuild) were cancelled; 12058841 was cancelled by its dependency.
+- Small-batch per-kernel profile (decode kernel 382 us vs 702 us per token, sink merge 269 us = 8.7 us per layer, store, q rotation; B = 1 x 16K / 1 x 64K / 4 x 32K): 12059226
+  (`MODE=decode`, resubmission of 12058841), `results/profile_11-22/decode_{kernels,summary}_{recipe,recipe_s32,fp8_fi_xqa}_12059226.csv`, `smallbatch_splits_12059226.csv`, traces `*_12059226_trace.json.gz`.
+  The 382 / 269 us figures in the paper text are the earlier job **11873291** (per-token profile, 11-13); 12059226 reproduces them.
+- Kernel-level split sweep: 12060828 (d4055, `MODE=splits`) and the same sweep inside 12059226, `results/profile_11-22/smallbatch_splits_{12059226,12060828}.csv`, `kv4splP-12060828.out`; the two agree within 1%.
+
+### Merge v2 (`KV4_MERGE=v2`, default off; not in the arXiv paper, available for the v2 "small batch" discussion)
+
+Log: our internal experiment log. Code `kv4/cuda/merge.cu` (`merge_sink_pool_v2_kernel`), `bench/merge_v2_check.py`, `bench/vllm_forward_mergev2.py`, `slurm/merge_v2.sbatch`; own copy `~/kv4-merge`, `gpu-short`.
+- Kernel level (correctness: normwise 6.8e-7 in fp32; timing: merge 2-6.5x faster at B = 1, a layer at 1 x 64K 43.3 -> 35.1 us): **12064139** (H200 SXM d4053, submitted with KV4_COMMIT 35d56da, ran d6c0c96),
+  `results/merge_v2/merge_v2_timing_12064139.csv`.
+- Per step (Llama-3.1-8B, recipe with `KV4_SINK_TIMING=1`; v2 at 16 splits -1.66% / -1.46% / -0.79% / -0.34% at 1 x 16K / 1 x 64K / 4 x 32K / 8 x 16K; 33 splits -2.90% at 1 x 64K; 528-CTA rule +0.7 to +2.1%):
+  **12064141** (H200 SXM d4054, `--dependency=afterok:12064139`), `results/merge_v2/Llama-3.1-8B_plugin_recipe{,_mv2,_mv2_s33,_mv2_s64,_rep}.json`.
+
+### C2 (P V on Hopper FP8 tensor cores, `KV4_K8=2`; not in the arXiv paper)
+
+Log: our internal experiment log. Code listed there (`kv4/cuda/decode_fp4_k8.cu` C2 flag, `store_fp4.cu`, `bench/c2_check.py`, `slurm/c2_build.sbatch`, `slurm/c2_check.sbatch`). Cluster logs are copied to `results/c2_logs/*.out.txt`.
+| item | job (node, commit) | result file |
+|---|---|---|
+| compile, ptxas (0 spills; real loop 505 vs 664 instr per stage) | 12060295 (CPU short, 41ab32f) | `logs/kv4c2b-12060295.out`, `logs/sass-12060295-c2v{0,3}/` (**missing locally**) |
+| plugin end to end, needles 4/4 + 4/4 | 12060419 (sharing d4077, 2f12f90) | `results/c2_logs/kv4c2e2e-12060419.out.txt` |
+| in-vLLM perplexity Llama-3.1-8B (BF16 5.4809, k8 5.4858, c2 5.4872; +0.026% over k8) | 12060694 (sharing d4077, 1f8654f) | `results/c2_logs/kv4pplc2-12060694.out.txt` |
+| in-vLLM perplexity Qwen2.5-7B-Instruct (6.2692 / 6.2729 / 6.2743; +0.022%) | 12060731 (sharing d4077, 1f8654f) | `results/c2_logs/kv4pplc2q-12060731.out.txt` |
+| checks attempt 1 (failed its own checks) | 12060380 (d4054, a33e51b) | none (log only) |
+| per step, FP8 XQA / k8 / c2 (c2 4-7% slower at B <= 8, 1.01-1.02x faster at B >= 32) | 12063778 (H200 SXM d4053, ab754bd) | `results/vllm_forward_c2/Llama-3.1-8B_{fp8_fi_xqa,plugin_recipe_k8,plugin_recipe_c2}.json`, `results/c2_logs/kv4fwdc2-12063778.out.txt` |
+| checks attempt 2 (store/decode bugs, gated off) | 12063759 (SXM d4053) | none beyond the log |
+| where the small-batch loss sits | 12065757 (sharing d4077, 646cd8b) | `results/c2_logs/kv4c2sm-12065757.out.txt` |
+| checks, store fix; hypotheses 2 and 3 | 12065862 (c0785aa), 12065971 (ae478f7), 12066012 (cd91fc5, all checks ok) (sharing d4077) | `results/c2_logs/kv4c2ck-12066012.out.txt` (12065862 / 12065971: log text in our internal experiment log only) |
+| bracketed per step (k8 / c2 = 0.922 / 0.934 / 0.964 at 1 x 16K / 1 x 32K / 8 x 16K) | 12066045 (sharing d4077, 38dfad5) | `results/vllm_forward_c2_bracket/*.json`, `results/c2_logs/kv4fwdc2b-12066045.out.txt` |
+| kernel speed 11 shapes (k8 / c2 1.07-1.08x at B >= 8), NVBit (2.27 vs 2.96 instr per value) | 12065972 (H200 SXM d4054, submitted ae478f7, ran cd91fc5) | `results/c2_speed_H200_v1.csv`, `results/nvbit_c2/summary_12065972.txt`, `results/c2_logs/kv4c2-12065972.out.txt` |
+| offline KL / rowwise KL / E4M3-P error, three models | (CPU runs, jobs not listed in the log) | `results/c2_kl_*_sink4.csv`, `results/c2_kl_row_*`, `results/c2_pe4m3_*` |
+
+### Missing locally (exist only on the cluster; not fetched)
+
+- `results/serve_goodput_x_11-22.csv` and the Llama-3.1-8B C1 serving JSONs (12054273, 12058371, 12058460; analyze_serve 12060126 / 12060187). The v2 TODO comment cites this CSV.
+- Serving JSONs for the C1 capacity runs (tag `_k8cap` / `_s1k8cap`; jobs 12060190, 12060241, 12060553, 12060769, 12063644, 12063993); only the summary CSV `results/serve_goodput_x_k8cap.csv` is local.
+- Serving JSONs of the FA4 capacity runs (`~/kv4-fa4d/results/vllm_serve_x/`, tag `_fa4`; jobs 12063653, 12069461); only the SLO CSV and the two job logs are local.
+- `logs/kv4c2b-12060295.out` and `logs/sass-12060295-c2v{0,3}/` (C2 compile); logs of 12060380, 12063759, 12065862, 12065971 (C2 attempts, text in our internal experiment log).
+- Empty locally: `results/vllm_forward_fa4_smoke/` (smoke, not used for numbers).
+- SubmitLines: none of the 11-22 items has one in this map; everything above gives job, node and commit only, not the `sacct` SubmitLine; query `sacct -j <id> -o SubmitLine%400` on the login node if an exact line is needed.
+- Older, still open: 11850980 and 11873291 logs (prefill / small-batch profile numbers quoted in v2), listed under UNKNOWN items.
 
 ## UNKNOWN items
 

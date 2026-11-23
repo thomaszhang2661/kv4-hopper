@@ -24,13 +24,22 @@ MAXLEN=${MAXLEN:-$(python3 -c "import math;print(int(math.ceil(($IN + $OUT) * (1
 # everything here is local and offline, so drop the proxy
 unset http_proxy https_proxy ftp_proxy HTTP_PROXY HTTPS_PROXY
 export no_proxy=127.0.0.1,localhost NO_PROXY=127.0.0.1,localhost
-export HF_HOME=/scratch/$USER/hf_cache HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 VLLM_CACHE_ROOT=/scratch/$USER/vllm_cache
-COMPAT=$(dirname $(find /scratch/$USER/envs/cuda13compat -name "libcuda.so.1" | head -1))
-DRV=$(nvidia-smi --query-gpu=driver_version --format=csv,noheader | head -1 | cut -d. -f1)
-if [ "${DRV:-0}" -lt 580 ]; then export LD_LIBRARY_PATH=$COMPAT:${LD_LIBRARY_PATH:-}; fi
-source /scratch/$USER/envs/vllm/bin/activate
 cd "$SLURM_SUBMIT_DIR"
-export PYTHONPATH=$SLURM_SUBMIT_DIR:$SLURM_SUBMIT_DIR/integrations/vllm_plugin TORCH_EXTENSIONS_DIR=/scratch/$USER/torch_ext_vllm$([ "$(basename $SLURM_SUBMIT_DIR)" = kv4-hopper ] || echo _$(basename $SLURM_SUBMIT_DIR)) TORCH_CUDA_ARCH_LIST=9.0a MAX_JOBS=16
+EXT=/scratch/$USER/torch_ext_vllm$([ "$(basename $SLURM_SUBMIT_DIR)" = kv4-hopper ] || echo _$(basename $SLURM_SUBMIT_DIR))
+if [ "${KV4_ENV:-}" = fa4 ]; then
+  # 11-22: the vllm_fa4 env (vLLM 0.34 dev + FA #206 + vLLM #63139, slurm/fa4_env.sh; docs/fa4_vllm_direct_log.md):
+  # there plain fp8 decodes with FA4 native FP8 (config fp8_fa4). Own torch extension dir; plugin installed on first use.
+  source slurm/fa4_env.sh
+  EXT=/scratch/$USER/torch_ext_vllmfa4_$(basename $SLURM_SUBMIT_DIR)
+  pip show -q kv4-vllm 2>/dev/null || pip install -q --no-deps --no-build-isolation -e $SLURM_SUBMIT_DIR/integrations/vllm_plugin
+else
+  export HF_HOME=/scratch/$USER/hf_cache HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 VLLM_CACHE_ROOT=/scratch/$USER/vllm_cache
+  COMPAT=$(dirname $(find /scratch/$USER/envs/cuda13compat -name "libcuda.so.1" | head -1))
+  DRV=$(nvidia-smi --query-gpu=driver_version --format=csv,noheader | head -1 | cut -d. -f1)
+  if [ "${DRV:-0}" -lt 580 ]; then export LD_LIBRARY_PATH=$COMPAT:${LD_LIBRARY_PATH:-}; fi
+  source /scratch/$USER/envs/vllm/bin/activate
+fi
+export PYTHONPATH=$SLURM_SUBMIT_DIR:$SLURM_SUBMIT_DIR/integrations/vllm_plugin TORCH_EXTENSIONS_DIR=$EXT TORCH_CUDA_ARCH_LIST=9.0a MAX_JOBS=16
 # 11-18: this script unsets the proxy (above), so vLLM's has_nvidia_artifactory() failed and every fp8_fi server
 # decoded with FlashInfer's native kernel ("decode_backend=flashinfer-native"), not the XQA kernel vLLM picks on a
 # connected H200. fp8_xqa passes the gate with VLLM_HAS_FLASHINFER_CUBIN=1 (SM90 XQA is JIT-built, no cubin needed) and
@@ -62,6 +71,8 @@ for cfg in $CONFIGS; do
     fp8_fi) envs="KV4_VLLM=0"; args="--kv-cache-dtype fp8 --attention-backend FLASHINFER" ;;
     fp8_xqa) envs="KV4_VLLM=0 VLLM_HAS_FLASHINFER_CUBIN=1"; args="--kv-cache-dtype fp8 --attention-backend FLASHINFER" ;;
     fp8)    envs="KV4_VLLM=0"; args="--kv-cache-dtype fp8" ;;
+    fp8_fa4) [ "${KV4_ENV:-}" = fa4 ] || { echo "RESULT $cfg: needs KV4_ENV=fa4"; continue; }  # 11-22: FA4 native FP8
+            envs="KV4_VLLM=0"; args="--kv-cache-dtype fp8" ;;
     bf16)   envs="KV4_VLLM=0"; args="--kv-cache-dtype auto" ;;
   esac
   echo "=== $cfg: $envs vllm serve $MODEL $args $common"
@@ -78,7 +89,9 @@ for cfg in $CONFIGS; do
   if [ $ok != 1 ]; then echo "RESULT $cfg: server not healthy after 10 min"; tail -20 logs/serve-$SLURM_JOB_ID-$cfg.log; kill -9 -- -$srv; continue; fi
   grep -E "KV cache size|Maximum concurrency|kv4-hopper" logs/serve-$SLURM_JOB_ID-$cfg.log | head -5
   echo "RESULT $cfg: backend $(grep -oE "decode_backend=[a-z_-]+, kv_cache_dtype=[a-z0-9_.]+" logs/serve-$SLURM_JOB_ID-$cfg.log | sort -u | tr '\n' ' ')"  # 11-18
-  for r in $RATES; do
+  echo "RESULT $cfg: env ${KV4_ENV:-vllm033}, FA $(grep -oE "upgrading FlashAttention [0-9] -> [0-9]|FlashAttention version [0-9]|kv4-hopper: ultraquant_4bit[^,]*" logs/serve-$SLURM_JOB_ID-$cfg.log | sort -u | tr '\n' ';')"  # 11-22
+  rv=RATES_$cfg  # 11-22: per-config rates (e.g. RATES_fp8_fa4="1.25 1.3"), default RATES
+  for r in ${!rv:-$RATES}; do
     np=$NP; [ "$NPT" != 0 ] && [ "$r" != inf ] && np=$(python3 -c "print(max($NP, int($r * $NPT)))")
     # 11-13: server side, every 2 s: KV cache usage, running / waiting requests, preemptions (counter) -> csv
     mcsv=$SDIR/metrics_$(basename $MODEL)_${cfg}${W}_r${r}${RTAG:-}.csv

@@ -11,6 +11,10 @@ KV4_CALIB=... KV4_KMEAN=1 KV4_SINKS=1 KV4_BOUNDARY=0.
 KV4_K8=1 (11-21, C1, default off; with KV4_FORMAT=nvfp4): K is stored with one E4M3 scale per 32 dims in the layout of
 kv4/cuda/decode_fp4_k8.cu and QK^T runs on FP8 tensor cores (q in E4M3 with one scale per sequence and kv head); V,
 the page size (9216) and everything else as the recipe. docs/c1_plugin_log.md.
+KV4_K8=2 (11-22, C2, default off): C1 plus P V on FP8 tensor cores: V stored with one E4M3 scale per (channel, 32
+tokens of a page) (StoreC2), P rounded to E4M3 in the kernel (decode_fp4_k8.cu C2). Same 9216-byte pages. With sinks,
+the C2 kernel masks the first 4 tokens of sequences with a valid sink slot and merge_sink_pool_c2 adds the BF16 sinks
+(no subtraction of 4-bit copies). docs/c2_log.md.
 """
 import math
 import os
@@ -29,6 +33,13 @@ MAP_SIZE = 1 << 18  # block ids covered by the sink map (16.7M tokens at 64 per 
 
 
 _MAX_SPLITS = int(os.environ.get("KV4_MAX_SPLITS", "16"))
+# 11-22 (docs/smallbatch_merge_log.md): KV4_MERGE=v2 runs the sink merge with its splits spread over warps
+# (merge.cu merge_sink_pool_v2_kernel, KV4_MERGE_WARPS warps at most, default 8); default v1 = the old kernel.
+# KV4_SPLIT_CTAS: the CTA target of the split rule splits = min(KV4_MAX_SPLITS, KV4_SPLIT_CTAS // (B * H_kv)), default
+# 2 * 132 as before (B = 1 can then reach 33 splits, B = 4 at most 8).
+_MERGE_V2 = os.environ.get("KV4_MERGE", "v1") == "v2"
+_MERGE_WARPS = int(os.environ.get("KV4_MERGE_WARPS", "8"))
+_SPLIT_CTAS = int(os.environ.get("KV4_SPLIT_CTAS", str(2 * NUM_SMS)))
 # 11-21 (KV4_K8 only): KV4_K8_PREP=two keeps the old q prep in two launches (prep_q_rot + prep_q8); default one launch
 _K8_PREP_TWO = os.environ.get("KV4_K8_PREP", "one") == "two"
 
@@ -101,7 +112,7 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
     def _kv4(self, device, layer=None):
         self._kv4_set_layer(layer)
         if self._kv4_store is None:
-            from kv4.cuda.store_fp4 import StoreK8, StoreMXFP4, StoreNVFP4
+            from kv4.cuda.store_fp4 import StoreC2, StoreK8, StoreMXFP4, StoreNVFP4
             assert self.head_size == 128 and self.num_heads % self.num_kv_heads == 0 and \
                 1 <= self.num_heads // self.num_kv_heads <= 8, "kv4 kernels: head_dim 128, 1..8 query heads per kv head"
             self._kv4_nv = _fmt() == "nvfp4"
@@ -116,12 +127,15 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
                 sfx = "_s" if os.environ.get("KV4_SINKS") == "1" and "ts_k_s" in cal and \
                     os.environ.get("KV4_SINK_SCALE", "1") == "1" else ""
                 ts_k = cal["ts_k" + sfx] if mean else cal["ts_k_nomean" + sfx]
-                self._kv4_k8 = os.environ.get("KV4_K8") == "1"
-                store_cls = StoreK8 if self._kv4_k8 else StoreNVFP4
+                k8env = os.environ.get("KV4_K8", "0")
+                self._kv4_c2 = k8env == "2"  # 11-22: C2 = K8 + P V on FP8 tensor cores
+                self._kv4_k8 = k8env == "1"
+                store_cls = StoreC2 if self._kv4_c2 else StoreK8 if self._kv4_k8 else StoreNVFP4
                 self._kv4_store = store_cls(device, ts_k, cal["ts_v" + sfx], rot_k=True)
                 self._kv4_args = self._kv4_store.decode_args(self.scale)
                 logger.info_once("kv4-hopper: ultraquant_4bit slots as NVFP4 + Hadamard K (recipe format), K mean %s, "
-                                 "K8 (K on FP8 tensor cores) %s", mean, self._kv4_k8)
+                                 "K8 (K on FP8 tensor cores) %s, C2 (PV on FP8 tensor cores) %s", mean, self._kv4_k8,
+                                 self._kv4_c2)
             else:
                 c = float(os.environ.get("KV4_SCALE_C", "0.156"))
                 self._kv4_store = StoreMXFP4(device, rot_k=True, c=c)
@@ -215,9 +229,26 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
         self._kv4(query.device, layer)
         b = query.shape[0]
         # 11-13: KV4_MAX_SPLITS (default 16); with few KV heads (Qwen3-30B-A3B: 4) B=1 gave only 64 CTAs on 132 SMs
-        splits = max(1, min(_MAX_SPLITS, (2 * NUM_SMS) // max(1, b * self.num_kv_heads)))
+        splits = max(1, min(_MAX_SPLITS, _SPLIT_CTAS // max(1, b * self.num_kv_heads)))
         hk, g = self.num_kv_heads, self.num_heads // self.num_kv_heads
         gk = 4 if g <= 4 else 8  # 11-12: the kernel runs 4 or 8 heads per kv head; q is zero-padded to that
+        if getattr(self, "_kv4_c2", False):  # 11-22 C2: q prep as C1; the kernel masks valid sinks, the merge adds them
+            from kv4.cuda import decode_fp4_k8 as k8
+            q8, qs, _ = mg.prep_q_rot8(query, hk, True)
+            pages = self._kv4_pages(kv_cache)
+            if self._kv4_sinks:
+                o, ml = k8.decode_paged_c2(pages, attn_metadata.block_table, attn_metadata.seq_lens, q8, qs,
+                                           *self._kv4_args, splits, gk, self._smap, self._owner_arg, NSK)
+                out = k8.ext().merge_sink_pool_c2(o, ml, query.to(torch.bfloat16).contiguous(),
+                                                  attn_metadata.block_table, self._smap, self._owner_arg, self._sk,
+                                                  self._sv, g, self.scale * 1.4426950408889634, k8.P_SHIFT_C2)
+                return out.to(query.dtype)
+            o, ml = k8.decode_paged_c2(pages, attn_metadata.block_table, attn_metadata.seq_lens, q8, qs,
+                                       *self._kv4_args, splits, gk)
+            out = mg.ext().merge(o, ml)
+            if gk != g:
+                out = out.view(b, hk, gk, -1)[:, :, :g].reshape(b, hk * g, -1)
+            return out.to(query.dtype)
         if getattr(self, "_kv4_k8", False):  # 11-21 C1: q in E4M3 per (sequence, kv head); the sink merge below must
             from kv4.cuda import decode_fp4_k8 as k8  # use the q the kernel used (qd) so the 4-bit sink copies cancel
             if _K8_PREP_TWO:  # the 11-21 two-launch prep (prep_q_rot, then prep_q8), kept for timing comparisons
@@ -236,9 +267,13 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
         if self._kv4_sinks:  # swap the 4-bit copies of the first NSK tokens for the BF16 sinks (real heads only)
             st = self._kv4_store
             k4m, v4m = (st.ts_k, st.ts_v) if self._kv4_nv else (1.0, 1.0)
-            out = mg.ext().merge_sink_pool(o, ml, query.to(torch.bfloat16).contiguous(), qh, attn_metadata.block_table,
-                                           self._smap, self._owner_arg, self._sk, self._sv, self._k4, self._v4, g,
-                                           self.scale * 1.4426950408889634, k4m, v4m, mg.P_SHIFT)
+            margs = (o, ml, query.to(torch.bfloat16).contiguous(), qh, attn_metadata.block_table, self._smap,
+                     self._owner_arg, self._sk, self._sv, self._k4, self._v4, g, self.scale * 1.4426950408889634, k4m,
+                     v4m, mg.P_SHIFT)
+            if _MERGE_V2:  # 11-22: same result up to fp32 summation order (bench/merge_v2_check.py)
+                out = mg.ext().merge_sink_pool_v2(*margs, _MERGE_WARPS, False)
+            else:
+                out = mg.ext().merge_sink_pool(*margs)
             return out.to(query.dtype)
         out = mg.ext().merge(o, ml)
         if gk != g:  # drop the padded heads (e.g. Qwen2.5-7B: 7 of 8)
@@ -322,7 +357,10 @@ class KV4UltraQuantImpl(UltraQuantAttentionImpl):
                     # (the profile showed ~480 ms of cat / copies at B=8 x 32K before)
                     kf = torch.empty(sl, *k.shape[1:], device=dev, dtype=torch.bfloat16)
                     vf = torch.empty_like(kf)
-                    if getattr(self, "_kv4_k8", False):  # 11-21: K8 pages
+                    if getattr(self, "_kv4_c2", False):  # 11-22: C2 pages
+                        store_ext().dequant_fp4_c2_into(pages, ids.int().contiguous(), cached, *st.tabs, True, ts[0],
+                                                        ts[1], kf, vf)
+                    elif getattr(self, "_kv4_k8", False):  # 11-21: K8 pages
                         store_ext().dequant_fp4_k8_into(pages, ids.int().contiguous(), cached, *st.tabs, True, ts[0],
                                                         ts[1], kf, vf)
                     else:

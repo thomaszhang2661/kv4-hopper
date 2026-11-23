@@ -37,6 +37,22 @@ def _pack_bits(b):
     return int(b[0]) | int(b[1]) << 5 | int(b[2]) << 10 | int(b[3]) << 15
 
 
+def tables_c2():
+    """11-22 C2: K as tables(nv=True, k8=True); V words / bits per (page token o, channel d) from
+    decode_fp4_k8._c2_v_layout (64 * 128 each) and the V scale position per (group o // 32, channel d) (2 * 128).
+    The C2 store kernel computes these positions itself; the dequant kernel reads them from here."""
+    from kv4.cuda import decode_fp4_k8 as k8m
+    kword, kbits, _, _, kspos, _ = tables(nv=True, k8=True)
+    idx, bits = k8m._c2_v_layout()
+    vword, vbits = [0] * (PAGE * D), [0] * (PAGE * D)
+    for w in range(1024):
+        for j in range(8):
+            f = int(idx[w, j])
+            vword[f], vbits[f] = w, _pack_bits(bits[w, j])
+    t = lambda v: torch.tensor(v, dtype=torch.int32)  # noqa: E731
+    return kword, kbits, t(vword), t(vbits), kspos, k8m.c2_vscale_pos().to(torch.int32)
+
+
 def tables(nv: bool = False, k8: bool = False):
     """Page-local positions from decode_fp4.py's layout functions; asserts that all 4 pages of a 256-token stage share
     one local layout. Returns int32 tensors (CPU): kword (128), kbits (128), vword (64*128), vbits (64*128),
@@ -163,6 +179,33 @@ class StoreK8(StoreNVFP4):
 
     def dequant_raw(self, pages, block_ids, n_tokens):
         return ext().dequant_fp4_k8(pages, block_ids.int().contiguous(), int(n_tokens), *self.tabs, False, 1.0, 1.0)
+
+
+class StoreC2(StoreK8):
+    """11-22: C2 (docs/c2_log.md). K as StoreK8; V with one E4M3 scale per (channel, 32 tokens of a page) in
+    decode_fp4_k8.cu's C2 layout, so P V also runs on FP8 tensor cores. Pages stay 9216 bytes (V scales use 256 of
+    their 512 bytes). Requires in-order appends per sequence (a group's scale is a running maximum; see store_fp4.cu)."""
+
+    def __init__(self, device, ts_k: float, ts_v: float, rot_k: bool = True):
+        self.tabs = [x.to(device) for x in tables_c2()]
+        self.rot_k, self.ts_k, self.ts_v = rot_k, float(ts_k), float(ts_v)
+        self.empty = torch.empty(0, device=device, dtype=torch.float32)
+
+    def __call__(self, key, value, slots, pages, mu=None):
+        ext().store_fp4_c2(key.contiguous(), value.contiguous(), slots.contiguous(), pages, *self.tabs,
+                           self.empty if mu is None else mu.float().contiguous(), self.rot_k, self.ts_k, self.ts_v)
+
+    def decode_args(self, sm: float):
+        """(score_mul without the q scale, out_mul) for decode_fp4_k8.decode_paged_c2: K bytes and V bytes are both
+        E4M3 values x 2^-6."""
+        return sm * 1.4426950408889634 * self.ts_k * 64.0, self.ts_v * 64.0
+
+    def dequant(self, pages, block_ids, n_tokens):
+        return ext().dequant_fp4_c2(pages, block_ids.int().contiguous(), int(n_tokens), *self.tabs, self.rot_k,
+                                    self.ts_k, self.ts_v)
+
+    def dequant_raw(self, pages, block_ids, n_tokens):
+        return ext().dequant_fp4_c2(pages, block_ids.int().contiguous(), int(n_tokens), *self.tabs, False, 1.0, 1.0)
 
 
 _GRID = (0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0)

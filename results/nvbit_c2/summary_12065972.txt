@@ -1,0 +1,104 @@
+impl            kernels inst/value  inst/B static budget    BW issue util issue cap  top opcodes per value
+paged_c2g4            1       2.27    4.03    nan    58%  nan%       nan%      100%  LOP3 0.44, IMAD 0.26, FFMA 0.26, SHF 0.18, HADD2 0.12, BRA 0.09, SYNCS 0.08, R2UR 0.07, FMNMX 0.07, F2FP 0.07
+                    4.03 inst/B     256 blocks  void (anonymous namespace)::decode_k8_kernel<true, 4, true>(unsigned char const*, unsigned char const*, unsign
+paged_c2g8            1       2.42    4.30    nan    62%  nan%       nan%      100%  LOP3 0.44, IMAD 0.27, FFMA 0.26, SHF 0.20, HADD2 0.12, FADD 0.10, BRA 0.09, SYNCS 0.09, FMNMX 0.08, F2FP 0.08
+                    4.30 inst/B     256 blocks  void (anonymous namespace)::decode_k8_kernel<true, 8, true>(unsigned char const*, unsigned char const*, unsign
+paged_k8g4            1       2.96    5.26    nan    75%  nan%       nan%      100%  LOP3 0.58, IMAD 0.54, HMUL2 0.25, FFMA 0.16, F2FP 0.16, SHF 0.15, R2UR 0.13, SYNCS 0.11, BRA 0.11, NANOSLEEP 0.08
+                    5.26 inst/B     256 blocks  void (anonymous namespace)::decode_k8_kernel<true, 4, false>(unsigned char const*, unsigned char const*, unsig
+paged_k8g8            1       3.11    5.54    nan    79%  nan%       nan%      100%  LOP3 0.59, IMAD 0.56, HMUL2 0.25, F2FP 0.17, SHF 0.16, R2UR 0.13, FFMA 0.13, SYNCS 0.11, BRA 0.11, FADD 0.10
+                    5.54 inst/B     256 blocks  void (anonymous namespace)::decode_k8_kernel<true, 8, false>(unsigned char const*, unsigned char const*, unsig
+paged_nvfp4g4         1       3.57    6.35    nan    91%  nan%       nan%      100%  IMAD 0.79, LOP3 0.77, HMUL2 0.50, F2FP 0.20, R2UR 0.13, SYNCS 0.13, BRA 0.13, HGMMA 0.12, SHF 0.11, NANOSLEEP 0.11
+                    6.35 inst/B     256 blocks  void (anonymous namespace)::decode_nvfp4_kernel<2, false, false, 0, true, 4>(unsigned char const*, unsigned ch
+== opcodes paged_k8g4 (decode kernel)
+  LOP3.LUT = 19565056
+  IMAD.SHL.U32 = 12897024
+  HMUL2 = 8388608
+  FFMA.FTZ = 5515264
+  F2FP.F16.E4M3.UNPACK_B = 5242880
+  SHF.R.U32.HI = 4997120
+  R2UR = 4505600
+  BRA = 3333707
+  SYNCS.PHASECHK.TRANS64.TRYWAIT = 2972326
+  NANOSLEEP = 2389190
+  FMNMX.FTZ = 2361344
+  HGMMA.64x8x16.F32 = 2097152
+  HADD2.F32 = 2097152
+  IMAD = 1912064
+  FADD.FTZ = 1871872
+  LDS.128 = 1575936
+  IMAD.MOV.U32 = 1406575
+  SHFL.BFLY = 1064960
+  QGMMA.64x8x32.F32.E4M3.E4M3 = 1048576
+  UMOV = 961536
+  IADD3 = 960256
+  IMAD.X = 921856
+  MUFU.EX2 = 790528
+  LDS.64 = 786432
+  IMAD.IADD = 593920
+  FMUL.FTZ = 553216
+  STS.U16 = 541696
+  WARPGROUP.DEPBAR.LE = 524288
+  WARPGROUP.ARRIVE = 524288
+  SHFL.UP = 524288
+== opcodes paged_c2g4 (decode kernel)
+  LOP3.LUT = 14651904
+  FFMA.FTZ = 8660992
+  SHF.R.U32.HI = 6045696
+  IMAD.SHL.U32 = 4772608
+  HADD2.F32 = 4194304
+  BRA = 2644045
+  R2UR = 2473984
+  FMNMX.FTZ = 2361344
+  SYNCS.PHASECHK.TRANS64.TRYWAIT = 2199986
+  QGMMA.64x8x32.F32.E4M3.E4M3 = 2097152
+  F2FP.F16.E4M3.UNPACK_B = 2097152
+  FADD.FTZ = 1871872
+  UMOV = 1750272
+  NANOSLEEP = 1669829
+  FMUL.FTZ = 1601792
+  IMAD = 1337600
+  SHFL.BFLY = 1064960
+  LDS.128 = 1051648
+  LDS.64 = 1048576
+  IMAD.MOV.U32 = 916379
+  IMAD.IADD = 862208
+  MUFU.EX2 = 790528
+  VIADD = 593152
+  UIADD3 = 590336
+  STS.U8 = 532480
+  WARPGROUP.DEPBAR.LE = 524288
+  WARPGROUP.ARRIVE = 524288
+  SHFL.UP = 524288
+  IADD3 = 499200
+  UIADD3.X = 393216
+== opcodes paged_c2g8 (decode kernel)
+  LOP3.LUT = 14647808
+  FFMA.FTZ = 8660992
+  SHF.R.U32.HI = 6569984
+  IMAD.SHL.U32 = 4770304
+  HADD2.F32 = 4194304
+  FADD.FTZ = 3440640
+  BRA = 2824471
+  FMNMX.FTZ = 2623488
+  R2UR = 2473984
+  SYNCS.PHASECHK.TRANS64.TRYWAIT = 2380900
+  FMUL.FTZ = 2126080
+  QGMMA.64x8x32.F32.E4M3.E4M3 = 2097152
+  F2FP.F16.E4M3.UNPACK_B = 2097152
+  UMOV = 1881344
+  IMAD = 1863936
+  NANOSLEEP = 1839296
+  MUFU.EX2 = 1314816
+  STS.U8 = 1056768
+  LDS.128 = 1051648
+  LDS.64 = 1048576
+  IMAD.MOV.U32 = 918707
+  IMAD.IADD = 860160
+  SHFL.BFLY = 798720
+  WARPGROUP.DEPBAR.LE = 786432
+  WARPGROUP.ARRIVE = 786432
+  VIADD = 724224
+  UIADD3 = 590336
+  F2FP.SATFINITE.E4M3.F32.PACK_AB_MERGE_C = 524288
+  IADD3 = 499200
+  SYNCS.PHASECHK.TRANS64 = 394148

@@ -23,6 +23,20 @@
 // placed so that a byte is an E4M3 value x 2^-6) with ONE E4M3 scale per 32 dims (group = 8 lanes, the NVFP4 scale
 // rule s8 = e4m3(min(amax / 6 / ts, 448))), its 4 scale bytes per token at the MXFP4 K scale positions in the first
 // 256 bytes of the 512-byte K scale region (the rest is unused). V is NVFP4 as before; the page stays 9216 bytes.
+//
+// 11-22: C2 (template C2 with K8; docs/c2_log.md). K as K8. V in decode_fp4_k8.cu's C2 layout: E2M1 with one E4M3
+// scale per (channel, 32-token group of the page), s8 = e4m3(min(amax / 6 / ts, 448)) over the group's tokens, the
+// NVFP4 rule along tokens (kv4.formats "nvfp4_t32" with a given tensor scale). Page: K codes 4096 | K scales 512 (256
+// used) | V codes 4096 | V scales 512 (256 used: byte (wi * 8 + g) * 8 + mt * 4 + 2 gi + h8 for channel
+// 64 mt + 16 wi + 8 h8 + g and group gi; bytes 256..511 unused). Still 9216 bytes.
+// A group's scale depends on all its tokens, but decode appends one token at a time, so the V store keeps a running
+// maximum: the warp of the FIRST token of a group in this batch ("leader") handles all of the group's tokens in the
+// batch (consecutive slots), lane = 4 channels. If the group already holds u0 tokens (written by earlier calls, in
+// order: vLLM appends), its scale becomes max(old, new) and, where it grew, the u0 old codes are re-encoded from their
+// dequantized values (code x old scale) at the new scale; then the new tokens are encoded at the new scale. A group
+// that is written whole in one call (prefill) is exactly nvfp4_t32; one that fills over several calls has the same
+// final scale (max of the rounded maxima = rounding of the max) and differs only in the re-encoded old codes (a second
+// rounding). Requires in-order appends per sequence; a token may not be rewritten after later tokens of its group.
 #include <torch/extension.h>
 #include <ATen/cuda/CUDAContext.h>
 #include <cuda_bf16.h>
@@ -94,12 +108,120 @@ __device__ __forceinline__ uint32_t mask_of(uint32_t bits) {
   return w;
 }
 
+// ---- 11-22 C2 V store (see the header). Bit positions of token position p (0..31) of a group inside its word: byte
+// p % 4; slot L (p < 16): (m, e0, e1, s) at bits (2, 3, 4, 7); slot H (p >= 16): at (0, 1, 6, 5). The word of
+// (channel c, group gi) holding p is lane t = (p % 16) / 4 of channel c's four words.
+__device__ __forceinline__ uint32_t c2_place(int code, int p) {
+  const uint32_t m = code & 1, e0 = (code >> 1) & 1, e1 = (code >> 2) & 1, s = (code >> 3) & 1;
+  const uint32_t b = p < 16 ? (m << 2) | (e0 << 3) | (e1 << 4) | (s << 7) : m | (e0 << 1) | (e1 << 6) | (s << 5);
+  return b << (8 * (p & 3));
+}
+__device__ __forceinline__ int c2_code(uint32_t w, int p) {
+  const uint32_t b = (w >> (8 * (p & 3))) & 0xFFu;
+  return p < 16 ? (int)(((b >> 2) & 1) | (((b >> 3) & 1) << 1) | (((b >> 4) & 1) << 2) | (((b >> 7) & 1) << 3))
+                : (int)((b & 1) | (((b >> 1) & 1) << 1) | (((b >> 6) & 1) << 2) | (((b >> 5) & 1) << 3));
+}
+__device__ __forceinline__ float e2m1_val(int code) {
+  const float grid[8] = {0.f, 0.5f, 1.f, 1.5f, 2.f, 3.f, 4.f, 6.f};
+  const float v = grid[code & 7];
+  return code & 8 ? -v : v;
+}
+
+// One warp; lane = channels 4 lane .. 4 lane + 3. pg = the (page, head) bytes; n = this token's batch index, slot its
+// slot (o = slot % 64). Returns at once unless this token is its group's first one in the batch.
+__device__ __forceinline__ void store_v_c2(const __nv_bfloat16* __restrict__ value, const int64_t* __restrict__ slots,
+                                           uint8_t* __restrict__ pg, int n, int N, int HKV, int h, int64_t slot,
+                                           int o, int lane, float ts) {
+  constexpr int VC = 4096 + 512, VS = 2 * 4096 + 512;
+  const int u0 = o & 31, gi = o >> 5;
+  if (u0 != 0 && n > 0 && slots[n - 1] == slot - 1) return;  // an earlier token of this batch leads the group
+  int k = 1;                                                  // this batch's tokens of the group: n .. n + k - 1
+  while (u0 + k < 32 && n + k < N && slots[n + k] == slot + k) ++k;
+  const int c0 = 4 * lane, mt = c0 >> 6, wi = (c0 >> 4) & 3, h8 = (c0 >> 3) & 1, gb = c0 & 7;  // channel c0 + j: g = gb + j
+  uint32_t* vw = reinterpret_cast<uint32_t*>(pg + VC);
+  auto widx = [&](int j, int t) { return ((mt * 4 + wi) * 32 + 4 * (gb + j) + t) * 4 + 2 * gi + h8; };
+  auto sidx = [&](int j) { return VS + (wi * 8 + gb + j) * 8 + mt * 4 + 2 * gi + h8; };
+  auto load4 = [&](int i, float (&x)[4]) {  // the 4 channels of batch token n + i
+    const __nv_bfloat16* src = value + ((size_t)(n + i) * HKV + h) * D + c0;
+#pragma unroll
+    for (int j = 0; j < 4; ++j) x[j] = __bfloat162float(src[j]);
+  };
+  // 1. new scale = max(old, e4m3 of the new tokens' amax / 6 / ts), per channel (positive E4M3 bytes order as values)
+  float am[4] = {0.f, 0.f, 0.f, 0.f}, x[4];
+  for (int i = 0; i < k; ++i) {
+    load4(i, x);
+#pragma unroll
+    for (int j = 0; j < 4; ++j) am[j] = fmaxf(am[j], fabsf(x[j]));
+  }
+  uint8_t sold[4], snew[4];
+  float so[4], sn[4];
+  bool grow = false;
+#pragma unroll
+  for (int j = 0; j < 4; ++j) {
+    const __nv_fp8_e4m3 q(fminf(am[j] / 6.f / ts, 448.f));
+    sold[j] = u0 ? pg[sidx(j)] : (uint8_t)0;
+    snew[j] = (u0 && sold[j] > q.__x) ? sold[j] : q.__x;
+    grow |= u0 && snew[j] != sold[j];
+    __nv_fp8_e4m3 a, b;
+    a.__x = sold[j], b.__x = snew[j];
+    so[j] = (float)a * ts;
+    sn[j] = fmaxf((float)b * ts, TINY);
+  }
+  // 2. the channel's 4 words of this group: old tokens' bits kept (positions < u0), the rest cleared
+  uint32_t keep[4];
+#pragma unroll
+  for (int t = 0; t < 4; ++t) {
+    uint32_t km = 0;
+#pragma unroll
+    for (int j = 0; j < 4; ++j) {
+      if (4 * t + j < u0) km |= 0x9Cu << (8 * j);
+      if (16 + 4 * t + j < u0) km |= 0x63u << (8 * j);
+    }
+    keep[t] = km;
+  }
+  uint32_t wd[4][4];
+#pragma unroll
+  for (int j = 0; j < 4; ++j)
+#pragma unroll
+    for (int t = 0; t < 4; ++t) wd[j][t] = u0 ? vw[widx(j, t)] & keep[t] : 0u;
+  // 3. where the scale grew, re-encode the old tokens at the new scale (from code x old scale)
+  if (__any_sync(0xffffffffu, grow)) {
+#pragma unroll
+    for (int p = 0; p < 32; ++p) {
+      if (p >= u0) break;
+      const int t = (p & 15) >> 2;
+#pragma unroll
+      for (int j = 0; j < 4; ++j) {
+        if (snew[j] == sold[j]) continue;
+        const int c = e2m1_code(e2m1_val(c2_code(wd[j][t], p)) * so[j] / sn[j]);
+        wd[j][t] = (wd[j][t] & ~c2_place(15, p)) | c2_place(c, p);
+      }
+    }
+  }
+  // 4. the new tokens at positions u0 .. u0 + k - 1
+#pragma unroll
+  for (int p = 0; p < 32; ++p) {
+    if (p < u0 || p >= u0 + k) continue;
+    const int t = (p & 15) >> 2;
+    load4(p - u0, x);
+#pragma unroll
+    for (int j = 0; j < 4; ++j) wd[j][t] |= c2_place(e2m1_code(x[j] / sn[j]), p);
+  }
+  // 5. store (each word and scale byte belongs to one channel, i.e. one lane: no atomics)
+#pragma unroll
+  for (int j = 0; j < 4; ++j) {
+#pragma unroll
+    for (int t = 0; t < 4; ++t) vw[widx(j, t)] = wd[j][t];
+    pg[sidx(j)] = snew[j];
+  }
+}
+
 // 11-13: V word ownership (QUAD). A V word holds 2 dims of the 4 tokens {qb, qb+1, qb+8, qb+9} of a page,
 // qb = 16 (o / 16) + 2 ((o % 8) / 2) (decode_fp4.py _v_layout), and dims d, d+8 (d % 16 < 8), i.e. lanes l and l ^ 2.
 // When all 4 tokens of the quad are in this batch at contiguous indices (n + slot offset), the warp of the first one
 // quantizes all 4 and stores the 64 words whole (no read, no atomics); the other 3 warps skip V. Otherwise every
 // token writes its own bits with atomics as before. The bytes written are the same either way.
-template <bool NV, bool QUAD, bool K8 = false>
+template <bool NV, bool QUAD, bool K8 = false, bool C2 = false>
 __global__ void __launch_bounds__(128) store_fp4_kernel(
     const __nv_bfloat16* __restrict__ key, const __nv_bfloat16* __restrict__ value, const int64_t* __restrict__ slots,
     uint8_t* __restrict__ pages, const int* __restrict__ kword, const uint32_t* __restrict__ kbits,
@@ -108,6 +230,7 @@ __global__ void __launch_bounds__(128) store_fp4_kernel(
     float tsv) {
   using L = Lay<NV>;
   static_assert(!K8 || NV, "K8 is an NVFP4 variant");
+  static_assert(!C2 || K8, "C2 is a K8 variant");
   constexpr int NGK = K8 ? 4 : L::NG, GLK = K8 ? 8 : L::GL;  // K scale groups per token, lanes per K group
   __shared__ uint32_t krow[4][16];
   const int w = threadIdx.x / 32, lane = threadIdx.x % 32;
@@ -158,6 +281,10 @@ __global__ void __launch_bounds__(128) store_fp4_kernel(
   if (lane % GLK == 0) pg[L::KS + kspos[o * NGK + lane / GLK]] = sk;
 
   // ---- V
+  if constexpr (C2) {  // 11-22: token-axis scales, the group's first token in this batch writes the group
+    store_v_c2(value, slots, pg, n, N, HKV, h, slot, o, lane, tsv);
+    return;
+  }
   if constexpr (QUAD) {
     const int qb = (o & ~15) | (o & 6), me = (o & 1) | ((o >> 2) & 2);
     const int64_t pbase = slot - o;
@@ -214,7 +341,7 @@ __global__ void __launch_bounds__(128) store_fp4_kernel(
 static void store_impl(torch::Tensor key, torch::Tensor value, torch::Tensor slots, torch::Tensor pages,
                        torch::Tensor kword, torch::Tensor kbits, torch::Tensor vword, torch::Tensor vbits,
                        torch::Tensor kspos, torch::Tensor vspos, torch::Tensor mu, bool rot, double c, bool nv,
-                       double tsk, double tsv, bool k8) {
+                       double tsk, double tsv, bool k8, bool c2 = false) {
   TORCH_CHECK(key.is_cuda() && key.is_contiguous() && key.scalar_type() == torch::kBFloat16 && key.dim() == 3 &&
               key.size(2) == D);
   TORCH_CHECK(value.sizes() == key.sizes() && value.is_contiguous() && value.scalar_type() == torch::kBFloat16);
@@ -223,7 +350,9 @@ static void store_impl(torch::Tensor key, torch::Tensor value, torch::Tensor slo
   TORCH_CHECK(pages.is_contiguous() && pages.scalar_type() == torch::kUInt8 && pages.size(1) == HKV &&
               pages.size(2) == (nv ? Lay<true>::PB : Lay<false>::PB), "pages (num_pages, HKV, 8704 MX / 9216 NV) uint8");
   TORCH_CHECK(!k8 || nv, "k8 needs nv");
-  TORCH_CHECK(kspos.numel() == PAGE * (nv && !k8 ? 8 : 4) && vspos.numel() == PAGE * (nv ? 8 : 4),
+  TORCH_CHECK(!c2 || k8, "c2 needs k8");
+  // (the C2 V store computes its positions itself; vword / vbits / vspos are the C2 tables, used by the dequant)
+  TORCH_CHECK(kspos.numel() == PAGE * (nv && !k8 ? 8 : 4) && vspos.numel() == (c2 ? 2 * D : PAGE * (nv ? 8 : 4)),
               "scale tables of the format");
   const float* mup = nullptr;
   if (mu.numel()) {
@@ -233,7 +362,8 @@ static void store_impl(torch::Tensor key, torch::Tensor value, torch::Tensor slo
   if (N == 0) return;
   const int items = N * HKV;
   const bool quad = !getenv("KV4_STORE_V1");  // 11-13: KV4_STORE_V1=1 keeps the all-atomic V write
-  auto kern = k8 ? (quad ? store_fp4_kernel<true, true, true> : store_fp4_kernel<true, false, true>)
+  auto kern = c2 ? store_fp4_kernel<true, false, true, true>
+            : k8 ? (quad ? store_fp4_kernel<true, true, true> : store_fp4_kernel<true, false, true>)
             : nv ? (quad ? store_fp4_kernel<true, true> : store_fp4_kernel<true, false>)
                  : (quad ? store_fp4_kernel<false, true> : store_fp4_kernel<false, false>);
   kern<<<(items + 3) / 4, 128, 0, at::cuda::getCurrentCUDAStream()>>>(
@@ -258,6 +388,14 @@ void store_fp4_k8(torch::Tensor key, torch::Tensor value, torch::Tensor slots, t
   store_impl(key, value, slots, pages, kword, kbits, vword, vbits, kspos, vspos, mu, rot, 0.0, true, tsk, tsv, true);
 }
 
+// 11-22: C2 pages (see the header): tables from store_fp4.py tables(nv=True, k8=True, c2=True)
+void store_fp4_c2(torch::Tensor key, torch::Tensor value, torch::Tensor slots, torch::Tensor pages, torch::Tensor kword,
+                  torch::Tensor kbits, torch::Tensor vword, torch::Tensor vbits, torch::Tensor kspos,
+                  torch::Tensor vspos, torch::Tensor mu, bool rot, double tsk, double tsv) {
+  store_impl(key, value, slots, pages, kword, kbits, vword, vbits, kspos, vspos, mu, rot, 0.0, true, tsk, tsv, true,
+             true);
+}
+
 void store_mxfp4(torch::Tensor key, torch::Tensor value, torch::Tensor slots, torch::Tensor pages, torch::Tensor kword,
                  torch::Tensor kbits, torch::Tensor vword, torch::Tensor vbits, torch::Tensor kspos,
                  torch::Tensor vspos, torch::Tensor mu, bool rot, double c) {
@@ -275,7 +413,8 @@ __device__ __forceinline__ float scale_of(uint8_t b, float ts) {
   else return exp2f((float)b - 127.f);
 }
 
-template <bool NV, bool K8 = false>
+// 11-22 C2: V scale per (channel d, group o / 32) at vspos[(o / 32) * 128 + d] (store_fp4.py tables(c2=True))
+template <bool NV, bool K8 = false, bool C2 = false>
 __global__ void __launch_bounds__(256) dequant_fp4_kernel(
     const uint8_t* __restrict__ pages, const int* __restrict__ block_ids, int n_tokens, int HKV,
     const int* __restrict__ kword, const uint32_t* __restrict__ kbits, const int* __restrict__ vword,
@@ -309,7 +448,8 @@ __global__ void __launch_bounds__(256) dequant_fp4_kernel(
     c = 0;
 #pragma unroll
     for (int i = 0; i < 4; ++i) c |= ((w >> ((b >> (5 * i)) & 31)) & 1) << i;
-    x = (c & 8 ? -grid[c & 7] : grid[c & 7]) * scale_of<NV>(sp[L::VS + vspos[o * L::NG + d / GD]], tsv);
+    const int vsi = C2 ? vspos[(o >> 5) * D + d] : vspos[o * L::NG + d / GD];
+    x = (c & 8 ? -grid[c & 7] : grid[c & 7]) * scale_of<NV>(sp[L::VS + vsi], tsv);
     vo[out] = __float2bfloat16(x);
   }
   if (!rot) return;
@@ -337,14 +477,16 @@ __global__ void __launch_bounds__(256) dequant_fp4_kernel(
 
 // pages (num_pages, HKV, 8704) uint8; block_ids (n_pages) int32, the sequence's pages in order -> K, V
 // (n_tokens, HKV, 128) bf16 (K rotated back if rot, mean not restored).
-static auto dq_kernel(bool nv, bool k8) {
-  return k8 ? dequant_fp4_kernel<true, true> : nv ? dequant_fp4_kernel<true> : dequant_fp4_kernel<false>;
+static auto dq_kernel(bool nv, bool k8, bool c2 = false) {
+  return c2 ? dequant_fp4_kernel<true, true, true> : k8 ? dequant_fp4_kernel<true, true>
+       : nv ? dequant_fp4_kernel<true> : dequant_fp4_kernel<false>;
 }
 
 std::vector<torch::Tensor> dequant_fp4_impl(torch::Tensor pages, torch::Tensor block_ids, int64_t n_tokens,
                                             torch::Tensor kword, torch::Tensor kbits, torch::Tensor vword,
                                             torch::Tensor vbits, torch::Tensor kspos, torch::Tensor vspos, bool rot,
-                                            bool nv, double tsk, double tsv, bool k8) {
+                                            bool nv, double tsk, double tsv, bool k8, bool c2 = false) {
+  TORCH_CHECK(!c2 || vspos.numel() == 2 * D, "C2 V scale table (2 x 128)");
   TORCH_CHECK(pages.is_cuda() && pages.is_contiguous() && pages.scalar_type() == torch::kUInt8 && pages.dim() == 3 &&
               pages.size(2) == (nv ? Lay<true>::PB : Lay<false>::PB), "pages (num_pages, HKV, 8704 MX / 9216 NV) uint8");
   TORCH_CHECK(block_ids.is_cuda() && block_ids.is_contiguous() && block_ids.scalar_type() == torch::kInt);
@@ -353,7 +495,7 @@ std::vector<torch::Tensor> dequant_fp4_impl(torch::Tensor pages, torch::Tensor b
   auto opt = pages.options().dtype(torch::kBFloat16);
   auto k = torch::empty({n_tokens, HKV, D}, opt), v = torch::empty({n_tokens, HKV, D}, opt);
   if (n_tokens == 0) return {k, v};
-  auto kern = dq_kernel(nv, k8);
+  auto kern = dq_kernel(nv, k8, c2);
   kern<<<dim3(np, HKV), 256, 0, at::cuda::getCurrentCUDAStream()>>>(
       pages.data_ptr<uint8_t>(), block_ids.data_ptr<int>(), (int)n_tokens, HKV, kword.data_ptr<int>(),
       reinterpret_cast<const uint32_t*>(kbits.data_ptr<int>()), vword.data_ptr<int>(),
@@ -380,12 +522,21 @@ std::vector<torch::Tensor> dequant_fp4_k8(torch::Tensor pages, torch::Tensor blo
                           true);
 }
 
+std::vector<torch::Tensor> dequant_fp4_c2(torch::Tensor pages, torch::Tensor block_ids, int64_t n_tokens,
+                                          torch::Tensor kword, torch::Tensor kbits, torch::Tensor vword,
+                                          torch::Tensor vbits, torch::Tensor kspos, torch::Tensor vspos, bool rot,
+                                          double tsk, double tsv) {
+  return dequant_fp4_impl(pages, block_ids, n_tokens, kword, kbits, vword, vbits, kspos, vspos, rot, true, tsk, tsv,
+                          true, true);
+}
+
 // 11-13: the same, written into caller-provided K / V (rows 0..n_tokens-1 of contiguous (>= n_tokens, HKV, 128) bf16
 // tensors, e.g. the first rows of a buffer that holds the whole sequence), so the continuation prefill needs no cat.
 static void dequant_into_impl(torch::Tensor pages, torch::Tensor block_ids, int64_t n_tokens, torch::Tensor kword,
                               torch::Tensor kbits, torch::Tensor vword, torch::Tensor vbits, torch::Tensor kspos,
                               torch::Tensor vspos, bool rot, bool nv, double tsk, double tsv, torch::Tensor k,
-                              torch::Tensor v, bool k8) {
+                              torch::Tensor v, bool k8, bool c2 = false) {
+  TORCH_CHECK(!c2 || vspos.numel() == 2 * D, "C2 V scale table (2 x 128)");
   TORCH_CHECK(pages.is_cuda() && pages.is_contiguous() && pages.scalar_type() == torch::kUInt8 && pages.dim() == 3 &&
               pages.size(2) == (nv ? Lay<true>::PB : Lay<false>::PB), "pages (num_pages, HKV, 8704 MX / 9216 NV) uint8");
   TORCH_CHECK(block_ids.is_cuda() && block_ids.is_contiguous() && block_ids.scalar_type() == torch::kInt);
@@ -395,7 +546,7 @@ static void dequant_into_impl(torch::Tensor pages, torch::Tensor block_ids, int6
     TORCH_CHECK(t->is_contiguous() && t->scalar_type() == torch::kBFloat16 && t->dim() == 3 && t->size(0) >= n_tokens &&
                 t->size(1) == HKV && t->size(2) == D, "out (>= n_tokens, HKV, 128) bf16 contiguous");
   if (n_tokens == 0) return;
-  auto kern = dq_kernel(nv, k8);
+  auto kern = dq_kernel(nv, k8, c2);
   kern<<<dim3(np, HKV), 256, 0, at::cuda::getCurrentCUDAStream()>>>(
       pages.data_ptr<uint8_t>(), block_ids.data_ptr<int>(), (int)n_tokens, HKV, kword.data_ptr<int>(),
       reinterpret_cast<const uint32_t*>(kbits.data_ptr<int>()), vword.data_ptr<int>(),
@@ -419,6 +570,13 @@ void dequant_fp4_k8_into(torch::Tensor pages, torch::Tensor block_ids, int64_t n
                     true);
 }
 
+void dequant_fp4_c2_into(torch::Tensor pages, torch::Tensor block_ids, int64_t n_tokens, torch::Tensor kword,
+                         torch::Tensor kbits, torch::Tensor vword, torch::Tensor vbits, torch::Tensor kspos,
+                         torch::Tensor vspos, bool rot, double tsk, double tsv, torch::Tensor k, torch::Tensor v) {
+  dequant_into_impl(pages, block_ids, n_tokens, kword, kbits, vword, vbits, kspos, vspos, rot, true, tsk, tsv, k, v,
+                    true, true);
+}
+
 std::vector<torch::Tensor> dequant_mxfp4(torch::Tensor pages, torch::Tensor block_ids, int64_t n_tokens,
                                          torch::Tensor kword, torch::Tensor kbits, torch::Tensor vword,
                                          torch::Tensor vbits, torch::Tensor kspos, torch::Tensor vspos, bool rot) {
@@ -434,4 +592,7 @@ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
   m.def("store_fp4_k8", &store_fp4_k8, "store_fp4 for K8 pages (K: k8 layout, one E4M3 scale per 32 dims; V: NVFP4)");
   m.def("dequant_fp4_k8", &dequant_fp4_k8, "dequant_fp4 for K8 pages");
   m.def("dequant_fp4_k8_into", &dequant_fp4_k8_into, "dequant_fp4_into for K8 pages");
+  m.def("store_fp4_c2", &store_fp4_c2, "store_fp4 for C2 pages (K as K8; V: E4M3 scale per channel and 32 tokens)");
+  m.def("dequant_fp4_c2", &dequant_fp4_c2, "dequant_fp4 for C2 pages");
+  m.def("dequant_fp4_c2_into", &dequant_fp4_c2_into, "dequant_fp4_into for C2 pages");
 }

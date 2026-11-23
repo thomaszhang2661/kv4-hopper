@@ -62,6 +62,10 @@ CONFIGS = {
     "plugin_recipe_k8v7": (["--kv-cache-dtype", "ultraquant_4bit", "--block-size", "64"],
                            {"KV4_VLLM": "1", "KV4_FORMAT": "nvfp4", "KV4_BOUNDARY": "0", "KV4_KMEAN": "1", "KV4_SINKS": "1",
                             "KV4_SINK_TIMING": "1", "KV4_K8": "1", "KV4_K8V": "7"}),
+    # 11-22: C2, the recipe with K and P V on FP8 tensor cores (KV4_K8=2, docs/c2_log.md)
+    "plugin_recipe_c2": (["--kv-cache-dtype", "ultraquant_4bit", "--block-size", "64"],
+                         {"KV4_VLLM": "1", "KV4_FORMAT": "nvfp4", "KV4_BOUNDARY": "0", "KV4_KMEAN": "1", "KV4_SINKS": "1",
+                          "KV4_SINK_TIMING": "1", "KV4_K8": "2"}),
 }
 
 
