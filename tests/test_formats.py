@@ -53,6 +53,12 @@ def test_round_trip_error_is_small(name):
 def test_four_bit_storage_shapes(name):
     fmt = FORMATS[name]
     q = quantize(torch.randn(2, 3, 10, 128), name)
+    if fmt.tok_block:  # 11-22: C2's V formats store (..., D, S_pad / 2) codes and one E4M3 scale per tok_block tokens
+        s_pad = -(-10 // fmt.tok_block) * fmt.tok_block
+        assert q.data.shape == (2, 3, 128, s_pad // 2) and q.data.dtype == torch.uint8 and q.length == 10
+        assert q.scales.shape == (2, 3, 128, s_pad // fmt.tok_block)
+        assert fmt.bytes_per_row(128) == 64 + 128 / fmt.tok_block
+        return
     assert q.data.shape == (2, 3, 10, 64) and q.data.dtype == torch.uint8
     assert q.scales.shape == (2, 3, 10, 128 // (fmt.block or 128))
     side = 2 if fmt.asym else 1  # scale and zero point
