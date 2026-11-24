@@ -3,7 +3,7 @@
 Fast 4-bit KV-cache decoding on NVIDIA Hopper GPUs, and a vLLM plugin that uses it.
 
 Code for the report *Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them*
-(Jian Zhang, 2026; arXiv link to be added). The LaTeX source is in `paper/`.
+(Jian Zhang, 2026; [arXiv:2611.30027](https://arxiv.org/abs/2611.30027)). The LaTeX source is in `paper/`.
 
 Hopper has no FP4 hardware, so a 4-bit KV cache has to be decoded in software. This repo contains:
 
@@ -107,4 +107,14 @@ Apache-2.0 (see `NOTICE`).
 
 ## Citation
 
-To be added with the arXiv identifier.
+```bibtex
+@misc{zhang2026kv4hopper,
+  title         = {Fast 4-bit {KV}-Cache Decoding on Hopper {GPUs}: Why Existing Kernels Are Slow and How to Fix Them},
+  author        = {Zhang, Jian},
+  year          = {2026},
+  eprint        = {2611.30027},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2611.30027}
+}
+```
