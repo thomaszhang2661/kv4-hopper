@@ -33,12 +33,13 @@ It helps most when decoding dominates and KV memory is the limit: batch 8 and ab
 flight. At batch 1 it is level with FP8, and streams with long inputs and short outputs are slower, because prefill,
 not the cache, limits them.
 
-**Serving capacity: use the revised numbers.** Version 1 of the report also gave the highest request rate one H200
-sustains within the latency targets as 1.23–1.32× (Llama-3.1-8B), 1.45–1.80× (Qwen3-32B) and 1.67–2.20×
-(Qwen2.5-72B) FP8's. Those brackets came from 600-s runs, mostly with one seed. Measured again with longer
-steady-state runs under rules fixed in advance, several of their end points did not hold up and the planned comparison
-was inconclusive, so please do not rely on those three ranges. The revised report (version 2) gives the re-measured
-results.
+**Serving capacity: two different numbers.** Version 1 of the report gave 1.23–1.32× (Llama-3.1-8B), 1.45–1.80×
+(Qwen3-32B) and 1.67–2.20× (Qwen2.5-72B) FP8's request rate within the latency targets. Those brackets came from
+600 s of arrivals starting from an empty cache, mostly with one seed, so they measure how large a 10-minute burst one
+H200 absorbs, which is where the larger cache helps most; they are not the rate it sustains indefinitely. Measured
+again with longer steady-state runs under rules fixed in advance, several of their end points did not hold up as
+sustained rates and the planned comparison was inconclusive. Do not read those three ranges as sustained capacity;
+the revised report (version 2) gives the steady-state results and reports both quantities separately.
 
 ### Notes for vLLM users on Hopper
 
