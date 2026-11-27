@@ -14,6 +14,46 @@ Hopper has no FP4 hardware, so a 4-bit KV cache has to be decoded in software. T
   report (K mean removal, K Hadamard rotation, four BF16 sink tokens, layer 0 in BF16);
 - the benchmark, accuracy and analysis scripts behind the report's numbers, and the result files they produced.
 
+## Results at a glance
+
+From the report (version 1); H200, vLLM 0.33.0, Llama-3.1-8B unless noted. The baseline is vLLM's FP8 KV cache on
+FlashInfer with XQA decode, the faster of vLLM's FP8 paths in our runs.
+
+| | Plugin with the recipe, against FP8 KV |
+|---|---|
+| Tokens the KV cache holds | 1.63× as many |
+| Decode step, batch 8 and above | 1.12–1.64× faster |
+| Decode step, batch 1 | level (1.01–1.05× per step; 0.96–1.03× in end-to-end time per output token) |
+| Decode step, Qwen3-32B and Qwen2.5-72B | 1.04–1.18× faster (the weight read dominates the step) |
+| Time to first token | 1.5–6% longer (prefill about 7% slower) |
+| Accuracy against BF16 KV | no significant difference on five 7B–32B models with repeated runs; the 95% intervals exclude losses larger than about 3.5 points |
+| Decode kernel alone, 11 shapes | 1.12–1.49× faster than the faster of TensorRT-LLM's XQA and FlashAttention-4's proposed native FP8 kernels |
+
+It helps most when decoding dominates and KV memory is the limit: batch 8 and above, long outputs, many requests in
+flight. At batch 1 it is level with FP8, and streams with long inputs and short outputs are slower, because prefill,
+not the cache, limits them.
+
+**Serving capacity: use the revised numbers.** Version 1 of the report also gave the highest request rate one H200
+sustains within the latency targets as 1.23–1.32× (Llama-3.1-8B), 1.45–1.80× (Qwen3-32B) and 1.67–2.20×
+(Qwen2.5-72B) FP8's. Those brackets came from 600-s runs, mostly with one seed. Measured again with longer
+steady-state runs under rules fixed in advance, several of their end points did not hold up and the planned comparison
+was inconclusive, so please do not rely on those three ranges. The revised report (version 2) gives the re-measured
+results.
+
+### Notes for vLLM users on Hopper
+
+From the same measurements (vLLM 0.33, H200):
+
+- vLLM's NVFP4 KV cache (`--kv-cache-dtype nvfp4`) saves memory but decodes 1.4–2.3× slower than FP8 at batch 8 and
+  above and about 1.1× slower at batch 1. Its UltraQuant format falls back to Triton decode kernels on NVIDIA and is
+  1.8–3.9× slower than FP8 per step.
+- With FlashInfer and FP8 KV, vLLM uses the faster XQA decode kernel only if its network check to NVIDIA's artifact
+  server succeeds; when the check fails (behind a proxy, for example), it falls back to FlashInfer's own decode kernel
+  without an error. Check the log for `decode_backend=xqa`.
+- Qwen2-family reasoning models can collapse under FP8 KV without any error. Keeping layer 0 in BF16
+  (`--kv-cache-dtype-skip-layers 0`, 1/28 more KV memory on a 28-layer model) restored them in our runs, but skipping
+  layers crashes FlashAttention-3 for some models (vllm-project/vllm#65821; fix proposed in vllm-project/vllm#65891).
+
 ## Scope
 
 Kernels tested on H200 (SXM and NVL) and H100 SXM; the vLLM plugin on H200, with vLLM 0.33.0, PyTorch's CUDA 13
